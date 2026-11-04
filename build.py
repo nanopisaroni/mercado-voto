@@ -34,7 +34,7 @@ def estrellas(c):
     if not tot:
         return '<span class="estrellas">sin registro<span> de promesas</span></span>'
     pct = c["cumplidas"] / tot
-    llenas = max(1, min(5, round(pct * 5)))
+    llenas = max(1, min(5, int(pct * 5 + 0.5)))
     return f'<span class="estrellas">{"★" * llenas}{"☆" * (5 - llenas)}<span>{c["cumplidas"]} de {tot} promesas</span></span>'
 
 
