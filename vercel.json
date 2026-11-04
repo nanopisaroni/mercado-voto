@@ -1,14 +1,14 @@
 {
   "cleanUrls": true,
   "trailingSlash": false,
+  "rewrites": [
+    { "source": "/b", "destination": "/api/b" }
+  ],
   "headers": [
     {
       "source": "/assets/(.*)",
       "headers": [
-        {
-          "key": "Cache-Control",
-          "value": "public, max-age=600, must-revalidate"
-        }
+        { "key": "Cache-Control", "value": "public, max-age=600, must-revalidate" }
       ]
     }
   ]

@@ -130,7 +130,14 @@
     "No tiene base política propia — depende totalmente de la voluntad de Milei",
     "Su ascenso meteórico genera resistencia interna entre ministros con más trayectoria",
     "Su rol como jefe de gabinete puede quedar vaciado si los ministros bypassan su autoridad"
-   ]
+   ],
+   "gancho": "Conferencia diaria incluida. Repreguntas, no.",
+   "a_favor": [
+    "Comunica sin eufemismos: anunció el ajuste de frente y sostuvo la línea del gobierno todos los días.",
+    "Pasó de vocero a jefe de Gabinete: tiene la confianza directa del Presidente.",
+    "Recortó la pauta oficial discrecional, un reclamo histórico contra el uso político de la publicidad estatal."
+   ],
+   "badge": ""
   },
   {
    "id": "bregman",
@@ -266,7 +273,14 @@
     "Sectarismo: el discurso de pureza revolucionaria repele al electorado amplio que no comparte su ideología",
     "Generacional: el trotskismo clásico no interpela a nuevos votantes jóvenes que no vivieron la dictadura",
     "Incidencia nula: oposición coherente pero incapaz de modificar el rumbo de ninguna ley relevante"
-   ]
+   ],
+   "gancho": "Coherencia de fábrica. Nunca estuvo en oferta.",
+   "a_favor": [
+    "Abogada con décadas de trabajo en juicios de lesa humanidad y causas laborales.",
+    "El FIT nunca integró un gobierno ni cambió de alianza por un cargo.",
+    "Sus intervenciones en los debates presidenciales de 2023 estuvieron entre las más vistas y compartidas."
+   ],
+   "badge": ""
   },
   {
    "id": "bullrich",
@@ -407,7 +421,14 @@
     "Perdió liderazgo del PRO al subordinarse a Milei sin negociar espacio partidario",
     "No hay política penitenciaria ni de reinserción — el hacinamiento es récord",
     "Su estilo confrontativo genera desgaste mediático y polarización en seguridad"
-   ]
+   ],
+   "gancho": "Modelo mano dura. Compatible con varios gobiernos.",
+   "a_favor": [
+    "El protocolo antipiquetes redujo los cortes de calle y le devolvió previsibilidad al tránsito.",
+    "Experiencia de gestión en Seguridad en dos gobiernos distintos.",
+    "Sacó casi el 24% en la primera vuelta de 2023: tiene un electorado propio."
+   ],
+   "badge": "REACONDICIONADO"
   },
   {
    "id": "caputo",
@@ -540,7 +561,14 @@
     "El atraso cambiario crea una bomba de tiempo: si el dólar se dispara, su plan se desmorona",
     "Historial de 'puerta giratoria' con el sector financiero privado — vulnerable a críticas éticas",
     "Falta de habilidad política para negociar con provincias y sectores productivos"
-   ]
+   ],
+   "gancho": "Ahora con superávit. Las bandas se venden por separado.",
+   "a_favor": [
+    "Condujo el primer superávit fiscal en más de una década.",
+    "La inflación mensual pasó del 25% de diciembre de 2023 a un dígito bajo.",
+    "Conoce los mercados y la negociación con el FMI desde adentro."
+   ],
+   "badge": ""
   },
   {
    "id": "cornejo",
@@ -667,7 +695,14 @@
     "Dependencia de la alianza con el PRO: si el PRO se divide o rompe, Cornejo queda sin base.",
     "Falta de liderazgo nacional claro en la UCR más allá de la provincia.",
     "Desgaste electoral: su vuelta a la gobernación fue con menos votos que en 2015."
-   ]
+   ],
+   "gancho": "Dos veces gobernador. Garantía radical mendocina.",
+   "a_favor": [
+    "Mendoza tiene fama de cuentas ordenadas bajo su conducción.",
+    "Armó Cambia Mendoza, la coalición que gobierna la provincia desde 2015.",
+    "Impulsó reformas en educación y en la justicia provincial que otros no se animaron a tocar."
+   ],
+   "badge": ""
   },
   {
    "id": "cristina",
@@ -804,7 +839,14 @@
     "Dificultad para renovar liderazgos — no formó sucesores viables",
     "Relato de persecución que pierde fuerza cuando ella gobernó y no investigó a sus antecesores",
     "Dependencia de estructura partidaria tradicional que Milei erosionó significativamente"
-   ]
+   ],
+   "gancho": "Producto con restricciones de venta. Consultar con la Corte.",
+   "a_favor": [
+    "Es la dirigente con la base electoral más fiel de la Argentina.",
+    "Sus gobiernos crearon la Asignación Universal por Hijo y ampliaron la cobertura jubilatoria.",
+    "Ocho años de presidenta, más vicepresidencia y Senado: nadie conoce el Estado como ella."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "delcano",
@@ -927,7 +969,14 @@
     "Falta de inserción territorial más allá de centros universitarios y sindicatos específicos.",
     "Imagen de 'eterno candidato' que genera desgaste sin renovación.",
     "Análisis internacional rígido que no capta las transformaciones del capitalismo contemporáneo."
-   ]
+   ],
+   "gancho": "Sin financiamiento empresario. Ni lo intentes.",
+   "a_favor": [
+    "Décadas en el trotskismo sin saltos de alianza.",
+    "Rotación de bancas y salario de trabajador: lo que dice, lo aplica.",
+    "Pone en agenda la deuda y el FMI cuando el resto prefiere no hablar del tema."
+   ],
+   "badge": ""
   },
   {
    "id": "frigerio",
@@ -1049,7 +1098,14 @@
     "Déficit fiscal provincial no resuelto en el primer año de gestión.",
     "Gabinete con técnicos porteños sin conocimiento de la realidad entrerriana.",
     "Crisis productiva en sectores clave (avicultura, citrus) sin plan de respuesta."
-   ]
+   ],
+   "gancho": "Ministro del Interior en la versión anterior. Ahora en Entre Ríos.",
+   "a_favor": [
+    "Experiencia de gestión: ministro del Interior entre 2015 y 2019 y gobernador de Entre Ríos.",
+    "Perfil dialoguista, con llegada a gobernadores de todos los colores.",
+    "Economista con trayectoria en el sector público y privado."
+   ],
+   "badge": ""
   },
   {
    "id": "jmacri",
@@ -1180,7 +1236,14 @@
     "Relación con Nación: sin alianza sólida ni capacidad de confrontación efectiva, queda en tierra de nadie",
     "Seguridad: el aumento policial no se tradujo en reducción de delitos complejos",
     "Transparencia: contrataciones directas a empresas vinculadas al PRO erosionan su imagen de gestor ordenado"
-   ]
+   ],
+   "gancho": "Apellido premium. El tránsito porteño viene aparte.",
+   "a_favor": [
+    "Ocho años como intendente de Vicente López: sabe gestionar un municipio.",
+    "Continuidad de un modelo que gobierna la Ciudad desde 2007.",
+    "Puso el orden del espacio público y la limpieza en el centro de su gestión."
+   ],
+   "badge": ""
   },
   {
    "id": "kicillof",
@@ -1315,7 +1378,14 @@
     "Resultados educativos estancados pese a inversión récord",
     "Gestión como Ministro de Economía (2013-2015) con inflación y cepo",
     "Falta de llegada al interior del país (perfil muy bonaerense)"
-   ]
+   ],
+   "gancho": "Economista heterodoxo. No incluye baja de impuestos.",
+   "a_favor": [
+    "Gobierna la provincia más grande del país y fue reelegido con amplio margen en 2023.",
+    "Le ganó al oficialismo nacional la elección bonaerense de septiembre de 2025.",
+    "Sostuvo inversión en escuelas, hospitales y obra pública provincial en plena retirada de la Nación."
+   ],
+   "badge": ""
   },
   {
    "id": "kmilei",
@@ -1434,7 +1504,14 @@
     "Centralización excesiva que hace frágil a la estructura partidaria",
     "Dependencia directa del éxito político de Javier Milei (sin perfil propio)",
     "Tensión con sectores del PRO que no aceptan su liderazgo partidario"
-   ]
+   ],
+   "gancho": "El Jefe. No da entrevistas.",
+   "a_favor": [
+    "Armó en tiempo récord la estructura nacional de La Libertad Avanza.",
+    "Es la persona de máxima confianza del Presidente.",
+    "Condujo la campaña que ganó las legislativas nacionales de 2025."
+   ],
+   "badge": ""
   },
   {
    "id": "llaryora",
@@ -1563,7 +1640,14 @@
     "Presión impositiva provincial que contradice el discurso productivista",
     "Bajo conocimiento y peso político fuera de Córdoba",
     "Tercera vía sin espacio claro en un contexto de polarización"
-   ]
+   ],
+   "gancho": "Cordobesismo de fábrica. Ni K ni libertario.",
+   "a_favor": [
+    "Gestión territorial completa: intendente de San Francisco, de la capital y gobernador.",
+    "Representa la tradición de 'Córdoba primero' frente al centralismo porteño.",
+    "Perfil productivista, con foco en obra pública e industria."
+   ],
+   "badge": ""
   },
   {
    "id": "lousteau",
@@ -1696,7 +1780,14 @@
     "Dilución ideológica entre liberalismo, progresismo y radicalismo",
     "Gestión intrascendente como embajador en Estados Unidos",
     "Oposición elocuente pero ineficaz (sin incidencia real en decisiones)"
-   ]
+   ],
+   "gancho": "Economista con flequillo. Cambia de alianza sin cargo extra.",
+   "a_favor": [
+    "Formación económica sólida y experiencia como ministro de Economía.",
+    "Defiende la universidad pública y el financiamiento científico.",
+    "Perfil moderado que dialoga con el centro."
+   ],
+   "badge": "REACONDICIONADO"
   },
   {
    "id": "macri",
@@ -1831,7 +1922,14 @@
     "Falta de institucionalidad del PRO y dependencia de su liderazgo personal",
     "Aliado de un gobierno al que criticó duramente (inconsistencia política)",
     "Causas judiciales por espionaje, aportes truchos y deuda del Correo Argentino"
-   ]
+   ],
+   "gancho": "El original. Ahora como accionista minoritario.",
+   "a_favor": [
+    "Primer presidente no peronista en terminar su mandato desde 1928.",
+    "Fundó el PRO y gobernó la Ciudad ocho años.",
+    "Abrió el cepo en 2015 y apostó por la integración al mundo."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "manes",
@@ -1954,7 +2052,14 @@
     "Programa de gobierno genérico y poco concreto.",
     "Dependencia de la visibilidad mediática como sustituto de la militancia.",
     "Tensión con la estructura tradicional de la UCR (no es 'radical de paladar negro')."
-   ]
+   ],
+   "gancho": "Neurocientífico. Te explica por qué no lo votás.",
+   "a_favor": [
+    "Prestigio internacional en neurociencias.",
+    "Instaló la salud mental y la educación como temas de Estado.",
+    "Crítico de la grieta y de los extremos de los dos lados."
+   ],
+   "badge": ""
   },
   {
    "id": "massa",
@@ -2088,7 +2193,14 @@
     "Fractura del peronismo post-derrota sin liderazgo claro",
     "Asociación con el modelo económico que criticó y luego aplicó",
     "Falta de espacio político propio diferenciado del kirchnerismo"
-   ]
+   ],
+   "gancho": "Siempre en stock. Se adapta a cualquier gobierno.",
+   "a_favor": [
+    "Experiencia ejecutiva enorme: intendente, jefe de Gabinete, presidente de la Cámara y ministro.",
+    "Capacidad de negociación y armado como pocos en la política argentina.",
+    "Sacó más de 11 millones de votos en el balotaje de 2023."
+   ],
+   "badge": "REACONDICIONADO"
   },
   {
    "id": "milei",
@@ -2207,7 +2319,14 @@
     "Aislamiento internacional sin alineamiento claro",
     "Falta de cuadros técnicos en áreas sensibles del Estado",
     "Dependencia de resultados económicos que no controla (clima, commodities, crédito)"
-   ]
+   ],
+   "gancho": "Motosierra incluida. Garantía anticasta según el vendedor.",
+   "a_favor": [
+    "Bajó la inflación de forma sostenida y logró superávit fiscal.",
+    "Ganó la presidencial de 2023 con el 55,7% y las legislativas de 2025.",
+    "Redujo ministerios y desreguló sectores enteros de la economía."
+   ],
+   "badge": ""
   },
   {
    "id": "moyano",
@@ -2342,7 +2461,14 @@
     "Política: sin alianzas partidarias sólidas, la CGT sola no puede torcer el rumbo del gobierno",
     "Judicial: tiene causas abiertas por presunta extorsión y aportes irregulares de campaña",
     "Imagen: es percibido como parte de la 'casta sindical' que la sociedad rechaza mayoritariamente"
-   ]
+   ],
+   "gancho": "Viene en camión. El corte de calle va aparte.",
+   "a_favor": [
+    "Defiende sin matices los intereses de los trabajadores sindicalizados.",
+    "Capacidad de movilización real en la calle.",
+    "Fue de los primeros en enfrentar la reforma laboral del gobierno."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "pichetto",
@@ -2476,7 +2602,14 @@
     "Edad: con 74 años, no representa renovación generacional ni interpela a votantes jóvenes",
     "Proyecto: la tercera vía no despegó como fuerza nacional, parece más un gesto que un plan",
     "Liderazgo: no construyó cuadros políticos ni sucesores dentro de su espacio"
-   ]
+   ],
+   "gancho": "Senador de colección. Décadas de uso, como nuevo.",
+   "a_favor": [
+    "Conoce el Congreso como pocos: décadas en el Senado.",
+    "Puente entre peronismo y no peronismo: fue candidato a vice de Macri.",
+    "Perfil institucionalista y federal."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "pullaro",
@@ -2603,7 +2736,14 @@
     "Dependencia de fuerzas federales que no controla directamente.",
     "Agenda productiva postergada por la emergencia en seguridad.",
     "Desgaste político de gobernar en emergencia permanente (estilo de gestión insostenible a largo plazo)."
-   ]
+   ],
+   "gancho": "Mano dura con Rosario. Resultados medibles.",
+   "a_favor": [
+    "Los homicidios en Rosario cayeron fuerte desde 2024.",
+    "Llevó adelante la reforma de la Constitución santafesina en 2025.",
+    "Gestión de orden con cuentas públicas ajustadas."
+   ],
+   "badge": ""
   },
   {
    "id": "santiago-caputo",
@@ -2732,7 +2872,14 @@
     "No tiene experiencia en gestión pública ni construcción de políticas de Estado",
     "Dependencia total de la confianza de Milei — si esa relación se quiebra, no tiene base política propia",
     "Su perfil bajo lo hace vulnerable a filtraciones y operaciones de prensa sin poder defenderse públicamente"
-   ]
+   ],
+   "gancho": "El asesor. No tiene cargo pero tiene la llave.",
+   "a_favor": [
+    "Estratega detrás de la campaña que llevó a Milei al poder.",
+    "Coordina áreas estratégicas del gobierno desde un rol técnico.",
+    "Incluso sus adversarios le reconocen olfato político."
+   ],
+   "badge": ""
   },
   {
    "id": "santilli",
@@ -2865,7 +3012,14 @@
     "Falta de peso legislativo: no preside comisiones clave ni tiene proyectos aprobados",
     "Dependencia política: su carrera depende de Bullrich, no tiene autonomía dentro del PRO",
     "Incapacidad de incidencia provincial: no logra influir en las decisiones clave de la Provincia (RIGI, seguridad)"
-   ]
+   ],
+   "gancho": "Sonrisa de campaña. Siempre listo para el próximo cargo.",
+   "a_favor": [
+    "Experiencia legislativa y de gestión en la Ciudad.",
+    "Perfil conciliador con buena llegada a intendentes del conurbano.",
+    "Encabezó la lista de LLA en Buenos Aires en 2025 tras la salida de Espert."
+   ],
+   "badge": "REACONDICIONADO"
   },
   {
    "id": "sturzenegger",
@@ -3003,7 +3157,14 @@
     "Depende del apoyo de Macri y del PRO — su cargo es más político que técnico",
     "Las desregulaciones no se traducen en mejoras concretas para el ciudadano común en el corto plazo",
     "No tiene estructura partidaria propia — su poder es prestado"
-   ]
+   ],
+   "gancho": "Motosierra de precisión. Edición desregulación.",
+   "a_favor": [
+    "Lidera la desregulación más ambiciosa en décadas.",
+    "Formación académica de primer nivel: doctor en Economía por el MIT.",
+    "Ex presidente del Banco Central con conocimiento técnico profundo."
+   ],
+   "badge": ""
   },
   {
    "id": "unac",
@@ -3129,7 +3290,14 @@
     "Empleo público sobredimensionado y estructura estatal rígida.",
     "Desgaste del liderazgo personalista: no formó recambio generacional.",
     "Conflictos ambientales latentes con comunidades de Iglesia y Calingasta."
-   ]
+   ],
+   "gancho": "Minería con sello peronista.",
+   "a_favor": [
+    "Dos mandatos de gobernador con impulso a la minería y a las energías renovables.",
+    "Perfil moderado dentro del peronismo.",
+    "Buena relación con el sector privado y con inversores extranjeros."
+   ],
+   "badge": ""
   },
   {
    "id": "villarruel",
@@ -3263,7 +3431,14 @@
     "El conservadurismo católico choca con el liberalismo libertario de la coalición oficialista",
     "No genera entusiasmo ni en el votante liberal ni en el conservador — es una figura bisagra sin base propia",
     "Ausencia de obra legislativa propia — no tiene un legado concreto que mostrar"
-   ]
+   ],
+   "gancho": "Vice en conflicto. Viene con agenda propia.",
+   "a_favor": [
+    "Instaló la agenda de las víctimas de la violencia guerrillera de los 70.",
+    "No se subordina al Presidente: actúa con independencia.",
+    "Maneja el reglamento del Senado y la conducción de las sesiones."
+   ],
+   "badge": ""
   },
   {
    "id": "ritondo",
@@ -3285,13 +3460,62 @@
     40,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2000s",
+     "evento": "Legislador porteño y vicepresidente de la Legislatura."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Ministro de Seguridad de la provincia de Buenos Aires con María Eugenia Vidal."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Diputado nacional por Buenos Aires y jefe del bloque PRO."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Uno de los artífices del acuerdo electoral entre el PRO y La Libertad Avanza."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Seguridad",
+     "tesis": "Cuatro años como ministro de Seguridad y la policía bonaerense siguió igual.",
+     "cuerpo": "Llegó con la promesa de depurar la Bonaerense. Hubo exoneraciones y cambios de cúpula, pero las denuncias por corrupción policial y violencia institucional siguieron. Para un candidato a gobernador, su principal antecedente de gestión es justamente el área que más reclaman los bonaerenses.",
+     "evidencia": "Organismos de derechos humanos y la Comisión Provincial por la Memoria registraron denuncias de violencia policial durante su gestión.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Exoneramos a miles de policías corruptos y bajamos los delitos más graves.",
+     "refutacion": "Los cambios de nombres no transformaron la fuerza: el problema sigue ahí."
+    },
+    {
+     "area": "Identidad",
+     "tesis": "Llevó al PRO a ser socio menor de La Libertad Avanza.",
+     "cuerpo": "El PRO nació como alternativa de centroderecha con identidad propia. En la provincia, el acuerdo de 2025 dejó a los candidatos del PRO detrás de los de LLA. Para sus críticos, Ritondo negoció la supervivencia de un sello a cambio de su autonomía.",
+     "evidencia": "Listas 2025 en Buenos Aires encabezadas por candidatos de La Libertad Avanza.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de estrategia",
+     "respuesta_esperada": "Había que unir a todo el antikirchnerismo para no dividir el voto.",
+     "refutacion": "Unir no es disolverse: el votante del PRO ya no sabe qué está votando."
+    }
+   ],
+   "vulnerabilidades": [
+    "Poca proyección propia fuera de la estructura partidaria.",
+    "Su gestión en Seguridad es fácil de atacar.",
+    "Depende del acuerdo con LLA para tener chances."
+   ],
+   "gancho": "Hombre de bloque. Viene con el PRO adentro (o lo que queda).",
+   "a_favor": [
+    "Conoce el Congreso: condujo el bloque PRO en Diputados en años de minoría.",
+    "Fue ministro de Seguridad bonaerense durante cuatro años.",
+    "Operador eficaz para conseguir votos en leyes difíciles."
+   ],
+   "badge": ""
   },
   {
    "id": "valenzuela",
@@ -3313,13 +3537,57 @@
     35,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2015",
+     "evento": "Gana la intendencia de Tres de Febrero, distrito históricamente peronista."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Reelegido intendente."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Vuelve a ganar el municipio."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Gestión municipal",
+     "tesis": "Una década de gestión y los problemas estructurales del distrito siguen.",
+     "cuerpo": "Inundaciones, cloacas y transporte siguen en el centro de los reclamos vecinales. La oposición sostiene que la gestión priorizó obras visibles y comunicación por sobre la infraestructura básica.",
+     "evidencia": "Reclamos vecinales recurrentes por anegamientos y cobertura de servicios.",
+     "fuerza": "media",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Hicimos más obra en diez años que en las décadas anteriores.",
+     "refutacion": "Más obra no es suficiente si las prioridades no son las urgentes."
+    },
+    {
+     "area": "Identidad",
+     "tesis": "Su perfil dialoguista se diluye en un espacio que se corrió a la derecha.",
+     "cuerpo": "El votante moderado que lo eligió no sabe si está votando a un PRO de centro o a un aliado de Milei. La ambigüedad sirve para ganar un municipio, no para construir un proyecto propio.",
+     "evidencia": "Acuerdos electorales PRO-LLA en la provincia en 2025.",
+     "fuerza": "media",
+     "tipo": "crítica de posicionamiento",
+     "respuesta_esperada": "Lo que importa es la gestión, no las etiquetas.",
+     "refutacion": "Las etiquetas definen con quién gobernás."
+    }
+   ],
+   "vulnerabilidades": [
+    "Escaso conocimiento fuera de su distrito.",
+    "Posicionamiento ambiguo entre el PRO y La Libertad Avanza."
+   ],
+   "gancho": "Intendente de conurbano. Edición no peronista.",
+   "a_favor": [
+    "Le ganó al peronismo en Tres de Febrero en 2015 y lo retuvo en las elecciones siguientes.",
+    "Perfil dialoguista y de gestión, poco amigo de la grieta.",
+    "Conoce el conurbano desde adentro."
+   ],
+   "badge": ""
   },
   {
    "id": "pareja",
@@ -3341,13 +3609,58 @@
     80,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2023",
+     "evento": "Armador de La Libertad Avanza en el conurbano bonaerense."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Electo diputado provincial."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Preside LLA en la provincia y arma las listas de la elección bonaerense."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Armado",
+     "tesis": "La casta entró por la puerta de atrás: listas llenas de ex PRO y ex peronistas.",
+     "cuerpo": "La Libertad Avanza prometía terminar con la política tradicional. En la provincia, el armado incorporó concejales, intendentes y operadores de otros partidos. Para el votante libertario original, eso es exactamente lo que se suponía que había que evitar.",
+     "evidencia": "Listas 2025 con dirigentes que venían del PRO, la UCR y el peronismo.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Sumamos a gente que comparte las ideas de la libertad.",
+     "refutacion": "Si comparten las ideas desde hace seis meses, es conveniencia."
+    },
+    {
+     "area": "Resultados",
+     "tesis": "Su armado perdió por más de diez puntos la elección bonaerense de 2025.",
+     "cuerpo": "En septiembre de 2025 el peronismo le ganó con claridad a LLA en la provincia. El armado territorial era su responsabilidad directa.",
+     "evidencia": "Elección provincial bonaerense del 7 de septiembre de 2025.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de resultados",
+     "respuesta_esperada": "En octubre recuperamos y ganamos la nacional.",
+     "refutacion": "La provincial era la que se jugaba en su terreno, y la perdió."
+    }
+   ],
+   "vulnerabilidades": [
+    "Bajo conocimiento público.",
+    "Asociado a la derrota bonaerense de 2025.",
+    "Depende totalmente del respaldo de Karina Milei."
+   ],
+   "gancho": "Armador oficial. Las listas vienen ensambladas.",
+   "a_favor": [
+    "Construyó la estructura territorial de LLA en el conurbano casi desde cero.",
+    "Es de los pocos con capacidad de fiscalizar en toda la provincia.",
+    "Tiene el respaldo directo de Karina Milei."
+   ],
+   "badge": ""
   },
   {
    "id": "deloredo",
@@ -3369,13 +3682,61 @@
     40,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2015",
+     "evento": "Presidente de ARSAT durante el gobierno de Macri."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Electo diputado nacional por Córdoba."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato a intendente de Córdoba; pierde por poco con Daniel Passerini."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Jefe del bloque de la UCR en Diputados."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Liderazgo",
+     "tesis": "El bloque radical que conducía se partió votando con el gobierno.",
+     "cuerpo": "En 2024 un grupo de diputados radicales sostuvo los vetos de Milei a la ley jubilatoria y al financiamiento universitario. El partido de la educación pública quedó dividido en la votación más simbólica del año, con De Loredo como jefe de bloque.",
+     "evidencia": "Votaciones de los vetos a la movilidad jubilatoria y al financiamiento universitario (2024).",
+     "fuerza": "fuerte",
+     "tipo": "crítica de conducción",
+     "respuesta_esperada": "Cada diputado votó según su conciencia; yo voté en contra de los vetos.",
+     "refutacion": "Conducir un bloque es justamente evitar que se rompa en la votación más importante."
+    },
+    {
+     "area": "Electoral",
+     "tesis": "Nunca ganó una elección ejecutiva.",
+     "cuerpo": "Fue candidato a intendente y perdió. Su carrera se construyó en cargos designados y en listas legislativas. Para aspirar a la gobernación le falta haber demostrado que puede ganar una elección mano a mano.",
+     "evidencia": "Elección municipal de Córdoba, 2023.",
+     "fuerza": "media",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Perdimos por muy poco contra todo el aparato del peronismo cordobés.",
+     "refutacion": "Por poco sigue siendo perder."
+    }
+   ],
+   "vulnerabilidades": [
+    "Interna radical abierta.",
+    "Compite por el mismo electorado que LLA y Juez."
+   ],
+   "gancho": "Radical joven. Viene con suegro incluido.",
+   "a_favor": [
+    "Buen orador y negociador parlamentario.",
+    "Quedó muy cerca de ganar la intendencia de Córdoba en 2023.",
+    "Experiencia de gestión al frente de ARSAT."
+   ],
+   "badge": ""
   },
   {
    "id": "juez",
@@ -3397,13 +3758,65 @@
     50,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2003",
+     "evento": "Gana la intendencia de la ciudad de Córdoba."
+    },
+    {
+     "fecha": "2007",
+     "evento": "Pierde la gobernación con Schiaretti en una elección que denunció como fraudulenta."
+    },
+    {
+     "fecha": "2016",
+     "evento": "Embajador en Ecuador; renuncia en 2017 tras un comentario ofensivo sobre los ecuatorianos."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Vuelve al Senado de la Nación."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Pierde la gobernación ajustadamente con Martín Llaryora."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Estilo",
+     "tesis": "Sus declaraciones ofensivas le costaron una embajada y le siguen costando votos.",
+     "cuerpo": "Juez construyó su marca con humor y chicana. Pero el mismo estilo lo llevó a renunciar a la embajada en Ecuador por un comentario discriminatorio. La pregunta es si alguien que no puede controlar lo que dice puede manejar una provincia.",
+     "evidencia": "Renuncia a la embajada en Ecuador, 2017.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de carácter",
+     "respuesta_esperada": "Fue una broma sacada de contexto y pedí disculpas.",
+     "refutacion": "Un embajador que tiene que pedir disculpas por bromear sobre el país anfitrión no hizo bien su trabajo."
+    },
+    {
+     "area": "Coherencia",
+     "tesis": "Del Frente Cívico progresista a aliado del macrismo y de Milei.",
+     "cuerpo": "Empezó como dirigente de centroizquierda enfrentado al peronismo cordobés. Hoy es aliado de la centroderecha y del gobierno libertario. Para sus críticos, la única constante es el antiperonismo cordobés.",
+     "evidencia": "Alianzas sucesivas: Frente Cívico, Cambiemos, Juntos por el Cambio, acuerdos con LLA.",
+     "fuerza": "media",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Siempre estuve del mismo lado: contra el que gobierna Córdoba hace 25 años.",
+     "refutacion": "Estar en contra no es un programa de gobierno."
+    }
+   ],
+   "vulnerabilidades": [
+    "Perdió dos veces la gobernación.",
+    "Estilo que espanta al votante moderado."
+   ],
+   "gancho": "Chicana incluida. Filtro no disponible.",
+   "a_favor": [
+    "Fue intendente de la ciudad de Córdoba y conoce la gestión.",
+    "Llegó dos veces muy cerca de la gobernación.",
+    "Discurso directo que conecta con el votante cansado del peronismo cordobés."
+   ],
+   "badge": "REACONDICIONADO"
   },
   {
    "id": "bornoroni",
@@ -3425,13 +3838,53 @@
     80,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2023",
+     "evento": "Electo diputado nacional por Córdoba por La Libertad Avanza."
+    },
+    {
+     "fecha": "2024",
+     "evento": "Asume la presidencia del bloque de LLA en Diputados."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Conflicto de interés",
+     "tesis": "Empresario de combustibles que legisla sobre la desregulación de su propio sector.",
+     "cuerpo": "Bornoroni viene del negocio de las estaciones de servicio. El gobierno desreguló el mercado de combustibles. Aunque no haya irregularidad, la pregunta sobre quién se beneficia de cada cambio es legítima.",
+     "evidencia": "Antecedentes empresariales en el rubro de combustibles en Córdoba.",
+     "fuerza": "media",
+     "tipo": "crítica de intereses",
+     "respuesta_esperada": "La desregulación beneficia a todos los consumidores, no a un sector.",
+     "refutacion": "Justamente por eso conviene que no la conduzca alguien del sector."
+    },
+    {
+     "area": "Territorio",
+     "tesis": "Sin el sello de LLA, no tiene volumen propio en Córdoba.",
+     "cuerpo": "Su crecimiento político es inseparable de la marca Milei. En una elección provincial, donde pesan la estructura y los intendentes, el sello solo puede no alcanzar.",
+     "evidencia": "Resultados de LLA en elecciones provinciales sin Milei en la boleta.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Córdoba es la provincia más libertaria del país.",
+     "refutacion": "Para votar a Milei, sí. Para votar gobernador, hasta ahora no."
+    }
+   ],
+   "vulnerabilidades": [
+    "Poco conocido fuera del ámbito legislativo.",
+    "Dependencia de la imagen presidencial."
+   ],
+   "gancho": "Surtidor libertario. Nafta liberada, precio no garantizado.",
+   "a_favor": [
+    "Jefe del bloque oficialista en Diputados: conoce la negociación parlamentaria.",
+    "Empresario con experiencia en el sector privado.",
+    "Referente libertario del interior, no de la Ciudad."
+   ],
+   "badge": ""
   },
   {
    "id": "lewandowski",
@@ -3453,13 +3906,57 @@
     40,
     35
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1990s",
+     "evento": "Periodista deportivo en medios de Rosario."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Electo senador nacional por Santa Fe."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato a gobernador; pierde ampliamente con Maximiliano Pullaro."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Experiencia",
+     "tesis": "De la TV al Senado sin escala en la gestión.",
+     "cuerpo": "Nunca administró nada público. Su capital es la popularidad mediática. En una provincia con los problemas de seguridad de Santa Fe, la experiencia de gestión no es un detalle.",
+     "evidencia": "Trayectoria: periodista y senador, sin cargos ejecutivos.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Conozco la provincia y a su gente como pocos.",
+     "refutacion": "Conocer a la gente no es lo mismo que saber gobernarla."
+    },
+    {
+     "area": "Electoral",
+     "tesis": "Perdió la gobernación por una diferencia enorme.",
+     "cuerpo": "En 2023 el peronismo santafesino lo eligió como cara nueva y perdió por más de veinte puntos.",
+     "evidencia": "Elección provincial de Santa Fe, 2023.",
+     "fuerza": "fuerte",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Fue un año muy malo para todo el peronismo.",
+     "refutacion": "Una cara nueva tenía que servir justamente para ese año."
+    }
+   ],
+   "vulnerabilidades": [
+    "Derrota amplia en 2023.",
+    "Sin experiencia ejecutiva."
+   ],
+   "gancho": "Relator de goles. Todavía no metió el de la gobernación.",
+   "a_favor": [
+    "Alto conocimiento público por su carrera en medios.",
+    "Llegó al Senado como figura nueva del peronismo santafesino.",
+    "Estilo cercano y fácil de entender."
+   ],
+   "badge": ""
   },
   {
    "id": "mayoraz",
@@ -3481,13 +3978,53 @@
     80,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Diputado provincial en Santa Fe."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Electo diputado nacional por La Libertad Avanza."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Agenda social",
+     "tesis": "Su perfil conservador choca con la parte liberal del liberalismo.",
+     "cuerpo": "Un liberal clásico defiende la libertad individual también en temas de familia y cuerpo. El perfil conservador de buena parte de la dirigencia de LLA en las provincias desdibuja esa coherencia.",
+     "evidencia": "Posiciones públicas en temas de agenda social.",
+     "fuerza": "media",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "La libertad empieza por el respeto a la vida.",
+     "refutacion": "Ese es un argumento conservador, no liberal."
+    },
+    {
+     "area": "Territorio",
+     "tesis": "Sin estructura propia frente al radicalismo de Pullaro.",
+     "cuerpo": "Santa Fe está gobernada por una coalición con intendentes y presencia territorial. LLA depende del arrastre nacional.",
+     "evidencia": "Resultados de LLA en las elecciones provinciales santafesinas.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "La gente vota ideas, no aparatos.",
+     "refutacion": "En una provincial, el aparato fiscaliza las mesas."
+    }
+   ],
+   "vulnerabilidades": [
+    "Bajo conocimiento fuera de la provincia.",
+    "Depende del arrastre de Milei."
+   ],
+   "gancho": "Libertario de provincia. Versión conservadora.",
+   "a_favor": [
+    "Referente de la primera hora de LLA en Santa Fe.",
+    "Abogado con experiencia legislativa provincial y nacional.",
+    "Representa al votante del interior productivo."
+   ],
+   "badge": ""
   },
   {
    "id": "granata",
@@ -3496,7 +4033,7 @@
    "rol": "Diputada provincial de Santa Fe",
    "tag": "Unite",
    "color": "#c95bb5",
-   "bio": "Diputada provincial por Santa Fe desde 2023. Dirigente del espacio Unite.",
+   "bio": "Diputada provincial por Santa Fe desde 2019, reelecta en 2023. Llegó a la política desde la televisión y la militancia contra el aborto legal.",
    "foto": "assets/fotos/granata.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -3509,22 +4046,70 @@
     65,
     60
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2000s",
+     "evento": "Figura mediática en televisión."
+    },
+    {
+     "fecha": "2018",
+     "evento": "Se vuelve referente del movimiento contra la legalización del aborto."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Electa diputada provincial en Santa Fe."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelecta diputada provincial."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Agenda",
+     "tesis": "Una agenda de una sola causa no alcanza para gobernar una ciudad.",
+     "cuerpo": "Su crecimiento político viene de la militancia contra el aborto legal. Rosario necesita respuestas en seguridad, transporte y empleo, temas en los que no tiene antecedentes de gestión.",
+     "evidencia": "Proyectos presentados y discurso público centrado en la agenda provida y de familia.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de capacidad",
+     "respuesta_esperada": "Defiendo a la familia y la seguridad de los rosarinos.",
+     "refutacion": "Defender no es gestionar: falta el cómo."
+    },
+    {
+     "area": "Estilo",
+     "tesis": "Polémicas mediáticas antes que propuestas.",
+     "cuerpo": "Buena parte de su presencia pública son cruces en redes y televisión. Funciona para instalarse, pero no muestra equipo ni plan.",
+     "evidencia": "Repercusión de sus intervenciones en medios y redes.",
+     "fuerza": "media",
+     "tipo": "crítica de estilo",
+     "respuesta_esperada": "Digo lo que la gente piensa y no se anima a decir.",
+     "refutacion": "Decirlo no es lo mismo que resolverlo."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin experiencia ejecutiva.",
+    "Techo electoral en el votante progresista."
+   ],
+   "gancho": "De la tele a la Legislatura. Con pañuelo celeste.",
+   "a_favor": [
+    "Muy alta exposición mediática y llegada a votantes poco politizados.",
+    "Representa con claridad al electorado provida.",
+    "Fue reelecta: su electorado le es fiel."
+   ],
+   "badge": ""
   },
   {
    "id": "demarchi",
    "nombre": "Omar De Marchi",
    "slug": "omar-de-marchi",
-   "rol": "Ex intendente de Las Heras",
+   "rol": "Ex intendente de Luján de Cuyo",
    "tag": "La Unión Mendocina",
    "color": "#6a8fd8",
-   "bio": "Ex diputado nacional y ex intendente de Las Heras. Lidera La Unión Mendocina, espacio opositor al radicalismo provincial.",
+   "bio": "Ex diputado nacional y ex intendente de Luján de Cuyo. Lidera La Unión Mendocina, espacio que compitió contra el radicalismo provincial en 2023.",
    "foto": "assets/fotos/demarchi.jpg",
    "categorias": [],
    "provincia": "Mendoza",
@@ -3537,13 +4122,57 @@
     55,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2000s",
+     "evento": "Intendente de Luján de Cuyo."
+    },
+    {
+     "fecha": "2013",
+     "evento": "Diputado nacional por Mendoza."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Rompe con Cambia Mendoza y compite por la gobernación con La Unión Mendocina; pierde con Cornejo."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "Fue parte de Cambia Mendoza hasta que no le dieron la candidatura.",
+     "cuerpo": "Durante años integró la coalición que hoy critica. La ruptura llegó cuando la gobernación quedó para Cornejo. Para sus críticos, el problema no era el modelo sino el lugar en la fila.",
+     "evidencia": "Ruptura con Cambia Mendoza en 2023.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Me fui porque Mendoza necesitaba una alternativa real.",
+     "refutacion": "La alternativa apareció justo cuando no le tocaba a él."
+    },
+    {
+     "area": "Electoral",
+     "tesis": "Su espacio perdió y quedó sin rumbo propio.",
+     "cuerpo": "La Unión Mendocina quedó segunda en 2023 y después buena parte de su dirigencia se acercó al gobierno nacional.",
+     "evidencia": "Elección provincial de Mendoza, 2023.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Hicimos una elección histórica para un espacio nuevo.",
+     "refutacion": "Una elección histórica que no dejó estructura."
+    }
+   ],
+   "vulnerabilidades": [
+    "Imagen de dirigente tradicional.",
+    "Espacio propio debilitado."
+   ],
+   "gancho": "Ex socio de Cornejo. Ahora con local propio.",
+   "a_favor": [
+    "Experiencia de gestión como intendente de Luján de Cuyo.",
+    "Conoce el Congreso: fue diputado nacional varios períodos.",
+    "Se animó a desafiar a la coalición dominante en Mendoza."
+   ],
+   "badge": ""
   },
   {
    "id": "sagasti",
@@ -3565,13 +4194,57 @@
     45,
     30
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2015",
+     "evento": "Electa senadora nacional por Mendoza."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Precandidata a gobernadora."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Renueva su banca en el Senado."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Electoral",
+     "tesis": "El kirchnerismo mendocino no logra romper su techo.",
+     "cuerpo": "Mendoza vota mayoritariamente a coaliciones no peronistas desde 2015. La conducción camporista no logró ampliar la base ni sumar a sectores del peronismo tradicional.",
+     "evidencia": "Resultados del peronismo en Mendoza en las elecciones provinciales desde 2015.",
+     "fuerza": "fuerte",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Mendoza es una provincia difícil, pero el peronismo sigue siendo la primera minoría opositora.",
+     "refutacion": "Primera minoría opositora no es una alternativa de gobierno."
+    },
+    {
+     "area": "Representación",
+     "tesis": "Responde más a la conducción nacional que a Mendoza.",
+     "cuerpo": "Sus votos y discursos siguen la línea de La Cámpora y de Cristina Kirchner. En temas como el agua, la minería o la relación con Nación, sus críticos dicen que pesa más la interna nacional que la agenda provincial.",
+     "evidencia": "Votaciones en el Senado alineadas con el bloque kirchnerista.",
+     "fuerza": "media",
+     "tipo": "crítica de representación",
+     "respuesta_esperada": "Defiendo a Mendoza desde un proyecto nacional.",
+     "refutacion": "Cuando el proyecto nacional choca con Mendoza, gana el proyecto nacional."
+    }
+   ],
+   "vulnerabilidades": [
+    "Alto rechazo al kirchnerismo en la provincia.",
+    "Asociada a La Cámpora."
+   ],
+   "gancho": "Kirchnerismo mendocino. Edición Cámpora.",
+   "a_favor": [
+    "Una de las voces más formadas del kirchnerismo en el Senado.",
+    "Representa al peronismo en una provincia donde casi no gana.",
+    "Coherencia: no cambió de espacio."
+   ],
+   "badge": ""
   },
   {
    "id": "suarez",
@@ -3593,13 +4266,61 @@
     35,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2015",
+     "evento": "Intendente de la ciudad de Mendoza."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Gobernador de Mendoza."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Reforma la ley 7722 sobre minería y la deroga días después ante protestas masivas."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Termina su mandato; Mendoza pierde el proyecto Portezuelo del Viento."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Agua y minería",
+     "tesis": "Quiso cambiar la ley que protege el agua y tuvo que retroceder en una semana.",
+     "cuerpo": "En diciembre de 2019 impulsó la reforma de la ley 7722 para habilitar el uso de sustancias químicas en la minería. Las protestas masivas lo obligaron a derogarla días después. Fue la crisis política más grande de su gestión.",
+     "evidencia": "Sanción y derogación de la reforma a la ley 7722, diciembre de 2019.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Escuchamos a los mendocinos y dimos marcha atrás.",
+     "refutacion": "Escuchar después de votar es tarde."
+    },
+    {
+     "area": "Obra pública",
+     "tesis": "Portezuelo del Viento se cayó bajo su gobierno.",
+     "cuerpo": "La represa era una obra histórica para el sur provincial. El laudo presidencial favorable a La Pampa terminó con el proyecto. Sus críticos dicen que la provincia no supo defenderlo a tiempo.",
+     "evidencia": "Laudo sobre Portezuelo del Viento, 2023.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Fue una decisión política del gobierno nacional.",
+     "refutacion": "Mendoza tenía años para blindar el proyecto."
+    }
+   ],
+   "vulnerabilidades": [
+    "Asociado a la crisis de la ley 7722.",
+    "Bajo perfil desde que dejó el cargo."
+   ],
+   "gancho": "Ex gobernador. Viene sin Portezuelo.",
+   "a_favor": [
+    "Gobernó la provincia y antes la capital: experiencia completa.",
+    "Mantuvo el orden fiscal de Mendoza durante la pandemia.",
+    "Perfil de gestión, poco confrontativo."
+   ],
+   "badge": ""
   },
   {
    "id": "poggi",
@@ -3621,13 +4342,61 @@
     45,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2011",
+     "evento": "Gobernador de San Luis, de la mano del PJ puntano."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Rompe con los Rodríguez Saá."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Senador nacional."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Vuelve a la gobernación derrotando al candidato de Alberto Rodríguez Saá."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "Fue parte del sistema Rodríguez Saá que hoy denuncia.",
+     "cuerpo": "Llegó a la gobernación en 2011 con el respaldo de la familia que dominaba la provincia. Su ruptura llegó después.",
+     "evidencia": "Candidatura de 2011 por el PJ puntano.",
+     "fuerza": "media",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Me fui cuando vi que el modelo no daba para más.",
+     "refutacion": "Lo vio después de haber gobernado con ese modelo."
+    },
+    {
+     "area": "Gestión",
+     "tesis": "La auditoría del pasado no alcanza como programa.",
+     "cuerpo": "Buena parte de su discurso se centra en revisar la herencia recibida. Sus críticos piden un plan propio de desarrollo para la provincia.",
+     "evidencia": "Discurso de gestión 2023-2025.",
+     "fuerza": "media",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Primero hay que ordenar lo que dejaron.",
+     "refutacion": "Ordenar es el piso, no el techo."
+    }
+   ],
+   "vulnerabilidades": [
+    "Asociado a su pasado con el PJ puntano.",
+    "Coalición provincial heterogénea."
+   ],
+   "gancho": "Volvió. Esta vez sin los Rodríguez Saá.",
+   "a_favor": [
+    "Terminó con cuatro décadas de hegemonía de los Rodríguez Saá.",
+    "Ya gobernó la provincia y conoce la gestión.",
+    "Perfil técnico y ordenado."
+   ],
+   "badge": ""
   },
   {
    "id": "albertors",
@@ -3649,13 +4418,61 @@
     30,
     30
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2003",
+     "evento": "Primer mandato como gobernador de San Luis."
+    },
+    {
+     "fecha": "2007",
+     "evento": "Candidato presidencial."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Vuelve a la gobernación."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Termina su mandato; su candidato pierde con Claudio Poggi."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Hegemonía",
+     "tesis": "Cuatro décadas de la misma familia en el poder provincial.",
+     "cuerpo": "Desde 1983 San Luis fue gobernada casi siempre por Adolfo o Alberto Rodríguez Saá o por alguien de su espacio. Sus críticos hablan de un Estado provincial confundido con el partido y la familia.",
+     "evidencia": "Gobernadores de San Luis entre 1983 y 2023.",
+     "fuerza": "letal",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Los puntanos nos eligieron una y otra vez en elecciones libres.",
+     "refutacion": "Ganar elecciones con todo el Estado a favor no es competir en igualdad."
+    },
+    {
+     "area": "Gestión",
+     "tesis": "La provincia modelo dejó problemas que hoy salen a la luz.",
+     "cuerpo": "La gestión que lo sucedió denunció irregularidades administrativas y deudas en distintas áreas.",
+     "evidencia": "Auditorías y denuncias de la gestión provincial iniciada en 2023.",
+     "fuerza": "media",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Es una persecución política del nuevo gobierno.",
+     "refutacion": "Si no hay nada que ocultar, que se auditen todas las cuentas."
+    }
+   ],
+   "vulnerabilidades": [
+    "Perdió el control de la provincia en 2023.",
+    "Imagen de política tradicional."
+   ],
+   "gancho": "Clásico puntano. Edición limitada a una familia.",
+   "a_favor": [
+    "Gobernó San Luis varias veces con obra pública visible: autopistas, conectividad, vivienda.",
+    "Impulsó políticas de inclusión digital pioneras en el país.",
+    "Conoce como nadie el Estado provincial."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "passerini",
@@ -3677,13 +4494,53 @@
     30,
     40
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Viceintendente de Córdoba con Martín Llaryora."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Gana la intendencia de la ciudad de Córdoba."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Servicios",
+     "tesis": "El transporte urbano sigue siendo el gran problema sin resolver.",
+     "cuerpo": "Conflictos con las empresas, paros y frecuencias bajas son una constante en Córdoba. La gestión cambió de nombre, pero los usuarios siguen esperando el colectivo.",
+     "evidencia": "Paros y conflictos en el transporte urbano de Córdoba.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Estamos reordenando un sistema que heredamos quebrado.",
+     "refutacion": "Lo heredaron de su propio espacio."
+    },
+    {
+     "area": "Continuidad",
+     "tesis": "Cambia la cara, no el sistema.",
+     "cuerpo": "El mismo partido gobierna Córdoba desde 1999 y la capital desde 2019. La oposición sostiene que la alternancia es una necesidad institucional.",
+     "evidencia": "Unión por Córdoba / Hacemos Unidos en el gobierno provincial desde 1999.",
+     "fuerza": "media",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Los cordobeses eligen la gestión que funciona.",
+     "refutacion": "Veinticinco años sin alternancia no es sano para ninguna democracia."
+    }
+   ],
+   "vulnerabilidades": [
+    "Tasas municipales y transporte.",
+    "Dependencia del armado de Llaryora."
+   ],
+   "gancho": "Médico de cabecera del cordobesismo.",
+   "a_favor": [
+    "Médico, con experiencia en el área de salud.",
+    "Conoce la gestión municipal como viceintendente y como intendente.",
+    "Le ganó a la oposición unida en 2023."
+   ],
+   "badge": ""
   },
   {
    "id": "javkin",
@@ -3705,13 +4562,57 @@
     35,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Gana la intendencia de Rosario."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelegido intendente."
+    },
+    {
+     "fecha": "2024",
+     "evento": "Rosario registra una fuerte baja de homicidios."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Seguridad",
+     "tesis": "Rosario vivió sus años más violentos con él como intendente.",
+     "cuerpo": "Aunque la seguridad depende sobre todo de la provincia, la ciudad sufrió ataques narco, amenazas y récords de homicidios durante su primer mandato. Sus críticos sostienen que tardó en asumir un rol activo.",
+     "evidencia": "Récords de homicidios en Rosario entre 2020 y 2023.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "La seguridad es responsabilidad de la provincia y la Nación, y nosotros hicimos todo lo que podíamos.",
+     "refutacion": "Un intendente también ordena el territorio: iluminación, control, urbanismo."
+    },
+    {
+     "area": "Servicios",
+     "tesis": "Transporte y limpieza, reclamos que no ceden.",
+     "cuerpo": "La crisis del transporte urbano y la recolección de residuos son reclamos constantes.",
+     "evidencia": "Conflictos del transporte urbano rosarino.",
+     "fuerza": "media",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "El transporte es un problema de todas las ciudades del interior por los subsidios.",
+     "refutacion": "Por eso mismo hacía falta un plan propio."
+    }
+   ],
+   "vulnerabilidades": [
+    "Asociado a los años de violencia.",
+    "Depende de la coalición provincial."
+   ],
+   "gancho": "Intendente de Rosario. Sobrevivió a los peores años.",
+   "a_favor": [
+    "Gobernó Rosario en el peor momento de violencia y la vio empezar a bajar.",
+    "Perfil técnico y dialoguista.",
+    "Coordinó con la provincia y la Nación en seguridad sin pelearse por la foto."
+   ],
+   "badge": ""
   },
   {
    "id": "monteverde",
@@ -3720,7 +4621,7 @@
    "rol": "Referente de Ciudad Futura",
    "tag": "Ciudad Futura",
    "color": "#7a5cc4",
-   "bio": "Fundador de Ciudad Futura, el espacio que gobierna el distrito sur de Rosario. Fue candidato a intendente.",
+   "bio": "Fundador de Ciudad Futura, espacio surgido de cooperativas y organizaciones barriales de Rosario. Fue candidato a intendente en 2023.",
    "foto": "",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -3733,13 +4634,53 @@
     85,
     20
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2013",
+     "evento": "Ciudad Futura entra al Concejo Municipal de Rosario."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato a intendente de Rosario; pierde con Pablo Javkin."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Escala",
+     "tesis": "Una experiencia barrial no es lo mismo que gobernar una ciudad de un millón.",
+     "cuerpo": "Las cooperativas y proyectos de Ciudad Futura muestran capacidad de organización, pero en escala chica. La intendencia requiere administrar presupuestos, servicios y seguridad.",
+     "evidencia": "Trayectoria: concejal y organizador social, sin cargos ejecutivos.",
+     "fuerza": "media",
+     "tipo": "crítica de capacidad",
+     "respuesta_esperada": "Demostramos que se puede gestionar distinto.",
+     "refutacion": "En pequeño. Falta demostrarlo en grande."
+    },
+    {
+     "area": "Alianzas",
+     "tesis": "Para competir se alió con el peronismo que criticaba.",
+     "cuerpo": "En 2023 compitió con apoyo de sectores del peronismo, a pesar de haber construido su identidad como alternativa a los partidos tradicionales.",
+     "evidencia": "Armado electoral de 2023 en Rosario.",
+     "fuerza": "media",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Sumamos a quienes compartían un proyecto para Rosario.",
+     "refutacion": "Es el mismo argumento que usan todos."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin experiencia ejecutiva.",
+    "Techo en el votante de centro."
+   ],
+   "gancho": "Cooperativista. Sin intermediarios (salvo el Concejo).",
+   "a_favor": [
+    "Construyó Ciudad Futura desde los barrios, con cooperativas y escuelas.",
+    "Representa una izquierda que gestiona proyectos concretos.",
+    "Quedó cerca de ganar la intendencia en 2023."
+   ],
+   "badge": ""
   },
   {
    "id": "ulpiano",
@@ -3761,13 +4702,53 @@
     30,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Gana la intendencia de la ciudad de Mendoza."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelegido intendente."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Espacio público",
+     "tesis": "Orden para unos, expulsión para otros.",
+     "cuerpo": "Las ordenanzas sobre cuidacoches y uso del espacio público fueron celebradas por muchos vecinos y criticadas por organizaciones sociales, que denuncian que se persigue la pobreza en lugar de resolverla.",
+     "evidencia": "Ordenanzas municipales sobre cuidacoches y venta ambulante.",
+     "fuerza": "media",
+     "tipo": "crítica de enfoque",
+     "respuesta_esperada": "Los vecinos pidieron orden y les dimos orden.",
+     "refutacion": "El problema social sigue ahí, sólo cambió de cuadra."
+    },
+    {
+     "area": "Proyección",
+     "tesis": "Gestión de una ciudad chica, ambición de una provincia.",
+     "cuerpo": "La ciudad de Mendoza es una parte pequeña del Gran Mendoza. Sus críticos dudan de que su experiencia escale.",
+     "evidencia": "Población de la ciudad capital frente al área metropolitana.",
+     "fuerza": "media",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Gestionar bien no depende del tamaño.",
+     "refutacion": "Depende, y bastante."
+    }
+   ],
+   "vulnerabilidades": [
+    "Bajo conocimiento fuera de la capital.",
+    "Depende de la conducción de Cornejo."
+   ],
+   "gancho": "Intendente prolijo. Viene con veredas.",
+   "a_favor": [
+    "Ciudad con buena calificación en limpieza y espacio público.",
+    "Reelegido con amplio margen.",
+    "Continuidad de un modelo ordenado de gestión."
+   ],
+   "badge": ""
   },
   {
    "id": "hadad",
@@ -3789,13 +4770,61 @@
     70,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1990s",
+     "evento": "Periodista y conductor de radio y televisión."
+    },
+    {
+     "fecha": "2000s",
+     "evento": "Funda y dirige medios, entre ellos Infobae."
+    },
+    {
+     "fecha": "2012",
+     "evento": "Vende parte de su grupo de medios a empresarios vinculados al kirchnerismo."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Su nombre aparece en encuestas como posible outsider."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Conflicto de interés",
+     "tesis": "Un dueño de medios candidato es juez y parte.",
+     "cuerpo": "Infobae es uno de los portales más leídos del país. Un candidato que controla un medio masivo puede condicionar la cobertura propia y la de sus rivales.",
+     "evidencia": "Participación en Infobae.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Me desprendería de cualquier rol de gestión en los medios.",
+     "refutacion": "La propiedad no se desprende con un comunicado."
+    },
+    {
+     "area": "Experiencia",
+     "tesis": "Nunca gestionó nada público.",
+     "cuerpo": "Su experiencia es empresarial y periodística. El Estado tiene reglas, tiempos y actores distintos.",
+     "evidencia": "Sin cargos públicos.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "El país necesita gente que sepa hacer, no políticos de carrera.",
+     "refutacion": "Saber hacer empresas no es saber hacer leyes ni presupuestos."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin estructura partidaria.",
+    "Conflicto de interés evidente."
+   ],
+   "gancho": "Dueño del canal. Cobertura favorable no garantizada.",
+   "a_favor": [
+    "Construyó medios exitosos: sabe gestionar empresas grandes.",
+    "Outsider con buena llegada al electorado de centro.",
+    "Conoce la política argentina desde la primera fila del periodismo."
+   ],
+   "badge": "NUEVO"
   },
   {
    "id": "gebel",
@@ -3817,13 +4846,57 @@
     70,
     55
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1990s",
+     "evento": "Se hace conocido con sus 'Superclásicos de la juventud' en estadios."
+    },
+    {
+     "fecha": "2000s",
+     "evento": "Pastor en Estados Unidos; conferencista y conductor de TV."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Su nombre aparece en encuestas como posible candidato."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Laicidad",
+     "tesis": "Mezclar el púlpito con el gobierno.",
+     "cuerpo": "Su capital político es su rol religioso. Un Estado laico necesita separar las convicciones religiosas de las decisiones públicas, en educación, salud y derechos.",
+     "evidencia": "Trayectoria como pastor evangélico.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "No busco imponer mi fe; hablo de valores que comparte la mayoría.",
+     "refutacion": "Los valores de la mayoría también cambian, y las leyes deben proteger a las minorías."
+    },
+    {
+     "area": "Experiencia",
+     "tesis": "Vive hace años en Estados Unidos y nunca gestionó nada público.",
+     "cuerpo": "No tiene equipo, partido ni programa conocido.",
+     "evidencia": "Residencia y actividad principal en Estados Unidos.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Conozco a la Argentina mejor que muchos que viven acá.",
+     "refutacion": "Conocer no es gobernar."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin partido ni equipo.",
+    "Rechazo en el electorado laico y progresista."
+   ],
+   "gancho": "Pastor. Promesas con garantía celestial.",
+   "a_favor": [
+    "Comunicador excepcional con audiencia masiva.",
+    "Mensaje de esperanza y contención que llega a sectores que la política no alcanza.",
+    "Outsider sin causas ni pasado político."
+   ],
+   "badge": "NUEVO"
   },
   {
    "id": "galperin",
@@ -3845,13 +4918,61 @@
     60,
     85
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1999",
+     "evento": "Funda Mercado Libre."
+    },
+    {
+     "fecha": "2007",
+     "evento": "Mercado Libre empieza a cotizar en el Nasdaq."
+    },
+    {
+     "fecha": "2020",
+     "evento": "Se instala en Uruguay."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Respalda públicamente las ideas de Javier Milei."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Residencia",
+     "tesis": "Quiere gobernar un país en el que eligió no vivir.",
+     "cuerpo": "Se mudó a Uruguay y su crítica a la carga tributaria argentina fue explícita. Para muchos, alguien que se fue no puede pedirles a los demás que se queden.",
+     "evidencia": "Residencia en Uruguay desde 2020.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de compromiso",
+     "respuesta_esperada": "Me fui por la presión fiscal y la inseguridad, como tantos argentinos.",
+     "refutacion": "Por eso mismo: los que se quedaron no tienen esa opción."
+    },
+    {
+     "area": "Conflicto de interés",
+     "tesis": "El dueño de la plataforma más grande regulando a su competencia.",
+     "cuerpo": "Mercado Libre y Mercado Pago compiten con bancos, comercios y billeteras. Cualquier decisión regulatoria tendría un beneficiario evidente.",
+     "evidencia": "Posición de Mercado Libre y Mercado Pago en el comercio y las finanzas digitales.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Me desprendería de la gestión de la empresa.",
+     "refutacion": "El accionista principal no se desprende de sus intereses."
+    }
+   ],
+   "vulnerabilidades": [
+    "Vive fuera del país.",
+    "Sin experiencia política."
+   ],
+   "gancho": "El dueño de la plataforma. Conflicto de interés incluido.",
+   "a_favor": [
+    "Creó una de las empresas más valiosas de América Latina.",
+    "Genera miles de empleos de calidad y desarrolló el ecosistema fintech.",
+    "Pensamiento de largo plazo y gestión basada en datos."
+   ],
+   "badge": "NUEVO"
   },
   {
    "id": "brito",
@@ -3873,13 +4994,53 @@
     45,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2000s",
+     "evento": "Ejecutivo del Banco Macro, fundado por su padre."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Electo presidente de River Plate."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Intereses",
+     "tesis": "Un banquero gobernando el sistema que regula a su banco.",
+     "cuerpo": "Su principal actividad es el negocio financiero. Las decisiones sobre tasas, encajes o deuda pública lo afectarían directamente.",
+     "evidencia": "Vínculo familiar y empresarial con Banco Macro.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Me alejaría de cualquier rol en el banco.",
+     "refutacion": "Los intereses familiares no se alejan."
+    },
+    {
+     "area": "Experiencia",
+     "tesis": "Gestionar un club no es gestionar un país.",
+     "cuerpo": "River es una institución grande, pero no tiene presupuesto público, oposición parlamentaria ni federalismo.",
+     "evidencia": "Sin cargos públicos.",
+     "fuerza": "media",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Un club grande es una escuela de gestión y de política.",
+     "refutacion": "Con hinchas, no con ciudadanos."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin experiencia pública.",
+    "Rechazo del hincha de los demás clubes (no subestimar)."
+   ],
+   "gancho": "Banquero y presidente de River. Viene con estadio.",
+   "a_favor": [
+    "Gestión empresaria exitosa en el sector financiero.",
+    "Preside River con obras visibles como la ampliación del estadio.",
+    "Outsider con llegada a millones de hinchas."
+   ],
+   "badge": "NUEVO"
   },
   {
    "id": "rebord",
@@ -3901,13 +5062,49 @@
     85,
     30
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2020s",
+     "evento": "Se hace conocido con su programa de streaming de entrevistas políticas."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Experiencia",
+     "tesis": "Entrevistar políticos no es lo mismo que serlo.",
+     "cuerpo": "Conoce la política como conversación, no como gestión. No tiene equipo ni antecedentes en el Estado.",
+     "evidencia": "Sin cargos públicos.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Muchos que gestionaron lo hicieron mal; no es garantía de nada.",
+     "refutacion": "No es garantía, pero tampoco se reemplaza con carisma."
+    },
+    {
+     "area": "Posicionamiento",
+     "tesis": "Ironía como programa político.",
+     "cuerpo": "Su estilo combina humor y crítica. Para sus detractores, esa ambigüedad le permite evitar definiciones concretas.",
+     "evidencia": "Formato de su programa.",
+     "fuerza": "media",
+     "tipo": "crítica de estilo",
+     "respuesta_esperada": "El humor es una forma de pensar en serio.",
+     "refutacion": "Pensar en serio también es decir qué harías."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin estructura.",
+    "Electorado muy joven y volátil."
+   ],
+   "gancho": "Streamer. El método viene incluido.",
+   "a_favor": [
+    "Instaló un formato de entrevista largo y serio en el streaming.",
+    "Llega a jóvenes que no miran la política tradicional.",
+    "Formación en Derecho y cultura política amplia."
+   ],
+   "badge": "NUEVO"
   },
   {
    "id": "moreno",
@@ -3929,13 +5126,61 @@
     50,
     20
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2006",
+     "evento": "Secretario de Comercio Interior."
+    },
+    {
+     "fecha": "2007",
+     "evento": "Interviene el INDEC."
+    },
+    {
+     "fecha": "2013",
+     "evento": "Deja el cargo."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Precandidato presidencial con Principios y Valores."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Estadísticas",
+     "tesis": "La intervención del INDEC destruyó la confianza en los números oficiales.",
+     "cuerpo": "Desde 2007 el índice de precios oficial dejó de reflejar la inflación real. El FMI censuró a la Argentina por la calidad de sus estadísticas. Los bonos atados a la inflación pagaron menos de lo debido.",
+     "evidencia": "Moción de censura del FMI (2013) y reconstrucción del INDEC desde 2016.",
+     "fuerza": "letal",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "El INDEC estaba en manos de intereses financieros.",
+     "refutacion": "Falsificar el termómetro no baja la fiebre."
+    },
+    {
+     "area": "Método",
+     "tesis": "Controles de precios y aprietes que no frenaron la inflación.",
+     "cuerpo": "Su gestión se recuerda por controles, cepos a exportaciones y presiones a empresarios. La inflación siguió subiendo.",
+     "evidencia": "Inflación real 2007-2013 según consultoras privadas y provincias.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de resultados",
+     "respuesta_esperada": "Defendí la mesa de los argentinos.",
+     "refutacion": "La mesa terminó más cara."
+    }
+   ],
+   "vulnerabilidades": [
+    "Asociado a la manipulación del INDEC.",
+    "Estilo agresivo."
+   ],
+   "gancho": "Viene con guantes de box. No aceptamos reclamos.",
+   "a_favor": [
+    "Coherencia ideológica: defiende el mismo peronismo desde hace décadas.",
+    "Conoce los mecanismos del comercio interior.",
+    "Habla claro y sin corrección política."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "espert",
@@ -3957,13 +5202,61 @@
     80,
     85
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Candidato presidencial por el Frente Despertar."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Electo diputado nacional por Buenos Aires."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Se suma a La Libertad Avanza."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Se baja de la lista bonaerense de LLA tras admitir un pago vinculado a Fred Machado."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Integridad",
+     "tesis": "Admitió un pago vinculado a un empresario acusado de narcotráfico en Estados Unidos.",
+     "cuerpo": "En 2025 se conoció una transferencia de 200 mil dólares vinculada a Federico 'Fred' Machado, con pedido de extradición de Estados Unidos. Espert dijo que era por una consultoría. Tuvo que dejar la candidatura en plena campaña.",
+     "evidencia": "Renuncia a la candidatura en octubre de 2025.",
+     "fuerza": "letal",
+     "tipo": "crítica de integridad",
+     "respuesta_esperada": "Fue un trabajo profesional legítimo y declarado.",
+     "refutacion": "Si fuera tan claro, no habría tenido que bajarse."
+    },
+    {
+     "area": "Discurso",
+     "tesis": "'Cárcel o bala' como propuesta de seguridad.",
+     "cuerpo": "Su frase sobre los delincuentes resume un enfoque que sus críticos consideran incompatible con el Estado de derecho.",
+     "evidencia": "Declaraciones públicas en campaña.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de enfoque",
+     "respuesta_esperada": "Es una forma de decir que se terminó la impunidad.",
+     "refutacion": "Un legislador sabe que las palabras importan."
+    }
+   ],
+   "vulnerabilidades": [
+    "Caso Machado.",
+    "Perdió el lugar en la lista y el respaldo de su espacio."
+   ],
+   "gancho": "Economista liberal. Viene con historial de pagos.",
+   "a_favor": [
+    "Defendió las ideas liberales cuando eran minoría absoluta.",
+    "Formación económica sólida y discurso claro.",
+    "Presidió la comisión de Presupuesto en Diputados."
+   ],
+   "badge": ""
   },
   {
    "id": "larreta",
@@ -3985,13 +5278,65 @@
     35,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2007",
+     "evento": "Jefe de Gabinete de la Ciudad con Mauricio Macri."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Jefe de Gobierno porteño."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Reelegido en primera vuelta."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Pierde la interna presidencial con Patricia Bullrich."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Compite por fuera del PRO en la elección legislativa porteña."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Liderazgo",
+     "tesis": "Tuvo todo el aparato y perdió la interna.",
+     "cuerpo": "Llegó a 2023 como favorito, con recursos, encuestas y estructura. Perdió con Bullrich. Para sus críticos, su moderación fue percibida como tibieza en un electorado que pedía cambio.",
+     "evidencia": "PASO de Juntos por el Cambio, agosto de 2023.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de liderazgo",
+     "respuesta_esperada": "Defendí el diálogo cuando todos pedían gritar.",
+     "refutacion": "El diálogo sin votos no gobierna."
+    },
+    {
+     "area": "Ciudad",
+     "tesis": "La Ciudad más rica del país con problemas de vivienda sin resolver.",
+     "cuerpo": "Alquileres, villas y personas en situación de calle crecieron durante su gestión según relevamientos de organizaciones sociales.",
+     "evidencia": "Relevamientos de personas en situación de calle en CABA.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Urbanizamos barrios populares como nunca.",
+     "refutacion": "Algunos, y con problemas de calidad."
+    }
+   ],
+   "vulnerabilidades": [
+    "Peleado con el PRO.",
+    "Imagen de 'tibio' en un electorado polarizado."
+   ],
+   "gancho": "Gestión con ciclovías. La moderación se vende por separado.",
+   "a_favor": [
+    "Ocho años de jefe de Gobierno y ocho de jefe de Gabinete porteño: experiencia de gestión real.",
+    "Defendió las escuelas abiertas en la pandemia.",
+    "Obras de infraestructura visibles: Paseo del Bajo, viaductos, Metrobús."
+   ],
+   "badge": ""
   },
   {
    "id": "schiaretti",
@@ -4000,7 +5345,7 @@
    "rol": "Ex gobernador de Córdoba",
    "tag": "Hacemos",
    "color": "#4aa3a0",
-   "bio": "Ex gobernador de Córdoba en dos períodos. Fue candidato presidencial en 2023.",
+   "bio": "Gobernador de Córdoba en tres períodos (2007-2011, 2015-2019 y 2019-2023). Fue candidato presidencial en 2023.",
    "foto": "assets/fotos/schiaretti.jpg",
    "categorias": [],
    "provincia": "Nacional",
@@ -4013,13 +5358,61 @@
     35,
     45
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2007",
+     "evento": "Gobernador de Córdoba."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Vuelve a la gobernación."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Reelegido gobernador."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato presidencial por Hacemos por Nuestro País."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Alternancia",
+     "tesis": "Un cuarto de siglo del mismo partido en el poder.",
+     "cuerpo": "El peronismo cordobés gobierna la provincia desde 1999. Sus críticos dicen que se construyó un sistema donde el Estado y el partido se confunden.",
+     "evidencia": "Gobiernos provinciales de Córdoba desde 1999.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Los cordobeses eligen a quienes gestionan bien.",
+     "refutacion": "La falta de alternancia debilita los controles."
+    },
+    {
+     "area": "Proyección nacional",
+     "tesis": "La tercera vía nunca pasó de un dígito.",
+     "cuerpo": "En 2023 sacó cerca del 7% a nivel nacional. Su propuesta funciona en Córdoba pero no logra perforar en el resto del país.",
+     "evidencia": "Elección presidencial de 2023.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Fue un primer paso para construir algo distinto.",
+     "refutacion": "Lleva años siendo un primer paso."
+    }
+   ],
+   "vulnerabilidades": [
+    "Edad y renovación.",
+    "Techo fuera de Córdoba."
+   ],
+   "gancho": "Cordobesismo original. Tres mandatos de garantía.",
+   "a_favor": [
+    "Tres mandatos como gobernador con fama de administración ordenada.",
+    "Obra pública fuerte en Córdoba: rutas, gasoductos, acueductos.",
+    "Propone una tercera vía entre el kirchnerismo y el liberalismo."
+   ],
+   "badge": ""
   },
   {
    "id": "melconian",
@@ -4041,13 +5434,61 @@
     60,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1990s",
+     "evento": "Economista en el equipo económico de los 90."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Presidente del Banco Nación con Macri."
+    },
+    {
+     "fecha": "2017",
+     "evento": "Deja el Banco Nación."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Referente económico de la campaña de Patricia Bullrich."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Electoral",
+     "tesis": "Mucho análisis, ningún voto propio.",
+     "cuerpo": "Fue un economista estrella de campañas ajenas, pero nunca se sometió a una elección.",
+     "evidencia": "Sin candidaturas propias hasta ahora.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "No soy un político; soy un técnico.",
+     "refutacion": "Entonces el lugar es un ministerio, no una banca."
+    },
+    {
+     "area": "Gestión",
+     "tesis": "Su paso por el Banco Nación terminó antes de tiempo.",
+     "cuerpo": "Dejó la presidencia del banco en 2017 tras diferencias con el gobierno. Sus críticos dicen que la gestión tiene menos que mostrar que el diagnóstico.",
+     "evidencia": "Salida del Banco Nación en 2017.",
+     "fuerza": "media",
+     "tipo": "crítica de gestión",
+     "respuesta_esperada": "Me fui por diferencias de enfoque.",
+     "refutacion": "Que es justamente lo que pasa cuando hay que gestionar en equipo."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin estructura partidaria.",
+    "Asociado a los 90 y al macrismo."
+   ],
+   "gancho": "Economista sin filtro. Planilla de Excel incluida.",
+   "a_favor": [
+    "Experiencia técnica de décadas y paso por la gestión como presidente del Banco Nación.",
+    "Habla claro sobre la economía, sin vender soluciones mágicas.",
+    "Tiene equipo técnico propio armado."
+   ],
+   "badge": ""
   },
   {
    "id": "maximo",
@@ -4069,13 +5510,65 @@
     40,
     30
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2003",
+     "evento": "Funda La Cámpora."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Electo diputado nacional."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Jefe del bloque oficialista en Diputados."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Presidente del PJ bonaerense."
+    },
+    {
+     "fecha": "2022",
+     "evento": "Renuncia a la jefatura del bloque en rechazo al acuerdo con el FMI."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Herencia",
+     "tesis": "Su poder viene del apellido, no de los votos.",
+     "cuerpo": "Es hijo de dos presidentes y su influencia en el peronismo excede por mucho su peso electoral propio.",
+     "evidencia": "Trayectoria política.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de legitimidad",
+     "respuesta_esperada": "Milito desde hace más de veinte años.",
+     "refutacion": "Muchos militan veinte años y no tienen su lugar."
+    },
+    {
+     "area": "Lealtad",
+     "tesis": "Debilitó a su propio gobierno en el momento más delicado.",
+     "cuerpo": "Renunció a la jefatura del bloque en 2022 para no acompañar el acuerdo con el FMI que su gobierno había negociado.",
+     "evidencia": "Renuncia de enero de 2022.",
+     "fuerza": "fuerte",
+     "tipo": "crítica política",
+     "respuesta_esperada": "No podía acompañar un acuerdo que condicionaba al país.",
+     "refutacion": "Lo condicionó igual, y su gobierno quedó más débil."
+    }
+   ],
+   "vulnerabilidades": [
+    "Muy baja actividad pública.",
+    "Alto rechazo fuera del kirchnerismo."
+   ],
+   "gancho": "Edición heredada. Viene con La Cámpora.",
+   "a_favor": [
+    "Construyó La Cámpora, una de las organizaciones juveniles más grandes del peronismo.",
+    "Coherencia: renunció a la jefatura de bloque antes que votar el acuerdo con el FMI.",
+    "Fuerte peso en la estructura del peronismo bonaerense."
+   ],
+   "badge": ""
   },
   {
    "id": "piparo",
@@ -4097,13 +5590,61 @@
     75,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Electa diputada bonaerense."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Secretaria de Asistencia a la Víctima en La Plata."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidata a gobernadora por La Libertad Avanza; queda tercera."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Diputada nacional."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Electoral",
+     "tesis": "Quedó tercera en la provincia en la mejor elección de Milei.",
+     "cuerpo": "En 2023, mientras Milei crecía, ella quedó detrás de Kicillof y de Grindetti.",
+     "evidencia": "Elección a gobernador de Buenos Aires, 2023.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Era una elección nacionalizada y polarizada.",
+     "refutacion": "Por eso el arrastre de Milei debería haber alcanzado."
+    },
+    {
+     "area": "Programa",
+     "tesis": "Mucho testimonio, poco plan.",
+     "cuerpo": "Su capital es la experiencia como víctima y la agenda de seguridad. Sus críticos dicen que faltan propuestas concretas de gestión.",
+     "evidencia": "Plataforma y proyectos presentados.",
+     "fuerza": "media",
+     "tipo": "crítica de programa",
+     "respuesta_esperada": "Conozco lo que viven los bonaerenses porque lo viví.",
+     "refutacion": "La empatía es el punto de partida, no la política pública."
+    }
+   ],
+   "vulnerabilidades": [
+    "Relación cambiante con la conducción de LLA.",
+    "Poca estructura propia."
+   ],
+   "gancho": "Mano dura bonaerense. Edición libertaria.",
+   "a_favor": [
+    "Instaló la agenda de las víctimas del delito.",
+    "Experiencia legislativa provincial y nacional.",
+    "Llegada al votante de clase media del conurbano."
+   ],
+   "badge": ""
   },
   {
    "id": "grabois",
@@ -4125,13 +5666,61 @@
     60,
     25
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2000s",
+     "evento": "Funda el Movimiento de Trabajadores Excluidos."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Cofundador de la UTEP."
+    },
+    {
+     "fecha": "2020",
+     "evento": "Encabeza la ocupación del campo de la familia Etchevehere en Entre Ríos."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Precandidato presidencial; pierde la interna con Sergio Massa."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Propiedad",
+     "tesis": "La toma del campo Etchevehere mostró un proyecto que no respeta la propiedad privada.",
+     "cuerpo": "En 2020 encabezó la ocupación de un campo en Entre Ríos. La justicia ordenó el desalojo. Para sus críticos, el episodio mostró una visión incompatible con la seguridad jurídica.",
+     "evidencia": "Proyecto Artigas, Entre Ríos, 2020.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Acompañamos a una heredera que reclamaba lo que le correspondía.",
+     "refutacion": "Eso se resuelve en tribunales, no con una toma."
+    },
+    {
+     "area": "Planes sociales",
+     "tesis": "La intermediación de las organizaciones en los planes.",
+     "cuerpo": "Sus críticos sostienen que las organizaciones sociales usaron los planes como herramienta de poder y movilización.",
+     "evidencia": "Auditorías y denuncias sobre la intermediación de programas sociales.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de método",
+     "respuesta_esperada": "Organizamos a los que el mercado descartó.",
+     "refutacion": "Organizar no debería implicar condicionar."
+    }
+   ],
+   "vulnerabilidades": [
+    "Alto rechazo en clases medias.",
+    "Interna permanente con el peronismo."
+   ],
+   "gancho": "Papa-friendly. Tierra incluida (consultar disponibilidad).",
+   "a_favor": [
+    "Organizó a trabajadores de la economía popular que nadie representaba.",
+    "Coherencia en la defensa de los más pobres.",
+    "Formación intelectual y vínculo con la doctrina social de la Iglesia."
+   ],
+   "badge": ""
   },
   {
    "id": "rosemblat",
@@ -4153,13 +5742,57 @@
     60,
     30
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2010s",
+     "evento": "Se hace conocido como 'El Cadete' en redes."
+    },
+    {
+     "fecha": "2020s",
+     "evento": "Funda un canal de streaming político."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Participa activamente de la campaña de Unión por la Patria."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Experiencia",
+     "tesis": "Comunicador militante, sin antecedentes de gestión.",
+     "cuerpo": "Su capital es la comunicación. No tiene trayectoria en el Estado ni en cargos electivos.",
+     "evidencia": "Sin cargos públicos.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "La política necesita gente nueva que sepa comunicar.",
+     "refutacion": "Comunicar ya lo hace. La pregunta es gobernar."
+    },
+    {
+     "area": "Estilo",
+     "tesis": "La militancia en clave de humor polariza y no convence.",
+     "cuerpo": "Sus críticos dicen que su contenido le habla a los convencidos y profundiza la grieta.",
+     "evidencia": "Contenido y alcance en redes.",
+     "fuerza": "media",
+     "tipo": "crítica de estilo",
+     "respuesta_esperada": "El humor es la mejor herramienta para desarmar al poder.",
+     "refutacion": "También para no discutir en serio."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin estructura territorial.",
+    "Electorado muy de nicho."
+   ],
+   "gancho": "El Cadete. Delivery de militancia.",
+   "a_favor": [
+    "Comunicador con audiencia joven y fiel.",
+    "Usa el humor para politizar a quienes no se interesaban.",
+    "Construyó un medio propio exitoso en streaming."
+   ],
+   "badge": "NUEVO"
   },
   {
    "id": "torres",
@@ -4181,13 +5814,61 @@
     50,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Diputado nacional por Chubut."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Senador nacional."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Gobernador de Chubut."
+    },
+    {
+     "fecha": "2024",
+     "evento": "Conflicto con la Nación por los fondos coparticipables."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Federalismo",
+     "tesis": "Amenazó con cortar el petróleo y el gas al resto del país.",
+     "cuerpo": "En 2024, en su conflicto por fondos con el gobierno nacional, planteó dejar de enviar petróleo y gas. Para sus críticos fue una escalada irresponsable; para sus defensores, un gesto federal.",
+     "evidencia": "Conflicto entre Chubut y la Nación, febrero de 2024.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de método",
+     "respuesta_esperada": "Defendí lo que le corresponde a Chubut.",
+     "refutacion": "Defender no es amenazar al resto de las provincias."
+    },
+    {
+     "area": "Proyecto",
+     "tesis": "Armado de gobernadores sin un liderazgo claro.",
+     "cuerpo": "Participa de espacios de gobernadores que buscan una alternativa al centro, pero sin un candidato nacional definido.",
+     "evidencia": "Armado de Provincias Unidas, 2025.",
+     "fuerza": "media",
+     "tipo": "crítica política",
+     "respuesta_esperada": "El federalismo no necesita un caudillo.",
+     "refutacion": "Sin líder, no gana elecciones nacionales."
+    }
+   ],
+   "vulnerabilidades": [
+    "Bajo conocimiento nacional.",
+    "Dependencia de los recursos petroleros."
+   ],
+   "gancho": "Gobernador patagónico. Viene con petróleo (si no le cortan los fondos).",
+   "a_favor": [
+    "Gobernador joven con perfil de gestión.",
+    "Se plantó ante la Nación por los fondos de su provincia.",
+    "Referente de una nueva generación de gobernadores."
+   ],
+   "badge": ""
   },
   {
    "id": "marra",
@@ -4209,13 +5890,57 @@
     85,
     85
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2021",
+     "evento": "Electo legislador porteño por La Libertad Avanza."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato a jefe de Gobierno porteño."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Es expulsado de La Libertad Avanza y compite por fuera."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "Su principal capital era Milei, y Milei lo echó.",
+     "cuerpo": "Construyó su carrera como libertario fundador. La conducción de LLA lo expulsó y quedó compitiendo contra el espacio que ayudó a crear.",
+     "evidencia": "Expulsión de LLA, 2025.",
+     "fuerza": "fuerte",
+     "tipo": "crítica política",
+     "respuesta_esperada": "Me fui porque el espacio se llenó de casta.",
+     "refutacion": "No te fuiste: te echaron."
+    },
+    {
+     "area": "Electoral",
+     "tesis": "Quedó tercero en la Ciudad en 2023.",
+     "cuerpo": "En la elección porteña de 2023 quedó lejos de Jorge Macri y de Leandro Santoro.",
+     "evidencia": "Elección a jefe de Gobierno, 2023.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Fue la primera elección del espacio en la Ciudad.",
+     "refutacion": "Y la mejor de Milei a nivel nacional."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sin sello partidario fuerte.",
+    "Enfrentado a la conducción libertaria."
+   ],
+   "gancho": "Financista libertario. Expulsado del local original.",
+   "a_favor": [
+    "Fue de los primeros en sumarse a Milei.",
+    "Conoce el mundo financiero y de inversiones.",
+    "Comunicador con fuerte presencia en redes."
+   ],
+   "badge": "REACONDICIONADO"
   },
   {
    "id": "santoro",
@@ -4237,13 +5962,65 @@
     55,
     40
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2000s",
+     "evento": "Militante radical alfonsinista."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Legislador porteño."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Diputado nacional por el Frente de Todos."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato a jefe de Gobierno; pierde con Jorge Macri."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Encabeza la lista peronista en la elección legislativa porteña."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "De radical a candidato del peronismo kirchnerista.",
+     "cuerpo": "Sus críticos le reprochan haber dejado la UCR para sumarse al espacio que el radicalismo históricamente enfrentó.",
+     "evidencia": "Trayectoria partidaria.",
+     "fuerza": "media",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Soy alfonsinista; el que se movió fue el radicalismo.",
+     "refutacion": "Es una explicación cómoda."
+    },
+    {
+     "area": "Electoral",
+     "tesis": "Perdió en la Ciudad dos veces.",
+     "cuerpo": "En 2023 y 2025 encabezó al peronismo porteño sin poder ganar.",
+     "evidencia": "Elecciones porteñas de 2023 y 2025.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Hicimos la mejor elección del peronismo en la Ciudad en años.",
+     "refutacion": "La mejor derrota sigue siendo derrota."
+    }
+   ],
+   "vulnerabilidades": [
+    "Techo del peronismo en la Ciudad.",
+    "Desconfianza del radicalismo."
+   ],
+   "gancho": "Radical alfonsinista. Ahora en góndola peronista.",
+   "a_favor": [
+    "Gran orador con formación política.",
+    "Puede hablarle a la clase media porteña desde el peronismo.",
+    "Coherencia en su defensa del Estado y la educación pública."
+   ],
+   "badge": ""
   },
   {
    "id": "adolfors",
@@ -4265,13 +6042,61 @@
     25,
     25
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1983",
+     "evento": "Electo gobernador de San Luis."
+    },
+    {
+     "fecha": "2001",
+     "evento": "Presidente interino de la Nación durante una semana; declara el default."
+    },
+    {
+     "fecha": "2003",
+     "evento": "Candidato presidencial."
+    },
+    {
+     "fecha": "2005",
+     "evento": "Senador nacional."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Default",
+     "tesis": "Anunció el default más grande de la historia entre aplausos.",
+     "cuerpo": "En diciembre de 2001 declaró la cesación de pagos ante la Asamblea Legislativa, que lo aplaudió. La imagen quedó como símbolo de la irresponsabilidad de la dirigencia.",
+     "evidencia": "Asamblea Legislativa del 23 de diciembre de 2001.",
+     "fuerza": "fuerte",
+     "tipo": "crítica histórica",
+     "respuesta_esperada": "No había dólares para pagar; dije la verdad.",
+     "refutacion": "Decir la verdad no requería celebrarla."
+    },
+    {
+     "area": "Hegemonía",
+     "tesis": "Dieciocho años seguidos de gobernador.",
+     "cuerpo": "Gobernó San Luis desde 1983 hasta 2001. Sus críticos hablan de un modelo de poder familiar.",
+     "evidencia": "Gobernaciones de San Luis entre 1983 y 2001.",
+     "fuerza": "fuerte",
+     "tipo": "crítica institucional",
+     "respuesta_esperada": "Me reelegían porque San Luis funcionaba.",
+     "refutacion": "Funcionaba con todo el Estado a favor del oficialismo."
+    }
+   ],
+   "vulnerabilidades": [
+    "Edad.",
+    "Asociado al default de 2001."
+   ],
+   "gancho": "Presidente por una semana. Default incluido.",
+   "a_favor": [
+    "Gobernó San Luis con fama de provincia ordenada y obra pública.",
+    "Experiencia política de más de cuarenta años.",
+    "Conoce el Estado nacional y provincial."
+   ],
+   "badge": "CLÁSICO"
   },
   {
    "id": "claragarcia",
@@ -4280,7 +6105,7 @@
    "rol": "Diputada provincial de Santa Fe",
    "tag": "Partido Socialista",
    "color": "#d94f7a",
-   "bio": "Diputada provincial y presidenta del Partido Socialista de Santa Fe. Fue ministra de Educación de la provincia.",
+   "bio": "Diputada provincial y referente del Partido Socialista de Santa Fe, que integra la coalición de gobierno provincial.",
    "foto": "assets/fotos/claragarcia.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -4293,13 +6118,57 @@
     35,
     55
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Diputada provincial en Santa Fe."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Asume la conducción del Partido Socialista santafesino."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelecta diputada provincial dentro de Unidos para Cambiar Santa Fe."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": []
+   "criticas": [
+    {
+     "area": "Identidad",
+     "tesis": "El socialismo como socio menor de una coalición de centroderecha.",
+     "cuerpo": "Para sus críticos, el socialismo resignó identidad al integrarse a la coalición de Pullaro, con una agenda de mano dura que no es la suya.",
+     "evidencia": "Integración en Unidos para Cambiar Santa Fe.",
+     "fuerza": "media",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Elegimos ser parte de una coalición que gobierna y transforma.",
+     "refutacion": "Transformar con agenda ajena."
+    },
+    {
+     "area": "Electoral",
+     "tesis": "Un partido que gobernó doce años y hoy tiene peso menor.",
+     "cuerpo": "El socialismo gobernó Santa Fe entre 2007 y 2019. Hoy es una fuerza secundaria.",
+     "evidencia": "Resultados del PS desde 2019.",
+     "fuerza": "media",
+     "tipo": "crítica electoral",
+     "respuesta_esperada": "Seguimos siendo una referencia de gestión.",
+     "refutacion": "Referencia sin votos."
+    }
+   ],
+   "vulnerabilidades": [
+    "Peso electoral menor.",
+    "Dependencia de la coalición provincial."
+   ],
+   "gancho": "Socialismo santafesino. Edición clásica.",
+   "a_favor": [
+    "Referente de una tradición de gestión santafesina reconocida en salud pública.",
+    "Perfil moderado y dialoguista.",
+    "Sostiene al socialismo dentro de la coalición que gobierna Santa Fe."
+   ],
+   "badge": ""
   }
  ],
  "candidaturas": [
