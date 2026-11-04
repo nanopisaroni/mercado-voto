@@ -117,7 +117,7 @@ def card(cid, cargo, jur):
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     {estrellas(c)}
-    <button class="btn" onclick="agregar('{c["id"]}', '{cargo}', '{esc(jur)}')">Comprar</button>
+    <button class="btn" onclick="agregar('{c["id"]}', '{cargo}', '{esc(jur)}', true)">Comprar</button>
   </div>
 </div>'''
 
@@ -166,8 +166,8 @@ def build_index():
   </div>
 </div></div></main>
 {footer()}
-<script src="/assets/carrito.js?v=3"></script>
-<script src="/assets/catalogo.js?v=3"></script>
+<script src="/assets/carrito.js?v=5"></script>
+<script src="/assets/catalogo.js?v=5"></script>
 </body></html>'''
 
 
@@ -201,7 +201,7 @@ def build_ficha(c):
     rel_html = "".join(f'<a href="/c/{x["slug"]}" class="rel"><b>{esc(x["nombre"])}</b><span>{esc(x["partido"])}</span></a>' for x in rel) or "<p style='color:#888'>No hay otros del mismo espacio.</p>"
     botones = "".join(
         '<button class="btn" onclick="agregar('
-        + "'" + c["id"] + "', '" + x["cargo"] + "', '" + esc(x["jur"]) + "'"
+        + "'" + c["id"] + "', '" + x["cargo"] + "', '" + esc(x["jur"]) + "', true"
         + ')">Comprar como ' + esc(etiqueta(x["cargo"], x["jur"])) + "</button>"
         for x in cargos)
     share_data = json.dumps({"nombre": c["nombre"], "slug": c["slug"], "partido": c["partido"],
@@ -260,9 +260,9 @@ def build_ficha(c):
   </div>
 </div></main>
 {footer()}
-<script src="/assets/carrito.js?v=3"></script>
+<script src="/assets/carrito.js?v=5"></script>
 <script>window.CAND = {share_data};</script>
-<script src="/assets/share.js?v=3"></script>
+<script src="/assets/share.js?v=5"></script>
 </body></html>'''
 
 
@@ -290,8 +290,8 @@ def build_boleta():
   </div>
 </div></main>
 {footer()}
-<script src="/assets/carrito.js?v=4"></script>
-<script src="/assets/share.js?v=4"></script>
+<script src="/assets/carrito.js?v=5"></script>
+<script src="/assets/share.js?v=5"></script>
 <script>
 const DATA = {data};
 const CARGOS = [['presidencial','Presidente'],['gobernador','Gobernador'],['intendente','Intendente']];

@@ -19,7 +19,7 @@ function aviso(txt) {
   document.body.appendChild(t);
   setTimeout(() => t.remove(), 2000);
 }
-function agregar(cid, cargo, jur) {
+function agregar(cid, cargo, jur, ir) {
   const b = leer();
   if (b.some(x => x.i === cid)) { aviso('Ya está en tu boleta'); return; }
   if (cargo !== 'legislador') {
@@ -30,6 +30,7 @@ function agregar(cid, cargo, jur) {
   }
   b.push({ i: cid, c: cargo, j: jur });
   guardar(b);
+  if (ir) { location.href = '/boleta'; return; }
   aviso('Sumado a tu boleta');
 }
 function quitar(idx) {
