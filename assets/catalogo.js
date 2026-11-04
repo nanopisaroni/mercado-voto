@@ -10,7 +10,7 @@ function llenarJurisdicciones() {
     if (state.cargo && t.dataset.cargo !== state.cargo) return;
     if (t.dataset.jur && t.dataset.jur !== 'Nacional') vals.add(t.dataset.jur);
   });
-  const actual = sel.value;
+  const actual = state.jur || sel.value;
   sel.innerHTML = '<option value="">Todas</option>' +
     [...vals].sort().map(v => `<option value="${v}">${v}</option>`).join('');
   sel.style.display = vals.size ? '' : 'none';
