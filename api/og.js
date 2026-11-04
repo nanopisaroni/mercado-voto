@@ -11,6 +11,21 @@ const FONTS = [400, 500, 600, 700, 800, 900].map(weight => ({
   data: readFileSync(new URL(`./_fonts/inter-${weight}.woff`, import.meta.url)),
 }));
 
+// Las fotos se leen del disco (no por HTTP): así funciona también en previews protegidos.
+const cacheFotos = new Map();
+function foto(ruta) {
+  if (!cacheFotos.has(ruta)) {
+    let uri = null;
+    try {
+      const buf = readFileSync(new URL('../' + ruta, import.meta.url));
+      const tipo = buf[0] === 0x89 ? 'image/png' : buf[0] === 0x52 ? 'image/webp' : 'image/jpeg';
+      uri = `data:${tipo};base64,${buf.toString('base64')}`;
+    } catch (e) {}
+    cacheFotos.set(ruta, uri);
+  }
+  return cacheFotos.get(ruta);
+}
+
 const AZUL = '#3483fa', AMARILLO = '#ffe600', OSCURO = '#2d2d2d';
 
 function h(type, style, ...children) {
@@ -19,9 +34,9 @@ function h(type, style, ...children) {
 }
 const img = (src, style) => ({ type: 'img', props: { src, style } });
 
-function avatar(base, c, size, borde = 6) {
+function avatar(c, size, borde = 6) {
   const st = { width: size, height: size, borderRadius: size, border: `${borde}px solid ${c.col}`, objectFit: 'cover', objectPosition: 'center 18%' };
-  if (c.f) return img(base + '/' + c.f, st);
+  if (c.f && foto(c.f)) return img(foto(c.f), st);
   return h('div', { ...st, background: c.col, color: '#fff', fontSize: size * 0.36, fontWeight: 800, alignItems: 'center', justifyContent: 'center' }, c.i);
 }
 const hueco = size => h('div', { width: size, height: size, borderRadius: size, border: '5px dashed #ccc', alignItems: 'center', justifyContent: 'center', color: '#bbb', fontSize: size * 0.4, fontWeight: 800 }, '?');
@@ -48,7 +63,7 @@ function perfil(ids) {
   return { emoji: t[1], tipo: t[2], rasgos };
 }
 
-function boleta(base, q) {
+function boleta(q) {
   const id = k => (MV.c[q.get(k)] ? q.get(k) : null);
   const ej = [['p', 'PRESIDENTE'], ['g', 'GOBERNADOR'], ['i', 'INTENDENTE']].map(([k, et]) => [id(k), et]);
   const legs = (q.get('l') || '').split(',').filter(x => MV.c[x]).slice(0, 5);
@@ -63,14 +78,14 @@ function boleta(base, q) {
         ej.map(([cid, et]) => {
           const c = cid && MV.c[cid];
           return h('div', { flexDirection: 'column', alignItems: 'center', width: 330 },
-            c ? avatar(base, c, 170) : hueco(170),
+            c ? avatar(c, 170) : hueco(170),
             h('div', { color: AZUL, fontSize: 18, fontWeight: 800, marginTop: 12, letterSpacing: 1 }, et),
             h('div', { fontSize: c && c.n.length > 20 ? 27 : 32, fontWeight: 800, color: c ? '#222' : '#bbb', marginTop: 2, textAlign: 'center' }, c ? c.n : 'Sin elegir'));
         })),
       h('div', { marginTop: 26, alignItems: 'center', justifyContent: 'space-between', borderTop: '2px solid #eee', paddingTop: 20 },
         h('div', { alignItems: 'center', gap: 10 },
           h('div', { color: AZUL, fontSize: 18, fontWeight: 800, letterSpacing: 1, marginRight: 8 }, 'LEGISLADORES'),
-          legs.length ? legs.map(x => avatar(base, MV.c[x], 64, 4)) : h('div', { color: '#bbb', fontSize: 24 }, 'Sin elegir')),
+          legs.length ? legs.map(x => avatar(MV.c[x], 64, 4)) : h('div', { color: '#bbb', fontSize: 24 }, 'Sin elegir')),
         pf ? h('div', { alignItems: 'center', gap: 12, background: '#fff8cc', padding: '10px 22px', borderRadius: 18 },
           h('div', { fontSize: 46 }, pf.emoji),
           h('div', { flexDirection: 'column' },
@@ -80,10 +95,10 @@ function boleta(base, q) {
       '¿Y vos qué comprarías?', h('span', { color: AMARILLO }, 'Armá la tuya →')));
 }
 
-function candidato(base, c) {
+function candidato(c) {
   const n = Math.max(1, Math.round((c.cu / (c.to || 1)) * 5));
   return h('div', { width: '100%', height: '100%', background: '#fff', fontFamily: 'Inter' },
-    c.f ? img(base + '/' + c.f, { width: 560, height: 630, objectFit: 'cover', objectPosition: 'center 15%' })
+    c.f && foto(c.f) ? img(foto(c.f), { width: 560, height: 630, objectFit: 'cover', objectPosition: 'center 15%' })
       : h('div', { width: 560, height: 630, background: c.col, color: '#fff', fontSize: 200, fontWeight: 800, alignItems: 'center', justifyContent: 'center' }, c.i),
     h('div', { flex: 1, flexDirection: 'column', padding: '44px 48px', justifyContent: 'space-between', borderTop: `14px solid ${AMARILLO}` },
       h('div', { flexDirection: 'column' },
@@ -99,7 +114,7 @@ function candidato(base, c) {
           c.le ? h('div', { fontSize: 20, color: '#c8102e', fontWeight: 700, background: '#ffe3e5', padding: '6px 14px', borderRadius: 20 }, `⚠ ${c.le} crítica${c.le > 1 ? 's' : ''} letal${c.le > 1 ? 'es' : ''}`) : null))));
 }
 
-function portada(base) {
+function portada() {
   const caras = ['milei', 'cristina', 'kicillof', 'bullrich', 'macri', 'bregman', 'massa', 'villarruel'].filter(id => MV.c[id]);
   return h('div', { width: '100%', height: '100%', background: AMARILLO, fontFamily: 'Inter', padding: '56px 64px', flexDirection: 'column', justifyContent: 'space-between' },
     marca(48),
@@ -108,18 +123,17 @@ function portada(base) {
       h('div', { fontSize: 76, fontWeight: 900, color: OSCURO, lineHeight: 1.05, letterSpacing: -3 }, 'como si fuera un carrito'),
       h('div', { fontSize: 28, color: '#5a4f00', marginTop: 16 }, 'Lo bueno, lo malo y las críticas de cada candidato.')),
     h('div', { alignItems: 'center' },
-      caras.map((id, k) => h('div', { marginLeft: k ? -22 : 0 }, avatar(base, MV.c[id], 96, 5))),
+      caras.map((id, k) => h('div', { marginLeft: k ? -22 : 0 }, avatar(MV.c[id], 96, 5))),
       h('div', { marginLeft: 26, background: OSCURO, color: '#fff', fontSize: 28, fontWeight: 700, padding: '16px 28px', borderRadius: 40 }, '1 voto c/u · envío gratis')));
 }
 
 export async function GET(request) {
   const url = new URL(request.url);
-  const base = process.env.MV_BASE || url.origin;
   const q = url.searchParams;
   let el;
-  if (q.get('c') && MV.c[q.get('c')]) el = candidato(base, MV.c[q.get('c')]);
-  else if (['p', 'g', 'i', 'l'].some(k => q.get(k))) el = boleta(base, q);
-  else el = portada(base);
+  if (q.get('c') && MV.c[q.get('c')]) el = candidato(MV.c[q.get('c')]);
+  else if (['p', 'g', 'i', 'l'].some(k => q.get(k))) el = boleta(q);
+  else el = portada();
   return new ImageResponse(el, {
     width: 1200, height: 630, emoji: 'twemoji', fonts: FONTS,
     headers: { 'Cache-Control': 'public, max-age=86400, s-maxage=604800, immutable' },
