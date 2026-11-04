@@ -27,6 +27,15 @@ python3 build.py
 
 Escribe `index.html`, `boleta.html` y las 25 fichas de `c/`. No toca las fotos.
 
+## Cómo se arma el catálogo
+
+El catálogo no lista personas: lista **candidaturas**. Un mismo dirigente puede competir en la presidencial y en la gobernación de su provincia, y aparece dos veces con distinto cargo.
+
+- `candidatos[]`: la ficha de cada persona.
+- `candidaturas[]`: cada postulación, con `cid` (id del candidato), `cargo` (`presidencial`, `gobernador`, `intendente`) y `jur` (provincia o ciudad; `Nacional` para la presidencial).
+
+Todos los candidatos cargados compiten por la presidencial. Las gobernaciones y las intendencias son listas aparte, por jurisdicción.
+
 ## Agregar o editar un candidato
 
 Todo vive en `data/candidatos.json`. Campos por candidato:
@@ -36,7 +45,7 @@ Todo vive en `data/candidatos.json`. Campos por candidato:
 - `color` (hex, se usa en el radar y en el avatar de respaldo)
 - `foto` (ruta relativa o vacío para avatar con iniciales)
 - `bio`, `trayectoria[]` (`fecha`, `evento`)
-- `categorias[]`: `presidencial`, `gobernador`, `diputado`, `senador`, `municipal`
+- `partido`, `provincia`
 - `ejes[6]`: enteros 0 a 100, en este orden: Economía (Estado→Mercado), Sociedad (Conservador→Progresista), Poder (Institucional→Personalista), Federalismo (Centralista→Federal), Cambio (Continuidad→Ruptura), Exterior (Autonomía→Occidente)
 - `promesas_cumplidas[]`, `promesas_incumplidas[]`, `cumplidas`, `incumplidas` (conteos)
 - `criticas[]`: `area`, `tesis`, `cuerpo`, `evidencia`, `fuerza` (`letal`, `fuerte`, `media-fuerte`, `media`), `tipo`, `respuesta_esperada`, `refutacion`
@@ -44,9 +53,13 @@ Todo vive en `data/candidatos.json`. Campos por candidato:
 
 Los `ejes` son una estimación editorial, no una medición. La página lo dice explícitamente.
 
-## Lo que falta
+## Alcance actual
 
-- Municipales: hay un solo candidato cargado (Jefe de Gobierno de CABA). El resto necesita carga propia.
+Cinco provincias para gobernación: Buenos Aires, Córdoba, Santa Fe, Mendoza y San Luis.
+Cuatro ciudades para intendencia: CABA, Córdoba, Rosario y Mendoza.
+La presidencial tiene a todos los perfiles cargados, incluidos los candidateables de Democracia S.A. (Hadad, Gebel, Galperín, Brito, Rebord).
+
+## Lo que falta
 - El precio ("1 voto") es parte del chiste, no un cálculo.
 - Las fotos vienen de Wikipedia y se sirven locales. Si se agrega un candidato sin foto, el avatar usa iniciales sobre el color asignado.
 - No hay backend ni base de usuarios. Si se quiere guardar la boleta o comparar entre dispositivos, hace falta una API.

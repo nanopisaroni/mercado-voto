@@ -1,412 +1,1367 @@
 <!DOCTYPE html><html lang="es-AR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mercado Voto · elegí antes de votar</title>
-<meta name="description" content="Los candidatos de las elecciones argentinas, con su perfil, su historial de votos y las críticas que no responden.">
+<meta name="description" content="Los candidatos de las elecciones argentinas, con su perfil, su radar ideológico y las críticas que no responden.">
+<meta name="theme-color" content="#ffe600">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 </head><body>
 <header class="top"><div class="wrap">
-  <a class="logo" href="/">Mercado <b>Voto</b></a>
-  <div class="buscador"><input id="q" type="text" placeholder="Buscá un candidato, un partido o una provincia" autocomplete="off"><button aria-label="Buscar">⌕</button></div>
-  <a class="mi-boleta" href="/boleta">🛒 Mi boleta <span class="n">0</span></a>
+  <a class="logo" href="/"><svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+<rect width="34" height="34" rx="8" fill="#2d2d2d"/>
+<path d="M18.2 8.6h3.1L19.7 27H11.1L9.5 12.4h12.2" fill="#ffe600"/>
+<path d="M12.4 12.4a4.6 4.6 0 0 1 9.2 0" fill="none" stroke="#2d2d2d" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M13.9 19.2l2.1 2.1 4.3-4.5" fill="none" stroke="#2d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><span>mercado <b>voto</b></span></a>
+  <div class="buscador"><input id="q" type="text" placeholder="Buscá un candidato, un partido o una ciudad" autocomplete="off"><button aria-label="Buscar">⌕</button></div>
+  <a class="mi-boleta" href="/boleta">Mi boleta <span class="n">0</span></a>
 </div></header>
-<nav class="nav"><div class="wrap"><a href="/?cat=presidencial" class="">Presidenciales</a><a href="/?cat=gobernador" class="">Gobernadores</a><a href="/?cat=diputado" class="">Diputados</a><a href="/?cat=senador" class="">Senadores</a><a href="/?cat=municipal" class="">Municipales</a><a href="/?orden=ruptura">Más disruptivos</a><a href="/?orden=cumplimiento">Mejor reputación</a></div></nav>
-<main class="main"><div class="wrap">
-  <div class="cols">
-    <aside class="filtros">
-  <h3>Categoría</h3>
-  <label><input type="radio" name="cat" value="" checked> Todas</label>
-  <label><input type="radio" name="cat" value="presidencial"> Presidenciales</label><label><input type="radio" name="cat" value="gobernador"> Gobernadores</label><label><input type="radio" name="cat" value="diputado"> Diputados</label><label><input type="radio" name="cat" value="senador"> Senadores</label><label><input type="radio" name="cat" value="municipal"> Municipales</label>
-  <h3>Provincia</h3>
-  <select id="f-prov"><option value="">Todas</option><option value="Buenos Aires">Buenos Aires</option><option value="CABA">CABA</option><option value="Córdoba">Córdoba</option><option value="Entre Ríos">Entre Ríos</option><option value="Mendoza">Mendoza</option><option value="Nacional">Nacional</option><option value="Río Negro">Río Negro</option><option value="San Juan">San Juan</option><option value="Santa Fe">Santa Fe</option></select>
+<nav class="nav"><div class="wrap"><a href="/?cargo=presidencial">Presidenciales</a><a href="/?cargo=gobernador">Gobernadores</a><a href="/?cargo=intendente">Intendentes</a><a href="/?orden=ruptura">Más disruptivos</a><a href="/?orden=cumplimiento">Mejor reputación</a></div></nav>
+<main class="main"><div class="wrap"><div class="cols">
+  <aside class="filtros">
+  <h3>Elección</h3>
+  <label><input type="radio" name="cargo" value="" checked> Todas</label>
+  <label><input type="radio" name="cargo" value="presidencial"> Presidenciales</label><label><input type="radio" name="cargo" value="gobernador"> Gobernadores</label><label><input type="radio" name="cargo" value="intendente"> Intendentes</label>
+  <h3>Jurisdicción</h3>
+  <select id="f-jur"><option value="">Todas</option></select>
   <h3>Espacio político</h3>
-  <select id="f-partido"><option value="">Todos</option><option value="Camioneros">Camioneros</option><option value="Frente de Izquierda">Frente de Izquierda</option><option value="Hacemos Coalición Federal">Hacemos Coalición Federal</option><option value="Hacemos Unidos por Córdoba">Hacemos Unidos por Córdoba</option><option value="La Libertad Avanza">La Libertad Avanza</option><option value="PRO">PRO</option><option value="PRO / Operador territorial / Bullrichista">PRO / Operador territorial / Bullrichista</option><option value="UCR">UCR</option><option value="Unidos para Cambiar Santa Fe">Unidos para Cambiar Santa Fe</option><option value="Unión por la Patria">Unión por la Patria</option></select>
+  <select id="f-partido"><option value="">Todos</option><option value="Camioneros">Camioneros</option><option value="Ciudad Futura">Ciudad Futura</option><option value="Frente de Izquierda">Frente de Izquierda</option><option value="Hacemos">Hacemos</option><option value="Hacemos Coalición Federal">Hacemos Coalición Federal</option><option value="Hacemos Unidos por Córdoba">Hacemos Unidos por Córdoba</option><option value="Independiente">Independiente</option><option value="La Libertad Avanza">La Libertad Avanza</option><option value="La Unión Mendocina">La Unión Mendocina</option><option value="PRO">PRO</option><option value="PRO / Operador territorial / Bullrichista">PRO / Operador territorial / Bullrichista</option><option value="Partido Justicialista">Partido Justicialista</option><option value="Partido Socialista">Partido Socialista</option><option value="Principios y Valores">Principios y Valores</option><option value="UCR">UCR</option><option value="Unidos para Cambiar Santa Fe">Unidos para Cambiar Santa Fe</option><option value="Unite">Unite</option><option value="Unión por la Patria">Unión por la Patria</option></select>
   <h3>Eje económico</h3>
   <input type="range" id="f-eco" min="0" max="100" value="0" step="10">
   <div class="rango"><span>Estado</span><span>Mercado</span></div>
-  <h3>Promesas</h3>
-  <label><input type="checkbox" id="f-cumpl"> Solo con promesas verificadas</label>
 </aside>
-    <div>
-      <div class="resumen">
-        <div class="cuenta" id="cuenta">25 resultados</div>
-        <select id="orden">
-          <option value="">Más relevantes</option>
-          <option value="cumplimiento">Mejor reputación</option>
-          <option value="ruptura">Más disruptivos</option>
-          <option value="nombre">Nombre, A a Z</option>
-        </select>
-      </div>
-      <div class="grid" id="grid">
-<div class="card" data-cats="presidencial" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="95" data-nombre="javier milei">
-  <div class="foto"><img src="/assets/fotos/milei.jpg" alt="Javier Milei" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/javier-milei">Javier Milei</a>
-    <div class="meta">Nacional · Liberal / Anarcocapitalista</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('milei', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial diputado" data-prov="Mendoza" data-partido="Frente de Izquierda" data-eco="8" data-nombre="nicolás del caño">
-  <div class="foto"><img src="/assets/fotos/delcano.jpg" alt="Nicolás del Caño" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/nicolas-del-cano">Nicolás del Caño</a>
-    <div class="meta">Mendoza · Trotskismo / PTS / FIT / Izquierda</div>
-    <div><span class="chip partido">Frente de Izquierda</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('delcano', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="diputado" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="92" data-nombre="karina milei">
-  <div class="foto"><img src="/assets/fotos/kmilei.jpg" alt="Karina Milei" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/karina-milei">Karina Milei</a>
-    <div class="meta">Nacional · Armadora política / Operadora territorial</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>3 de 6 promesas</span></span>
-    <button class="btn" onclick="agregar('kmilei', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial diputado" data-prov="CABA" data-partido="Frente de Izquierda" data-eco="10" data-nombre="myriam bregman">
-  <div class="foto"><img src="/assets/fotos/bregman.jpg" alt="Myriam Bregman" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/myriam-bregman">Myriam Bregman</a>
-    <div class="meta">CABA · Trotskista / Abogada laboralista / Feminis</div>
-    <div><span class="chip partido">Frente de Izquierda</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('bregman', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="diputado" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="90" data-nombre="santiago caputo">
-  <div class="foto"><img src="/assets/fotos/santiago-caputo.jpg" alt="Santiago Caputo" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/santiago-caputo">Santiago Caputo</a>
-    <div class="meta">Nacional · Liberal / LLA / Estratega</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
-    <button class="btn" onclick="agregar('santiago-caputo', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="diputado" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="92" data-nombre="federico sturzenegger">
-  <div class="foto"><img src="/assets/fotos/sturzenegger.jpg" alt="Federico Sturzenegger" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/federico-sturzenegger">Federico Sturzenegger</a>
-    <div class="meta">Nacional · Liberal / Tecnócrata / Reformista</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('sturzenegger', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="diputado" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="90" data-nombre="manuel adorni">
+  <div>
+    <div class="resumen">
+      <div class="cuenta" id="cuenta">101 resultados</div>
+      <select id="orden">
+        <option value="">Más relevantes</option>
+        <option value="cumplimiento">Mejor reputación</option>
+        <option value="ruptura">Más disruptivos</option>
+        <option value="nombre">Nombre, A a Z</option>
+      </select>
+    </div>
+    <div class="grid" id="grid">
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="manuel adorni" data-eco="90" data-cum="4" data-rupt="80">
   <div class="foto"><img src="/assets/fotos/adorni.jpg" alt="Manuel Adorni" loading="lazy"></div>
+  <span class="race">Presidencial</span>
   <div class="cuerpo">
     <a class="nom" href="/c/manuel-adorni">Manuel Adorni</a>
-    <div class="meta">Nacional · Liberal / LLA / Comunicador</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
+    <div class="meta">La Libertad Avanza</div>
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
     <button class="btn" onclick="agregar('adorni', true)">Comprar</button>
   </div>
 </div>
-<div class="card" data-cats="diputado" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="90" data-nombre="luis caputo">
-  <div class="foto"><img src="/assets/fotos/caputo.jpg" alt="Luis Caputo" loading="lazy"></div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Frente de Izquierda"
+  data-nombre="myriam bregman" data-eco="10" data-cum="5" data-rupt="85">
+  <div class="foto"><img src="/assets/fotos/bregman.jpg" alt="Myriam Bregman" loading="lazy"></div>
+  <span class="race">Presidencial</span>
   <div class="cuerpo">
-    <a class="nom" href="/c/luis-caputo">Luis Caputo</a>
-    <div class="meta">Nacional · Liberal / PRO / Mercadofinancista</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
+    <a class="nom" href="/c/myriam-bregman">Myriam Bregman</a>
+    <div class="meta">Frente de Izquierda</div>
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
-    <button class="btn" onclick="agregar('caputo', true)">Comprar</button>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('bregman', true)">Comprar</button>
   </div>
 </div>
-<div class="card" data-cats="presidencial senador" data-prov="Nacional" data-partido="La Libertad Avanza" data-eco="80" data-nombre="victoria villarruel">
-  <div class="foto"><img src="/assets/fotos/villarruel.jpg" alt="Victoria Villarruel" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/victoria-villarruel">Victoria Villarruel</a>
-    <div class="meta">Nacional · Conservadora / Derecha nacionalista</div>
-    <div><span class="chip partido">La Libertad Avanza</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
-    <button class="btn" onclick="agregar('villarruel', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial" data-prov="Nacional" data-partido="PRO" data-eco="85" data-nombre="patricia bullrich">
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="patricia bullrich" data-eco="85" data-cum="4" data-rupt="70">
   <div class="foto"><img src="/assets/fotos/bullrich.jpg" alt="Patricia Bullrich" loading="lazy"></div>
+  <span class="race">Presidencial</span>
   <div class="cuerpo">
     <a class="nom" href="/c/patricia-bullrich">Patricia Bullrich</a>
-    <div class="meta">Nacional · PRO / Conservadora / Mano dura</div>
-    <div><span class="chip partido">PRO</span></div>
+    <div class="meta">PRO</div>
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
     <button class="btn" onclick="agregar('bullrich', true)">Comprar</button>
   </div>
 </div>
-<div class="card" data-cats="presidencial diputado" data-prov="Buenos Aires" data-partido="UCR" data-eco="55" data-nombre="facundo manes">
-  <div class="foto"><img src="/assets/fotos/manes.jpg" alt="Facundo Manes" loading="lazy"></div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="luis caputo" data-eco="90" data-cum="4" data-rupt="80">
+  <div class="foto"><img src="/assets/fotos/caputo.jpg" alt="Luis Caputo" loading="lazy"></div>
+  <span class="race">Presidencial</span>
   <div class="cuerpo">
-    <a class="nom" href="/c/facundo-manes">Facundo Manes</a>
-    <div class="meta">Buenos Aires · UCR / Neurociencia / Intelectual / Medios</div>
-    <div><span class="chip partido">UCR</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('manes', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="gobernador" data-prov="Santa Fe" data-partido="Unidos para Cambiar Santa Fe" data-eco="70" data-nombre="maximiliano pullaro">
-  <div class="foto"><img src="/assets/fotos/pullaro.jpg" alt="Maximiliano Pullaro" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/maximiliano-pullaro">Maximiliano Pullaro</a>
-    <div class="meta">Santa Fe · UCR / Seguridad / Campo / Radicalismo opti</div>
-    <div><span class="chip partido">Unidos para Cambiar Santa Fe</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('pullaro', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="diputado" data-prov="Nacional" data-partido="PRO / Operador territorial / Bullrichista" data-eco="50" data-nombre="jorge &quot;russo&quot; santilli">
-  <div class="foto"><div class="ini" style="background:#f39c12">JS</div></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/jorge-santilli">Jorge &quot;Russo&quot; Santilli</a>
-    <div class="meta">Nacional · PRO / Operador territorial / Bullrichista</div>
-    <div><span class="chip partido">PRO / Operador territorial / Bullrichista</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('santilli', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="gobernador" data-prov="Entre Ríos" data-partido="PRO" data-eco="75" data-nombre="rogelio frigerio">
-  <div class="foto"><div class="ini" style="background:#f39c12">RF</div></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/rogelio-frigerio">Rogelio Frigerio</a>
-    <div class="meta">Entre Ríos · PRO / Economista / Macrismo</div>
-    <div><span class="chip partido">PRO</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('frigerio', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial gobernador" data-prov="Buenos Aires" data-partido="Unión por la Patria" data-eco="20" data-nombre="axel kicillof">
-  <div class="foto"><img src="/assets/fotos/kicillof.jpg" alt="Axel Kicillof" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/axel-kicillof">Axel Kicillof</a>
-    <div class="meta">Buenos Aires · Kirchnerismo / Economista heterodoxo</div>
-    <div><span class="chip partido">Unión por la Patria</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('kicillof', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial" data-prov="Nacional" data-partido="PRO" data-eco="80" data-nombre="mauricio macri">
-  <div class="foto"><img src="/assets/fotos/macri.jpg" alt="Mauricio Macri" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/mauricio-macri">Mauricio Macri</a>
-    <div class="meta">Nacional · Liberal conservador / Líder del PRO</div>
-    <div><span class="chip partido">PRO</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('macri', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="municipal gobernador" data-prov="CABA" data-partido="PRO" data-eco="75" data-nombre="jorge macri">
-  <div class="foto"><img src="/assets/fotos/jmacri.jpg" alt="Jorge Macri" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/jorge-macri">Jorge Macri</a>
-    <div class="meta">CABA · PRO / Gestión urbana / Primismo</div>
-    <div><span class="chip partido">PRO</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('jmacri', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="gobernador" data-prov="Córdoba" data-partido="Hacemos Unidos por Córdoba" data-eco="40" data-nombre="martín llaryora">
-  <div class="foto"><img src="/assets/fotos/llaryora.jpg" alt="Martín Llaryora" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/martin-llaryora">Martín Llaryora</a>
-    <div class="meta">Córdoba · Peronismo cordobés / Tercera vía</div>
-    <div><span class="chip partido">Hacemos Unidos por Córdoba</span></div>
+    <a class="nom" href="/c/luis-caputo">Luis Caputo</a>
+    <div class="meta">La Libertad Avanza</div>
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
-    <button class="btn" onclick="agregar('llaryora', true)">Comprar</button>
+    <button class="btn" onclick="agregar('caputo', true)">Comprar</button>
   </div>
 </div>
-<div class="card" data-cats="presidencial senador" data-prov="CABA" data-partido="UCR" data-eco="65" data-nombre="martín lousteau">
-  <div class="foto"><img src="/assets/fotos/lousteau.jpg" alt="Martín Lousteau" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/martin-lousteau">Martín Lousteau</a>
-    <div class="meta">CABA · Radicalismo / Economista crítico</div>
-    <div><span class="chip partido">UCR</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>3 de 7 promesas</span></span>
-    <button class="btn" onclick="agregar('lousteau', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial" data-prov="Buenos Aires" data-partido="Unión por la Patria" data-eco="45" data-nombre="sergio massa">
-  <div class="foto"><img src="/assets/fotos/massa.jpg" alt="Sergio Massa" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/sergio-massa">Sergio Massa</a>
-    <div class="meta">Buenos Aires · Peronismo federal / Táctico pragmático</div>
-    <div><span class="chip partido">Unión por la Patria</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('massa', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="senador" data-prov="Buenos Aires" data-partido="Camioneros" data-eco="15" data-nombre="pablo moyano">
-  <div class="foto"><div class="ini" style="background:#c0392b">PM</div></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/pablo-moyano">Pablo Moyano</a>
-    <div class="meta">Buenos Aires · Sindicalista / Peronista / Combativo</div>
-    <div><span class="chip partido">Camioneros</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('moyano', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="senador" data-prov="Río Negro" data-partido="Hacemos Coalición Federal" data-eco="55" data-nombre="miguel ángel pichetto">
-  <div class="foto"><img src="/assets/fotos/pichetto.jpg" alt="Miguel Ángel Pichetto" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/miguel-angel-pichetto">Miguel Ángel Pichetto</a>
-    <div class="meta">Río Negro · Peronismo federal / Tercera vía / Republic</div>
-    <div><span class="chip partido">Hacemos Coalición Federal</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
-    <button class="btn" onclick="agregar('pichetto', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="gobernador" data-prov="Mendoza" data-partido="UCR" data-eco="70" data-nombre="alfredo cornejo">
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="alfredo cornejo" data-eco="70" data-cum="5" data-rupt="35">
   <div class="foto"><img src="/assets/fotos/cornejo.jpg" alt="Alfredo Cornejo" loading="lazy"></div>
+  <span class="race">Presidencial</span>
   <div class="cuerpo">
     <a class="nom" href="/c/alfredo-cornejo">Alfredo Cornejo</a>
-    <div class="meta">Mendoza · UCR / Cambia Mendoza / Coalición PRO</div>
-    <div><span class="chip partido">UCR</span></div>
+    <div class="meta">UCR</div>
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
     <button class="btn" onclick="agregar('cornejo', true)">Comprar</button>
   </div>
 </div>
-<div class="card" data-cats="gobernador" data-prov="San Juan" data-partido="Unión por la Patria" data-eco="30" data-nombre="sergio uñac">
-  <div class="foto"><img src="/assets/fotos/unac.jpg" alt="Sergio Uñac" loading="lazy"></div>
-  <div class="cuerpo">
-    <a class="nom" href="/c/sergio-unac">Sergio Uñac</a>
-    <div class="meta">San Juan · Peronismo K / Minería</div>
-    <div><span class="chip partido">Unión por la Patria</span></div>
-    <div class="precio">1 voto <small>por período</small></div>
-    <div class="envio">Asume en diciembre</div>
-    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
-    <button class="btn" onclick="agregar('unac', true)">Comprar</button>
-  </div>
-</div>
-<div class="card" data-cats="presidencial" data-prov="Nacional" data-partido="Unión por la Patria" data-eco="15" data-nombre="cristina fernández de kirchner">
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="cristina fernández de kirchner" data-eco="15" data-cum="6" data-rupt="30">
   <div class="foto"><img src="/assets/fotos/cristina.jpg" alt="Cristina Fernández de Kirchner" loading="lazy"></div>
+  <span class="race">Presidencial</span>
   <div class="cuerpo">
     <a class="nom" href="/c/cristina-fernandez-de-kirchner">Cristina Fernández de Kirchner</a>
-    <div class="meta">Nacional · Peronismo / Kirchnerismo</div>
-    <div><span class="chip partido">Unión por la Patria</span></div>
+    <div class="meta">Unión por la Patria</div>
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     <span class="estrellas">★★★☆☆<span>6 de 12 promesas</span></span>
     <button class="btn" onclick="agregar('cristina', true)">Comprar</button>
   </div>
 </div>
-      </div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Frente de Izquierda"
+  data-nombre="nicolás del caño" data-eco="8" data-cum="4" data-rupt="90">
+  <div class="foto"><img src="/assets/fotos/delcano.jpg" alt="Nicolás del Caño" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/nicolas-del-cano">Nicolás del Caño</a>
+    <div class="meta">Frente de Izquierda</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('delcano', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="rogelio frigerio" data-eco="75" data-cum="4" data-rupt="45">
+  <div class="foto"><div class="ini" style="background:#f39c12">RF</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/rogelio-frigerio">Rogelio Frigerio</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('frigerio', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="jorge macri" data-eco="75" data-cum="5" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/jmacri.jpg" alt="Jorge Macri" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/jorge-macri">Jorge Macri</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('jmacri', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="axel kicillof" data-eco="20" data-cum="4" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/kicillof.jpg" alt="Axel Kicillof" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/axel-kicillof">Axel Kicillof</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('kicillof', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="karina milei" data-eco="92" data-cum="3" data-rupt="90">
+  <div class="foto"><img src="/assets/fotos/kmilei.jpg" alt="Karina Milei" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/karina-milei">Karina Milei</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>3 de 6 promesas</span></span>
+    <button class="btn" onclick="agregar('kmilei', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Hacemos Unidos por Córdoba"
+  data-nombre="martín llaryora" data-eco="40" data-cum="4" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/llaryora.jpg" alt="Martín Llaryora" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/martin-llaryora">Martín Llaryora</a>
+    <div class="meta">Hacemos Unidos por Córdoba</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
+    <button class="btn" onclick="agregar('llaryora', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="martín lousteau" data-eco="65" data-cum="3" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/lousteau.jpg" alt="Martín Lousteau" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/martin-lousteau">Martín Lousteau</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>3 de 7 promesas</span></span>
+    <button class="btn" onclick="agregar('lousteau', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="mauricio macri" data-eco="80" data-cum="5" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/macri.jpg" alt="Mauricio Macri" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/mauricio-macri">Mauricio Macri</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('macri', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="facundo manes" data-eco="55" data-cum="4" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/manes.jpg" alt="Facundo Manes" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/facundo-manes">Facundo Manes</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('manes', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="sergio massa" data-eco="45" data-cum="4" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/massa.jpg" alt="Sergio Massa" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/sergio-massa">Sergio Massa</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('massa', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="javier milei" data-eco="95" data-cum="5" data-rupt="95">
+  <div class="foto"><img src="/assets/fotos/milei.jpg" alt="Javier Milei" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/javier-milei">Javier Milei</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('milei', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Camioneros"
+  data-nombre="pablo moyano" data-eco="15" data-cum="5" data-rupt="40">
+  <div class="foto"><div class="ini" style="background:#c0392b">PM</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/pablo-moyano">Pablo Moyano</a>
+    <div class="meta">Camioneros</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('moyano', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Hacemos Coalición Federal"
+  data-nombre="miguel ángel pichetto" data-eco="55" data-cum="5" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/pichetto.jpg" alt="Miguel Ángel Pichetto" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/miguel-angel-pichetto">Miguel Ángel Pichetto</a>
+    <div class="meta">Hacemos Coalición Federal</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('pichetto', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unidos para Cambiar Santa Fe"
+  data-nombre="maximiliano pullaro" data-eco="70" data-cum="5" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/pullaro.jpg" alt="Maximiliano Pullaro" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/maximiliano-pullaro">Maximiliano Pullaro</a>
+    <div class="meta">Unidos para Cambiar Santa Fe</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('pullaro', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="santiago caputo" data-eco="90" data-cum="4" data-rupt="85">
+  <div class="foto"><img src="/assets/fotos/santiago-caputo.jpg" alt="Santiago Caputo" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/santiago-caputo">Santiago Caputo</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
+    <button class="btn" onclick="agregar('santiago-caputo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO / Operador territorial / Bullrichista"
+  data-nombre="jorge &quot;russo&quot; santilli" data-eco="50" data-cum="5" data-rupt="50">
+  <div class="foto"><div class="ini" style="background:#f39c12">JS</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/jorge-santilli">Jorge &quot;Russo&quot; Santilli</a>
+    <div class="meta">PRO / Operador territorial / Bullrichista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('santilli', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="federico sturzenegger" data-eco="92" data-cum="5" data-rupt="85">
+  <div class="foto"><img src="/assets/fotos/sturzenegger.jpg" alt="Federico Sturzenegger" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/federico-sturzenegger">Federico Sturzenegger</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('sturzenegger', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="sergio uñac" data-eco="30" data-cum="4" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/unac.jpg" alt="Sergio Uñac" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/sergio-unac">Sergio Uñac</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('unac', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="victoria villarruel" data-eco="80" data-cum="4" data-rupt="75">
+  <div class="foto"><img src="/assets/fotos/villarruel.jpg" alt="Victoria Villarruel" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/victoria-villarruel">Victoria Villarruel</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
+    <button class="btn" onclick="agregar('villarruel', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="cristian ritondo" data-eco="75" data-cum="0" data-rupt="40">
+  <div class="foto"><div class="ini" style="background:#f5c518">CR</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/cristian-ritondo">Cristian Ritondo</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('ritondo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="diego valenzuela" data-eco="70" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/valenzuela.jpg" alt="Diego Valenzuela" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/diego-valenzuela">Diego Valenzuela</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('valenzuela', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="sebastián pareja" data-eco="85" data-cum="0" data-rupt="80">
+  <div class="foto"><div class="ini" style="background:#8e6cef">SP</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/sebastian-pareja">Sebastián Pareja</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('pareja', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="rodrigo de loredo" data-eco="65" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/deloredo.jpg" alt="Rodrigo de Loredo" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/rodrigo-de-loredo">Rodrigo de Loredo</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('deloredo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="luis juez" data-eco="70" data-cum="0" data-rupt="50">
+  <div class="foto"><img src="/assets/fotos/juez.jpg" alt="Luis Juez" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/luis-juez">Luis Juez</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('juez', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="gabriel bornoroni" data-eco="88" data-cum="0" data-rupt="80">
+  <div class="foto"><img src="/assets/fotos/bornoroni.jpg" alt="Gabriel Bornoroni" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/gabriel-bornoroni">Gabriel Bornoroni</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('bornoroni', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="marcelo lewandowski" data-eco="25" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/lewandowski.jpg" alt="Marcelo Lewandowski" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/marcelo-lewandowski">Marcelo Lewandowski</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('lewandowski', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="nicolás mayoraz" data-eco="85" data-cum="0" data-rupt="80">
+  <div class="foto"><div class="ini" style="background:#8e6cef">NM</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/nicolas-mayoraz">Nicolás Mayoraz</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('mayoraz', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unite"
+  data-nombre="amalia granata" data-eco="60" data-cum="0" data-rupt="65">
+  <div class="foto"><img src="/assets/fotos/granata.jpg" alt="Amalia Granata" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/amalia-granata">Amalia Granata</a>
+    <div class="meta">Unite</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('granata', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Unión Mendocina"
+  data-nombre="omar de marchi" data-eco="72" data-cum="0" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/demarchi.jpg" alt="Omar De Marchi" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/omar-de-marchi">Omar De Marchi</a>
+    <div class="meta">La Unión Mendocina</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('demarchi', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="anabel fernández sagasti" data-eco="20" data-cum="0" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/sagasti.jpg" alt="Anabel Fernández Sagasti" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/anabel-fernandez-sagasti">Anabel Fernández Sagasti</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('sagasti', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="rodolfo suarez" data-eco="72" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/suarez.jpg" alt="Rodolfo Suarez" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/rodolfo-suarez">Rodolfo Suarez</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('suarez', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="claudio poggi" data-eco="70" data-cum="0" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/poggi.jpg" alt="Claudio Poggi" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/claudio-poggi">Claudio Poggi</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('poggi', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Partido Justicialista"
+  data-nombre="alberto rodríguez saá" data-eco="25" data-cum="0" data-rupt="30">
+  <div class="foto"><img src="/assets/fotos/albertors.jpg" alt="Alberto Rodríguez Saá" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/alberto-rodriguez-saa">Alberto Rodríguez Saá</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('albertors', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Hacemos Unidos por Córdoba"
+  data-nombre="daniel passerini" data-eco="35" data-cum="0" data-rupt="30">
+  <div class="foto"><img src="/assets/fotos/passerini.jpg" alt="Daniel Passerini" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/daniel-passerini">Daniel Passerini</a>
+    <div class="meta">Hacemos Unidos por Córdoba</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('passerini', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="pablo javkin" data-eco="65" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/javkin.jpg" alt="Pablo Javkin" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/pablo-javkin">Pablo Javkin</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('javkin', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Ciudad Futura"
+  data-nombre="juan monteverde" data-eco="20" data-cum="0" data-rupt="85">
+  <div class="foto"><div class="ini" style="background:#7a5cc4">JM</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/juan-monteverde">Juan Monteverde</a>
+    <div class="meta">Ciudad Futura</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('monteverde', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="UCR"
+  data-nombre="ulpiano suarez" data-eco="68" data-cum="0" data-rupt="30">
+  <div class="foto"><img src="/assets/fotos/ulpiano.jpg" alt="Ulpiano Suarez" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/ulpiano-suarez">Ulpiano Suarez</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('ulpiano', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Independiente"
+  data-nombre="daniel hadad" data-eco="80" data-cum="0" data-rupt="70">
+  <div class="foto"><div class="ini" style="background:#8b8b8b">DH</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/daniel-hadad">Daniel Hadad</a>
+    <div class="meta">Independiente</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('hadad', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Independiente"
+  data-nombre="dante gebel" data-eco="45" data-cum="0" data-rupt="70">
+  <div class="foto"><div class="ini" style="background:#8b8b8b">DG</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/dante-gebel">Dante Gebel</a>
+    <div class="meta">Independiente</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('gebel', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Independiente"
+  data-nombre="marcos galperín" data-eco="95" data-cum="0" data-rupt="60">
+  <div class="foto"><img src="/assets/fotos/galperin.jpg" alt="Marcos Galperín" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/marcos-galperin">Marcos Galperín</a>
+    <div class="meta">Independiente</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('galperin', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Independiente"
+  data-nombre="jorge brito" data-eco="65" data-cum="0" data-rupt="45">
+  <div class="foto"><div class="ini" style="background:#8b8b8b">JB</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/jorge-brito">Jorge Brito</a>
+    <div class="meta">Independiente</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('brito', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Independiente"
+  data-nombre="tomás rebord" data-eco="30" data-cum="0" data-rupt="85">
+  <div class="foto"><img src="/assets/fotos/rebord.jpg" alt="Tomás Rebord" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/tomas-rebord">Tomás Rebord</a>
+    <div class="meta">Independiente</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('rebord', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Principios y Valores"
+  data-nombre="guillermo moreno" data-eco="10" data-cum="0" data-rupt="50">
+  <div class="foto"><img src="/assets/fotos/moreno.jpg" alt="Guillermo Moreno" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/guillermo-moreno">Guillermo Moreno</a>
+    <div class="meta">Principios y Valores</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('moreno', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="josé luis espert" data-eco="92" data-cum="0" data-rupt="80">
+  <div class="foto"><img src="/assets/fotos/espert.jpg" alt="José Luis Espert" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/jose-luis-espert">José Luis Espert</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('espert', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="horacio rodríguez larreta" data-eco="60" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/larreta.jpg" alt="Horacio Rodríguez Larreta" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/horacio-rodriguez-larreta">Horacio Rodríguez Larreta</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('larreta', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Hacemos"
+  data-nombre="juan schiaretti" data-eco="45" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/schiaretti.jpg" alt="Juan Schiaretti" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/juan-schiaretti">Juan Schiaretti</a>
+    <div class="meta">Hacemos</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('schiaretti', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Independiente"
+  data-nombre="carlos melconian" data-eco="88" data-cum="0" data-rupt="60">
+  <div class="foto"><img src="/assets/fotos/melconian.jpg" alt="Carlos Melconian" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/carlos-melconian">Carlos Melconian</a>
+    <div class="meta">Independiente</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('melconian', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Partido Justicialista"
+  data-nombre="máximo kirchner" data-eco="15" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/maximo.jpg" alt="Máximo Kirchner" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/maximo-kirchner">Máximo Kirchner</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('maximo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="carolina píparo" data-eco="80" data-cum="0" data-rupt="75">
+  <div class="foto"><img src="/assets/fotos/piparo.jpg" alt="Carolina Píparo" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/carolina-piparo">Carolina Píparo</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('piparo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Partido Justicialista"
+  data-nombre="juan grabois" data-eco="15" data-cum="0" data-rupt="60">
+  <div class="foto"><img src="/assets/fotos/grabois.jpg" alt="Juan Grabois" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/juan-grabois">Juan Grabois</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('grabois', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="pedro rosemblat" data-eco="25" data-cum="0" data-rupt="60">
+  <div class="foto"><div class="ini" style="background:#3b8ed0">PR</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/pedro-rosemblat">Pedro Rosemblat</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('rosemblat', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO"
+  data-nombre="ignacio torres" data-eco="70" data-cum="0" data-rupt="50">
+  <div class="foto"><div class="ini" style="background:#f5c518">IT</div></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/ignacio-torres">Ignacio Torres</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('torres', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="La Libertad Avanza"
+  data-nombre="ramiro marra" data-eco="93" data-cum="0" data-rupt="85">
+  <div class="foto"><img src="/assets/fotos/marra.jpg" alt="Ramiro Marra" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/ramiro-marra">Ramiro Marra</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('marra', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Unión por la Patria"
+  data-nombre="leandro santoro" data-eco="30" data-cum="0" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/santoro.jpg" alt="Leandro Santoro" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/leandro-santoro">Leandro Santoro</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('santoro', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Partido Justicialista"
+  data-nombre="adolfo rodríguez saá" data-eco="25" data-cum="0" data-rupt="25">
+  <div class="foto"><img src="/assets/fotos/adolfors.jpg" alt="Adolfo Rodríguez Saá" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/adolfo-rodriguez-saa">Adolfo Rodríguez Saá</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('adolfors', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="Partido Socialista"
+  data-nombre="clara garcía" data-eco="45" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/claragarcia.jpg" alt="Clara García" loading="lazy"></div>
+  <span class="race">Presidencial</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/clara-garcia">Clara García</a>
+    <div class="meta">Partido Socialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('claragarcia', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="Unión por la Patria"
+  data-nombre="axel kicillof" data-eco="20" data-cum="4" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/kicillof.jpg" alt="Axel Kicillof" loading="lazy"></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/axel-kicillof">Axel Kicillof</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('kicillof', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="Unión por la Patria"
+  data-nombre="sergio massa" data-eco="45" data-cum="4" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/massa.jpg" alt="Sergio Massa" loading="lazy"></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/sergio-massa">Sergio Massa</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>4 de 9 promesas</span></span>
+    <button class="btn" onclick="agregar('massa', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="PRO"
+  data-nombre="cristian ritondo" data-eco="75" data-cum="0" data-rupt="40">
+  <div class="foto"><div class="ini" style="background:#f5c518">CR</div></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/cristian-ritondo">Cristian Ritondo</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('ritondo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="PRO"
+  data-nombre="diego valenzuela" data-eco="70" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/valenzuela.jpg" alt="Diego Valenzuela" loading="lazy"></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/diego-valenzuela">Diego Valenzuela</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('valenzuela', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="La Libertad Avanza"
+  data-nombre="sebastián pareja" data-eco="85" data-cum="0" data-rupt="80">
+  <div class="foto"><div class="ini" style="background:#8e6cef">SP</div></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/sebastian-pareja">Sebastián Pareja</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('pareja', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="La Libertad Avanza"
+  data-nombre="josé luis espert" data-eco="92" data-cum="0" data-rupt="80">
+  <div class="foto"><img src="/assets/fotos/espert.jpg" alt="José Luis Espert" loading="lazy"></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/jose-luis-espert">José Luis Espert</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('espert', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="Partido Justicialista"
+  data-nombre="máximo kirchner" data-eco="15" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/maximo.jpg" alt="Máximo Kirchner" loading="lazy"></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/maximo-kirchner">Máximo Kirchner</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('maximo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Buenos Aires" data-partido="La Libertad Avanza"
+  data-nombre="carolina píparo" data-eco="80" data-cum="0" data-rupt="75">
+  <div class="foto"><img src="/assets/fotos/piparo.jpg" alt="Carolina Píparo" loading="lazy"></div>
+  <span class="race">Gobernador · Buenos Aires</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/carolina-piparo">Carolina Píparo</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('piparo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Córdoba" data-partido="Hacemos Unidos por Córdoba"
+  data-nombre="martín llaryora" data-eco="40" data-cum="4" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/llaryora.jpg" alt="Martín Llaryora" loading="lazy"></div>
+  <span class="race">Gobernador · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/martin-llaryora">Martín Llaryora</a>
+    <div class="meta">Hacemos Unidos por Córdoba</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>4 de 8 promesas</span></span>
+    <button class="btn" onclick="agregar('llaryora', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Córdoba" data-partido="UCR"
+  data-nombre="rodrigo de loredo" data-eco="65" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/deloredo.jpg" alt="Rodrigo de Loredo" loading="lazy"></div>
+  <span class="race">Gobernador · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/rodrigo-de-loredo">Rodrigo de Loredo</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('deloredo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Córdoba" data-partido="PRO"
+  data-nombre="luis juez" data-eco="70" data-cum="0" data-rupt="50">
+  <div class="foto"><img src="/assets/fotos/juez.jpg" alt="Luis Juez" loading="lazy"></div>
+  <span class="race">Gobernador · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/luis-juez">Luis Juez</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('juez', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Córdoba" data-partido="La Libertad Avanza"
+  data-nombre="gabriel bornoroni" data-eco="88" data-cum="0" data-rupt="80">
+  <div class="foto"><img src="/assets/fotos/bornoroni.jpg" alt="Gabriel Bornoroni" loading="lazy"></div>
+  <span class="race">Gobernador · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/gabriel-bornoroni">Gabriel Bornoroni</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('bornoroni', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Córdoba" data-partido="Hacemos"
+  data-nombre="juan schiaretti" data-eco="45" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/schiaretti.jpg" alt="Juan Schiaretti" loading="lazy"></div>
+  <span class="race">Gobernador · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/juan-schiaretti">Juan Schiaretti</a>
+    <div class="meta">Hacemos</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('schiaretti', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Santa Fe" data-partido="Unidos para Cambiar Santa Fe"
+  data-nombre="maximiliano pullaro" data-eco="70" data-cum="5" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/pullaro.jpg" alt="Maximiliano Pullaro" loading="lazy"></div>
+  <span class="race">Gobernador · Santa Fe</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/maximiliano-pullaro">Maximiliano Pullaro</a>
+    <div class="meta">Unidos para Cambiar Santa Fe</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('pullaro', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Santa Fe" data-partido="Partido Socialista"
+  data-nombre="clara garcía" data-eco="45" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/claragarcia.jpg" alt="Clara García" loading="lazy"></div>
+  <span class="race">Gobernador · Santa Fe</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/clara-garcia">Clara García</a>
+    <div class="meta">Partido Socialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('claragarcia', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Santa Fe" data-partido="Unión por la Patria"
+  data-nombre="marcelo lewandowski" data-eco="25" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/lewandowski.jpg" alt="Marcelo Lewandowski" loading="lazy"></div>
+  <span class="race">Gobernador · Santa Fe</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/marcelo-lewandowski">Marcelo Lewandowski</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('lewandowski', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Santa Fe" data-partido="La Libertad Avanza"
+  data-nombre="nicolás mayoraz" data-eco="85" data-cum="0" data-rupt="80">
+  <div class="foto"><div class="ini" style="background:#8e6cef">NM</div></div>
+  <span class="race">Gobernador · Santa Fe</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/nicolas-mayoraz">Nicolás Mayoraz</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('mayoraz', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Santa Fe" data-partido="Unite"
+  data-nombre="amalia granata" data-eco="60" data-cum="0" data-rupt="65">
+  <div class="foto"><img src="/assets/fotos/granata.jpg" alt="Amalia Granata" loading="lazy"></div>
+  <span class="race">Gobernador · Santa Fe</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/amalia-granata">Amalia Granata</a>
+    <div class="meta">Unite</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('granata', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Mendoza" data-partido="UCR"
+  data-nombre="alfredo cornejo" data-eco="70" data-cum="5" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/cornejo.jpg" alt="Alfredo Cornejo" loading="lazy"></div>
+  <span class="race">Gobernador · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/alfredo-cornejo">Alfredo Cornejo</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('cornejo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Mendoza" data-partido="La Unión Mendocina"
+  data-nombre="omar de marchi" data-eco="72" data-cum="0" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/demarchi.jpg" alt="Omar De Marchi" loading="lazy"></div>
+  <span class="race">Gobernador · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/omar-de-marchi">Omar De Marchi</a>
+    <div class="meta">La Unión Mendocina</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('demarchi', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Mendoza" data-partido="Unión por la Patria"
+  data-nombre="anabel fernández sagasti" data-eco="20" data-cum="0" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/sagasti.jpg" alt="Anabel Fernández Sagasti" loading="lazy"></div>
+  <span class="race">Gobernador · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/anabel-fernandez-sagasti">Anabel Fernández Sagasti</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('sagasti', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="Mendoza" data-partido="UCR"
+  data-nombre="rodolfo suarez" data-eco="72" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/suarez.jpg" alt="Rodolfo Suarez" loading="lazy"></div>
+  <span class="race">Gobernador · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/rodolfo-suarez">Rodolfo Suarez</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('suarez', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="San Luis" data-partido="PRO"
+  data-nombre="claudio poggi" data-eco="70" data-cum="0" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/poggi.jpg" alt="Claudio Poggi" loading="lazy"></div>
+  <span class="race">Gobernador · San Luis</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/claudio-poggi">Claudio Poggi</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('poggi', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="San Luis" data-partido="Partido Justicialista"
+  data-nombre="alberto rodríguez saá" data-eco="25" data-cum="0" data-rupt="30">
+  <div class="foto"><img src="/assets/fotos/albertors.jpg" alt="Alberto Rodríguez Saá" loading="lazy"></div>
+  <span class="race">Gobernador · San Luis</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/alberto-rodriguez-saa">Alberto Rodríguez Saá</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('albertors', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="gobernador" data-jur="San Luis" data-partido="Partido Justicialista"
+  data-nombre="adolfo rodríguez saá" data-eco="25" data-cum="0" data-rupt="25">
+  <div class="foto"><img src="/assets/fotos/adolfors.jpg" alt="Adolfo Rodríguez Saá" loading="lazy"></div>
+  <span class="race">Gobernador · San Luis</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/adolfo-rodriguez-saa">Adolfo Rodríguez Saá</a>
+    <div class="meta">Partido Justicialista</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('adolfors', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="CABA" data-partido="PRO"
+  data-nombre="jorge macri" data-eco="75" data-cum="5" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/jmacri.jpg" alt="Jorge Macri" loading="lazy"></div>
+  <span class="race">Intendente · CABA</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/jorge-macri">Jorge Macri</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★★☆☆<span>5 de 10 promesas</span></span>
+    <button class="btn" onclick="agregar('jmacri', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="CABA" data-partido="Unión por la Patria"
+  data-nombre="leandro santoro" data-eco="30" data-cum="0" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/santoro.jpg" alt="Leandro Santoro" loading="lazy"></div>
+  <span class="race">Intendente · CABA</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/leandro-santoro">Leandro Santoro</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('santoro', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="CABA" data-partido="UCR"
+  data-nombre="martín lousteau" data-eco="65" data-cum="3" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/lousteau.jpg" alt="Martín Lousteau" loading="lazy"></div>
+  <span class="race">Intendente · CABA</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/martin-lousteau">Martín Lousteau</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas">★★☆☆☆<span>3 de 7 promesas</span></span>
+    <button class="btn" onclick="agregar('lousteau', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="CABA" data-partido="La Libertad Avanza"
+  data-nombre="ramiro marra" data-eco="93" data-cum="0" data-rupt="85">
+  <div class="foto"><img src="/assets/fotos/marra.jpg" alt="Ramiro Marra" loading="lazy"></div>
+  <span class="race">Intendente · CABA</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/ramiro-marra">Ramiro Marra</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('marra', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Córdoba" data-partido="Hacemos Unidos por Córdoba"
+  data-nombre="daniel passerini" data-eco="35" data-cum="0" data-rupt="30">
+  <div class="foto"><img src="/assets/fotos/passerini.jpg" alt="Daniel Passerini" loading="lazy"></div>
+  <span class="race">Intendente · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/daniel-passerini">Daniel Passerini</a>
+    <div class="meta">Hacemos Unidos por Córdoba</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('passerini', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Córdoba" data-partido="La Libertad Avanza"
+  data-nombre="gabriel bornoroni" data-eco="88" data-cum="0" data-rupt="80">
+  <div class="foto"><img src="/assets/fotos/bornoroni.jpg" alt="Gabriel Bornoroni" loading="lazy"></div>
+  <span class="race">Intendente · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/gabriel-bornoroni">Gabriel Bornoroni</a>
+    <div class="meta">La Libertad Avanza</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('bornoroni', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Córdoba" data-partido="UCR"
+  data-nombre="rodrigo de loredo" data-eco="65" data-cum="0" data-rupt="40">
+  <div class="foto"><img src="/assets/fotos/deloredo.jpg" alt="Rodrigo de Loredo" loading="lazy"></div>
+  <span class="race">Intendente · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/rodrigo-de-loredo">Rodrigo de Loredo</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('deloredo', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Córdoba" data-partido="PRO"
+  data-nombre="luis juez" data-eco="70" data-cum="0" data-rupt="50">
+  <div class="foto"><img src="/assets/fotos/juez.jpg" alt="Luis Juez" loading="lazy"></div>
+  <span class="race">Intendente · Córdoba</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/luis-juez">Luis Juez</a>
+    <div class="meta">PRO</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('juez', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Rosario" data-partido="UCR"
+  data-nombre="pablo javkin" data-eco="65" data-cum="0" data-rupt="35">
+  <div class="foto"><img src="/assets/fotos/javkin.jpg" alt="Pablo Javkin" loading="lazy"></div>
+  <span class="race">Intendente · Rosario</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/pablo-javkin">Pablo Javkin</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('javkin', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Rosario" data-partido="Ciudad Futura"
+  data-nombre="juan monteverde" data-eco="20" data-cum="0" data-rupt="85">
+  <div class="foto"><div class="ini" style="background:#7a5cc4">JM</div></div>
+  <span class="race">Intendente · Rosario</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/juan-monteverde">Juan Monteverde</a>
+    <div class="meta">Ciudad Futura</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('monteverde', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Rosario" data-partido="Unite"
+  data-nombre="amalia granata" data-eco="60" data-cum="0" data-rupt="65">
+  <div class="foto"><img src="/assets/fotos/granata.jpg" alt="Amalia Granata" loading="lazy"></div>
+  <span class="race">Intendente · Rosario</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/amalia-granata">Amalia Granata</a>
+    <div class="meta">Unite</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('granata', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Mendoza" data-partido="UCR"
+  data-nombre="ulpiano suarez" data-eco="68" data-cum="0" data-rupt="30">
+  <div class="foto"><img src="/assets/fotos/ulpiano.jpg" alt="Ulpiano Suarez" loading="lazy"></div>
+  <span class="race">Intendente · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/ulpiano-suarez">Ulpiano Suarez</a>
+    <div class="meta">UCR</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('ulpiano', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Mendoza" data-partido="La Unión Mendocina"
+  data-nombre="omar de marchi" data-eco="72" data-cum="0" data-rupt="55">
+  <div class="foto"><img src="/assets/fotos/demarchi.jpg" alt="Omar De Marchi" loading="lazy"></div>
+  <span class="race">Intendente · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/omar-de-marchi">Omar De Marchi</a>
+    <div class="meta">La Unión Mendocina</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('demarchi', true)">Comprar</button>
+  </div>
+</div>
+<div class="card" data-cargo="intendente" data-jur="Mendoza" data-partido="Unión por la Patria"
+  data-nombre="anabel fernández sagasti" data-eco="20" data-cum="0" data-rupt="45">
+  <div class="foto"><img src="/assets/fotos/sagasti.jpg" alt="Anabel Fernández Sagasti" loading="lazy"></div>
+  <span class="race">Intendente · Mendoza</span>
+  <div class="cuerpo">
+    <a class="nom" href="/c/anabel-fernandez-sagasti">Anabel Fernández Sagasti</a>
+    <div class="meta">Unión por la Patria</div>
+    <div class="precio">1 voto <small>por período</small></div>
+    <div class="envio">Asume en diciembre</div>
+    <span class="estrellas vacia">sin promesas registradas</span>
+    <button class="btn" onclick="agregar('sagasti', true)">Comprar</button>
+  </div>
+</div>
     </div>
   </div>
-</div></main>
+</div></div></main>
 <footer><div class="wrap">
   <div>Mercado Voto · simulador. No se compra nada, no se vota nada.</div>
   <div>Perfiles y críticas: proyecto A Quién Criticás. Fotos: Wikimedia Commons.</div>
 </div></footer>
-<script>
-function pintarContador(){
-  const b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
-  document.querySelectorAll('.mi-boleta .n').forEach(e => e.textContent = b.length);
-}
-function agregar(id, ir){
-  let b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
-  if(!b.includes(id)) b.push(id);
-  localStorage.setItem('mv_boleta', JSON.stringify(b));
-  pintarContador();
-  if(ir) location.href = '/boleta';
-  else {
-    const t = document.createElement('div');
-    t.textContent = 'Agregado a tu boleta';
-    t.style.cssText='position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:11px 20px;border-radius:6px;font-size:13.5px;z-index:99';
-    document.body.appendChild(t); setTimeout(()=>t.remove(), 1800);
-  }
-}
-document.addEventListener('DOMContentLoaded', pintarContador);
-
-const tarjetas = [...document.querySelectorAll('.card')];
-const cuenta = document.getElementById('cuenta');
-function aplicar(){
-  const cat = document.querySelector('input[name=cat]:checked').value;
-  const prov = document.getElementById('f-prov').value;
-  const par = document.getElementById('f-partido').value;
-  const eco = +document.getElementById('f-eco').value;
-  const cumpl = document.getElementById('f-cumpl').checked;
-  const q = (document.getElementById('q').value || '').toLowerCase().trim();
-  const orden = document.getElementById('orden').value;
-  let n = 0;
-  tarjetas.forEach(t => {
-    const ok = (!cat || t.dataset.cats.split(' ').includes(cat))
-      && (!prov || t.dataset.prov === prov)
-      && (!par || t.dataset.partido === par)
-      && (!q || t.dataset.nombre.includes(q) || t.dataset.partido.toLowerCase().includes(q))
-      && (!cumpl || t.querySelector('.estrellas').textContent.includes('de'));
-    const e = +t.dataset.eco;
-    const okEco = eco === 0 || Math.abs(e - eco) <= 25;
-    const ver = ok && okEco;
-    t.style.display = ver ? '' : 'none';
-    if(ver) n++;
-  });
-  const grid = document.getElementById('grid');
-  const arr = [...grid.children].filter(x => x.style.display !== 'none');
-  if(orden === 'cumplimiento') arr.sort((a,b) => (b.dataset.cum||0) - (a.dataset.cum||0));
-  if(orden === 'ruptura') arr.sort((a,b) => (b.dataset.rupt||0) - (a.dataset.rupt||0));
-  if(orden === 'nombre') arr.sort((a,b) => a.dataset.nombre.localeCompare(b.dataset.nombre));
-  arr.forEach(x => grid.appendChild(x));
-  cuenta.textContent = n + (n === 1 ? ' resultado' : ' resultados');
-}
-['f-prov','f-partido','f-eco','f-cumpl','orden'].forEach(id => {
-  const el = document.getElementById(id); if(el) el.addEventListener('input', aplicar);
-});
-document.querySelectorAll('input[name=cat]').forEach(r => r.addEventListener('change', aplicar));
-document.getElementById('q').addEventListener('input', aplicar);
-const cat0 = new URLSearchParams(location.search).get('cat');
-if(cat0){ const r = document.querySelector(`input[name=cat][value="${cat0}"]`); if(r){ r.checked = true; } }
-const ord0 = new URLSearchParams(location.search).get('orden');
-if(ord0){ document.getElementById('orden').value = ord0; }
-aplicar();
-</script>
+<script src="/assets/carrito.js"></script>
+<script src="/assets/catalogo.js"></script>
 </body></html>
