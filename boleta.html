@@ -1,77 +1,93 @@
 <!DOCTYPE html><html lang="es-AR"><head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Mi boleta · Mercado Voto</title>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css">
+<meta name="description" content="Armé mi boleta en Mercado Voto. Mirá a quién elegí y armá la tuya.">
+<meta name="theme-color" content="#ffe600">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Mercado Voto">
+<meta property="og:title" content="Mi boleta · Mercado Voto">
+<meta property="og:description" content="Armé mi boleta en Mercado Voto. Mirá a quién elegí y armá la tuya.">
+<meta property="og:image" content="https://mercado-voto.vercel.app/api/og">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630">
+<meta property="og:url" content="https://mercado-voto.vercel.app/boleta">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=16">
 </head><body>
 <header class="top"><div class="wrap">
-  <a class="logo" href="/"><svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+  <a class="logo" href="/" aria-label="Mercado Voto, inicio"><svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
 <rect width="34" height="34" rx="8" fill="#2d2d2d"/>
 <path d="M18.2 8.6h3.1L19.7 27H11.1L9.5 12.4h12.2" fill="#ffe600"/>
 <path d="M12.4 12.4a4.6 4.6 0 0 1 9.2 0" fill="none" stroke="#2d2d2d" stroke-width="2.1" stroke-linecap="round"/>
 <path d="M13.9 19.2l2.1 2.1 4.3-4.5" fill="none" stroke="#2d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg><span>mercado <b>voto</b></span></a>
-  <div class="buscador"><input id="q" type="text" placeholder="Buscá un candidato, un partido o una ciudad" autocomplete="off"><button aria-label="Buscar">⌕</button></div>
-  <a class="mi-boleta" href="/boleta">Mi boleta <span class="n">0</span></a>
-</div></header>
-<nav class="nav"><div class="wrap"><a href="/?cargo=presidencial">Presidente</a><a href="/?cargo=gobernador">Gobernador</a><a href="/?cargo=intendente">Intendente</a><a href="/?cargo=legislador">Legisladores</a><a href="/?orden=ruptura">Más disruptivos</a><a href="/?orden=cumplimiento">Mejor reputación</a></div></nav>
-<main class="main"><div class="wrap" style="max-width:720px">
-  <div class="panel">
-    <h2>Armá tu boleta</h2>
-    <div class="sub">Un presidente, un gobernador, un intendente y hasta cinco legisladores.</div>
-    <div class="slot" id="s-presidencial"></div>
-    <div class="slot" id="s-gobernador"></div>
-    <div class="slot" id="s-intendente"></div>
-    <h3 style="margin:22px 0 10px;font-size:14px;color:#444">Legisladores <span id="leg-cuenta" style="color:#999;font-weight:400"></span></h3>
-    <div id="s-legislador"></div>
-    <button class="btn" id="btn-armar" onclick="armar()">Armá mi boleta</button>
-    <div class="aviso">Se genera una imagen para compartir. No se envía nada a ningún servidor.</div>
+  <form class="buscador" action="/" role="search"><input id="q" name="q" type="search" placeholder="Buscá candidatos, partidos o ciudades…" autocomplete="off" aria-label="Buscar"><button aria-label="Buscar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></form>
+  <a class="mi-boleta" href="/boleta" aria-label="Mi boleta"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h14l-1.5 15.5a1.5 1.5 0 0 1-1.5 1.5H8a1.5 1.5 0 0 1-1.5-1.5L5 4Zm4 0a3 3 0 0 1 6 0M9.5 12l2 2 3.5-4"/></svg><span class="n">0</span><span class="t">Mi boleta</span></a>
+</div>
+<nav class="nav"><div class="wrap"><a href="/?cargo=presidencial#catalogo">Presidente</a><a href="/?cargo=gobernador#catalogo">Gobernador</a><a href="/?cargo=intendente#catalogo">Intendente</a><a href="/?cargo=legislador#catalogo">Legisladores</a><a href="/?badge=NUEVO#catalogo">Outsiders</a><a href="/?orden=letales#catalogo">Más criticados</a><a href="/?orden=cumplimiento#catalogo">Mejor reputación</a><a href="/?orden=ruptura#catalogo">Más disruptivos</a></div></nav></header>
+<main class="main"><div class="wrap">
+  <div class="compartida" id="compartida" hidden>
+    <div><b>👀 Te compartieron esta boleta</b><p>Mirá qué eligió, leé las fichas y armá la tuya.</p></div>
+    <div class="comp-acc"><button class="btn" id="copiar-boleta">Usarla como base</button><a class="btn sec" href="/?cargo=presidencial#catalogo">Armar la mía de cero</a></div>
+  </div>
+  <ol class="pasos" id="pasos"><li class="on">Elegí</li><li>Revisá</li><li>Compartí</li></ol>
+  <div class="checkout">
+    <section class="panel">
+      <div class="boleta-cab"><h1 id="b-titulo">Tu boleta</h1><button class="link-btn" id="vaciar">Vaciar</button></div>
+      <div class="sub" id="b-sub">Un presidente, un gobernador, un intendente y hasta cinco legisladores.</div>
+      <div id="slots"></div>
+    </section>
+    <aside class="resumen-compra">
+      <section class="panel">
+        <h2>Resumen de compra</h2>
+        <div class="rc-fila"><span>Candidatos (<b id="rc-n">0</b>)</span><span id="rc-votos">0 votos</span></div>
+        <div class="rc-fila"><span>Envío</span><span class="verde">Gratis</span></div>
+        <div class="rc-fila"><span>Promesas cumplidas</span><span id="rc-prom">-</span></div>
+        <div class="rc-fila"><span>Críticas letales en el carrito</span><span id="rc-let">0</span></div>
+        <div class="rc-total"><span>Total</span><b id="rc-total">0 votos</b></div>
+        <button class="btn grande" id="finalizar">Finalizar compra</button>
+        <button class="btn sec" id="sorpresa">🎲 Completar al azar</button>
+      </section>
+      <section class="panel perfil" id="perfil" hidden>
+        <h2 id="perfil-h">Perfil de tu boleta</h2>
+        <div class="perfil-tipo" id="perfil-tipo"></div>
+        <div id="perfil-radar"></div>
+        <p class="perfil-desc" id="perfil-desc"></p>
+      </section>
+    </aside>
   </div>
 </div></main>
+<div class="modal" id="modal" hidden role="dialog" aria-modal="true" aria-labelledby="m-tit">
+  <div class="modal-c">
+    <button class="cerrar" id="m-cerrar" aria-label="Cerrar">✕</button>
+    <div class="ok-ico">✓</div>
+    <h2 id="m-tit">¡Listo! Compraste tu boleta</h2>
+    <p id="m-sub">Ahora mandala al grupo de la familia y que empiece el debate.</p>
+    <div class="m-prev"><img id="m-img" alt="Vista previa de tu boleta"></div>
+    <div class="share-grid">
+        <button class="sh-b wa" data-share="wa"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M12 2a10 10 0 0 0-8.6 15.1L2 22l5-1.3A10 10 0 1 0 12 2Zm0 18.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-3 .8.8-2.9-.2-.3A8.2 8.2 0 1 1 12 20.2Zm4.5-6.1c-.2-.1-1.5-.7-1.7-.8-.2-.1-.4-.1-.6.1l-.8 1c-.1.2-.3.2-.5.1a6.7 6.7 0 0 1-3.3-2.9c-.3-.4.3-.4.7-1.3.1-.2 0-.3 0-.4l-.8-1.8c-.2-.5-.4-.4-.6-.4h-.5a1 1 0 0 0-.7.3 3 3 0 0 0-.9 2.2 5.2 5.2 0 0 0 1.1 2.7 11.8 11.8 0 0 0 4.5 4c1.7.7 2.3.8 3.2.6.5-.1 1.5-.6 1.7-1.2.2-.6.2-1.1.2-1.2-.1-.1-.3-.2-.5-.3Z"/></svg><span>WhatsApp</span></button>
+        <button class="sh-b x" data-share="x"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M17.8 3h3.1l-6.8 7.7 8 10.3h-6.2l-4.9-6.3L5.4 21H2.3l7.2-8.3L1.8 3h6.4l4.4 5.8L17.8 3Zm-1.1 16.2h1.7L7.4 4.7H5.6l11.1 14.5Z"/></svg><span>X</span></button>
+        <button class="sh-b tg" data-share="tg"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="currentColor" d="M21.9 4.6 18.8 19c-.2 1-.8 1.3-1.7.8l-4.6-3.4-2.2 2.1c-.3.3-.5.5-1 .5l.3-4.7 8.6-7.8c.4-.3-.1-.5-.6-.2L6.9 13 2.3 11.6c-1-.3-1-1 .2-1.5l18-6.9c.8-.3 1.6.2 1.4 1.4Z"/></svg><span>Telegram</span></button>
+        <button class="sh-b ln" data-share="link"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M10 14a4.5 4.5 0 0 0 6.4 0l3-3a4.5 4.5 0 0 0-6.4-6.4l-1 1M14 10a4.5 4.5 0 0 0-6.4 0l-3 3a4.5 4.5 0 0 0 6.4 6.4l1-1"/></svg><span>Copiar link</span></button>
+        <button class="sh-b im" data-share="post"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m-4-4 4 4 4-4M4 19h16"/></svg><span>Imagen post</span></button>
+        <button class="sh-b im" data-share="story"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 4v11m-4-4 4 4 4-4M4 19h16"/></svg><span>Imagen historia</span></button>
+      </div>
+      <button class="btn sec nativo" data-share="native" hidden><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" d="M12 3v12M7 8l5-5 5 5M5 13v6a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2v-6"/></svg> Más opciones…</button>
+  </div>
+</div>
 <footer><div class="wrap">
-  <div>Mercado Voto · simulador. No se compra nada, no se vota nada.</div>
-  <div>Perfiles y críticas: proyecto A Quién Criticás. Fotos: Wikimedia Commons.</div>
-</div></footer>
-<script src="/assets/carrito.js?v=5"></script>
-<script src="/assets/share.js?v=5"></script>
-<script>
-const DATA = {"adolfors": {"n": "Adolfo Rodríguez Saá", "p": "Partido Justicialista", "f": "assets/fotos/adolfors.jpg", "i": "AS", "col": "#3b8ed0"}, "albertors": {"n": "Alberto Rodríguez Saá", "p": "Partido Justicialista", "f": "assets/fotos/albertors.jpg", "i": "AS", "col": "#3b8ed0"}, "cornejo": {"n": "Alfredo Cornejo", "p": "UCR", "f": "assets/fotos/cornejo.jpg", "i": "AC", "col": "#e74c3c"}, "granata": {"n": "Amalia Granata", "p": "Unite", "f": "assets/fotos/granata.jpg", "i": "AG", "col": "#c95bb5"}, "sagasti": {"n": "Anabel Fernández Sagasti", "p": "Unión por la Patria", "f": "assets/fotos/sagasti.jpg", "i": "AS", "col": "#3b8ed0"}, "kicillof": {"n": "Axel Kicillof", "p": "Unión por la Patria", "f": "assets/fotos/kicillof.jpg", "i": "AK", "col": "#1a5276"}, "melconian": {"n": "Carlos Melconian", "p": "Independiente", "f": "assets/fotos/melconian.jpg", "i": "CM", "col": "#8b8b8b"}, "piparo": {"n": "Carolina Píparo", "p": "La Libertad Avanza", "f": "assets/fotos/piparo.jpg", "i": "CP", "col": "#8e6cef"}, "claragarcia": {"n": "Clara García", "p": "Partido Socialista", "f": "assets/fotos/claragarcia.jpg", "i": "CG", "col": "#d94f7a"}, "poggi": {"n": "Claudio Poggi", "p": "PRO", "f": "assets/fotos/poggi.jpg", "i": "CP", "col": "#f5c518"}, "ritondo": {"n": "Cristian Ritondo", "p": "PRO", "f": "assets/fotos/ritondo.jpg", "i": "CR", "col": "#f5c518"}, "cristina": {"n": "Cristina Fernández de Kirchner", "p": "Unión por la Patria", "f": "assets/fotos/cristina.jpg", "i": "CK", "col": "#3a79c4"}, "hadad": {"n": "Daniel Hadad", "p": "Independiente", "f": "assets/fotos/hadad.jpg", "i": "DH", "col": "#8b8b8b"}, "passerini": {"n": "Daniel Passerini", "p": "Hacemos Unidos por Córdoba", "f": "assets/fotos/passerini.jpg", "i": "DP", "col": "#4aa3a0"}, "gebel": {"n": "Dante Gebel", "p": "Independiente", "f": "assets/fotos/gebel.jpg", "i": "DG", "col": "#8b8b8b"}, "valenzuela": {"n": "Diego Valenzuela", "p": "PRO", "f": "assets/fotos/valenzuela.jpg", "i": "DV", "col": "#f5c518"}, "manes": {"n": "Facundo Manes", "p": "UCR", "f": "assets/fotos/manes.jpg", "i": "FM", "col": "#16a085"}, "sturzenegger": {"n": "Federico Sturzenegger", "p": "La Libertad Avanza", "f": "assets/fotos/sturzenegger.jpg", "i": "FS", "col": "#2c3e50"}, "bornoroni": {"n": "Gabriel Bornoroni", "p": "La Libertad Avanza", "f": "assets/fotos/bornoroni.jpg", "i": "GB", "col": "#8e6cef"}, "moreno": {"n": "Guillermo Moreno", "p": "Principios y Valores", "f": "assets/fotos/moreno.jpg", "i": "GM", "col": "#a06a3a"}, "larreta": {"n": "Horacio Rodríguez Larreta", "p": "PRO", "f": "assets/fotos/larreta.jpg", "i": "HL", "col": "#f5c518"}, "torres": {"n": "Ignacio Torres", "p": "PRO", "f": "", "i": "IT", "col": "#f5c518"}, "milei": {"n": "Javier Milei", "p": "La Libertad Avanza", "f": "assets/fotos/milei.jpg", "i": "JM", "col": "#c44"}, "santilli": {"n": "Jorge \"Russo\" Santilli", "p": "PRO / Operador territorial / Bullrichista", "f": "", "i": "JS", "col": "#f39c12"}, "brito": {"n": "Jorge Brito", "p": "Independiente", "f": "", "i": "JB", "col": "#8b8b8b"}, "jmacri": {"n": "Jorge Macri", "p": "PRO", "f": "assets/fotos/jmacri.jpg", "i": "JM", "col": "#2ecc71"}, "espert": {"n": "José Luis Espert", "p": "La Libertad Avanza", "f": "assets/fotos/espert.jpg", "i": "JE", "col": "#8e6cef"}, "grabois": {"n": "Juan Grabois", "p": "Partido Justicialista", "f": "assets/fotos/grabois.jpg", "i": "JG", "col": "#3b8ed0"}, "monteverde": {"n": "Juan Monteverde", "p": "Ciudad Futura", "f": "", "i": "JM", "col": "#7a5cc4"}, "schiaretti": {"n": "Juan Schiaretti", "p": "Hacemos", "f": "assets/fotos/schiaretti.jpg", "i": "JS", "col": "#4aa3a0"}, "kmilei": {"n": "Karina Milei", "p": "La Libertad Avanza", "f": "assets/fotos/kmilei.jpg", "i": "KM", "col": "#8e44ad"}, "santoro": {"n": "Leandro Santoro", "p": "Unión por la Patria", "f": "assets/fotos/santoro.jpg", "i": "LS", "col": "#3b8ed0"}, "caputo": {"n": "Luis Caputo", "p": "La Libertad Avanza", "f": "assets/fotos/caputo.jpg", "i": "LC", "col": "#2e86c1"}, "juez": {"n": "Luis Juez", "p": "PRO", "f": "assets/fotos/juez.jpg", "i": "LJ", "col": "#f5c518"}, "adorni": {"n": "Manuel Adorni", "p": "La Libertad Avanza", "f": "assets/fotos/adorni.jpg", "i": "MA", "col": "#1a1a2e"}, "lewandowski": {"n": "Marcelo Lewandowski", "p": "Unión por la Patria", "f": "assets/fotos/lewandowski.jpg", "i": "ML", "col": "#3b8ed0"}, "galperin": {"n": "Marcos Galperín", "p": "Independiente", "f": "assets/fotos/galperin.jpg", "i": "MG", "col": "#8b8b8b"}, "llaryora": {"n": "Martín Llaryora", "p": "Hacemos Unidos por Córdoba", "f": "assets/fotos/llaryora.jpg", "i": "ML", "col": "#27ae60"}, "lousteau": {"n": "Martín Lousteau", "p": "UCR", "f": "assets/fotos/lousteau.jpg", "i": "ML", "col": "#e74c3c"}, "macri": {"n": "Mauricio Macri", "p": "PRO", "f": "assets/fotos/macri.jpg", "i": "MM", "col": "#f39c12"}, "pullaro": {"n": "Maximiliano Pullaro", "p": "Unidos para Cambiar Santa Fe", "f": "assets/fotos/pullaro.jpg", "i": "MP", "col": "#d35400"}, "pichetto": {"n": "Miguel Ángel Pichetto", "p": "Hacemos Coalición Federal", "f": "assets/fotos/pichetto.jpg", "i": "MP", "col": "#2c3e50"}, "bregman": {"n": "Myriam Bregman", "p": "Frente de Izquierda", "f": "assets/fotos/bregman.jpg", "i": "MB", "col": "#8e44ad"}, "maximo": {"n": "Máximo Kirchner", "p": "Partido Justicialista", "f": "assets/fotos/maximo.jpg", "i": "MK", "col": "#3b8ed0"}, "mayoraz": {"n": "Nicolás Mayoraz", "p": "La Libertad Avanza", "f": "assets/fotos/mayoraz.jpg", "i": "NM", "col": "#8e6cef"}, "delcano": {"n": "Nicolás del Caño", "p": "Frente de Izquierda", "f": "assets/fotos/delcano.jpg", "i": "NC", "col": "#8e44ad"}, "demarchi": {"n": "Omar De Marchi", "p": "La Unión Mendocina", "f": "assets/fotos/demarchi.jpg", "i": "OM", "col": "#6a8fd8"}, "javkin": {"n": "Pablo Javkin", "p": "UCR", "f": "assets/fotos/javkin.jpg", "i": "PJ", "col": "#e03e3e"}, "moyano": {"n": "Pablo Moyano", "p": "Camioneros", "f": "", "i": "PM", "col": "#c0392b"}, "bullrich": {"n": "Patricia Bullrich", "p": "PRO", "f": "assets/fotos/bullrich.jpg", "i": "PB", "col": "#e67e22"}, "rosemblat": {"n": "Pedro Rosemblat", "p": "Unión por la Patria", "f": "", "i": "PR", "col": "#3b8ed0"}, "marra": {"n": "Ramiro Marra", "p": "La Libertad Avanza", "f": "assets/fotos/marra.jpg", "i": "RM", "col": "#8e6cef"}, "suarez": {"n": "Rodolfo Suarez", "p": "UCR", "f": "assets/fotos/suarez.jpg", "i": "RS", "col": "#e03e3e"}, "deloredo": {"n": "Rodrigo de Loredo", "p": "UCR", "f": "assets/fotos/deloredo.jpg", "i": "RL", "col": "#e03e3e"}, "frigerio": {"n": "Rogelio Frigerio", "p": "PRO", "f": "", "i": "RF", "col": "#f39c12"}, "santiago-caputo": {"n": "Santiago Caputo", "p": "La Libertad Avanza", "f": "assets/fotos/santiago-caputo.jpg", "i": "SC", "col": "#34495e"}, "pareja": {"n": "Sebastián Pareja", "p": "La Libertad Avanza", "f": "", "i": "SP", "col": "#8e6cef"}, "massa": {"n": "Sergio Massa", "p": "Unión por la Patria", "f": "assets/fotos/massa.jpg", "i": "SM", "col": "#2980b9"}, "unac": {"n": "Sergio Uñac", "p": "Unión por la Patria", "f": "assets/fotos/unac.jpg", "i": "SU", "col": "#1a5276"}, "rebord": {"n": "Tomás Rebord", "p": "Independiente", "f": "assets/fotos/rebord.jpg", "i": "TR", "col": "#8b8b8b"}, "ulpiano": {"n": "Ulpiano Suarez", "p": "UCR", "f": "assets/fotos/ulpiano.jpg", "i": "US", "col": "#e03e3e"}, "villarruel": {"n": "Victoria Villarruel", "p": "La Libertad Avanza", "f": "assets/fotos/villarruel.jpg", "i": "VV", "col": "#1a5276"}};
-const CARGOS = [['presidencial','Presidente'],['gobernador','Gobernador'],['intendente','Intendente']];
-function fichaHTML(it, idx){
-  const c = DATA[it.i]; if(!c) return '';
-  const img = c.f ? '<img src="/' + c.f + '" alt="">' : '<div class="ini" style="background:' + c.col + '">' + c.i + '</div>';
-  return '<div class="slot-item">' + img + '<div class="slot-txt"><b>' + c.n + '</b><span>' + c.p +
-    (it.j && it.j !== 'Nacional' ? ' · ' + it.j : '') + '</span></div>' +
-    '<button class="quitar" onclick="quitar(' + idx + ')">Quitar</button></div>';
-}
-function vacioHTML(cargo, etiqueta){
-  return '<div class="slot-vacio"><span>' + etiqueta + '</span><a href="/?cargo=' + cargo + '">+ Elegir</a></div>';
-}
-function renderBoleta(){
-  const b = leer();
-  CARGOS.forEach(([cargo, etq]) => {
-    const idx = b.findIndex(x => x.c === cargo);
-    document.getElementById('s-' + cargo).innerHTML =
-      '<div class="slot-label">' + etq + '</div>' +
-      (idx >= 0 ? fichaHTML(b[idx], idx) : vacioHTML(cargo, 'Sin elegir todavía'));
-  });
-  const legs = b.map((x, i) => ({x, i})).filter(o => o.x.c === 'legislador');
-  document.getElementById('leg-cuenta').textContent = '(' + legs.length + ' de 5)';
-  let html = legs.map(o => fichaHTML(o.x, o.i)).join('');
-  for (let k = legs.length; k < 5; k++) html += vacioHTML('legislador', 'Lugar ' + (k + 1) + ' libre');
-  document.getElementById('s-legislador').innerHTML = html;
-  document.getElementById('btn-armar').disabled = b.length === 0;
-  document.getElementById('btn-armar').style.opacity = b.length ? 1 : .45;
-}
-function armar(){
-  const b = leer();
-  if(!b.length) return;
-  const items = b.map(x => {
-    const c = DATA[x.i];
-    return { c: x.c, j: x.j, n: c.n, p: c.p, color: c.col };
-  });
-  descargarBoleta(items);
-}
-document.addEventListener('DOMContentLoaded', renderBoleta);
-</script>
+  <div class="f-logo"><a class="logo" href="/" aria-label="Mercado Voto, inicio"><svg class="mark" viewBox="0 0 34 34" aria-hidden="true">
+<rect width="34" height="34" rx="8" fill="#2d2d2d"/>
+<path d="M18.2 8.6h3.1L19.7 27H11.1L9.5 12.4h12.2" fill="#ffe600"/>
+<path d="M12.4 12.4a4.6 4.6 0 0 1 9.2 0" fill="none" stroke="#2d2d2d" stroke-width="2.1" stroke-linecap="round"/>
+<path d="M13.9 19.2l2.1 2.1 4.3-4.5" fill="none" stroke="#2d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+</svg><span>mercado <b>voto</b></span></a><p>Un simulador para elegir candidatos como si fueran productos, leer lo que se dice a favor y en contra, y compartir tu boleta.</p></div>
+  <div><b>Cómo leer las fichas</b><p>Las críticas, los argumentos a favor y el radar ideológico son una síntesis editorial, no una medición. Las estrellas salen de las promesas cumplidas registradas.</p></div>
+  <div><b>Privacidad</b><p>No se compra ni se vota nada. Tu boleta vive en tu navegador y sólo se comparte si vos mandás el link.</p></div>
+</div><div class="wrap legal">Mercado Voto es un proyecto independiente y satírico, sin relación con ningún marketplace ni partido. Fotos: Wikimedia Commons.</div></footer>
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<canvas id="confeti" aria-hidden="true"></canvas>
+<script src="/assets/data.js?v=16"></script><script src="/assets/app.js?v=16"></script><script src="/assets/share.js?v=16"></script><script src="/assets/boleta.js?v=16"></script>
 </body></html>

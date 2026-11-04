@@ -1,0 +1,9 @@
+{
+  "name": "mercado-voto",
+  "private": true,
+  "type": "module",
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "@vercel/og": "0.8.5"
+  }
+}
