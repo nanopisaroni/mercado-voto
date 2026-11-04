@@ -3269,11 +3269,11 @@
    "id": "ritondo",
    "nombre": "Cristian Ritondo",
    "slug": "cristian-ritondo",
-   "rol": "",
+   "rol": "Diputado nacional por Buenos Aires",
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Diputado nacional por Buenos Aires y presidente del bloque del PRO. Fue ministro de Seguridad bonaerense durante el gobierno de María Eugenia Vidal.",
-   "foto": "",
+   "foto": "assets/fotos/ritondo.jpg",
    "categorias": [],
    "provincia": "Buenos Aires",
    "partido": "PRO",
@@ -3297,7 +3297,7 @@
    "id": "valenzuela",
    "nombre": "Diego Valenzuela",
    "slug": "diego-valenzuela",
-   "rol": "",
+   "rol": "Intendente de Tres de Febrero",
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Intendente de Tres de Febrero desde 2015, reelegido dos veces. Economista y uno de los referentes del PRO bonaerense con perfil dialoguista.",
@@ -3325,7 +3325,7 @@
    "id": "pareja",
    "nombre": "Sebastián Pareja",
    "slug": "sebastian-pareja",
-   "rol": "",
+   "rol": "Diputado provincial de Buenos Aires",
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Diputado provincial y referente de La Libertad Avanza en Buenos Aires. Armó la estructura territorial del espacio en el conurbano.",
@@ -3353,7 +3353,7 @@
    "id": "deloredo",
    "nombre": "Rodrigo de Loredo",
    "slug": "rodrigo-de-loredo",
-   "rol": "",
+   "rol": "Diputado nacional por Córdoba",
    "tag": "UCR",
    "color": "#e03e3e",
    "bio": "Diputado nacional por Córdoba y presidente del bloque radical. Fue candidato a intendente de la ciudad en 2019.",
@@ -3381,7 +3381,7 @@
    "id": "juez",
    "nombre": "Luis Juez",
    "slug": "luis-juez",
-   "rol": "",
+   "rol": "Senador nacional por Córdoba",
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Senador nacional por Córdoba y ex intendente de la ciudad. Dirigente del PRO cordobés, enfrentado al oficialismo provincial.",
@@ -3409,7 +3409,7 @@
    "id": "bornoroni",
    "nombre": "Gabriel Bornoroni",
    "slug": "gabriel-bornoroni",
-   "rol": "",
+   "rol": "Diputado nacional por Córdoba",
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Diputado nacional por Córdoba y presidente del bloque de La Libertad Avanza. Referente del espacio libertario en el interior.",
@@ -3437,7 +3437,7 @@
    "id": "lewandowski",
    "nombre": "Marcelo Lewandowski",
    "slug": "marcelo-lewandowski",
-   "rol": "",
+   "rol": "Senador nacional por Santa Fe",
    "tag": "Unión por la Patria",
    "color": "#3b8ed0",
    "bio": "Senador nacional por Santa Fe. Ex periodista deportivo y candidato a gobernador en 2023.",
@@ -3465,11 +3465,11 @@
    "id": "mayoraz",
    "nombre": "Nicolás Mayoraz",
    "slug": "nicolas-mayoraz",
-   "rol": "",
+   "rol": "Diputado nacional por Santa Fe",
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Diputado nacional por Santa Fe. Referente de La Libertad Avanza en la provincia.",
-   "foto": "",
+   "foto": "assets/fotos/mayoraz.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
    "partido": "La Libertad Avanza",
@@ -3493,7 +3493,7 @@
    "id": "granata",
    "nombre": "Amalia Granata",
    "slug": "amalia-granata",
-   "rol": "",
+   "rol": "Diputada provincial de Santa Fe",
    "tag": "Unite",
    "color": "#c95bb5",
    "bio": "Diputada provincial por Santa Fe desde 2023. Dirigente del espacio Unite.",
@@ -3521,7 +3521,7 @@
    "id": "demarchi",
    "nombre": "Omar De Marchi",
    "slug": "omar-de-marchi",
-   "rol": "",
+   "rol": "Ex intendente de Las Heras",
    "tag": "La Unión Mendocina",
    "color": "#6a8fd8",
    "bio": "Ex diputado nacional y ex intendente de Las Heras. Lidera La Unión Mendocina, espacio opositor al radicalismo provincial.",
@@ -3549,7 +3549,7 @@
    "id": "sagasti",
    "nombre": "Anabel Fernández Sagasti",
    "slug": "anabel-fernandez-sagasti",
-   "rol": "",
+   "rol": "Senadora nacional por Mendoza",
    "tag": "Unión por la Patria",
    "color": "#3b8ed0",
    "bio": "Senadora nacional por Mendoza. Referente del kirchnerismo mendocino.",
@@ -3577,7 +3577,7 @@
    "id": "suarez",
    "nombre": "Rodolfo Suarez",
    "slug": "rodolfo-suarez",
-   "rol": "",
+   "rol": "Ex gobernador de Mendoza",
    "tag": "UCR",
    "color": "#e03e3e",
    "bio": "Ex gobernador de Mendoza entre 2019 y 2023 y ex intendente de la capital. Referente del radicalismo provincial.",
@@ -3605,7 +3605,7 @@
    "id": "poggi",
    "nombre": "Claudio Poggi",
    "slug": "claudio-poggi",
-   "rol": "",
+   "rol": "Gobernador de San Luis",
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Gobernador de San Luis desde 2023. Fue senador nacional y ya había gobernado la provincia entre 2011 y 2015.",
@@ -3633,7 +3633,7 @@
    "id": "albertors",
    "nombre": "Alberto Rodríguez Saá",
    "slug": "alberto-rodriguez-saa",
-   "rol": "",
+   "rol": "Senador nacional por San Luis",
    "tag": "Partido Justicialista",
    "color": "#3b8ed0",
    "bio": "Senador nacional y ex gobernador de San Luis. Hermano de Adolfo Rodríguez Saá, con quien compartió la conducción del PJ puntano.",
@@ -3661,7 +3661,7 @@
    "id": "passerini",
    "nombre": "Daniel Passerini",
    "slug": "daniel-passerini",
-   "rol": "",
+   "rol": "Intendente de la ciudad de Córdoba",
    "tag": "Hacemos Unidos por Córdoba",
    "color": "#4aa3a0",
    "bio": "Intendente de la ciudad de Córdoba desde 2023. Fue viceintendente de Martín Llaryora y legislador provincial.",
@@ -3689,7 +3689,7 @@
    "id": "javkin",
    "nombre": "Pablo Javkin",
    "slug": "pablo-javkin",
-   "rol": "",
+   "rol": "Intendente de Rosario",
    "tag": "UCR",
    "color": "#e03e3e",
    "bio": "Intendente de Rosario desde 2019, reelegido en 2023. Dirigente radical con perfil técnico.",
@@ -3717,7 +3717,7 @@
    "id": "monteverde",
    "nombre": "Juan Monteverde",
    "slug": "juan-monteverde",
-   "rol": "",
+   "rol": "Referente de Ciudad Futura",
    "tag": "Ciudad Futura",
    "color": "#7a5cc4",
    "bio": "Fundador de Ciudad Futura, el espacio que gobierna el distrito sur de Rosario. Fue candidato a intendente.",
@@ -3745,7 +3745,7 @@
    "id": "ulpiano",
    "nombre": "Ulpiano Suarez",
    "slug": "ulpiano-suarez",
-   "rol": "",
+   "rol": "Intendente de la ciudad de Mendoza",
    "tag": "UCR",
    "color": "#e03e3e",
    "bio": "Intendente de la ciudad de Mendoza desde 2019, reelegido en 2023.",
@@ -3773,11 +3773,11 @@
    "id": "hadad",
    "nombre": "Daniel Hadad",
    "slug": "daniel-hadad",
-   "rol": "",
+   "rol": "Empresario de medios",
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Empresario de medios y fundador de Infobae. No ocupó cargos electivos. Su nombre circula en encuestas como outsider.",
-   "foto": "",
+   "foto": "assets/fotos/hadad.jpg",
    "categorias": [],
    "provincia": "Nacional",
    "partido": "Independiente",
@@ -3801,11 +3801,11 @@
    "id": "gebel",
    "nombre": "Dante Gebel",
    "slug": "dante-gebel",
-   "rol": "",
+   "rol": "Pastor y conferencista",
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Pastor evangélico y conferencista. No ocupó cargos electivos. Tiene una audiencia masiva en redes y en teatro.",
-   "foto": "",
+   "foto": "assets/fotos/gebel.jpg",
    "categorias": [],
    "provincia": "Nacional",
    "partido": "Independiente",
@@ -3829,7 +3829,7 @@
    "id": "galperin",
    "nombre": "Marcos Galperín",
    "slug": "marcos-galperin",
-   "rol": "",
+   "rol": "Fundador de Mercado Libre",
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Fundador y CEO de Mercado Libre. Sin trayectoria política ni cargos electivos.",
@@ -3857,7 +3857,7 @@
    "id": "brito",
    "nombre": "Jorge Brito",
    "slug": "jorge-brito",
-   "rol": "",
+   "rol": "Presidente de River Plate",
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Presidente de River Plate. Hijo del fundador del Banco Macro. Sin cargo electivo.",
@@ -3885,7 +3885,7 @@
    "id": "rebord",
    "nombre": "Tomás Rebord",
    "slug": "tomas-rebord",
-   "rol": "",
+   "rol": "Streamer y creador de contenido",
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Streamer y creador de contenido político. Su programa mezcla entrevistas, ficción y análisis.",
@@ -3913,7 +3913,7 @@
    "id": "moreno",
    "nombre": "Guillermo Moreno",
    "slug": "guillermo-moreno",
-   "rol": "",
+   "rol": "Ex secretario de Comercio",
    "tag": "Principios y Valores",
    "color": "#a06a3a",
    "bio": "Ex secretario de Comercio entre 2006 y 2013. Dirige el partido Principios y Valores.",
@@ -3941,7 +3941,7 @@
    "id": "espert",
    "nombre": "José Luis Espert",
    "slug": "jose-luis-espert",
-   "rol": "",
+   "rol": "Diputado nacional por Buenos Aires",
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Economista y diputado nacional por La Libertad Avanza. Fue candidato presidencial en 2019 y en 2023.",
@@ -3969,7 +3969,7 @@
    "id": "larreta",
    "nombre": "Horacio Rodríguez Larreta",
    "slug": "horacio-rodriguez-larreta",
-   "rol": "",
+   "rol": "Ex jefe de gobierno de la Ciudad",
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Ex jefe de gobierno de la Ciudad de Buenos Aires entre 2015 y 2023. Fue precandidato presidencial en 2023.",
@@ -3997,7 +3997,7 @@
    "id": "schiaretti",
    "nombre": "Juan Schiaretti",
    "slug": "juan-schiaretti",
-   "rol": "",
+   "rol": "Ex gobernador de Córdoba",
    "tag": "Hacemos",
    "color": "#4aa3a0",
    "bio": "Ex gobernador de Córdoba en dos períodos. Fue candidato presidencial en 2023.",
@@ -4025,7 +4025,7 @@
    "id": "melconian",
    "nombre": "Carlos Melconian",
    "slug": "carlos-melconian",
-   "rol": "",
+   "rol": "Economista",
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Economista y ex presidente del Banco Nación. Fue el referente económico de Patricia Bullrich en 2023.",
@@ -4053,7 +4053,7 @@
    "id": "maximo",
    "nombre": "Máximo Kirchner",
    "slug": "maximo-kirchner",
-   "rol": "",
+   "rol": "Diputado nacional por Buenos Aires",
    "tag": "Partido Justicialista",
    "color": "#3b8ed0",
    "bio": "Diputado nacional y presidente del PJ bonaerense. Hijo de Néstor y Cristina Kirchner.",
@@ -4081,7 +4081,7 @@
    "id": "piparo",
    "nombre": "Carolina Píparo",
    "slug": "carolina-piparo",
-   "rol": "",
+   "rol": "Diputada nacional por Buenos Aires",
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Diputada nacional por Buenos Aires. Fue candidata a gobernadora bonaerense en 2023.",
@@ -4109,7 +4109,7 @@
    "id": "grabois",
    "nombre": "Juan Grabois",
    "slug": "juan-grabois",
-   "rol": "",
+   "rol": "Dirigente social",
    "tag": "Partido Justicialista",
    "color": "#3b8ed0",
    "bio": "Dirigente social y referente del Movimiento de Trabajadores Excluidos. Fue precandidato presidencial en 2023.",
@@ -4137,7 +4137,7 @@
    "id": "rosemblat",
    "nombre": "Pedro Rosemblat",
    "slug": "pedro-rosemblat",
-   "rol": "",
+   "rol": "Comunicador",
    "tag": "Unión por la Patria",
    "color": "#3b8ed0",
    "bio": "Comunicador y streamer. Trabajó en la campaña de Unión por la Patria en 2023.",
@@ -4165,7 +4165,7 @@
    "id": "torres",
    "nombre": "Ignacio Torres",
    "slug": "ignacio-torres",
-   "rol": "",
+   "rol": "Gobernador de Chubut",
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Gobernador de Chubut desde 2023. Referente del PRO patagónico.",
@@ -4193,7 +4193,7 @@
    "id": "marra",
    "nombre": "Ramiro Marra",
    "slug": "ramiro-marra",
-   "rol": "",
+   "rol": "Legislador de la Ciudad",
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Legislador porteño y financista. Fue candidato a jefe de gobierno de la Ciudad en 2023.",
@@ -4221,7 +4221,7 @@
    "id": "santoro",
    "nombre": "Leandro Santoro",
    "slug": "leandro-santoro",
-   "rol": "",
+   "rol": "Diputado nacional por la Ciudad",
    "tag": "Unión por la Patria",
    "color": "#3b8ed0",
    "bio": "Diputado nacional por la Ciudad de Buenos Aires. Fue candidato a jefe de gobierno porteño en 2023.",
@@ -4249,7 +4249,7 @@
    "id": "adolfors",
    "nombre": "Adolfo Rodríguez Saá",
    "slug": "adolfo-rodriguez-saa",
-   "rol": "",
+   "rol": "Ex gobernador de San Luis",
    "tag": "Partido Justicialista",
    "color": "#3b8ed0",
    "bio": "Ex gobernador de San Luis y presidente interino de la Nación en 2001. Líder histórico del justicialismo puntano.",
@@ -4277,7 +4277,7 @@
    "id": "claragarcia",
    "nombre": "Clara García",
    "slug": "clara-garcia",
-   "rol": "",
+   "rol": "Diputada provincial de Santa Fe",
    "tag": "Partido Socialista",
    "color": "#d94f7a",
    "bio": "Diputada provincial y presidenta del Partido Socialista de Santa Fe. Fue ministra de Educación de la provincia.",
@@ -4304,27 +4304,7 @@
  ],
  "candidaturas": [
   {
-   "cid": "adorni",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "bregman",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "bullrich",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "caputo",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "cornejo",
+   "cid": "milei",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
@@ -4334,47 +4314,7 @@
    "jur": "Nacional"
   },
   {
-   "cid": "delcano",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "frigerio",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "jmacri",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "kicillof",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "kmilei",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "llaryora",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "lousteau",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
    "cid": "macri",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "manes",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
@@ -4384,42 +4324,7 @@
    "jur": "Nacional"
   },
   {
-   "cid": "milei",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "moyano",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "pichetto",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "pullaro",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "santiago-caputo",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "santilli",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "sturzenegger",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "unac",
+   "cid": "bullrich",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
@@ -4429,92 +4334,37 @@
    "jur": "Nacional"
   },
   {
-   "cid": "ritondo",
+   "cid": "lousteau",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
-   "cid": "valenzuela",
+   "cid": "manes",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
-   "cid": "pareja",
+   "cid": "bregman",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
-   "cid": "deloredo",
+   "cid": "delcano",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
-   "cid": "juez",
+   "cid": "espert",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
-   "cid": "bornoroni",
+   "cid": "grabois",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
-   "cid": "lewandowski",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "mayoraz",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "granata",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "demarchi",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "sagasti",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "suarez",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "poggi",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "albertors",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "passerini",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "javkin",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "monteverde",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "ulpiano",
+   "cid": "larreta",
    "cargo": "presidencial",
    "jur": "Nacional"
   },
@@ -4529,97 +4379,7 @@
    "jur": "Nacional"
   },
   {
-   "cid": "galperin",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "brito",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "rebord",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "moreno",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "espert",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "larreta",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "schiaretti",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "melconian",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "maximo",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "piparo",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "grabois",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "rosemblat",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "torres",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "marra",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "santoro",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "adolfors",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "claragarcia",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
    "cid": "kicillof",
-   "cargo": "gobernador",
-   "jur": "Buenos Aires"
-  },
-  {
-   "cid": "massa",
    "cargo": "gobernador",
    "jur": "Buenos Aires"
   },
@@ -4629,27 +4389,7 @@
    "jur": "Buenos Aires"
   },
   {
-   "cid": "valenzuela",
-   "cargo": "gobernador",
-   "jur": "Buenos Aires"
-  },
-  {
    "cid": "pareja",
-   "cargo": "gobernador",
-   "jur": "Buenos Aires"
-  },
-  {
-   "cid": "espert",
-   "cargo": "gobernador",
-   "jur": "Buenos Aires"
-  },
-  {
-   "cid": "maximo",
-   "cargo": "gobernador",
-   "jur": "Buenos Aires"
-  },
-  {
-   "cid": "piparo",
    "cargo": "gobernador",
    "jur": "Buenos Aires"
   },
@@ -4664,27 +4404,12 @@
    "jur": "Córdoba"
   },
   {
-   "cid": "juez",
-   "cargo": "gobernador",
-   "jur": "Córdoba"
-  },
-  {
    "cid": "bornoroni",
    "cargo": "gobernador",
    "jur": "Córdoba"
   },
   {
-   "cid": "schiaretti",
-   "cargo": "gobernador",
-   "jur": "Córdoba"
-  },
-  {
    "cid": "pullaro",
-   "cargo": "gobernador",
-   "jur": "Santa Fe"
-  },
-  {
-   "cid": "claragarcia",
    "cargo": "gobernador",
    "jur": "Santa Fe"
   },
@@ -4695,11 +4420,6 @@
   },
   {
    "cid": "mayoraz",
-   "cargo": "gobernador",
-   "jur": "Santa Fe"
-  },
-  {
-   "cid": "granata",
    "cargo": "gobernador",
    "jur": "Santa Fe"
   },
@@ -4715,11 +4435,6 @@
   },
   {
    "cid": "sagasti",
-   "cargo": "gobernador",
-   "jur": "Mendoza"
-  },
-  {
-   "cid": "suarez",
    "cargo": "gobernador",
    "jur": "Mendoza"
   },
@@ -4749,27 +4464,17 @@
    "jur": "CABA"
   },
   {
-   "cid": "lousteau",
-   "cargo": "intendente",
-   "jur": "CABA"
-  },
-  {
    "cid": "marra",
    "cargo": "intendente",
    "jur": "CABA"
   },
   {
+   "cid": "valenzuela",
+   "cargo": "intendente",
+   "jur": "CABA"
+  },
+  {
    "cid": "passerini",
-   "cargo": "intendente",
-   "jur": "Córdoba"
-  },
-  {
-   "cid": "bornoroni",
-   "cargo": "intendente",
-   "jur": "Córdoba"
-  },
-  {
-   "cid": "deloredo",
    "cargo": "intendente",
    "jur": "Córdoba"
   },
@@ -4799,14 +4504,169 @@
    "jur": "Mendoza"
   },
   {
-   "cid": "demarchi",
+   "cid": "suarez",
    "cargo": "intendente",
    "jur": "Mendoza"
   },
   {
-   "cid": "sagasti",
-   "cargo": "intendente",
+   "cid": "adorni",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "caputo",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "frigerio",
+   "cargo": "legislador",
+   "jur": "Entre Ríos"
+  },
+  {
+   "cid": "jmacri",
+   "cargo": "legislador",
+   "jur": "CABA"
+  },
+  {
+   "cid": "kmilei",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "moyano",
+   "cargo": "legislador",
+   "jur": "Buenos Aires"
+  },
+  {
+   "cid": "pichetto",
+   "cargo": "legislador",
+   "jur": "Río Negro"
+  },
+  {
+   "cid": "santiago-caputo",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "santilli",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "sturzenegger",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "unac",
+   "cargo": "legislador",
+   "jur": "San Juan"
+  },
+  {
+   "cid": "valenzuela",
+   "cargo": "legislador",
+   "jur": "Buenos Aires"
+  },
+  {
+   "cid": "juez",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "granata",
+   "cargo": "legislador",
+   "jur": "Santa Fe"
+  },
+  {
+   "cid": "suarez",
+   "cargo": "legislador",
    "jur": "Mendoza"
+  },
+  {
+   "cid": "passerini",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "javkin",
+   "cargo": "legislador",
+   "jur": "Santa Fe"
+  },
+  {
+   "cid": "monteverde",
+   "cargo": "legislador",
+   "jur": "Santa Fe"
+  },
+  {
+   "cid": "ulpiano",
+   "cargo": "legislador",
+   "jur": "Mendoza"
+  },
+  {
+   "cid": "galperin",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "brito",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "rebord",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "moreno",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "schiaretti",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "melconian",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "maximo",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "piparo",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "rosemblat",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "torres",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "marra",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "santoro",
+   "cargo": "legislador",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "claragarcia",
+   "cargo": "legislador",
+   "jur": "Santa Fe"
   }
  ]
 }

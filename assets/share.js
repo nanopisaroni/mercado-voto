@@ -130,3 +130,72 @@ async function descargarVoto() {
   const cv = await tarjetaVoto(window.CAND);
   await entregar(cv, 'mi-voto-' + window.CAND.slug + '.png');
 }
+
+
+// ---------- boleta completa ----------
+async function tarjetaBoleta(items) {
+  const cv = document.createElement('canvas');
+  cv.width = W; cv.height = H;
+  const ctx = cv.getContext('2d');
+
+  ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, W, H);
+  ctx.fillStyle = '#ffe600'; ctx.fillRect(0, 0, W, 170);
+  ctx.fillStyle = '#2d2d2d'; ctx.textAlign = 'left';
+  ctx.font = '800 46px Inter, system-ui, sans-serif';
+  ctx.fillText('mercado voto', 80, 100);
+  ctx.textAlign = 'right'; ctx.font = '600 28px Inter, system-ui, sans-serif';
+  ctx.fillText('MI BOLETA', 1000, 97);
+  ctx.fillStyle = '#2d2d2d'; ctx.fillRect(0, 170, W, 8);
+
+  const buscar = c => items.find(x => x.c === c);
+  const linea = (etiqueta, it, y) => {
+    ctx.textAlign = 'left';
+    ctx.fillStyle = '#999'; ctx.font = '600 22px Inter, system-ui, sans-serif';
+    ctx.fillText(etiqueta.toUpperCase(), 80, y);
+    ctx.fillStyle = it ? '#222' : '#ccc';
+    ctx.font = '700 46px Inter, system-ui, sans-serif';
+    ctx.fillText(it ? it.n : 'Sin elegir', 80, y + 52);
+    if (it) {
+      ctx.fillStyle = '#777'; ctx.font = '500 26px Inter, system-ui, sans-serif';
+      ctx.fillText(it.p + (it.j && it.j !== 'Nacional' ? ' · ' + it.j : ''), 80, y + 92);
+    }
+    ctx.strokeStyle = '#eee'; ctx.lineWidth = 2;
+    ctx.beginPath(); ctx.moveTo(80, y + 122); ctx.lineTo(1000, y + 122); ctx.stroke();
+  };
+
+  linea('Presidente', buscar('presidencial'), 250);
+  linea('Gobernador', buscar('gobernador'), 420);
+  linea('Intendente', buscar('intendente'), 590);
+
+  const legs = items.filter(x => x.c === 'legislador');
+  ctx.fillStyle = '#999'; ctx.font = '600 22px Inter, system-ui, sans-serif';
+  ctx.textAlign = 'left';
+  ctx.fillText('LEGISLADORES  ·  ' + legs.length + ' DE 5', 80, 760);
+  if (!legs.length) {
+    ctx.fillStyle = '#ccc'; ctx.font = '700 40px Inter, system-ui, sans-serif';
+    ctx.fillText('Sin elegir', 80, 812);
+  } else {
+    legs.forEach((l, i) => {
+      const y = 812 + i * 62;
+      ctx.fillStyle = l.color || '#3483fa';
+      ctx.beginPath(); ctx.arc(96, y - 12, 9, 0, Math.PI * 2); ctx.fill();
+      ctx.fillStyle = '#222'; ctx.font = '600 32px Inter, system-ui, sans-serif';
+      ctx.fillText(l.n, 125, y);
+      ctx.fillStyle = '#999'; ctx.font = '400 22px Inter, system-ui, sans-serif';
+      ctx.textAlign = 'right'; ctx.fillText(l.j || '', 1000, y); ctx.textAlign = 'left';
+    });
+  }
+
+  ctx.fillStyle = '#f5f5f5'; ctx.fillRect(0, H - 150, W, 150);
+  ctx.textAlign = 'center'; ctx.fillStyle = '#333'; ctx.font = '700 30px Inter, system-ui, sans-serif';
+  ctx.fillText('Armé mi boleta de candidatos', W / 2, H - 92);
+  ctx.fillStyle = '#999'; ctx.font = '400 24px Inter, system-ui, sans-serif';
+  ctx.fillText('mercado-voto.vercel.app · simulador', W / 2, H - 52);
+
+  return cv;
+}
+
+async function descargarBoleta(items) {
+  const cv = await tarjetaBoleta(items);
+  await entregar(cv, 'mi-boleta.png');
+}

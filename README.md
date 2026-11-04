@@ -32,9 +32,11 @@ Escribe `index.html`, `boleta.html` y las 25 fichas de `c/`. No toca las fotos.
 El catálogo no lista personas: lista **candidaturas**. Un mismo dirigente puede competir en la presidencial y en la gobernación de su provincia, y aparece dos veces con distinto cargo.
 
 - `candidatos[]`: la ficha de cada persona.
-- `candidaturas[]`: cada postulación, con `cid` (id del candidato), `cargo` (`presidencial`, `gobernador`, `intendente`) y `jur` (provincia o ciudad; `Nacional` para la presidencial).
+- `candidaturas[]`: cada postulación, con `cid` (id del candidato), `cargo` (`presidencial`, `gobernador`, `intendente`, `legislador`) y `jur` (provincia o ciudad; `Nacional` para la presidencial y los legisladores nacionales).
 
-Todos los candidatos cargados compiten por la presidencial. Las gobernaciones y las intendencias son listas aparte, por jurisdicción.
+Reparto actual: 15 presidenciales, 15 gobernadores (3 por provincia en cinco provincias), 11 intendentes (en cuatro ciudades) y 32 legisladores. La mayoría del padrón va como legislador porque es donde entran las listas.
+
+La boleta se arma con un presidente, un gobernador, un intendente y hasta cinco legisladores. El almacenamiento vive en `localStorage` bajo `mv_boleta_v2`, como lista de objetos `{i, c, j}`.
 
 ## Agregar o editar un candidato
 
@@ -61,6 +63,7 @@ La presidencial tiene a todos los perfiles cargados, incluidos los candidateable
 
 ## Lo que falta
 - El precio ("1 voto") es parte del chiste, no un cálculo.
+- Ocho perfiles no tienen foto y usan iniciales. Se descartaron fotos de Commons que no correspondían a la persona.
 - Las fotos vienen de Wikipedia y se sirven locales. Si se agrega un candidato sin foto, el avatar usa iniciales sobre el color asignado.
 - No hay backend ni base de usuarios. Si se quiere guardar la boleta o comparar entre dispositivos, hace falta una API.
 

@@ -8,7 +8,7 @@ CANDS = {c["id"]: c for c in D["candidatos"]}
 CAND = sorted(D["candidatos"], key=lambda c: c["nombre"])
 CANDIDATURAS = D["candidaturas"]
 
-CARGOS = [("presidencial", "Presidenciales"), ("gobernador", "Gobernadores"), ("intendente", "Intendentes")]
+CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 POLOS = [("Economía", "Estado", "Mercado"), ("Sociedad", "Conservador", "Progresista"),
          ("Poder", "Institucional", "Personalista"), ("Federalismo", "Centralista", "Federal"),
          ("Cambio", "Continuidad", "Ruptura"), ("Exterior", "Autonomía", "Occidente")]
@@ -81,7 +81,9 @@ def logo():
 
 def etiqueta(cargo, jur):
     if cargo == "presidencial":
-        return "Presidencial"
+        return "Presidente"
+    if cargo == "legislador":
+        return "Legislador · " + jur if jur else "Legislador"
     return ("Gobernador · " if cargo == "gobernador" else "Intendente · ") + jur
 
 
@@ -115,7 +117,7 @@ def card(cid, cargo, jur):
     <div class="precio">1 voto <small>por período</small></div>
     <div class="envio">Asume en diciembre</div>
     {estrellas(c)}
-    <button class="btn" onclick="agregar('{c["id"]}', true)">Comprar</button>
+    <button class="btn" onclick="agregar('{c["id"]}', '{cargo}', '{esc(jur)}')">Comprar</button>
   </div>
 </div>'''
 
@@ -197,6 +199,11 @@ def build_ficha(c):
     polos = "".join(f'<div><b>{a}</b><br>{b} ↔ {d}</div>' for a, b, d in POLOS)
     rel = [x for x in CAND if x["id"] != c["id"] and x["partido"] == c["partido"]][:4]
     rel_html = "".join(f'<a href="/c/{x["slug"]}" class="rel"><b>{esc(x["nombre"])}</b><span>{esc(x["partido"])}</span></a>' for x in rel) or "<p style='color:#888'>No hay otros del mismo espacio.</p>"
+    botones = "".join(
+        '<button class="btn" onclick="agregar('
+        + "'" + c["id"] + "', '" + x["cargo"] + "', '" + esc(x["jur"]) + "'"
+        + ')">Comprar como ' + esc(etiqueta(x["cargo"], x["jur"])) + "</button>"
+        for x in cargos)
     share_data = json.dumps({"nombre": c["nombre"], "slug": c["slug"], "partido": c["partido"],
                              "cargo": cargos[0]["cargo"] if cargos else "presidencial",
                              "jur": cargos[0]["jur"] if cargos else "Nacional",
@@ -227,8 +234,7 @@ def build_ficha(c):
         <div>Espacio: <b>{esc(c["partido"])}</b></div>
         <div style="margin-top:8px">{estrellas(c)}</div>
       </div>
-      <button class="btn" onclick="agregar('{c["id"]}', true)">Comprar ahora</button>
-      <button class="btn sec" onclick="agregar('{c["id"]}', false)">Agregar a mi boleta</button>
+      {botones}
       <button class="btn share" onclick="descargarVoto()">Descargar mi voto</button>
       <div class="aviso">Simulador. No se registra ningún voto ni se envía nada a ningún lado.</div>
     </div>
@@ -261,11 +267,8 @@ def build_ficha(c):
 
 
 def build_boleta():
-    data = json.dumps({c["id"]: {"n": c["nombre"], "s": c["slug"], "p": c["partido"], "f": c["foto"],
-                                 "i": ini(c["nombre"]), "col": c["color"],
-                                 "e": etiqueta(next((x["cargo"] for x in CANDIDATURAS if x["cid"] == c["id"]), "presidencial"),
-                                               next((x["jur"] for x in CANDIDATURAS if x["cid"] == c["id"]), "Nacional"))}
-                      for c in CAND}, ensure_ascii=False)
+    data = json.dumps({c["id"]: {"n": c["nombre"], "p": c["partido"], "f": c["foto"],
+                                 "i": ini(c["nombre"]), "col": c["color"]} for c in CAND}, ensure_ascii=False)
     return f'''<!DOCTYPE html><html lang="es-AR"><head>
 <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Mi boleta · Mercado Voto</title>
@@ -273,52 +276,61 @@ def build_boleta():
 <link rel="stylesheet" href="/style.css">
 </head><body>
 {header()}
-<main class="main"><div class="wrap" style="max-width:760px">
+<main class="main"><div class="wrap" style="max-width:720px">
   <div class="panel">
-    <h2>Mi boleta</h2>
-    <div class="sub">Los candidatos que elegiste. Podés sacar y agregar cuando quieras.</div>
-    <div id="lista"></div>
-    <div class="total"><span>Total</span><span><b id="tot">0</b> <small style="color:#999">votos</small></span></div>
-    <button class="btn" onclick="confirmar()">Confirmar boleta</button>
-    <div class="aviso">Esto no envía nada. Tu boleta vive en este navegador.</div>
+    <h2>Armá tu boleta</h2>
+    <div class="sub">Un presidente, un gobernador, un intendente y hasta cinco legisladores.</div>
+    <div class="slot" id="s-presidencial"></div>
+    <div class="slot" id="s-gobernador"></div>
+    <div class="slot" id="s-intendente"></div>
+    <h3 style="margin:22px 0 10px;font-size:14px;color:#444">Legisladores <span id="leg-cuenta" style="color:#999;font-weight:400"></span></h3>
+    <div id="s-legislador"></div>
+    <button class="btn" id="btn-armar" onclick="armar()">Armá mi boleta</button>
+    <div class="aviso">Se genera una imagen para compartir. No se envía nada a ningún servidor.</div>
   </div>
 </div></main>
 {footer()}
-<div id="modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);align-items:center;justify-content:center;padding:20px;z-index:100">
-  <div style="background:#fff;border-radius:8px;padding:26px;max-width:420px;text-align:center">
-    <h3 style="font-size:18px;margin-bottom:10px">Boleta confirmada</h3>
-    <p id="m-txt" style="color:#666;font-size:14px;margin-bottom:18px"></p>
-    <button class="btn" onclick="document.getElementById('modal').style.display='none'">Listo</button>
-  </div>
-</div>
-<script src="/assets/carrito.js?v=3"></script>
+<script src="/assets/carrito.js?v=4"></script>
+<script src="/assets/share.js?v=4"></script>
 <script>
 const DATA = {data};
-function render(){{
-  const b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
-  const cont = document.getElementById('lista');
-  document.querySelectorAll('.mi-boleta .n').forEach(e => e.textContent = b.length);
-  if(!b.length){{ cont.innerHTML = '<div class="vacio">Todavía no elegiste a nadie.<br><a href="/">Ver candidatos</a></div>'; document.getElementById('tot').textContent='0'; return; }}
-  cont.innerHTML = b.map(id => {{
-    const c = DATA[id]; if(!c) return '';
-    const img = c.f ? '<img src="/' + c.f + '" alt="">' : '<div class="ini" style="background:' + c.col + '">' + c.i + '</div>';
-    return '<div class="boleta-item">' + img + '<div><a href="/c/' + c.s + '"><b>' + c.n + '</b></a>' +
-      '<div style="font-size:12.5px;color:#999">' + c.p + ' · ' + c.e + '</div></div>' +
-      '<button class="quitar" onclick="quitar(\\'' + id + '\\')">Quitar</button></div>';
-  }}).join('');
-  document.getElementById('tot').textContent = b.length;
+const CARGOS = [['presidencial','Presidente'],['gobernador','Gobernador'],['intendente','Intendente']];
+function fichaHTML(it, idx){{
+  const c = DATA[it.i]; if(!c) return '';
+  const img = c.f ? '<img src="/' + c.f + '" alt="">' : '<div class="ini" style="background:' + c.col + '">' + c.i + '</div>';
+  return '<div class="slot-item">' + img + '<div class="slot-txt"><b>' + c.n + '</b><span>' + c.p +
+    (it.j && it.j !== 'Nacional' ? ' · ' + it.j : '') + '</span></div>' +
+    '<button class="quitar" onclick="quitar(' + idx + ')">Quitar</button></div>';
 }}
-function quitar(id){{
-  let b = JSON.parse(localStorage.getItem('mv_boleta') || '[]').filter(x => x !== id);
-  localStorage.setItem('mv_boleta', JSON.stringify(b)); render();
+function vacioHTML(cargo, etiqueta){{
+  return '<div class="slot-vacio"><span>' + etiqueta + '</span><a href="/?cargo=' + cargo + '">+ Elegir</a></div>';
 }}
-function confirmar(){{
-  const b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
+function renderBoleta(){{
+  const b = leer();
+  CARGOS.forEach(([cargo, etq]) => {{
+    const idx = b.findIndex(x => x.c === cargo);
+    document.getElementById('s-' + cargo).innerHTML =
+      '<div class="slot-label">' + etq + '</div>' +
+      (idx >= 0 ? fichaHTML(b[idx], idx) : vacioHTML(cargo, 'Sin elegir todavía'));
+  }});
+  const legs = b.map((x, i) => ({{x, i}})).filter(o => o.x.c === 'legislador');
+  document.getElementById('leg-cuenta').textContent = '(' + legs.length + ' de 5)';
+  let html = legs.map(o => fichaHTML(o.x, o.i)).join('');
+  for (let k = legs.length; k < 5; k++) html += vacioHTML('legislador', 'Lugar ' + (k + 1) + ' libre');
+  document.getElementById('s-legislador').innerHTML = html;
+  document.getElementById('btn-armar').disabled = b.length === 0;
+  document.getElementById('btn-armar').style.opacity = b.length ? 1 : .45;
+}}
+function armar(){{
+  const b = leer();
   if(!b.length) return;
-  document.getElementById('modal').style.display = 'flex';
-  document.getElementById('m-txt').textContent = 'Tu boleta tiene ' + b.length + ' candidatos. En una elección real solo podés elegir uno por cargo.';
+  const items = b.map(x => {{
+    const c = DATA[x.i];
+    return {{ c: x.c, j: x.j, n: c.n, p: c.p, color: c.col }};
+  }});
+  descargarBoleta(items);
 }}
-document.addEventListener('DOMContentLoaded', render);
+document.addEventListener('DOMContentLoaded', renderBoleta);
 </script>
 </body></html>'''
 
