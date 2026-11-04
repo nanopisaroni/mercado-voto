@@ -164,8 +164,8 @@ def build_index():
   </div>
 </div></div></main>
 {footer()}
-<script src="/assets/carrito.js"></script>
-<script src="/assets/catalogo.js"></script>
+<script src="/assets/carrito.js?v=3"></script>
+<script src="/assets/catalogo.js?v=3"></script>
 </body></html>'''
 
 
@@ -254,9 +254,9 @@ def build_ficha(c):
   </div>
 </div></main>
 {footer()}
-<script src="/assets/carrito.js"></script>
+<script src="/assets/carrito.js?v=3"></script>
 <script>window.CAND = {share_data};</script>
-<script src="/assets/share.js"></script>
+<script src="/assets/share.js?v=3"></script>
 </body></html>'''
 
 
@@ -291,7 +291,7 @@ def build_boleta():
     <button class="btn" onclick="document.getElementById('modal').style.display='none'">Listo</button>
   </div>
 </div>
-<script src="/assets/carrito.js"></script>
+<script src="/assets/carrito.js?v=3"></script>
 <script>
 const DATA = {data};
 function render(){{
