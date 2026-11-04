@@ -1,0 +1,86 @@
+<!DOCTYPE html><html lang="es-AR"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mi boleta · Mercado Voto</title>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css">
+</head><body>
+<header class="top"><div class="wrap">
+  <a class="logo" href="/">Mercado <b>Voto</b></a>
+  <div class="buscador"><input id="q" type="text" placeholder="Buscá un candidato, un partido o una provincia" autocomplete="off"><button aria-label="Buscar">⌕</button></div>
+  <a class="mi-boleta" href="/boleta">🛒 Mi boleta <span class="n">0</span></a>
+</div></header>
+<nav class="nav"><div class="wrap"><a href="/?cat=presidencial" class="">Presidenciales</a><a href="/?cat=gobernador" class="">Gobernadores</a><a href="/?cat=diputado" class="">Diputados</a><a href="/?cat=senador" class="">Senadores</a><a href="/?cat=municipal" class="">Municipales</a><a href="/?orden=ruptura">Más disruptivos</a><a href="/?orden=cumplimiento">Mejor reputación</a></div></nav>
+<main class="main"><div class="wrap" style="max-width:760px">
+  <div class="panel">
+    <h2>Mi boleta</h2>
+    <div class="sub">Los candidatos que elegiste. Podés sacar y agregar cuando quieras.</div>
+    <div id="lista"></div>
+    <div class="total"><span>Total</span><span><b id="tot">0</b> <small style="color:#999">votos</small></span></div>
+    <button class="btn" onclick="confirmar()">Confirmar boleta</button>
+    <div class="aviso">Esto no envía nada. El sitio no guarda datos en ningún servidor: tu boleta vive en este navegador.</div>
+  </div>
+</div></main>
+<footer><div class="wrap">
+  <div>Mercado Voto · simulador. No se compra nada, no se vota nada.</div>
+  <div>Perfiles y críticas: proyecto A Quién Criticás. Fotos: Wikimedia Commons.</div>
+</div></footer>
+<div id="modal" style="display:none;position:fixed;inset:0;background:rgba(0,0,0,.5);align-items:center;justify-content:center;padding:20px;z-index:100">
+  <div style="background:#fff;border-radius:8px;padding:26px;max-width:420px;text-align:center">
+    <h3 style="font-size:18px;margin-bottom:10px">Boleta confirmada</h3>
+    <p id="m-txt" style="color:#666;font-size:14px;margin-bottom:18px"></p>
+    <button class="btn" onclick="cerrar()">Listo</button>
+  </div>
+</div>
+<script>
+function pintarContador(){
+  const b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
+  document.querySelectorAll('.mi-boleta .n').forEach(e => e.textContent = b.length);
+}
+function agregar(id, ir){
+  let b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
+  if(!b.includes(id)) b.push(id);
+  localStorage.setItem('mv_boleta', JSON.stringify(b));
+  pintarContador();
+  if(ir) location.href = '/boleta';
+  else {
+    const t = document.createElement('div');
+    t.textContent = 'Agregado a tu boleta';
+    t.style.cssText='position:fixed;bottom:22px;left:50%;transform:translateX(-50%);background:#333;color:#fff;padding:11px 20px;border-radius:6px;font-size:13.5px;z-index:99';
+    document.body.appendChild(t); setTimeout(()=>t.remove(), 1800);
+  }
+}
+document.addEventListener('DOMContentLoaded', pintarContador);
+
+const DATA = {"adorni": {"n": "Manuel Adorni", "s": "manuel-adorni", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/adorni.jpg", "i": "MA", "col": "#1a1a2e"}, "bregman": {"n": "Myriam Bregman", "s": "myriam-bregman", "p": "Frente de Izquierda", "pr": "CABA", "f": "assets/fotos/bregman.jpg", "i": "MB", "col": "#8e44ad"}, "bullrich": {"n": "Patricia Bullrich", "s": "patricia-bullrich", "p": "PRO", "pr": "Nacional", "f": "assets/fotos/bullrich.jpg", "i": "PB", "col": "#e67e22"}, "caputo": {"n": "Luis Caputo", "s": "luis-caputo", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/caputo.jpg", "i": "LC", "col": "#2e86c1"}, "cornejo": {"n": "Alfredo Cornejo", "s": "alfredo-cornejo", "p": "UCR", "pr": "Mendoza", "f": "assets/fotos/cornejo.jpg", "i": "AC", "col": "#e74c3c"}, "cristina": {"n": "Cristina Fernández de Kirchner", "s": "cristina-fernandez-de-kirchner", "p": "Unión por la Patria", "pr": "Nacional", "f": "assets/fotos/cristina.jpg", "i": "CK", "col": "#3a79c4"}, "delcano": {"n": "Nicolás del Caño", "s": "nicolas-del-cano", "p": "Frente de Izquierda", "pr": "Mendoza", "f": "assets/fotos/delcano.jpg", "i": "NC", "col": "#8e44ad"}, "frigerio": {"n": "Rogelio Frigerio", "s": "rogelio-frigerio", "p": "PRO", "pr": "Entre Ríos", "f": "", "i": "RF", "col": "#f39c12"}, "jmacri": {"n": "Jorge Macri", "s": "jorge-macri", "p": "PRO", "pr": "CABA", "f": "assets/fotos/jmacri.jpg", "i": "JM", "col": "#2ecc71"}, "kicillof": {"n": "Axel Kicillof", "s": "axel-kicillof", "p": "Unión por la Patria", "pr": "Buenos Aires", "f": "assets/fotos/kicillof.jpg", "i": "AK", "col": "#1a5276"}, "kmilei": {"n": "Karina Milei", "s": "karina-milei", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/kmilei.jpg", "i": "KM", "col": "#8e44ad"}, "llaryora": {"n": "Martín Llaryora", "s": "martin-llaryora", "p": "Hacemos Unidos por Córdoba", "pr": "Córdoba", "f": "assets/fotos/llaryora.jpg", "i": "ML", "col": "#27ae60"}, "lousteau": {"n": "Martín Lousteau", "s": "martin-lousteau", "p": "UCR", "pr": "CABA", "f": "assets/fotos/lousteau.jpg", "i": "ML", "col": "#e74c3c"}, "macri": {"n": "Mauricio Macri", "s": "mauricio-macri", "p": "PRO", "pr": "Nacional", "f": "assets/fotos/macri.jpg", "i": "MM", "col": "#f39c12"}, "manes": {"n": "Facundo Manes", "s": "facundo-manes", "p": "UCR", "pr": "Buenos Aires", "f": "assets/fotos/manes.jpg", "i": "FM", "col": "#16a085"}, "massa": {"n": "Sergio Massa", "s": "sergio-massa", "p": "Unión por la Patria", "pr": "Buenos Aires", "f": "assets/fotos/massa.jpg", "i": "SM", "col": "#2980b9"}, "milei": {"n": "Javier Milei", "s": "javier-milei", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/milei.jpg", "i": "JM", "col": "#c44"}, "moyano": {"n": "Pablo Moyano", "s": "pablo-moyano", "p": "Camioneros", "pr": "Buenos Aires", "f": "", "i": "PM", "col": "#c0392b"}, "pichetto": {"n": "Miguel Ángel Pichetto", "s": "miguel-angel-pichetto", "p": "Hacemos Coalición Federal", "pr": "Río Negro", "f": "assets/fotos/pichetto.jpg", "i": "MP", "col": "#2c3e50"}, "pullaro": {"n": "Maximiliano Pullaro", "s": "maximiliano-pullaro", "p": "Unidos para Cambiar Santa Fe", "pr": "Santa Fe", "f": "assets/fotos/pullaro.jpg", "i": "MP", "col": "#d35400"}, "santiago-caputo": {"n": "Santiago Caputo", "s": "santiago-caputo", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/santiago-caputo.jpg", "i": "SC", "col": "#34495e"}, "santilli": {"n": "Jorge \"Russo\" Santilli", "s": "jorge-santilli", "p": "PRO / Operador territorial / Bullrichista", "pr": "Nacional", "f": "", "i": "JS", "col": "#f39c12"}, "sturzenegger": {"n": "Federico Sturzenegger", "s": "federico-sturzenegger", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/sturzenegger.jpg", "i": "FS", "col": "#2c3e50"}, "unac": {"n": "Sergio Uñac", "s": "sergio-unac", "p": "Unión por la Patria", "pr": "San Juan", "f": "assets/fotos/unac.jpg", "i": "SU", "col": "#1a5276"}, "villarruel": {"n": "Victoria Villarruel", "s": "victoria-villarruel", "p": "La Libertad Avanza", "pr": "Nacional", "f": "assets/fotos/villarruel.jpg", "i": "VV", "col": "#1a5276"}};
+function render(){
+  const b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
+  const cont = document.getElementById('lista');
+  const tot = document.getElementById('tot');
+  document.querySelectorAll('.mi-boleta .n').forEach(e => e.textContent = b.length);
+  if(!b.length){
+    cont.innerHTML = '<div class="vacio">Todavía no elegiste a nadie.<br><a href="/">Ver candidatos</a></div>';
+    tot.textContent = '0'; return;
+  }
+  cont.innerHTML = b.map(id => {
+    const c = DATA[id]; if(!c) return '';
+    const img = c.f ? `<img src="/${c.f}" alt="">` : `<div class="ini" style="background:${c.col}">${c.i}</div>`;
+    return `<div class="boleta-item">${img}<div><a href="/c/${c.s}"><b>${c.n}</b></a><div style="font-size:12.5px;color:#999">${c.p} · ${c.pr}</div></div><button class="quitar" onclick="quitar('${id}')">Quitar</button></div>`;
+  }).join('');
+  tot.textContent = b.length;
+}
+function quitar(id){
+  let b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
+  b = b.filter(x => x !== id);
+  localStorage.setItem('mv_boleta', JSON.stringify(b));
+  render();
+}
+function confirmar(){
+  const b = JSON.parse(localStorage.getItem('mv_boleta') || '[]');
+  if(!b.length) return;
+  document.getElementById('modal').style.display = 'flex';
+  document.getElementById('m-txt').textContent = `Tu boleta tiene ${b.length} candidato${b.length>1?'s':''}. En una elección real solo podrías elegir uno por categoría.`;
+}
+function cerrar(){ document.getElementById('modal').style.display = 'none'; }
+document.addEventListener('DOMContentLoaded', render);
+</script>
+</body></html>
