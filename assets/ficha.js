@@ -29,6 +29,7 @@
 
   document.querySelectorAll('.share-row [data-share]').forEach(b => b.addEventListener('click', () => {
     const url = location.origin + '/c/' + F.slug;
+    track('comparte', 'ficha-' + b.dataset.share);
     compartirLink(b.dataset.share, F.nombre + ' en Mercado Voto: “' + F.gancho + '” Mirá lo bueno, lo malo y las críticas 👇', url);
   }));
   pintar();

@@ -483,6 +483,82 @@ footer .legal { display: block; margin-top: 24px; padding-top: 16px; border-top:
 details.mas summary { margin: -2px 0 10px; }
 details.mas[open] summary { display: none; }
 
+/* ---------- dónde votás ---------- */
+.lugar-btn { padding: 4px 12px 9px 0; font-size: 13px; font-weight: 600; color: #2d2d2d; white-space: nowrap; border-right: 1px solid rgba(0,0,0,.12); margin-right: 4px; }
+.lugar-btn:hover { color: #000; }
+.lugar-c { text-align: left; max-width: 420px; }
+.ml-ico { font-size: 34px; text-align: center; }
+.lugar-c h2 { text-align: center; }
+.lugar-c > p { text-align: center; }
+.ml-campo { display: flex; flex-direction: column; gap: 6px; font-size: 13px; font-weight: 600; color: var(--soft); margin-bottom: 14px; }
+.ml-campo select { padding: 11px; border: 1px solid #ccc; border-radius: 6px; font: inherit; font-size: 15px; color: var(--ink); background: #fff; }
+.ml-ciudades { display: flex; flex-direction: column; gap: 4px; }
+.ml-ciudades label { display: flex; gap: 8px; align-items: center; padding: 9px 12px; border: 1px solid var(--line); border-radius: 6px; font-weight: 500; color: var(--ink); cursor: pointer; }
+.ml-ciudades label:has(input:checked) { border-color: var(--ml-blue); background: #f5f9ff; }
+.ml-ciudades input { accent-color: var(--ml-blue); }
+.ml-aviso { background: #fff8dd; color: #7a5c00; font-size: 13px; padding: 10px 12px; border-radius: 6px; margin-bottom: 14px; line-height: 1.45; }
+.lugar-c .link-btn { display: block; margin: 12px auto 0; color: var(--soft); }
+
+/* ---------- armado guiado ---------- */
+.guia { display: flex; align-items: center; gap: 14px; background: #2d2d2d; color: #fff; border-radius: var(--radius); padding: 12px 14px; margin-bottom: 12px; position: sticky; top: 104px; z-index: 30; box-shadow: 0 6px 18px rgba(0,0,0,.18); }
+.guia-pasos { display: flex; gap: 4px; }
+.gp { width: 26px; height: 26px; border-radius: 50%; background: #4a4a4a; color: #aaa; font-size: 12px; font-weight: 700; display: grid; place-items: center; }
+.gp.ok { background: var(--ml-green); color: #fff; }
+.gp.on { background: var(--ml-yellow); color: #2d2d2d; }
+.guia-txt { flex: 1; display: flex; flex-direction: column; min-width: 0; }
+.guia-txt b { font-size: 15px; }
+.guia-txt small { color: #bbb; font-size: 12.5px; }
+.guia-acc { display: flex; align-items: center; gap: 10px; }
+.guia .link-btn { color: #ddd; }
+.guia .btn { width: auto; background: var(--ml-yellow); color: #2d2d2d; min-height: 36px; padding: 8px 14px; }
+.guia .cerrar { color: #999; font-size: 16px; width: 30px; height: 30px; border-radius: 50%; }
+.guia .cerrar:hover { background: #444; color: #fff; }
+
+/* ---------- ranking ---------- */
+.hero-cont { display: block; margin-top: 12px; font-size: 13.5px; font-weight: 700; }
+.hero-cont:empty { display: none; }
+.top-ranking { margin-bottom: 22px; }
+.rk-cab { display: flex; justify-content: space-between; align-items: flex-end; gap: 12px; flex-wrap: wrap; margin-bottom: 8px; }
+.rk-cab .sub { margin-bottom: 0; }
+.rk-tabs { display: flex; gap: 6px; flex-wrap: wrap; }
+.rk-tabs button { padding: 6px 12px; border-radius: 16px; background: #f2f2f2; font-size: 12.5px; font-weight: 600; color: #555; }
+.rk-tabs button[aria-selected="true"] { background: var(--ml-blue); color: #fff; }
+.rk-lista { list-style: none; }
+.rk-lista li { display: grid; grid-template-columns: 24px 48px 1fr auto auto; gap: 12px; align-items: center; padding: 10px 0; border-bottom: 1px solid #f2f2f2; }
+.rk-lista li:last-child { border-bottom: none; }
+.rk-pos { font-size: 18px; font-weight: 800; color: var(--mute); text-align: center; }
+.rk-lista li:first-child .rk-pos { color: var(--ml-orange); }
+.rk-f { width: 48px; height: 48px; border-radius: 50%; object-fit: cover; object-position: center 18%; font-size: 15px; }
+.rk-info { min-width: 0; display: flex; flex-direction: column; }
+.rk-info a { color: var(--ink); }
+.rk-info b { font-size: 14.5px; font-weight: 600; }
+.rk-info > span { font-size: 12px; color: var(--mute); }
+.rk-barra { height: 5px; background: #f0f0f0; border-radius: 3px; margin-top: 5px; overflow: hidden; }
+.rk-barra i { display: block; height: 100%; background: var(--ml-blue); border-radius: 3px; }
+.rk-n { text-align: right; display: flex; flex-direction: column; }
+.rk-n b { font-size: 17px; }
+.rk-n small { font-size: 11.5px; color: var(--mute); }
+.rk-lista .btn { width: auto; min-height: 34px; padding: 6px 12px; font-size: 12.5px; }
+.rk-nota { font-size: 11.5px !important; color: var(--mute) !important; margin: 10px 0 0 !important; }
+.rk-linea { font-size: 11.5px; font-weight: 700; color: var(--ml-orange); }
+.badge-rk { position: absolute; top: 10px; right: 10px; font-size: 10.5px; font-weight: 800; padding: 3px 7px; border-radius: 3px; background: var(--ml-orange); color: #fff; letter-spacing: .04em; }
+.m-rk { background: #f5f9ff; border-radius: 8px; padding: 10px 12px; font-size: 13.5px; color: #333; margin: -4px 0 14px; }
+.m-rk b { color: var(--ml-blue); }
+
+/* ---------- boleta y lugar ---------- */
+.slot-ajeno { font-size: 11.5px; color: #b45309; font-weight: 600; }
+.slot-vacio.no-aplica { border-style: solid; border-color: #eee; background: #fafafa; color: #888; font-size: 13px; gap: 10px; }
+#b-sub .link-btn, .sub .link-btn { font-size: 13px; }
+
+@media (max-width: 860px) {
+  .guia { top: 118px; flex-wrap: wrap; gap: 8px 12px; padding: 10px 12px; }
+  .guia-txt { order: 2; flex-basis: 100%; }
+  .guia-txt b { font-size: 14px; }
+  .guia-acc { margin-left: auto; }
+  .rk-lista li { grid-template-columns: 20px 40px 1fr auto; gap: 10px; }
+  .rk-lista .btn { grid-column: 3 / -1; justify-self: start; }
+  .rk-f { width: 40px; height: 40px; }
+}
 /* logo */
 .logo { display: flex; align-items: center; }
 .logo img { height: 54px; width: auto; display: block; }
