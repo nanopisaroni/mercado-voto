@@ -3045,10 +3045,10 @@
    "id": "unac",
    "nombre": "Sergio Uñac",
    "slug": "sergio-unac",
-   "rol": "Gobernador de la Provincia de San Juan (2019–actualidad)",
+   "rol": "Senador nacional por San Juan (2023-2029). Ex gobernador (2015-2023).",
    "tag": "Peronismo K / Minería",
    "color": "#1a5276",
-   "bio": "Abogado y político sanjuanino, Sergio Uñac escaló en el peronismo provincial hasta convertirse en gobernador en 2019 tras ser vicegobernador de José Luis Gioja. Reelecto en 2023, la Corte Suprema lo inhabilitó para un tercer mandato consecutivo, desatando una crisis institucional. Su gestión está marcada por la promoción de la megaminería (Pascua Lama, proyectos de cobre) y el blanqueo del litio.",
+   "bio": "Senador nacional por San Juan desde 2023 y ex gobernador de la provincia. Acelera un proyecto presidencial propio para 2027 con recorridas por el interior y un discurso federal.",
    "foto": "assets/fotos/unac.jpg",
    "categorias": [
     "gobernador"
@@ -7833,6 +7833,258 @@
     "Tiene banca nacional y recorrido en la provincia."
    ],
    "badge": ""
+  },
+  {
+   "id": "zamora",
+   "nombre": "Gerardo Zamora",
+   "slug": "gerardo-zamora",
+   "rol": "Senador nacional por Santiago del Estero desde 2025",
+   "tag": "Presidenciable",
+   "color": "#0e7a5f",
+   "bio": "Senador nacional desde 2025 y ex gobernador de Santiago del Estero durante tres mandatos. Construyó el Frente Cívico, un espacio provincial que ganó todas las elecciones desde 2005 y que no depende ni del PJ nacional ni de La Libertad Avanza. Su nombre volvió a aparecer en el radar presidencial para 2027.",
+   "foto": "assets/fotos/zamora.jpg",
+   "categorias": [],
+   "provincia": "Santiago del Estero",
+   "partido": "Frente Cívico por Santiago",
+   "ejes": [
+    30,
+    55,
+    70,
+    80,
+    40,
+    30
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2005-2009",
+     "evento": "Gobernador de Santiago del Estero."
+    },
+    {
+     "fecha": "2013-2017",
+     "evento": "Segundo mandato como gobernador."
+    },
+    {
+     "fecha": "2017-2025",
+     "evento": "Tercer mandato."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Asume como senador nacional."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Escala",
+     "tesis": "Gobierna Santiago hace veinte años y quiere probar en el país.",
+     "cuerpo": "Zamora es el dirigente con más continuidad en el poder del norte argentino: tres mandatos como gobernador y una estructura que no perdió una elección desde 2005. Eso puede leerse como eficacia o como un sistema armado a medida. En una elección nacional, la pregunta es cuánto de ese aparato se traduce en votos fuera de la provincia.",
+     "evidencia": "Gobernador 2005-2009, 2013-2017 y 2017-2025; senador nacional desde 2025.",
+     "fuerza": "media",
+     "tipo": "Escala",
+     "respuesta_esperada": "Que gobernar bien una provincia es la mejor prueba para gobernar el país.",
+     "refutacion": "Puede ser. Pero ninguna provincia del norte pesa más del 2% del padrón nacional."
+    }
+   ],
+   "vulnerabilidades": [
+    "El poder territorial es de la provincia, no del país.",
+    "Su figura nunca se midió fuera de Santiago."
+   ],
+   "gancho": "Veinte años de poder en el norte. Ahora mira el país.",
+   "a_favor": [
+    "Ganó todas las elecciones provinciales desde 2005 con espacio propio.",
+    "Tiene una provincia ordenada y sin déficit, algo poco común en el norte."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "depedro",
+   "nombre": "Eduardo \"Wado\" de Pedro",
+   "slug": "eduardo-wado-de-pedro",
+   "rol": "Senador nacional por Buenos Aires desde 2023",
+   "tag": "Presidenciable",
+   "color": "#4a90d9",
+   "bio": "Senador nacional por la provincia de Buenos Aires desde 2023. Fue ministro del Interior entre 2021 y 2023 y es uno de los dirigentes de La Cámpora con más peso en el peronismo. Preside la comisión de Ciencia y Tecnología del Senado.",
+   "foto": "assets/fotos/depedro.jpg",
+   "categorias": [],
+   "provincia": "Buenos Aires",
+   "partido": "Unión por la Patria",
+   "ejes": [
+    15,
+    60,
+    70,
+    45,
+    45,
+    25
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2019-2021",
+     "evento": "Secretario de Asuntos Estratégicos de la Presidencia."
+    },
+    {
+     "fecha": "2021-2023",
+     "evento": "Ministro del Interior de la Nación."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Asume como senador nacional por Buenos Aires."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Pertenencia",
+     "tesis": "Su capital político es prestado.",
+     "cuerpo": "Wado de Pedro construyó su carrera dentro de La Cámpora y del kirchnerismo, con cargos designados y una banca que llegó en una lista. Tiene gestión y tiene discurso, pero nunca construyó un espacio propio por fuera de la estructura que lo nombró. Si Cristina no está en la boleta, su piso electoral es una incógnita.",
+     "evidencia": "Fue secretario y ministro por designación; senador desde 2023 en la lista de Unión por la Patria.",
+     "fuerza": "media",
+     "tipo": "Pertenencia",
+     "respuesta_esperada": "Que La Cámpora es una estructura política con vida propia.",
+     "refutacion": "Es una estructura, sí. Pero heredada, y las herencias se disputan."
+    }
+   ],
+   "vulnerabilidades": [
+    "Su peso político depende de la estructura kirchnerista, no de una base propia.",
+    "No ganó nunca una elección ejecutiva."
+   ],
+   "gancho": "La Cámpora con traje de gestión.",
+   "a_favor": [
+    "Tiene una banca nacional y una estructura territorial en la provincia más grande.",
+    "Es uno de los pocos dirigentes de La Cámpora con gestión ejecutiva."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "scioli",
+   "nombre": "Daniel Scioli",
+   "slug": "daniel-scioli",
+   "rol": "Secretario de Turismo, Ambiente y Deportes de la Nación",
+   "tag": "Presidenciable",
+   "color": "#4a90d9",
+   "bio": "Secretario de Turismo, Ambiente y Deportes desde enero de 2024. Fue gobernador de Buenos Aires entre 2007 y 2015, candidato presidencial en 2015 y embajador en Brasil. Su nombre vuelve a circular en las encuestas cada vez que el peronismo busca un candidato de centro.",
+   "foto": "assets/fotos/scioli.jpg",
+   "categorias": [],
+   "provincia": "Buenos Aires",
+   "partido": "Unión por la Patria",
+   "ejes": [
+    35,
+    50,
+    45,
+    45,
+    30,
+    40
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2007-2015",
+     "evento": "Gobernador de la provincia de Buenos Aires."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Candidato presidencial por el Frente para la Victoria."
+    },
+    {
+     "fecha": "2020-2023",
+     "evento": "Embajador en Brasil."
+    },
+    {
+     "fecha": "2024",
+     "evento": "Asume al frente de Turismo, Ambiente y Deportes."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Trayectoria",
+     "tesis": "Ocupó cargos en todos los gobiernos y perdió el que tenía que ganar.",
+     "cuerpo": "Scioli fue gobernador, candidato presidencial, embajador y ahora secretario del gobierno de Milei. Cada paso tuvo una lógica, pero juntos dibujan un dirigente que siempre está disponible para el cargo que haga falta. En 2015 perdió una elección que el peronismo daba por segura.",
+     "evidencia": "Candidato presidencial 2015; embajador en Brasil 2020-2023; secretario de Turismo desde 2024.",
+     "fuerza": "media-fuerte",
+     "tipo": "Trayectoria",
+     "respuesta_esperada": "Que la experiencia y el diálogo son activos, no defectos.",
+     "refutacion": "Son activos. La pregunta es qué representa además de estar disponible."
+    }
+   ],
+   "vulnerabilidades": [
+    "Perdió la presidencial de 2015 que todos daban por ganada.",
+    "Ocupó cargos en gobiernos de signos opuestos."
+   ],
+   "gancho": "El candidato que siempre está disponible.",
+   "a_favor": [
+    "Gobernó la provincia más grande del país durante ocho años.",
+    "Tiene diálogo con el empresariado y con el establishment financiero."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "vidal",
+   "nombre": "María Eugenia Vidal",
+   "slug": "maria-eugenia-vidal",
+   "rol": "Ex gobernadora de Buenos Aires y ex diputada nacional",
+   "tag": "Presidenciable",
+   "color": "#f5c518",
+   "bio": "Ex gobernadora de la provincia de Buenos Aires entre 2015 y 2019 y diputada nacional por la Ciudad entre 2021 y 2025. En octubre de 2026 dijo que le gustaría ser presidenta y no descartó volver a ser candidata, aunque había anunciado una nueva etapa en el sector privado.",
+   "foto": "assets/fotos/vidal.jpg",
+   "categorias": [],
+   "provincia": "CABA",
+   "partido": "PRO",
+   "ejes": [
+    70,
+    50,
+    35,
+    45,
+    35,
+    65
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2015-2019",
+     "evento": "Gobernadora de la provincia de Buenos Aires."
+    },
+    {
+     "fecha": "2021-2025",
+     "evento": "Diputada nacional por la Ciudad de Buenos Aires."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Dice que le gustaría ser presidenta y no descarta ser candidata."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "Dijo que se iba y volvió en tres meses.",
+     "cuerpo": "Vidal anunció en 2026 que iniciaba una nueva etapa en el sector privado y poco después dijo que le gustaría ser presidenta. No es ilegal ni raro en la política, pero contradice el gesto de retiro que había planteado en público.",
+     "evidencia": "Declaraciones de 2026 sobre su nueva etapa privada y, en octubre del mismo año, sobre su deseo de ser presidenta.",
+     "fuerza": "media",
+     "tipo": "Coherencia",
+     "respuesta_esperada": "Que nunca dijo que se retiraba de la política.",
+     "refutacion": "Dijo que iniciaba otra etapa. La diferencia, para el electorado, es chica."
+    }
+   ],
+   "vulnerabilidades": [
+    "Perdió la reelección en 2019 por 17 puntos.",
+    "Su último cargo terminó en 2025 y su espacio se fragmentó."
+   ],
+   "gancho": "Volvió antes de irse.",
+   "a_favor": [
+    "Fue la primera mujer en gobernar la provincia de Buenos Aires.",
+    "Tiene una marca propia con alto conocimiento en todo el país."
+   ],
+   "badge": ""
   }
  ],
  "candidaturas": [
@@ -8360,6 +8612,51 @@
    "cid": "vigo",
    "cargo": "legislador",
    "jur": "Córdoba"
+  },
+  {
+   "cid": "zamora",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "depedro",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "scioli",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "vidal",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "kicillof",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "unac",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "schiaretti",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "maximo",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "pullaro",
+   "cargo": "presidencial",
+   "jur": "Nacional"
   }
  ]
 }

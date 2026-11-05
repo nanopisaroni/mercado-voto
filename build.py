@@ -8,7 +8,7 @@ CANDS = {c["id"]: c for c in D["candidatos"]}
 CAND = sorted(D["candidatos"], key=lambda c: c["nombre"])
 CANDIDATURAS = D["candidaturas"]
 SITE = "https://mercado-voto.vercel.app"
-V = "20"  # versión de assets, para romper caché
+V = "21"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
