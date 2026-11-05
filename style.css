@@ -559,3 +559,7 @@ details.mas[open] summary { display: none; }
   .rk-lista .btn { grid-column: 3 / -1; justify-self: start; }
   .rk-f { width: 40px; height: 40px; }
 }
+/* logo */
+.logo { display: flex; align-items: center; }
+.logo img { height: 54px; width: auto; display: block; }
+@media (max-width: 700px) { .logo img { height: 44px; } }

@@ -8,7 +8,7 @@ CANDS = {c["id"]: c for c in D["candidatos"]}
 CAND = sorted(D["candidatos"], key=lambda c: c["nombre"])
 CANDIDATURAS = D["candidaturas"]
 SITE = "https://mercado-voto.vercel.app"
-V = "24"  # versión de assets, para romper caché
+V = "25"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -123,8 +123,19 @@ ICON = {
 }
 
 
+ICONO = """<ellipse cx="66" cy="60" rx="58" ry="46" stroke="#00368C" stroke-width="4" fill="none"/>
+<g stroke="#00368C" stroke-width="4" stroke-linejoin="round" stroke-linecap="round">
+<path d="M56 62h44v28H56z" fill="#fff"/>
+<g transform="rotate(-15 64 44)"><rect x="52" y="24" width="23" height="36" rx="2" fill="#fff"/><path d="M57 40l4 4 8.5-9" fill="none" stroke-width="4"/></g>
+<path d="M56 62l8-8h44l-8 8z" fill="#fff"/>
+<path d="M70 58h24" stroke-width="5.5"/>
+<g fill="#fff"><rect x="14" y="28" width="26" height="30" rx="11"/><rect x="30" y="27" width="20" height="9" rx="4.5"/><rect x="30" y="37" width="20" height="9" rx="4.5"/><rect x="30" y="47" width="18" height="9" rx="4.5"/><rect x="24" y="55" width="20" height="9" rx="4.5" transform="rotate(18 34 59)"/></g>
+</g>"""
+
+
 def logo():
-    return f'<a class="logo" href="/" aria-label="Mercado Voto, inicio">{MARK}<span>mercado <b>voto</b></span></a>'
+    return ('<a class="logo" href="/" aria-label="Mercado Voto, inicio">'
+            f'<img src="/assets/logo.webp?v={V}" alt="Mercado Voto" width="534" height="162" loading="eager"></a>')
 
 
 def etiqueta(cargo, jur):
@@ -141,7 +152,7 @@ def head(titulo, desc, og_img, url, extra=""):
 <title>{esc(titulo)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="theme-color" content="#ffe600">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" type="image/png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mercado Voto">
 <meta property="og:title" content="{esc(titulo)}">
@@ -557,9 +568,6 @@ def datos_cliente():
             "polos": [list(p) for p in POLOS]}
 
 
-FAVICON = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><rect width="34" height="34" rx="8" fill="#ffe600"/>
-<path d="M18.2 8.6h3.1L19.7 27H11.1L9.5 12.4h12.2" fill="#2d2d2d"/>
-<path d="M13.9 19.2l2.1 2.1 4.3-4.5" fill="none" stroke="#ffe600" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>'''
 
 
 os.makedirs(f"{BASE}/c", exist_ok=True)
@@ -568,7 +576,7 @@ open(f"{BASE}/index.html", "w").write(build_index())
 for c in CAND:
     open(f"{BASE}/c/{c['slug']}.html", "w").write(build_ficha(c))
 open(f"{BASE}/boleta.html", "w").write(build_boleta())
-open(f"{BASE}/favicon.svg", "w").write(FAVICON)
+
 datos = json.dumps(datos_cliente(), ensure_ascii=False, separators=(",", ":"))
 open(f"{BASE}/assets/data.js", "w").write(f"window.MV={datos};\n")
 open(f"{BASE}/api/_data.js", "w").write(f"// Generado por build.py\nexport default {datos};\n")
