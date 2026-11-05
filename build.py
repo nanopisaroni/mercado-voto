@@ -8,7 +8,7 @@ CANDS = {c["id"]: c for c in D["candidatos"]}
 CAND = sorted(D["candidatos"], key=lambda c: c["nombre"])
 CANDIDATURAS = D["candidaturas"]
 SITE = "https://mercado-voto.vercel.app"
-V = "22"  # versión de assets, para romper caché
+V = "23"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -135,10 +135,7 @@ ICONO = """<ellipse cx="66" cy="60" rx="58" ry="46" stroke="#00368C" stroke-widt
 
 def logo():
     return ('<a class="logo" href="/" aria-label="Mercado Voto, inicio">'
-            '<svg viewBox="0 0 352 120" role="img" aria-label="Mercado Voto">' + ICONO +
-            '<text x="156" y="64" font-size="46" font-weight="800" letter-spacing="-3" fill="#00368C">mercado</text>'
-            '<text x="156" y="106" font-size="46" font-weight="800" letter-spacing="-3" fill="#00368C">voto</text>'
-            '</svg></a>')
+            '<img src="/assets/logo.webp?v=23" alt="Mercado Voto" width="534" height="162" loading="eager"></a>')
 
 
 def etiqueta(cargo, jur):
@@ -155,7 +152,7 @@ def head(titulo, desc, og_img, url, extra=""):
 <title>{esc(titulo)}</title>
 <meta name="description" content="{esc(desc)}">
 <meta name="theme-color" content="#ffe600">
-<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="icon" href="/favicon.png" type="image/png">
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Mercado Voto">
 <meta property="og:title" content="{esc(titulo)}">
@@ -528,7 +525,6 @@ def datos_cliente():
             "polos": [list(p) for p in POLOS]}
 
 
-FAVICON = '''<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><rect width="34" height="34" rx="8" fill="#ffe600"/><g transform="translate(2,5) scale(0.258)">''' + ICONO + '''</g></svg>'''
 
 
 os.makedirs(f"{BASE}/c", exist_ok=True)
@@ -537,7 +533,7 @@ open(f"{BASE}/index.html", "w").write(build_index())
 for c in CAND:
     open(f"{BASE}/c/{c['slug']}.html", "w").write(build_ficha(c))
 open(f"{BASE}/boleta.html", "w").write(build_boleta())
-open(f"{BASE}/favicon.svg", "w").write(FAVICON)
+
 datos = json.dumps(datos_cliente(), ensure_ascii=False, separators=(",", ":"))
 open(f"{BASE}/assets/data.js", "w").write(f"window.MV={datos};\n")
 open(f"{BASE}/api/_data.js", "w").write(f"// Generado por build.py\nexport default {datos};\n")

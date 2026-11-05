@@ -485,5 +485,5 @@ details.mas[open] summary { display: none; }
 
 /* logo */
 .logo { display: flex; align-items: center; }
-.logo svg { height: 48px; width: auto; display: block; }
-@media (max-width: 700px) { .logo svg { height: 40px; } }
+.logo img { height: 54px; width: auto; display: block; }
+@media (max-width: 700px) { .logo img { height: 44px; } }

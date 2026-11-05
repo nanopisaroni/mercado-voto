@@ -46,10 +46,8 @@ const MARK = svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 120">
 const estrella = lleno => svg(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="${lleno ? AZUL : 'none'}" stroke="${AZUL}" stroke-width="1.6" stroke-linejoin="round"/></svg>`);
 
 function marca(tam = 40) {
-  return h('div', { alignItems: 'center', gap: 14 },
-    img(MARK, { width: tam * 1.35, height: tam * 1.22 }),
-    h('div', { fontSize: tam, color: '#00368C', letterSpacing: -2, flexDirection: 'column', lineHeight: 0.95 },
-      h('span', { fontWeight: 800 }, 'mercado'), h('span', { fontWeight: 800 }, 'voto')));
+  const ancho = tam * 1.05 * 3.3;
+  return img('https://mercado-voto.vercel.app/assets/logo-og.png', { height: tam * 1.05, width: ancho });
 }
 
 const POLOS = MV.polos;
