@@ -42,13 +42,14 @@ function avatar(c, size, borde = 6) {
 const hueco = size => h('div', { width: size, height: size, borderRadius: size, border: '5px dashed #ccc', alignItems: 'center', justifyContent: 'center', color: '#bbb', fontSize: size * 0.4, fontWeight: 800 }, '?');
 
 const svg = s => 'data:image/svg+xml;base64,' + Buffer.from(s).toString('base64');
-const MARK = svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 34 34"><rect width="34" height="34" rx="8" fill="#2d2d2d"/><path d="M18.2 8.6h3.1L19.7 27H11.1L9.5 12.4h12.2" fill="#ffe600"/><path d="M12.4 12.4a4.6 4.6 0 0 1 9.2 0" fill="none" stroke="#2d2d2d" stroke-width="2.1" stroke-linecap="round"/><path d="M13.9 19.2l2.1 2.1 4.3-4.5" fill="none" stroke="#2d2d2d" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>');
+const MARK = svg('<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 120"><ellipse cx="66" cy="60" rx="58" ry="46" stroke="#00368C" stroke-width="4" fill="none"/><g stroke="#00368C" stroke-width="4" stroke-linejoin="round" stroke-linecap="round"><path d="M56 62h44v28H56z" fill="#fff"/><g transform="rotate(-15 64 44)"><rect x="52" y="24" width="23" height="36" rx="2" fill="#fff"/><path d="M57 40l4 4 8.5-9" fill="none" stroke-width="4"/></g><path d="M56 62l8-8h44l-8 8z" fill="#fff"/><path d="M70 58h24" stroke-width="5.5"/><g fill="#fff"><rect x="14" y="28" width="26" height="30" rx="11"/><rect x="30" y="27" width="20" height="9" rx="4.5"/><rect x="30" y="37" width="20" height="9" rx="4.5"/><rect x="30" y="47" width="18" height="9" rx="4.5"/><rect x="24" y="55" width="20" height="9" rx="4.5" transform="rotate(18 34 59)"/></g></g></svg>');
 const estrella = lleno => svg(`<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 2.5l2.9 6.1 6.6.8-4.9 4.6 1.3 6.6L12 17.3l-5.9 3.3 1.3-6.6-4.9-4.6 6.6-.8z" fill="${lleno ? AZUL : 'none'}" stroke="${AZUL}" stroke-width="1.6" stroke-linejoin="round"/></svg>`);
 
 function marca(tam = 40) {
-  return h('div', { alignItems: 'center', gap: 12 },
-    img(MARK, { width: tam * 1.25, height: tam * 1.25 }),
-    h('div', { fontSize: tam, color: OSCURO, letterSpacing: -1.5 }, h('span', { fontWeight: 500, marginRight: tam * 0.26 }, 'mercado'), h('span', { fontWeight: 900 }, 'voto')));
+  return h('div', { alignItems: 'center', gap: 14 },
+    img(MARK, { width: tam * 1.35, height: tam * 1.22 }),
+    h('div', { fontSize: tam, color: '#00368C', letterSpacing: -2, flexDirection: 'column', lineHeight: 0.95 },
+      h('span', { fontWeight: 800 }, 'mercado'), h('span', { fontWeight: 800 }, 'voto')));
 }
 
 const POLOS = MV.polos;
