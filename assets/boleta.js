@@ -227,3 +227,22 @@ document.addEventListener('DOMContentLoaded', () => {
     aviso('Ahora es tu boleta. Cambiá lo que quieras.');
   });
 });
+
+// ---------- propuestas compradas ----------
+function pintarPropsBoleta() {
+  const cont = $b('b-props');
+  if (!cont) return;
+  const ids = leerProps();
+  if (!ids.length) {
+    cont.innerHTML = '<p class="sub">Todavía no sumaste propuestas. Podés elegir ideas, visión de país y futuro posible.</p>';
+    return;
+  }
+  cont.innerHTML = ids.map(p => '<div class="bp-item"><span class="bp-eje">' + p.eje + '</span><b>' + p.titulo +
+    '</b><span class="bp-esp">' + p.esp + '</span><button class="link-btn" data-quitar="' + p.id + '">Quitar</button></div>').join('');
+  cont.querySelectorAll('[data-quitar]').forEach(b => b.addEventListener('click', () => {
+    quitarProp(b.dataset.quitar);
+    pintarPropsBoleta();
+    aviso('Propuesta quitada del carrito');
+  }));
+}
+document.addEventListener('DOMContentLoaded', pintarPropsBoleta);
