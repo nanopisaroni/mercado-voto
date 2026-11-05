@@ -482,3 +482,8 @@ footer .legal { display: block; margin-top: 24px; padding-top: 16px; border-top:
 @media (prefers-reduced-motion: reduce) { * { animation: none !important; transition: none !important; scroll-behavior: auto !important; } }
 details.mas summary { margin: -2px 0 10px; }
 details.mas[open] summary { display: none; }
+
+/* logo */
+.logo { display: flex; align-items: center; }
+.logo svg { height: 48px; width: auto; display: block; }
+@media (max-width: 700px) { .logo svg { height: 40px; } }
