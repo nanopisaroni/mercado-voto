@@ -18,7 +18,7 @@ except Exception:
     COMENT = {}
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "37"  # versión de assets, para romper caché
+V = "38"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -805,6 +805,7 @@ def build_ficha(c):
         <li>Espacio: <b>{esc(c["partido"])}</b></li>
         <li>{esc(limpia(c["rol"]))}</li>
         <li>Perfil: {esc(" y ".join(r) if r else "centro en casi todo")}</li>
+        {f'<li>En X: <a href="https://x.com/{esc(c["x"])}" target="_blank" rel="noopener">@{esc(c["x"])}</a></li>' if c.get("x") else ""}
         {f'<li class="rojo">Tiene {n_let} crítica{"s" if n_let>1 else ""} letal{"es" if n_let>1 else ""}</li>' if n_let else ""}
       </ul>
       <a class="ver-car" href="#caracteristicas">Ver características</a>
