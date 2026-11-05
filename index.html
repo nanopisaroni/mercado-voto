@@ -14,12 +14,12 @@
 <meta name="twitter:card" content="summary_large_image">
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/style.css?v=42">
+<link rel="stylesheet" href="/style.css?v=43">
 <script>window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };</script>
 <script defer src="/_vercel/insights/script.js"></script>
 </head><body>
 <header class="top"><div class="wrap">
-  <a class="logo" href="/" aria-label="Mercado Voto, inicio"><img src="/assets/logo.webp?v=42" alt="Mercado Voto" width="534" height="162" loading="eager"></a>
+  <a class="logo" href="/" aria-label="Mercado Voto, inicio"><img src="/assets/logo.webp?v=43" alt="Mercado Voto" width="534" height="162" loading="eager"></a>
   <form class="buscador" action="/" role="search"><input id="q" name="q" type="search" placeholder="Buscá candidatos, partidos o ciudades…" autocomplete="off" aria-label="Buscar"><button aria-label="Buscar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></form>
   <a class="mi-boleta" href="/boleta" aria-label="Mi boleta"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" d="M5 4h14l-1.5 15.5a1.5 1.5 0 0 1-1.5 1.5H8a1.5 1.5 0 0 1-1.5-1.5L5 4Zm4 0a3 3 0 0 1 6 0M9.5 12l2 2 3.5-4"/></svg><span class="n">0</span><span class="t">Mi boleta</span></a>
 </div>
@@ -35,7 +35,7 @@
   <div class="dots" id="dots"></div>
 </section>
 
-<section class="cats" aria-label="Categorías"><a class="cat" href="/?cargo=presidencial#catalogo" data-cargo="presidencial"><span class="ci">🏛️</span><b>Presidente</b><small>25 opciones</small></a><a class="cat" href="/?cargo=gobernador#catalogo" data-cargo="gobernador"><span class="ci">🗺️</span><b>Gobernador</b><small>31 opciones</small></a><a class="cat" href="/?cargo=intendente#catalogo" data-cargo="intendente"><span class="ci">🏙️</span><b>Intendente</b><small>23 opciones</small></a><a class="cat" href="/?cargo=legislador#catalogo" data-cargo="legislador"><span class="ci">📜</span><b>Legisladores</b><small>33 opciones</small></a><a class="cat" href="/?badge=NUEVO#catalogo"><span class="ci">✨</span><b>Outsiders</b><small>Recién llegados</small></a><button class="cat" type="button" id="sorpresa"><span class="ci">🎲</span><b>Sorprendeme</b><small>Boleta al azar</small></button></section>
+<section class="cats" aria-label="Categorías"><a class="cat" href="/?cargo=presidencial#catalogo" data-cargo="presidencial"><span class="ci">🏛️</span><b>Presidente</b><small>26 opciones</small></a><a class="cat" href="/?cargo=gobernador#catalogo" data-cargo="gobernador"><span class="ci">🗺️</span><b>Gobernador</b><small>31 opciones</small></a><a class="cat" href="/?cargo=intendente#catalogo" data-cargo="intendente"><span class="ci">🏙️</span><b>Intendente</b><small>24 opciones</small></a><a class="cat" href="/?cargo=legislador#catalogo" data-cargo="legislador"><span class="ci">📜</span><b>Legisladores</b><small>33 opciones</small></a><a class="cat" href="/?badge=NUEVO#catalogo"><span class="ci">✨</span><b>Outsiders</b><small>Recién llegados</small></a><button class="cat" type="button" id="sorpresa"><span class="ci">🎲</span><b>Sorprendeme</b><small>Boleta al azar</small></button></section>
 <section class="panel semana" id="semana" hidden aria-labelledby="sem-tit">
   <div class="sem-cab"><div><h2 id="sem-tit">🔥 Lo más vendido de la semana</h2><div class="sub" id="sem-sub"></div></div>
   <a class="sem-ver" href="/boleta">Ver cómo se arma</a></div>
@@ -54,11 +54,11 @@
   <div class="filtros-top"><b>Filtrar</b><button type="button" class="cerrar" id="cerrar-filtros" aria-label="Cerrar filtros">✕</button></div>
   <h3>Elección</h3>
   <label><input type="radio" name="cargo" value="" checked> Todas</label>
-  <label><input type="radio" name="cargo" value="presidencial"> Presidente <small>25</small></label><label><input type="radio" name="cargo" value="gobernador"> Gobernador <small>31</small></label><label><input type="radio" name="cargo" value="intendente"> Intendente <small>23</small></label><label><input type="radio" name="cargo" value="legislador"> Legisladores <small>33</small></label>
+  <label><input type="radio" name="cargo" value="presidencial"> Presidente <small>26</small></label><label><input type="radio" name="cargo" value="gobernador"> Gobernador <small>31</small></label><label><input type="radio" name="cargo" value="intendente"> Intendente <small>24</small></label><label><input type="radio" name="cargo" value="legislador"> Legisladores <small>33</small></label>
   <h3>Jurisdicción</h3>
   <select id="f-jur" aria-label="Jurisdicción"><option value="">Todas</option></select>
   <h3>Espacio político</h3>
-  <select id="f-partido" aria-label="Espacio político"><option value="">Todos</option><option value="Camioneros">Camioneros</option><option value="Ciudad Futura">Ciudad Futura</option><option value="Consolidación Argentina">Consolidación Argentina</option><option value="Defendamos Córdoba">Defendamos Córdoba</option><option value="Frente Amplio por la Soberanía">Frente Amplio por la Soberanía</option><option value="Frente Cívico por Santiago">Frente Cívico por Santiago</option><option value="Frente de Izquierda">Frente de Izquierda</option><option value="GEN">GEN</option><option value="Hacemos">Hacemos</option><option value="Hacemos Coalición Federal">Hacemos Coalición Federal</option><option value="Hacemos Unidos por Córdoba">Hacemos Unidos por Córdoba</option><option value="Hacemos por Córdoba">Hacemos por Córdoba</option><option value="Independiente">Independiente</option><option value="La Libertad Avanza">La Libertad Avanza</option><option value="La Unión Mendocina">La Unión Mendocina</option><option value="PRO">PRO</option><option value="PRO / Operador territorial / Bullrichista">PRO / Operador territorial / Bullrichista</option><option value="PRO · Provincias Unidas">PRO · Provincias Unidas</option><option value="Partido Justicialista">Partido Justicialista</option><option value="Partido Justicialista · Movimiento Derecho al Futuro">Partido Justicialista · Movimiento Derecho al Futuro</option><option value="Partido Socialista">Partido Socialista</option><option value="Principios y Valores">Principios y Valores</option><option value="Provincias Unidas">Provincias Unidas</option><option value="Provincias Unidas (Hacemos Unidos por Córdoba)">Provincias Unidas (Hacemos Unidos por Córdoba)</option><option value="Provincias Unidas (PJ cordobés)">Provincias Unidas (PJ cordobés)</option><option value="Provincias Unidas / Partido Demócrata Cristiano">Provincias Unidas / Partido Demócrata Cristiano</option><option value="RAÍS">RAÍS</option><option value="Soberanos">Soberanos</option><option value="UCR">UCR</option><option value="UCR - Viva Córdoba">UCR - Viva Córdoba</option><option value="UCR · Cambia Mendoza">UCR · Cambia Mendoza</option><option value="Unidos">Unidos</option><option value="Unidos para Cambiar Santa Fe">Unidos para Cambiar Santa Fe</option><option value="Unite">Unite</option><option value="Unión Por La Patria">Unión Por La Patria</option><option value="Unión por la Patria">Unión por la Patria</option></select>
+  <select id="f-partido" aria-label="Espacio político"><option value="">Todos</option><option value="Camioneros">Camioneros</option><option value="Ciudad Futura">Ciudad Futura</option><option value="Consolidación Argentina">Consolidación Argentina</option><option value="Defendamos Córdoba">Defendamos Córdoba</option><option value="Frente Amplio por la Soberanía">Frente Amplio por la Soberanía</option><option value="Frente Cívico por Santiago">Frente Cívico por Santiago</option><option value="Frente de Izquierda">Frente de Izquierda</option><option value="GEN">GEN</option><option value="Hacemos">Hacemos</option><option value="Hacemos Coalición Federal">Hacemos Coalición Federal</option><option value="Hacemos Unidos por Córdoba">Hacemos Unidos por Córdoba</option><option value="Hacemos por Córdoba">Hacemos por Córdoba</option><option value="Independiente">Independiente</option><option value="La Libertad Avanza">La Libertad Avanza</option><option value="La Unión Mendocina">La Unión Mendocina</option><option value="PRO">PRO</option><option value="PRO / Operador territorial / Bullrichista">PRO / Operador territorial / Bullrichista</option><option value="PRO · Provincias Unidas">PRO · Provincias Unidas</option><option value="Partido Justicialista">Partido Justicialista</option><option value="Partido Justicialista · Movimiento Derecho al Futuro">Partido Justicialista · Movimiento Derecho al Futuro</option><option value="Partido Socialista">Partido Socialista</option><option value="Popurrí">Popurrí</option><option value="Principios y Valores">Principios y Valores</option><option value="Provincias Unidas">Provincias Unidas</option><option value="Provincias Unidas (Hacemos Unidos por Córdoba)">Provincias Unidas (Hacemos Unidos por Córdoba)</option><option value="Provincias Unidas (PJ cordobés)">Provincias Unidas (PJ cordobés)</option><option value="Provincias Unidas / Partido Demócrata Cristiano">Provincias Unidas / Partido Demócrata Cristiano</option><option value="RAÍS">RAÍS</option><option value="Soberanos">Soberanos</option><option value="UCR">UCR</option><option value="UCR - Viva Córdoba">UCR - Viva Córdoba</option><option value="UCR · Cambia Mendoza">UCR · Cambia Mendoza</option><option value="Unidos">Unidos</option><option value="Unidos para Cambiar Santa Fe">Unidos para Cambiar Santa Fe</option><option value="Unite">Unite</option><option value="Unión Por La Patria">Unión Por La Patria</option><option value="Unión por la Patria">Unión por la Patria</option></select>
   <h3>Condición</h3>
   <label><input type="radio" name="badge" value="" checked> Todos</label>
   <label><input type="radio" name="badge" value="NUEVO"> Nuevo (outsider)</label>
@@ -72,7 +72,7 @@
 </aside>
   <div>
     <div class="resumen">
-      <div><h2 class="titulo-cat" id="titulo-cat">Todos los candidatos</h2><div class="cuenta" id="cuenta">112 resultados</div></div>
+      <div><h2 class="titulo-cat" id="titulo-cat">Todos los candidatos</h2><div class="cuenta" id="cuenta">114 resultados</div></div>
       <div class="resumen-acc">
         <button type="button" class="btn-filtros" id="abrir-filtros"><svg viewBox="0 0 24 24" aria-hidden="true"><path fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" d="M4 6h16M7 12h10M10 18h4"/></svg> Filtrar</button>
         <label class="orden">Ordenar por <select id="orden">
@@ -1772,6 +1772,36 @@
     <button class="btn add" data-cid="garciadiaz" data-cargo="intendente" data-jur="Córdoba">Agregar a la boleta</button>
   </div>
 </article>
+<article class="card" data-cargo="presidencial" data-jur="Nacional" data-partido="PRO" data-badge=""
+  data-nombre="martín yeza" data-eco="80" data-cum="-1" data-rupt="50" data-let="0">
+  <a class="card-foto" href="/c/martin-yeza" tabindex="-1" aria-hidden="true"><img class="foto" src="/assets/fotos/yeza.jpg" alt="Martín Yeza" loading="lazy"></a>
+  <div class="cuerpo">
+    <span class="race">Presidente</span>
+    <a class="nom" href="/c/martin-yeza">Martín Yeza</a>
+    <div class="gancho">Bajó su sueldo en Pinamar y votó el recorte que había pedido para su distrito.</div>
+    <span class="estrellas vacia">Sin promesas medidas</span>
+    <div class="precio">1 voto</div>
+    <div class="envio">Envío gratis a tu urna</div>
+    <div class="vend">PRO</div>
+    
+    <button class="btn add" data-cid="yeza" data-cargo="presidencial" data-jur="Nacional">Agregar a la boleta</button>
+  </div>
+</article>
+<article class="card" data-cargo="intendente" data-jur="CABA" data-partido="Popurrí" data-badge=""
+  data-nombre="maría migliore" data-eco="40" data-cum="-1" data-rupt="55" data-let="0">
+  <a class="card-foto" href="/c/maria-migliore" tabindex="-1" aria-hidden="true"><img class="foto" src="/assets/fotos/migliore.jpg" alt="María Migliore" loading="lazy"></a>
+  <div class="cuerpo">
+    <span class="race">Intendente · CABA</span>
+    <a class="nom" href="/c/maria-migliore">María Migliore</a>
+    <div class="gancho">La ministra de Larreta que se fue del PRO y ahora arma una startup política.</div>
+    <span class="estrellas vacia">Sin promesas medidas</span>
+    <div class="precio">1 voto</div>
+    <div class="envio">Envío gratis a tu urna</div>
+    <div class="vend">Popurrí</div>
+    
+    <button class="btn add" data-cid="migliore" data-cargo="intendente" data-jur="CABA">Agregar a la boleta</button>
+  </div>
+</article>
     </div>
     <div class="sin-res" id="vacio" hidden><b>No encontramos candidatos con esos filtros.</b><p>Probá con otra búsqueda o limpiá los filtros.</p></div>
   </div>
@@ -1783,7 +1813,7 @@
   <span class="mb-cta">Ver boleta →</span>
 </a>
 <footer><div class="wrap">
-  <div class="f-logo"><a class="logo" href="/" aria-label="Mercado Voto, inicio"><img src="/assets/logo.webp?v=42" alt="Mercado Voto" width="534" height="162" loading="eager"></a><p>Un simulador para elegir candidatos como si fueran productos, leer lo que se dice a favor y en contra, y compartir tu boleta.</p></div>
+  <div class="f-logo"><a class="logo" href="/" aria-label="Mercado Voto, inicio"><img src="/assets/logo.webp?v=43" alt="Mercado Voto" width="534" height="162" loading="eager"></a><p>Un simulador para elegir candidatos como si fueran productos, leer lo que se dice a favor y en contra, y compartir tu boleta.</p></div>
   <div><b>Cómo leer las fichas</b><p>Las críticas, los argumentos a favor y el radar ideológico son una síntesis editorial, no una medición. Las estrellas salen de las promesas cumplidas registradas.</p></div>
   <div><b>Privacidad</b><p>Las boletas no se compran ni se votan. Tu boleta vive en tu navegador. Cuando la finalizás, la sumamos al ranking de los más elegidos de forma anónima: sin nombre, mail ni datos personales.</p></div>
 </div><div class="wrap legal">Mercado Voto es un proyecto independiente y satírico, sin relación con ningún marketplace ni partido. Fotos: Wikimedia Commons.</div></footer>
@@ -1801,5 +1831,5 @@
     <button class="link-btn" data-cerrar-lugar>Ahora no, ver todo</button>
   </div>
 </div>
-<script src="/assets/data.js?v=42"></script><script src="/assets/app.js?v=42"></script><script src="/assets/catalogo.js?v=42"></script><script src="/assets/semana.js?v=42"></script>
+<script src="/assets/data.js?v=43"></script><script src="/assets/app.js?v=43"></script><script src="/assets/catalogo.js?v=43"></script><script src="/assets/semana.js?v=43"></script>
 </body></html>

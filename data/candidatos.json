@@ -9186,6 +9186,194 @@
    ],
    "badge": "",
    "x": "sebagarciadiaz"
+  },
+  {
+   "id": "yeza",
+   "nombre": "Martín Yeza",
+   "slug": "martin-yeza",
+   "rol": "Diputado nacional por Buenos Aires (2023-2027) · PRO",
+   "tag": "Legislador nacional",
+   "color": "#f5c518",
+   "bio": "Nació en Buenos Aires en 1986 y estudió en la Universidad Maimónides. Fue intendente de Pinamar entre 2015 y 2023, donde se hizo conocido por bajar su sueldo y por una comunicación permanente en redes. En 2023 llegó a la Cámara de Diputados por la provincia de Buenos Aires y hoy preside la comisión de Ciencia y Tecnología. Es una de las caras del PRO que discute el rumbo del partido y suena entre los posibles candidatos presidenciales para 2027. En mayo de 2026 votó a favor del recorte de la Zona Fría, el mismo beneficio que había reclamado para su distrito cuando era intendente.",
+   "foto": "assets/fotos/yeza.jpg",
+   "categorias": [],
+   "provincia": "Buenos Aires",
+   "partido": "PRO",
+   "ejes": [
+    80,
+    35,
+    40,
+    55,
+    50,
+    75
+   ],
+   "trayectoria": [
+    {
+     "fecha": "1986",
+     "evento": "Nace en Buenos Aires."
+    },
+    {
+     "fecha": "2015-12-10",
+     "evento": "Asume como intendente de Pinamar."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Es reelecto intendente de Pinamar."
+    },
+    {
+     "fecha": "2023-12-10",
+     "evento": "Asume como diputado nacional por la provincia de Buenos Aires."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Preside la comisión de Ciencia y Tecnología de la Cámara de Diputados."
+    },
+    {
+     "fecha": "2026-04",
+     "evento": "Dice que le gustaría que el PRO tenga candidato propio a presidente en 2027."
+    },
+    {
+     "fecha": "2026-05",
+     "evento": "Vota a favor del proyecto que modifica el régimen de Zona Fría."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Tarifas",
+     "tesis": "Votó el recorte de la Zona Fría que él mismo había pedido para Pinamar.",
+     "cuerpo": "En mayo de 2026 acompañó el proyecto impulsado por el oficialismo para modificar el régimen de Zona Fría, el beneficio que subsidia el gas en los distritos fríos. Cuando era intendente había reclamado esa misma cobertura para Pinamar y la usó como bandera de gestión. La contradicción le valió cuestionamientos de vecinos y de medios de la costa.",
+     "evidencia": "Voto afirmativo al proyecto de modificación del régimen de Zona Fría, mayo de 2026.",
+     "fuente_url": "https://nden.com.ar/nota/36846/que-te-paso-martin-cuestionan-a-yeza-por-votar-el-recorte-de-la-zona-fria-tras-haber",
+     "fuerza": "fuerte",
+     "tipo": "votaciones"
+    },
+    {
+     "area": "Gestión municipal",
+     "tesis": "El Tribunal de Cuentas bonaerense ratificó irregularidades contables en su último año como intendente.",
+     "cuerpo": "Una resolución de 33 páginas del Honorable Tribunal de Cuentas de la Provincia confirmó fallas de fiscalización en el ejercicio 2021 de Pinamar: desfasajes entre los libros y los bancos, falta de control en contratos de la Terminal de Ómnibus y limitaciones al acceso de los sistemas de auditoría. El fallo redujo las sanciones pecuniarias, pero mantuvo la condena solidaria contra Yeza y cinco colaboradores por deudas judiciales pagadas tarde, con perjuicio para las arcas municipales.",
+     "evidencia": "Expediente 4-092.0-2021 del Tribunal de Cuentas bonaerense, resolución notificada en 2026.",
+     "fuente_url": "https://pinamardiario.com.ar/sombra-sobre-la-gestion-de-yeza-en-pinamar-el-tribunal-de-cuentas-dejo-firmes-irregularidades-contables-y-fallo-por-perjuicio-patrimonial/",
+     "fuerza": "fuerte",
+     "tipo": "control"
+    },
+    {
+     "area": "Estilo",
+     "tesis": "Gobernó Pinamar por redes y la oposición le pidió que bajara a la realidad.",
+     "cuerpo": "Durante su segundo mandato, concejales y vecinos le cuestionaron que anunciara obras y decisiones por Twitter antes de resolverlas en el municipio. La crítica más repetida fue que el estilo de comunicación reemplazaba la gestión y que los tiempos del distrito no eran los de la timeline.",
+     "evidencia": "Cuestionamientos públicos de la oposición de Pinamar, noviembre de 2023.",
+     "fuente_url": "https://www.0223.com.ar/nota/2023-11-7-18-45-0-criticas-a-yeza-que-deje-de-gobernar-por-las-redes-y-baje-a-la-realidad",
+     "fuerza": "media",
+     "tipo": "estilo"
+    }
+   ],
+   "vulnerabilidades": [
+    "El voto por el recorte de Zona Fría le pega justo en el distrito que gobernó.",
+    "El fallo del Tribunal de Cuentas le da a la oposición un expediente concreto.",
+    "Su futuro depende de una interna del PRO que todavía no resolvió si compite sola o se alía con La Libertad Avanza."
+   ],
+   "gancho": "Bajó su sueldo en Pinamar y votó el recorte que había pedido para su distrito.",
+   "a_favor": [
+    "Ganó la intendencia de Pinamar en 2015 y la retuvo en 2019.",
+    "Preside la comisión de Ciencia y Tecnología de la Cámara de Diputados.",
+    "Es uno de los dirigentes del PRO con más presencia pública en la discusión sobre el rumbo del partido."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "migliore",
+   "nombre": "María Migliore",
+   "slug": "maria-migliore",
+   "rol": "Exministra de Desarrollo Humano y Hábitat de la Ciudad · Referente de Popurrí",
+   "tag": "Ex funcionaria",
+   "color": "#7a5cc4",
+   "bio": "Licenciada en Ciencias Políticas, tuvo a cargo la integración de los barrios populares de la Ciudad de Buenos Aires y en diciembre de 2019 asumió como ministra de Desarrollo Humano y Hábitat con Horacio Rodríguez Larreta. Renunció en agosto de 2023, a cuatro meses del final del mandato, por diferencias con Jorge Macri y después de apoyar a Martín Lousteau en la interna porteña. Se fue del Gobierno y también del PRO. Hoy trabaja en la fundación Fundar y construye Popurrí, una startup política que pone el foco en vivienda, transporte, clubes y escuelas. Es crítica de la gestión de Jorge Macri y del gobierno de Javier Milei.",
+   "foto": "assets/fotos/migliore.jpg",
+   "categorias": [],
+   "provincia": "CABA",
+   "partido": "Popurrí",
+   "ejes": [
+    40,
+    65,
+    35,
+    50,
+    55,
+    40
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2015-2019",
+     "evento": "Trabaja en el Gobierno de la Ciudad en la integración de barrios populares."
+    },
+    {
+     "fecha": "2019-12",
+     "evento": "Asume como ministra de Desarrollo Humano y Hábitat de la Ciudad de Buenos Aires."
+    },
+    {
+     "fecha": "2023-08",
+     "evento": "Renuncia al ministerio por diferencias con Jorge Macri, tras apoyar a Lousteau en la interna del PRO."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Deja el PRO junto con el Gobierno de la Ciudad."
+    },
+    {
+     "fecha": "2025-2026",
+     "evento": "Empieza a armar Popurrí, la comunidad política que junta adhesiones para convertirse en partido."
+    },
+    {
+     "fecha": "2026-05",
+     "evento": "Dice que el PRO está fracturado y no la representa, y cuestiona la narrativa de Jorge Macri contra los barrios populares."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Institucional",
+     "tesis": "Dejó el ministerio a cuatro meses del final del mandato, en plena campaña porteña.",
+     "cuerpo": "Renunció en agosto de 2023, cuando faltaban cuatro meses para el traspaso de gobierno y la Ciudad discutía la sucesión de Larreta. Lo hizo por diferencias con Jorge Macri, el candidato que había ganado la interna, a quien había enfrentado apoyando a Lousteau. La salida dejó acéfala un área con miles de contratos y programas sociales en ejecución.",
+     "evidencia": "Renuncia presentada el 23 de agosto de 2023, a cuatro meses del final del mandato.",
+     "fuente_url": "https://comunas.com.ar/2023/08/23/renuncio-migliore-por-diferencias-con-jorge-macri/",
+     "fuerza": "media-fuerte",
+     "tipo": "institucional"
+    },
+    {
+     "area": "Alianzas",
+     "tesis": "No dice con quién gobernaría y deja abierta la puerta al peronismo sin cerrarla.",
+     "cuerpo": "Cuando le preguntaron si trabajaría con el peronismo respondió que no lo piensa como propuesta política. Su espacio se define por lo que rechaza, el PRO fracturado y el gobierno de Milei, más que por una coalición explícita. Esa ambigüedad le permite conversar con varios sectores y le impide ofrecer una alternativa reconocible.",
+     "evidencia": "Entrevista en Perfil, 21 de mayo de 2026.",
+     "fuente_url": "https://www.perfil.com/noticias/universidades/maria-migliore-hoy-el-pro-esta-fracturado-y-no-me-representa.phtml",
+     "fuerza": "media",
+     "tipo": "posición política"
+    },
+    {
+     "area": "Estructura",
+     "tesis": "Popurrí todavía no es un partido y vive de juntar firmas.",
+     "cuerpo": "El espacio se presenta como una startup política y una comunidad de comunidades. Para competir necesita convertirse en partido y a comienzos de noviembre de 2026 había reunido 1.497 adhesiones en su propia web, lejos de una estructura territorial. Los referentes son ella, los fundadores de Jóvenes por el Clima Bruno Rodríguez, Eyal Weintraub y Mercedes Pombo, el ex diputado Juan Maquieyra y el referente barrial Nicolás Torres.",
+     "evidencia": "Descripción del propio espacio en la entrevista de mayo de 2026.",
+     "fuente_url": "https://popurri.org.ar/",
+     "fuerza": "media",
+     "tipo": "estructura"
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene partido, ni candidatos, ni estructura territorial en la Ciudad.",
+    "Su salida del PRO la dejó sin aparato en un distrito donde el sello pesa.",
+    "Su discurso es más diagnóstico que propuesta concreta."
+   ],
+   "gancho": "La ministra de Larreta que se fue del PRO y ahora arma una startup política.",
+   "a_favor": [
+    "Gestionó la integración de barrios populares, una de las áreas que más transformó la Ciudad en la última década.",
+    "Tiene perfil técnico y una agenda definida en vivienda, transporte e instituciones.",
+    "Se plantó frente a Jorge Macri cuando el resto del gabinete se acomodó a la transición."
+   ],
+   "badge": ""
   }
  ],
  "candidaturas": [
@@ -9748,6 +9936,16 @@
    "cid": "garciadiaz",
    "cargo": "intendente",
    "jur": "Córdoba"
+  },
+  {
+   "cid": "yeza",
+   "cargo": "presidencial",
+   "jur": "Nacional"
+  },
+  {
+   "cid": "migliore",
+   "cargo": "intendente",
+   "jur": "CABA"
   }
  ]
 }
