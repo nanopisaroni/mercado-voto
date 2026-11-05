@@ -328,8 +328,8 @@ def build_ficha(c):
 <div class="qa-r"><b>R (lo que respondería):</b> {esc(limpia(cr.get("respuesta_esperada","")))}</div>
 <div class="qa-r contra"><b>Repregunta:</b> {esc(limpia(cr.get("refutacion","")))}</div></div>''' for cr in c["criticas"] if cr.get("respuesta_esperada"))
 
-    a_favor = "".join(f"<li>{esc(limpia(p))}</li>" for p in c.get("a_favor", []))
-    en_contra = "".join(f'<li><a href="#critica-{k+1}">{esc(limpia(cr["tesis"]))}</a></li>' for k, cr in enumerate(c["criticas"][:4]))
+    a_favor = "".join(f"<li>{esc(limpia(p))}</li>" for p in c.get("a_favor", [])) or '<li style="color:#999">Todavía no tiene argumentos cargados.</li>'
+    en_contra = "".join(f'<li><a href="#critica-{k+1}">{esc(limpia(cr["tesis"]))}</a></li>' for k, cr in enumerate(c["criticas"][:4])) or '<li style="color:#999">Perfil en construcción. Todavía no tiene críticas cargadas.</li>'
     cum = "".join(f"<li>{esc(limpia(p))}</li>" for p in c["promesas_cumplidas"])
     inc = "".join(f"<li>{esc(limpia(p))}</li>" for p in c["promesas_incumplidas"])
     promesas = (f'''<section class="panel"><h2>Promesas</h2><div class="sub">{c["cumplidas"]} cumplidas y {c["incumplidas"]} incumplidas según el registro.</div>
