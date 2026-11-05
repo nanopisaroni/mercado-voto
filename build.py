@@ -12,7 +12,7 @@ EJE_NAME = {e["id"]: e["nombre"] for e in PROP["ejes"]}
 ESPACIOS = {e["id"]: e for e in PROP["espacios"]}
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "23"  # versión de assets, para romper caché
+V = "27"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
