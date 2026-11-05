@@ -169,3 +169,39 @@ function completarAzar() {
   }
   guardar(b);
 }
+
+// ---------- propuestas ----------
+const KEY_P = 'mv_propuestas_v1';
+function leerProps() { try { return JSON.parse(localStorage.getItem(KEY_P) || '[]'); } catch (e) { return []; } }
+function guardarProps(a) { try { localStorage.setItem(KEY_P, JSON.stringify(a)); } catch (e) {} pintarProps(); }
+function propEnCarrito(id) { return leerProps().some(x => x.id === id); }
+function agregarProp(o) {
+  if (!o || !o.id) return { ok: false, msg: 'No pudimos agregar esa propuesta' };
+  const a = leerProps();
+  if (a.some(x => x.id === o.id)) return { ok: false, msg: 'Esa propuesta ya está en tu carrito' };
+  a.push(o); guardarProps(a);
+  return { ok: true, msg: 'Sumaste: ' + o.titulo };
+}
+function quitarProp(id) { guardarProps(leerProps().filter(x => x.id !== id)); }
+function pintarProps() {
+  document.querySelectorAll('.add-p').forEach(b => {
+    const on = propEnCarrito(b.dataset.id);
+    b.classList.toggle('on', on);
+    b.textContent = on ? 'En el carrito ✓' : 'Agregar';
+  });
+  const n = leerProps().length;
+  const bar = document.getElementById('pbar');
+  if (bar) { bar.hidden = n === 0; const x = document.getElementById('pbar-n'); if (x) x.textContent = n; }
+  const rc = document.getElementById('rc-props');
+  if (rc) rc.textContent = n;
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('.add-p');
+  if (!b) return;
+  e.preventDefault();
+  let o = {};
+  try { o = JSON.parse(b.dataset.prop || '{}'); } catch (err) {}
+  const r = agregarProp(o);
+  aviso(r.msg, r.ok ? { href: '/boleta', txt: 'Ver carrito' } : null);
+});
+document.addEventListener('DOMContentLoaded', pintarProps);

@@ -7,6 +7,10 @@ D = json.load(open(f"{BASE}/data/candidatos.json"))
 CANDS = {c["id"]: c for c in D["candidatos"]}
 CAND = sorted(D["candidatos"], key=lambda c: c["nombre"])
 CANDIDATURAS = D["candidaturas"]
+PROP = json.load(open(f"{BASE}/data/propuestas.json", encoding="utf-8"))
+EJE_NAME = {e["id"]: e["nombre"] for e in PROP["ejes"]}
+ESPACIOS = {e["id"]: e for e in PROP["espacios"]}
+TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
 V = "23"  # versión de assets, para romper caché
 
@@ -169,6 +173,7 @@ def head(titulo, desc, og_img, url, extra=""):
 
 def header():
     nav = "".join(f'<a href="/?cargo={k}#catalogo">{v}</a>' for k, v in CARGOS)
+    nav += '<a class="nav-prop" href="/propuestas">Propuestas</a>'
     nav += ('<a href="/?badge=NUEVO#catalogo">Outsiders</a><a href="/?orden=letales#catalogo">Más criticados</a>'
             '<a href="/?orden=cumplimiento#catalogo">Mejor reputación</a><a href="/?orden=ruptura#catalogo">Más disruptivos</a>')
     return f'''<header class="top"><div class="wrap">
@@ -199,6 +204,81 @@ def footer():
 def scripts(*extra):
     base = ["/assets/data.js", "/assets/app.js"] + list(extra)
     return "".join(f'<script src="{s}?v={V}"></script>' for s in base)
+
+
+
+# ---------------------------------------------------------------- propuestas
+
+def prop_card(p):
+    e = ESPACIOS[p["espacio"]]
+    eje = EJE_NAME[p["eje"]]
+    pedido = json.dumps({"id": p["id"], "titulo": p["titulo"], "esp": e["nombre"],
+                         "eje": eje, "tipo": TIPO_N[p["tipo"]]}, ensure_ascii=False)
+    return f'''<article class="prop" data-esp="{p["espacio"]}" data-eje="{p["eje"]}" data-tipo="{p["tipo"]}"
+  data-busca="{esc((p["titulo"] + " " + p["bajada"] + " " + e["nombre"] + " " + eje).lower())}">
+  <div class="p-top"><span class="p-eje">{esc(eje)}</span><span class="p-esp" style="--c:{e["color"]}">{esc(e["nombre"])}</span></div>
+  <span class="p-tipo t-{p["tipo"]}">{TIPO_N[p["tipo"]]}</span>
+  <h3>{esc(p["titulo"])}</h3>
+  <p>{esc(p["bajada"])}</p>
+  <div class="p-foot">
+    <button class="btn add-p" data-id="{p["id"]}" data-prop='{esc(pedido)}'>Agregar</button>
+    <button class="link-btn ver-p" data-id="{p["id"]}">Ver detalle</button>
+  </div>
+</article>'''
+
+
+def build_propuestas():
+    props = PROP["propuestas"]
+    fichas = "\n".join(prop_card(p) for p in props)
+    chips_esp = '<button class="chip on" data-f="esp" data-v="">Todos</button>' + "".join(
+        f'<button class="chip" data-f="esp" data-v="{e["id"]}"><i style="--c:{e["color"]}"></i>{esc(e["nombre"])}</button>'
+        for e in PROP["espacios"])
+    chips_eje = '<button class="chip on" data-f="eje" data-v="">Todos</button>' + "".join(
+        f'<button class="chip" data-f="eje" data-v="{e["id"]}">{esc(e["nombre"])}</button>' for e in PROP["ejes"])
+    chips_tipo = "".join(
+        f'<button class="chip{" on" if k == "propuesta" else ""}" data-f="tipo" data-v="{k}">{v}</button>'
+        for k, v in TIPO_N.items())
+    n_prop = sum(1 for p in props if p["tipo"] == "propuesta")
+    n_vis = sum(1 for p in props if p["tipo"] == "vision")
+    n_fut = sum(1 for p in props if p["tipo"] == "futuro")
+    datos = json.dumps({p["id"]: {"titulo": p["titulo"], "cuerpo": p["cuerpo"], "detalle": p["detalle"],
+                                  "esp": ESPACIOS[p["espacio"]]["nombre"], "color": ESPACIOS[p["espacio"]]["color"],
+                                  "eje": EJE_NAME[p["eje"]], "tipo": TIPO_N[p["tipo"]], "fuente": p["fuente"],
+                                  "costo": p["costo"], "alcance": p["alcance"],
+                                  "candidatos": [{"n": CANDS[c]["nombre"], "s": CANDS[c]["slug"]} for c in p["candidatos"] if c in CANDS]}
+                      for p in props}, ensure_ascii=False)
+    desc = (f"Comprá propuestas, no solo candidatos. {len(props)} ideas de {len(PROP['espacios'])} espacios políticos, "
+            "ordenadas en doce ejes temáticos, con visión de país y futuro posible.")
+    return f'''{head("Propuestas, visión de país y futuro posible · Mercado Voto", desc, "/api/og", "/propuestas")}
+{header()}
+<main class="main"><div class="wrap">
+<section class="ph">
+  <small>EL OTRO CARRITO</small>
+  <h1>Comprá propuestas,<br>no solo candidatos</h1>
+  <p>Además de elegir a quién votás, podés elegir qué te compran. Cada espacio vende sus ideas: {n_prop} propuestas concretas, {n_vis} visiones de país y {n_fut} futuros posibles, ordenados en doce ejes.</p>
+  <div class="ph-stats"><span><b>{n_prop}</b> propuestas</span><span><b>{len(PROP["espacios"])}</b> espacios</span><span><b>12</b> ejes</span></div>
+</section>
+<section class="pfiltros">
+  <div class="pbuscar"><input id="pq" type="search" placeholder="Buscar una propuesta, un tema, una promesa…" aria-label="Buscar propuestas"></div>
+  <div class="pchips"><b>Espacio</b>{chips_esp}</div>
+  <div class="pchips"><b>Eje</b>{chips_eje}</div>
+  <div class="pchips"><b>Tipo</b>{chips_tipo}</div>
+</section>
+<div class="presumen"><h2 id="p-titulo">Todas las propuestas</h2><span id="p-cuenta">{len(props)} resultados</span></div>
+<div class="pgrid" id="pgrid">{fichas}</div>
+<div class="sin-res" id="pvacio" hidden><b>No encontramos propuestas con esos filtros.</b><p>Probá con otro eje o limpiá la búsqueda.</p></div>
+</div></main>
+<div class="pbar" id="pbar" hidden><span><b id="pbar-n">0</b> propuestas en tu carrito</span><a class="btn" href="/boleta">Ver mi boleta →</a></div>
+<div class="modal" id="pm" hidden role="dialog" aria-modal="true">
+  <div class="modal-c pm-c">
+    <button class="cerrar" id="pm-cerrar" aria-label="Cerrar">✕</button>
+    <div id="pm-body"></div>
+  </div>
+</div>
+{footer()}
+{scripts("/assets/propuestas.js")}
+<script>window.MVP = {datos};</script>
+</body></html>'''
 
 
 # ---------------------------------------------------------------- catálogo
@@ -269,6 +349,10 @@ def build_index():
 {header()}
 <main class="main"><div class="wrap">
 {hero}
+<section class="propband">
+  <div class="pb-txt"><small>NUEVO</small><h2>Ahora también se compran propuestas</h2><p>Cada espacio vende sus ideas: economía, trabajo, educación, seguridad y ocho ejes más. Sumá visión de país y futuro posible a tu carrito.</p><a class="btn" href="/propuestas">Ver las {len(PROP["propuestas"])} propuestas</a></div>
+  <div class="pb-art" aria-hidden="true">💡</div>
+</section>
 <section class="cats" aria-label="Categorías">{cats}</section>
 <div class="cols" id="catalogo">
   {filtros}
@@ -476,10 +560,16 @@ def build_boleta():
       <div class="sub" id="b-sub">Un presidente, un gobernador, un intendente y hasta cinco legisladores.</div>
       <div id="slots"></div>
     </section>
+    <section class="panel">
+      <div class="boleta-cab"><h2>Propuestas en tu carrito</h2><a class="link-btn" href="/propuestas">Sumar más</a></div>
+      <div class="sub">Las ideas que elegiste comprar, además de los candidatos.</div>
+      <div id="b-props"></div>
+    </section>
     <aside class="resumen-compra">
       <section class="panel">
         <h2>Resumen de compra</h2>
         <div class="rc-fila"><span>Candidatos (<b id="rc-n">0</b>)</span><span id="rc-votos">0 votos</span></div>
+        <div class="rc-fila"><span>Propuestas</span><span id="rc-props">0</span></div>
         <div class="rc-fila"><span>Envío</span><span class="verde">Gratis</span></div>
         <div class="rc-fila"><span>Promesas cumplidas</span><span id="rc-prom">-</span></div>
         <div class="rc-fila"><span>Críticas letales en el carrito</span><span id="rc-let">0</span></div>
@@ -538,3 +628,5 @@ datos = json.dumps(datos_cliente(), ensure_ascii=False, separators=(",", ":"))
 open(f"{BASE}/assets/data.js", "w").write(f"window.MV={datos};\n")
 open(f"{BASE}/api/_data.js", "w").write(f"// Generado por build.py\nexport default {datos};\n")
 print(f"index con {len(CANDIDATURAS)} candidaturas · {len(CAND)} fichas · boleta")
+open(f"{BASE}/propuestas.html", "w", encoding="utf-8").write(build_propuestas())
+print("propuestas:", len(PROP["propuestas"]))
