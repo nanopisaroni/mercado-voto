@@ -6347,7 +6347,7 @@
    "id": "carrizzo",
    "nombre": "Soledad Carrizo",
    "slug": "soledad-carrizo",
-   "rol": "Diputada nacional por Córdoba",
+   "rol": "Ex diputada nacional por Córdoba (2013-2025)",
    "tag": "La radical que vuelve a casa",
    "color": "#c8102e",
    "bio": "Abogada y dirigente radical. Fue intendenta de Quilino y diputada nacional por Córdoba desde 2013. Su nombre aparece entre los precandidatos a intendente de la capital.",
@@ -6970,6 +6970,869 @@
     "Es una dirigente con diálogo en todo el arco político santafesino."
    ],
    "badge": ""
+  },
+  {
+   "id": "alejandra-torres",
+   "nombre": "Alejandra Torres",
+   "slug": "alejandra-torres",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#1b7f4f",
+   "bio": "Alejandra Torres es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 159 proyectos, de los cuales 12 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/alejandra-torres.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Provincias Unidas",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 159 proyectos en el período, 12 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   ],
+   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "a_favor": [
+    "Asistió al 88% de las votaciones del período.",
+    "Presentó 159 proyectos y 12 llegaron a ley."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "belen-avico",
+   "nombre": "Belén Avico",
+   "slug": "belen-avico",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Belén Avico es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 34 proyectos, de los cuales 15 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/belen-avico.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 34 proyectos en el período, 15 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 34 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (15 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "34 proyectos presentados, 15 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 44% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 100% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "carlos-gutierrez",
+   "nombre": "Carlos Gutiérrez",
+   "slug": "carlos-gutierrez",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#1b7f4f",
+   "bio": "Carlos Gutiérrez es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 111 proyectos, de los cuales 8 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Provincias Unidas",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 111 proyectos en el período, 8 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   ],
+   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "a_favor": [
+    "Asistió al 100% de las votaciones del período.",
+    "Presentó 111 proyectos y 8 llegaron a ley."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "carolina-basualdo",
+   "nombre": "Carolina Basualdo",
+   "slug": "carolina-basualdo",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#1b7f4f",
+   "bio": "Carolina Basualdo es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 143 proyectos, de los cuales 5 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Provincias Unidas",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 143 proyectos en el período, 5 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   ],
+   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "a_favor": [
+    "Asistió al 100% de las votaciones del período.",
+    "Presentó 143 proyectos y 5 llegaron a ley."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "enrique-lluch",
+   "nombre": "Enrique Lluch",
+   "slug": "enrique-lluch",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Enrique Lluch es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 24 proyectos, de los cuales 3 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/enrique-lluch.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 24 proyectos en el período, 3 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 24 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (3 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "24 proyectos presentados, 3 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 12% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 100% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "gabriela-estevez",
+   "nombre": "Gabriela Beatriz Estévez",
+   "slug": "gabriela-beatriz-estevez",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#4a90d9",
+   "bio": "Gabriela Beatriz Estévez es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Unión Por La Patria. En el período presentó 1288 proyectos, de los cuales 7 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/gabriela-estevez.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Unión Por La Patria",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque Unión Por La Patria."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 1288 proyectos en el período, 7 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Presenta mucho y convierte casi nada.",
+     "cuerpo": "1288 proyectos en un período es un número enorme. 7 leyes es un resultado flaco. La distancia entre una cosa y la otra muestra un estilo legislativo de visibilidad: el proyecto sirve para marcar posición, no para cambiar la ley. Eso es legítimo como estrategia opositora, pero no es lo mismo que legislar.",
+     "evidencia": "1288 proyectos presentados y 7 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media-fuerte",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que en la oposición es difícil que un proyecto propio se convierta en ley.",
+     "refutacion": "Cierto. Pero hay opositores con menos proyectos y más leyes."
+    }
+   ],
+   "vulnerabilidades": [
+    "Sólo 7 de 1288 proyectos llegaron a ley (0.5%).",
+    "El volumen incluye cofirmas, así que el número infla su producción individual."
+   ],
+   "gancho": "Mucho volumen, poca conversión. El clásico presentador serial.",
+   "a_favor": [
+    "Es uno de los que más proyectos presenta en toda la Cámara: 1288 en el período.",
+    "Asistió al 88% de las votaciones."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "gonzalo-roca",
+   "nombre": "Gonzalo Roca",
+   "slug": "gonzalo-roca",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Gonzalo Roca es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 4 proyectos, de los cuales 2 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/gonzalo-roca.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 4 proyectos en el período, 2 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 4 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (2 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "4 proyectos presentados, 2 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 50% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 100% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "ignacio-aresca",
+   "nombre": "Ignacio García Aresca",
+   "slug": "ignacio-garcia-aresca",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#1b7f4f",
+   "bio": "Ignacio García Aresca es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 110 proyectos, de los cuales 12 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/ignacio-aresca.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Provincias Unidas",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 110 proyectos en el período, 12 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 110 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (12 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "110 proyectos presentados, 12 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 11% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 88% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "juan-brugge",
+   "nombre": "Juan Fernando Brügge",
+   "slug": "juan-fernando-brugge",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#1b7f4f",
+   "bio": "Juan Fernando Brügge es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 399 proyectos, de los cuales 11 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "foto": "",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Provincias Unidas",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 399 proyectos en el período, 11 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   ],
+   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "a_favor": [
+    "Asistió al 88% de las votaciones del período.",
+    "Presentó 399 proyectos y 11 llegaron a ley."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "laura-machado",
+   "nombre": "Laura Elena Rodríguez Machado",
+   "slug": "laura-elena-rodriguez-machado",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Laura Elena Rodríguez Machado es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 24 proyectos, de los cuales 8 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/laura-machado.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 24 proyectos en el período, 8 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 24 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (8 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "24 proyectos presentados, 8 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 33% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 100% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "laura-soldano",
+   "nombre": "Laura Soldano",
+   "slug": "laura-soldano",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Laura Soldano es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 60 proyectos, de los cuales 0 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/laura-soldano.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 60 proyectos en el período, 0 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   ],
+   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "a_favor": [
+    "Asistió al 100% de las votaciones del período.",
+    "Presentó 60 proyectos y 0 llegaron a ley."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "luis-picat",
+   "nombre": "Luis Albino Picat",
+   "slug": "luis-albino-picat",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Luis Albino Picat es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 77 proyectos, de los cuales 8 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/luis-picat.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 77 proyectos en el período, 8 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 77 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (8 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "77 proyectos presentados, 8 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 10% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 100% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "marcos-brizuela",
+   "nombre": "Marcos Patiño Brizuela",
+   "slug": "marcos-patino-brizuela",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "Marcos Patiño Brizuela es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 17 proyectos, de los cuales 4 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/marcos-brizuela.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 17 proyectos en el período, 4 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 17 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (4 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "17 proyectos presentados, 4 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 24% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 100% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "maria-ibanez",
+   "nombre": "María Cecilia Ibañez",
+   "slug": "maria-cecilia-ibanez",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "María Cecilia Ibañez es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 94 proyectos, de los cuales 0 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/maria-ibanez.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 94 proyectos en el período, 0 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   ],
+   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "a_favor": [
+    "Asistió al 100% de las votaciones del período.",
+    "Presentó 94 proyectos y 0 llegaron a ley."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "maria-ponce",
+   "nombre": "María Celeste Ponce",
+   "slug": "maria-celeste-ponce",
+   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "tag": "Legislador nacional",
+   "color": "#7a4fd0",
+   "bio": "María Celeste Ponce es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 29 proyectos, de los cuales 6 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "foto": "assets/fotos/maria-ponce.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    50,
+    50,
+    50,
+    55,
+    50,
+    50
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2025",
+     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta 29 proyectos en el período, 6 convertidos en ley."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Pocos proyectos: su influencia depende de otros.",
+     "cuerpo": "Con 29 proyectos presentados en el período, su producción es de las más bajas de la delegación cordobesa. La efectividad es alta (6 leyes), pero eso también significa que casi todo lo que se aprueba pasa por pocas manos y por acuerdos con el bloque mayoritario.",
+     "evidencia": "29 proyectos presentados, 6 convertidos en ley según el registro de la Cámara.",
+     "fuerza": "media",
+     "tipo": "Producción",
+     "respuesta_esperada": "Que la calidad importa más que la cantidad.",
+     "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
+    }
+   ],
+   "vulnerabilidades": [
+    "Presenta poco volumen legislativo, aunque con efectividad alta."
+   ],
+   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
+   "a_favor": [
+    "Convierte 21% de sus proyectos en ley, la proporción más alta del bloque.",
+    "Asistió al 88% de las votaciones del período."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "alvarezrivero",
+   "nombre": "Carmen Álvarez Rivero",
+   "slug": "carmen-alvarez-rivero",
+   "rol": "Senadora nacional por Córdoba desde 2023",
+   "tag": "Legisladora nacional",
+   "color": "#f5c518",
+   "bio": "Empresaria y dirigente del PRO. Fue diputada nacional por Córdoba y preside la comisión de Industria y Comercio del Senado. Su nombre suena para la gobernación si el PRO define una candidatura propia.",
+   "foto": "",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "PRO",
+   "ejes": [
+    50,
+    50,
+    50,
+    65,
+    50,
+    55
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2023",
+     "evento": "Asume como senadora nacional por Córdoba."
+    },
+    {
+     "fecha": "2019-2023",
+     "evento": "Diputada nacional por Córdoba."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su figura está atada a un espacio provincial que también la limita."
+   ],
+   "gancho": "Senadora con peso propio y una carrera armada en la provincia.",
+   "a_favor": [
+    "Tiene banca nacional y recorrido en la provincia."
+   ],
+   "badge": ""
+  },
+  {
+   "id": "vigo",
+   "nombre": "Alejandra Vigo",
+   "slug": "alejandra-vigo",
+   "rol": "Senadora nacional por Córdoba desde 2021",
+   "tag": "Legisladora nacional",
+   "color": "#1b7f4f",
+   "bio": "Senadora nacional por Córdoba y referente de Hacemos por Córdoba. Fue diputada nacional entre 2017 y 2021 y es la esposa de Juan Schiaretti, con quien construyó el espacio provincial.",
+   "foto": "assets/fotos/vigo.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "Hacemos por Córdoba",
+   "ejes": [
+    50,
+    50,
+    50,
+    65,
+    50,
+    55
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2017-2021",
+     "evento": "Diputada nacional por Córdoba."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Asume como senadora nacional por Córdoba."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [],
+   "vulnerabilidades": [
+    "Su figura está atada a un espacio provincial que también la limita."
+   ],
+   "gancho": "Senadora con peso propio y una carrera armada en la provincia.",
+   "a_favor": [
+    "Tiene banca nacional y recorrido en la provincia."
+   ],
+   "badge": ""
   }
  ],
  "candidaturas": [
@@ -7412,6 +8275,91 @@
    "cid": "juri",
    "cargo": "intendente",
    "jur": "Mendoza"
+  },
+  {
+   "cid": "alejandra-torres",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "belen-avico",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "carlos-gutierrez",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "carolina-basualdo",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "enrique-lluch",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "gabriela-estevez",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "gonzalo-roca",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "ignacio-aresca",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "juan-brugge",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "laura-machado",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "laura-soldano",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "luis-picat",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "marcos-brizuela",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "maria-ibanez",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "maria-ponce",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "alvarezrivero",
+   "cargo": "legislador",
+   "jur": "Córdoba"
+  },
+  {
+   "cid": "vigo",
+   "cargo": "legislador",
+   "jur": "Córdoba"
   }
  ]
 }
