@@ -21,6 +21,11 @@ assets/share.js       imagen de la boleta en canvas (post 4:5 e historia 9:16)
 assets/data.js        datos compactos para el cliente (generado)
 api/og.js             imágenes de preview 1200x630 para links (portada, candidato, boleta)
 api/b.js              /b?p=..&g=..&i=..&l=..: link corto con preview que redirige a /boleta
+api/voto.js           POST: suma una boleta finalizada al ranking (anónimo, un id por navegador)
+api/ranking.js        GET: los más elegidos por cargo (cacheado 60 s en el CDN)
+api/evento.js         POST: embudo propio de eventos, sólo contadores
+api/metricas.js       GET con token: embudo, últimos 14 días, redes y provincias pedidas
+api/_redis.js         cliente REST de Upstash Redis, sin dependencias
 api/_data.js          mismos datos para las funciones (generado)
 api/_fonts/           Inter para las previews (licencia OFL)
 c/<slug>.html         una página por candidato (generadas)
@@ -49,6 +54,31 @@ El catálogo no lista personas: lista **candidaturas**. Un mismo dirigente puede
 Reparto actual: 15 presidenciales, 15 gobernadores (3 por provincia en cinco provincias), 11 intendentes (en cuatro ciudades) y 32 legisladores. La mayoría del padrón va como legislador porque es donde entran las listas.
 
 La boleta se arma con un presidente, un gobernador, un intendente y hasta cinco legisladores. El almacenamiento vive en `localStorage` bajo `mv_boleta_v2`, como lista de objetos `{i, c, j}`.
+
+## Dónde votás y armado guiado
+
+La primera vez que alguien arma la boleta se le pregunta provincia y ciudad (se guarda en `localStorage` bajo `mv_lugar`). Con eso:
+
+- El catálogo muestra sólo los gobernadores de su provincia, los intendentes de su ciudad y los legisladores nacionales o de su provincia. El chip "📍 Candidatos de…" se puede quitar para ver todo.
+- La boleta cuenta sólo los cargos que tienen candidatos cargados en su lugar (CABA: 7 lugares; una provincia sin datos: 6) y avisa si eligió a alguien de otra jurisdicción.
+- "Armar mi boleta paso a paso" (`/?guia=1`) recorre Presidente → Gobernador → Intendente → Legisladores y lleva a la boleta al terminar.
+
+Las ciudades con intendentes cargados se mapean a su provincia en `CIUDAD_PROV` de `build.py`. Si agregás una ciudad nueva, el build falla hasta que la mapees.
+
+## Ranking y métricas
+
+Necesitan un Redis de Upstash (Vercel Marketplace → Upstash for Redis, conectado al proyecto). Sin Redis el sitio funciona igual y el ranking no se muestra.
+
+| Variable | Para qué |
+| --- | --- |
+| `KV_REST_API_URL`, `KV_REST_API_TOKEN` | Las crea la integración de Upstash. También acepta `UPSTASH_REDIS_REST_*`. |
+| `METRICAS_TOKEN` | Clave para leer `/api/metricas`. |
+| `RANKING_OFF` | Con cualquier valor apaga el ranking y deja de contar boletas. Pensado para la veda electoral. |
+
+- El ranking aparece recién cuando hay 20 boletas finalizadas (`MIN_RANKING` en `assets/app.js`).
+- Cada navegador cuenta como una boleta: si vuelve a finalizar, se reemplaza la anterior.
+- Para leer el embudo: `curl -H "Authorization: Bearer $METRICAS_TOKEN" https://mercado-voto.vercel.app/api/metricas`
+- Vercel Web Analytics se carga en todas las páginas; hay que activarlo en el dashboard del proyecto. Los eventos personalizados (`va('event')`) sólo se registran en planes Pro; el embudo propio funciona en cualquier plan.
 
 ## Compartir
 

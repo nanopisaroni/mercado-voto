@@ -8,7 +8,7 @@ CANDS = {c["id"]: c for c in D["candidatos"]}
 CAND = sorted(D["candidatos"], key=lambda c: c["nombre"])
 CANDIDATURAS = D["candidaturas"]
 SITE = "https://mercado-voto.vercel.app"
-V = "21"  # versión de assets, para romper caché
+V = "24"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -153,6 +153,8 @@ def head(titulo, desc, og_img, url, extra=""):
 <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css?v={V}">{extra}
+<script>window.va = window.va || function () {{ (window.vaq = window.vaq || []).push(arguments); }};</script>
+<script defer src="/_vercel/insights/script.js"></script>
 </head><body>'''
 
 
@@ -160,6 +162,7 @@ def header():
     nav = "".join(f'<a href="/?cargo={k}#catalogo">{v}</a>' for k, v in CARGOS)
     nav += ('<a href="/?badge=NUEVO#catalogo">Outsiders</a><a href="/?orden=letales#catalogo">Más criticados</a>'
             '<a href="/?orden=cumplimiento#catalogo">Mejor reputación</a><a href="/?orden=ruptura#catalogo">Más disruptivos</a>')
+    nav = '<button type="button" class="lugar-btn" data-lugar>📍 <span class="lugar-txt">¿Dónde votás?</span></button>' + nav
     return f'''<header class="top"><div class="wrap">
   {logo()}
   <form class="buscador" action="/" role="search"><input id="q" name="q" type="search" placeholder="Buscá candidatos, partidos o ciudades…" autocomplete="off" aria-label="Buscar"><button aria-label="Buscar"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7" fill="none" stroke="currentColor" stroke-width="2"/><path d="m20 20-4-4" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg></button></form>
@@ -180,9 +183,22 @@ def footer():
     return f'''<footer><div class="wrap">
   <div class="f-logo">{logo()}<p>Un simulador para elegir candidatos como si fueran productos, leer lo que se dice a favor y en contra, y compartir tu boleta.</p></div>
   <div><b>Cómo leer las fichas</b><p>Las críticas, los argumentos a favor y el radar ideológico son una síntesis editorial, no una medición. Las estrellas salen de las promesas cumplidas registradas.</p></div>
-  <div><b>Privacidad</b><p>No se compra ni se vota nada. Tu boleta vive en tu navegador y sólo se comparte si vos mandás el link.</p></div>
+  <div><b>Privacidad</b><p>No se compra ni se vota nada. Tu boleta vive en tu navegador. Cuando la finalizás, la sumamos al ranking de los más elegidos de forma anónima: sin nombre, mail ni datos personales.</p></div>
 </div><div class="wrap legal">Mercado Voto es un proyecto independiente y satírico, sin relación con ningún marketplace ni partido. Fotos: Wikimedia Commons.</div></footer>
-<div id="toast" class="toast" role="status" aria-live="polite"></div>'''
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+<div class="modal" id="m-lugar" hidden role="dialog" aria-modal="true" aria-labelledby="ml-tit">
+  <div class="modal-c lugar-c">
+    <button class="cerrar" data-cerrar-lugar aria-label="Cerrar">✕</button>
+    <div class="ml-ico">📍</div>
+    <h2 id="ml-tit">¿Dónde votás?</h2>
+    <p>Así te mostramos sólo los candidatos a gobernador e intendente que te tocan.</p>
+    <label class="ml-campo">Provincia<select id="ml-prov"></select></label>
+    <div class="ml-campo" id="ml-ciudad-w" hidden><span>Ciudad</span><div class="ml-ciudades" id="ml-ciudades"></div></div>
+    <div class="ml-aviso" id="ml-aviso" hidden></div>
+    <button class="btn grande" id="ml-ok" disabled>Listo</button>
+    <button class="link-btn" data-cerrar-lugar>Ahora no, ver todo</button>
+  </div>
+</div>'''
 
 
 def scripts(*extra):
@@ -247,7 +263,7 @@ def build_index():
 </aside>'''
     hero = '''<section class="hero" aria-roledescription="carrusel" aria-label="Destacados">
   <div class="slides" id="slides">
-    <div class="slide s1"><div class="s-txt"><small>ELECCIONES 2027</small><h1>Armá tu boleta<br>como si fuera un carrito</h1><p>Un presidente, un gobernador, un intendente y cinco legisladores. Leé lo bueno y lo malo de cada uno antes de comprar.</p><a class="btn hero-btn" href="/?cargo=presidencial#catalogo">Empezar por Presidente</a></div><div class="s-art" aria-hidden="true">🗳️</div></div>
+    <div class="slide s1"><div class="s-txt"><small>ELECCIONES 2027</small><h1>Armá tu boleta<br>como si fuera un carrito</h1><p>Un presidente, un gobernador, un intendente y cinco legisladores. Leé lo bueno y lo malo de cada uno antes de comprar.</p><a class="btn hero-btn" href="/?guia=1#catalogo" data-guia>Armar mi boleta paso a paso</a><span class="hero-cont" id="hero-cont"></span></div><div class="s-art" aria-hidden="true">🗳️</div></div>
     <div class="slide s2"><div class="s-txt"><small>HOT SALE DE PROMESAS</small><h2>Hasta 100% incumplidas</h2><p>Ordená por reputación y mirá quién cumplió lo que prometió.</p><a class="btn hero-btn" href="/?orden=cumplimiento#catalogo">Ver mejor reputación</a></div><div class="s-art" aria-hidden="true">🏷️</div></div>
     <div class="slide s3"><div class="s-txt"><small>NUEVO</small><h2>¿Tu boleta es pura sangre<br>o Frankenstein?</h2><p>Al finalizar la compra te decimos qué tan coherente es. Después, a mandarla al grupo.</p><a class="btn hero-btn" href="/boleta">Ir a mi boleta</a></div><div class="s-art" aria-hidden="true">🧟</div></div>
   </div>
@@ -259,6 +275,12 @@ def build_index():
 <main class="main"><div class="wrap">
 {hero}
 <section class="cats" aria-label="Categorías">{cats}</section>
+<section class="panel top-ranking" id="ranking" hidden aria-labelledby="rk-tit">
+  <div class="rk-cab"><div><h2 id="rk-tit">🔥 Los más comprados</h2><div class="sub" id="rk-sub"></div></div>
+  <div class="rk-tabs" id="rk-tabs" role="tablist"></div></div>
+  <ol class="rk-lista" id="rk-lista"></ol>
+  <p class="rk-nota">Cuenta las boletas finalizadas en este sitio. No es una encuesta ni una muestra representativa.</p>
+</section>
 <div class="cols" id="catalogo">
   {filtros}
   <div>
@@ -268,12 +290,18 @@ def build_index():
         <button type="button" class="btn-filtros" id="abrir-filtros">{ICON["filtro"]} Filtrar</button>
         <label class="orden">Ordenar por <select id="orden">
           <option value="">Más relevantes</option>
+          <option value="elegidos" data-rk hidden>Más elegidos</option>
           <option value="cumplimiento">Mejor reputación</option>
           <option value="letales">Más criticados</option>
           <option value="ruptura">Más disruptivos</option>
           <option value="nombre">Nombre, A a Z</option>
         </select></label>
       </div>
+    </div>
+    <div class="guia" id="guia" hidden>
+      <div class="guia-pasos" id="guia-pasos"></div>
+      <div class="guia-txt"><b id="guia-tit"></b><small id="guia-sub"></small></div>
+      <div class="guia-acc"><button type="button" class="link-btn" id="guia-saltar">Saltar</button><button type="button" class="btn" id="guia-sig" hidden></button><button type="button" class="cerrar" id="guia-salir" aria-label="Salir del armado guiado">✕</button></div>
     </div>
     <div class="chips-activos" id="chips"></div>
     <div class="grid" id="grid">
@@ -491,6 +519,7 @@ def build_boleta():
     <div class="ok-ico">✓</div>
     <h2 id="m-tit">¡Listo! Compraste tu boleta</h2>
     <p id="m-sub">Ahora mandala al grupo de la familia y que empiece el debate.</p>
+    <p class="m-rk" id="m-rk" hidden></p>
     <div class="m-prev"><img id="m-img" alt="Vista previa de tu boleta"></div>
     {share}
   </div>
@@ -503,6 +532,20 @@ def build_boleta():
 
 # ---------------------------------------------------------------- datos para el cliente y la API
 
+PROVINCIAS = ["Buenos Aires", "CABA", "Catamarca", "Chaco", "Chubut", "Córdoba", "Corrientes", "Entre Ríos", "Formosa",
+              "Jujuy", "La Pampa", "La Rioja", "Mendoza", "Misiones", "Neuquén", "Río Negro", "Salta", "San Juan", "San Luis",
+              "Santa Cruz", "Santa Fe", "Santiago del Estero", "Tierra del Fuego", "Tucumán"]
+# Ciudades con candidatos a intendente cargados y su provincia. En CABA el "intendente" es el jefe de Gobierno.
+CIUDAD_PROV = {"CABA": "CABA", "Córdoba": "Córdoba", "Rosario": "Santa Fe", "Mendoza": "Mendoza"}
+
+
+def lugares():
+    ciudades = {x["jur"] for x in CANDIDATURAS if x["cargo"] == "intendente"}
+    faltan = ciudades - set(CIUDAD_PROV)
+    assert not faltan, f"Falta mapear a provincia: {faltan}"
+    return {"provs": PROVINCIAS, "ciudades": {c: CIUDAD_PROV[c] for c in sorted(ciudades)}}
+
+
 def datos_cliente():
     cands = {}
     for c in CAND:
@@ -510,7 +553,7 @@ def datos_cliente():
         cands[c["id"]] = {"n": c["nombre"], "s": c["slug"], "p": c["partido"], "f": c["foto"], "i": ini(c["nombre"]),
                           "col": c["color"], "e": c["ejes"], "cu": c["cumplidas"], "to": tot, "le": letales(c),
                           "g": c.get("gancho", "")}
-    return {"c": cands, "k": [[x["cid"], x["cargo"], x["jur"]] for x in CANDIDATURAS],
+    return {"c": cands, "k": [[x["cid"], x["cargo"], x["jur"]] for x in CANDIDATURAS], "lugar": lugares(),
             "polos": [list(p) for p in POLOS]}
 
 
