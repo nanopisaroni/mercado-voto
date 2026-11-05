@@ -6015,14 +6015,14 @@
    "id": "katopodis",
    "nombre": "Gabriel Katopodis",
    "slug": "gabriel-katopodis",
-   "rol": "Ministro de Obras Públicas de la Nación hasta 2023",
+   "rol": "Ministro de Infraestructura bonaerense · Senador provincial con licencia",
    "tag": "",
    "color": "#4a90d9",
-   "bio": "Fue intendente de San Martín entre 2011 y 2019 y ministro de Obras Públicas de la Nación. Suena entre los nombres que podrían suceder a Kicillof en la provincia.",
+   "bio": "Abogado por la UBA, nació en Belgrano en 1967 y vive en San Martín desde los ochenta. Fue intendente de General San Martín entre 2011 y 2019, ministro de Obras Públicas de la Nación entre 2019 y 2023 y desde diciembre de 2023 conduce el Ministerio de Infraestructura y Servicios Públicos de la provincia. En 2025 encabezó la lista de senadores provinciales de la Primera Sección, le sacó casi once puntos a Diego Valenzuela y juró la banca en diciembre para pedir licencia el mismo día. El 9 de octubre de 2026 dijo que le gustaría conducir la provincia y reclamó PASO para definir las candidaturas. Se planta como continuidad de Kicillof y empuja al gobernador hacia la pelea presidencial.",
    "foto": "assets/fotos/katopodis.jpg",
    "categorias": [],
    "provincia": "Buenos Aires",
-   "partido": "Unión por la Patria",
+   "partido": "Partido Justicialista · Movimiento Derecho al Futuro",
    "ejes": [
     25,
     50,
@@ -6031,29 +6031,109 @@
     40,
     35
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2011-12",
+     "evento": "Asume como intendente de General San Martín."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Reelecto intendente de San Martín."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Gana un tercer mandato y pide licencia en diciembre para asumir como ministro de Obras Públicas de la Nación."
+    },
+    {
+     "fecha": "2020-04",
+     "evento": "Lanza el Plan Argentina Hace, de obras pequeñas y medianas en municipios de todo el país."
+    },
+    {
+     "fecha": "2021-04",
+     "evento": "Queda a cargo del Ministerio de Transporte de forma interina tras la muerte de Mario Meoni."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume como ministro de Infraestructura y Servicios Públicos de la provincia de Buenos Aires."
+    },
+    {
+     "fecha": "2025-09",
+     "evento": "Gana la banca de senador provincial por la Primera Sección con 47,48% contra 36,99% de Diego Valenzuela."
+    },
+    {
+     "fecha": "2025-12",
+     "evento": "Jura como senador y pide licencia en el mismo acto; la banca queda para Roxana López."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Blanquea que quiere ser gobernador y pide que las candidaturas se definan en PASO."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Obra pública",
+     "tesis": "El Plan Argentina Hace cerró con tres de cada cuatro obras auditadas sin recepción definitiva documentada.",
+     "cuerpo": "La Auditoría General de la Nación revisó 57 proyectos del programa ejecutados entre 2020 y 2022, cuando Katopodis estaba al frente del Ministerio de Obras Públicas. Encontró que solo 14 tenían acta de finalización o recepción definitiva, que en 28% de la muestra hubo incumplimientos en la rendición de fondos sin que el ministerio actuara como marca la norma y que en 10,5% las cuentas bancarias declaradas no coincidían con las que recibieron el dinero.",
+     "evidencia": "Informe de la AGN sobre transferencias 2020-2022 del Plan Argentina Hace: 57 proyectos, 34 municipios, 14 provincias. Solo 14 con recepción definitiva; 28,07% con fallas de rendición.",
+     "fuente_url": "https://www.seprin.info/2026/10/09/agn-detectan-incongruencias-en-el-programa-argentina-hace-de-gabriel-katopodis/",
+     "fuerza": "fuerte",
+     "tipo": "control de obra",
+     "respuesta_esperada": "Las obras se terminaron y las observaciones son de procedimiento, no de plata faltante.",
+     "refutacion": "Sin acta de recepción no hay forma de saber si la obra existe."
+    },
+    {
+     "area": "Rutas provinciales",
+     "tesis": "Obras viales que debían terminar en 2023 y 2024 siguen abiertas, con presupuestos que se multiplicaron.",
+     "cuerpo": "Tres resoluciones de Vialidad bonaerense publicadas el 29 de octubre de 2026 muestran suspensiones, renegociaciones y prórrogas en las rutas 6, 25 y 4. La intervención de 22,8 kilómetros en la ruta 6 se firmó en 2022 por 2.312 millones de pesos para ejecutarse en un año y para diciembre de 2025 ya estaba reconducida a 23.847 millones, con finalización prevista para septiembre de 2026 y una prórroga nueva en trámite.",
+     "evidencia": "Resoluciones 1556/2026, 1557/2026 y 1545/2026 de la Dirección de Vialidad bonaerense, publicadas en el Boletín Oficial del 29/10/2026.",
+     "fuente_url": "https://minutobonaerense.com/kicillof-y-katopodis-acumulan-anos-de-demoras-mientras-multiplican-por-10-el-presupuesto-de-obras-viales-47614",
+     "fuerza": "media-fuerte",
+     "tipo": "gestión",
+     "respuesta_esperada": "La inflación de la construcción explica la diferencia y las obras siguen en marcha.",
+     "refutacion": "Multiplicar por diez un contrato y prorrogarlo cuatro veces es una decisión de gestión, no un dato del índice."
+    },
+    {
+     "area": "Institucional",
+     "tesis": "Ganó una banca de senador y la dejó en licencia el primer día para quedarse en el Ejecutivo.",
+     "cuerpo": "Katopodis fue electo senador provincial el 7 de septiembre de 2025 por la Primera Sección. Asumió el 10 de diciembre y pidió licencia de inmediato, con lo que la banca pasó a Roxana López, de La Cámpora. El esquema se presentó como reversible y le permitió conservar el ministerio sin renunciar al mandato que había obtenido en las urnas.",
+     "evidencia": "Katopodis juró el 10/12/2025 y pidió licencia en el mismo acto; la banca fue ocupada por la camporista Roxana López.",
+     "fuente_url": "https://dib.com.ar/politica/al-final-gabriel-katopodis-asume-su-banca-pero-pide-licencia-y-sigue-como-ministro-n49250",
+     "fuerza": "media",
+     "tipo": "institucional",
+     "respuesta_esperada": "La licencia está prevista y el Ejecutivo provincial también es representación.",
+     "refutacion": "Los votos fueron para una banca, no para un ministerio."
+    }
+   ],
+   "vulnerabilidades": [
+    "Depende de la estructura de Kicillof y de los intendentes agrupados en La Liga.",
+    "Las auditorías sobre su gestión nacional le dan material fresco a la oposición en plena campaña.",
+    "La banca que no ejerce le quita el argumento de representación territorial."
+   ],
+   "gancho": "El ministro que ganó una banca y la dejó en licencia el primer día.",
+   "a_favor": [
+    "Ganó la Primera Sección en 2025 por casi once puntos sobre Diego Valenzuela, en el territorio donde La Libertad Avanza venía creciendo.",
+    "Suma gestión en los tres niveles del Estado: municipio, Nación y provincia.",
+    "Su paso por San Martín dejó obra de infraestructura y un esquema de cámaras de seguridad que todavía se usa."
+   ],
+   "badge": "",
+   "x": "gkatopodis"
   },
   {
    "id": "ferraresi",
    "nombre": "Jorge Ferraresi",
    "slug": "jorge-ferraresi",
-   "rol": "Intendente de Avellaneda desde 2009",
+   "rol": "Exintendente de Avellaneda · Precandidato a gobernador",
    "tag": "",
    "color": "#4a90d9",
-   "bio": "Dirige Avellaneda desde 2009 y fue ministro de Desarrollo Territorial y Hábitat de la Nación. Referente del peronismo del conurbano sur.",
+   "bio": "Ingeniero en Construcciones y en Seguridad e Higiene por la UTN de Avellaneda, nació en la Ciudad de Buenos Aires en 1961. Entró a la función pública como secretario de Obras y Servicios Públicos de Avellaneda en 1991 y llegó a la intendencia en 2009. En noviembre de 2020 pidió licencia para ser ministro de Desarrollo Territorial y Hábitat de Alberto Fernández y volvió al municipio dos años después. En 2023 fue interventor de Edesur durante 46 días y después conservó la intendencia hasta julio de 2026, cuando renunció para construir su candidatura provincial. Lo reemplazó su esposa, Magdalena Sierra. El 20 de octubre de 2026 reconoció que hay una docena de aspirantes a suceder a Kicillof y que él es uno de ellos.",
    "foto": "assets/fotos/ferraresi.jpg",
    "categorias": [],
    "provincia": "Buenos Aires",
-   "partido": "Unión por la Patria",
+   "partido": "Partido Justicialista · Movimiento Derecho al Futuro",
    "ejes": [
     20,
     45,
@@ -6062,29 +6142,109 @@
     35,
     30
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1991",
+     "evento": "Asume como secretario de Obras y Servicios Públicos de Avellaneda."
+    },
+    {
+     "fecha": "2009-08",
+     "evento": "Asume como intendente de Avellaneda tras la salida de Baldomero Álvarez de Olivera."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Gana su tercer mandato consecutivo al frente del municipio."
+    },
+    {
+     "fecha": "2020-11",
+     "evento": "Pide licencia y asume como ministro de Desarrollo Territorial y Hábitat de la Nación."
+    },
+    {
+     "fecha": "2022-11",
+     "evento": "Vuelve a la intendencia de Avellaneda después de dejar el ministerio."
+    },
+    {
+     "fecha": "2023-03",
+     "evento": "Es designado interventor administrativo de Edesur por los apagones masivos."
+    },
+    {
+     "fecha": "2023-05",
+     "evento": "Renuncia a la intervención de Edesur a los 46 días, por demoras en el plan de obras eléctricas."
+    },
+    {
+     "fecha": "2023-10",
+     "evento": "Reelecto intendente con el 56,6% de los votos."
+    },
+    {
+     "fecha": "2026-07",
+     "evento": "Renuncia a la intendencia para dedicarse a la política provincial; asume su esposa Magdalena Sierra."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Familia en el Estado",
+     "tesis": "Dejó el municipio en manos de su esposa y él quedó al frente de una jefatura de asesoramiento creada a medida.",
+     "cuerpo": "Ferraresi renunció a la intendencia el 3 de julio de 2026 y asumió Magdalena Sierra, que era jefa de Gabinete y es su esposa. Un relevamiento de nóminas de agosto de 2026 ubicó el costo del entramado familiar, repartido entre el municipio, el Senado bonaerense, la Justicia y dos universidades, en unos 77,8 millones de pesos mensuales. Según ese relevamiento, Sierra cobra 9,2 millones como intendenta y Ferraresi fue designado al frente de la Jefatura de Asesoramiento Institucional con un haber cercano a los 17,5 millones.",
+     "evidencia": "Relevamiento de registros salariales publicado el 14/08/2026: 77,8 millones mensuales en cargos de familiares y allegados.",
+     "fuente_url": "https://buenosairesnoticia.com.ar/nota/8665/denuncian-que-ferraresi-su-familia-y-sus-allegados-viven-con-contratos-del-estado/",
+     "fuerza": "fuerte",
+     "tipo": "familia en el Estado",
+     "respuesta_esperada": "Mi esposa fue elegida por los vecinos y yo cobro por un cargo técnico.",
+     "refutacion": "El cargo se creó después de la renuncia y el sueldo supera al de la intendenta."
+    },
+    {
+     "area": "Vivienda",
+     "tesis": "El PROCREAR II que manejó funcionó sin los controles mínimos, según la SIGEN.",
+     "cuerpo": "La Sindicatura General de la Nación auditó el programa entre 2021 y 2023, el período en que dependió del Ministerio de Desarrollo Territorial y Hábitat que Ferraresi condujo hasta noviembre de 2022. El informe de más de 200 páginas habla de mora récord, controles inexistentes, bases de datos inconsistentes y contratos millonarios sin justificar. La conclusión del organismo es que las tareas se hicieron en un marco con debilidades que no se corrigieron.",
+     "evidencia": "Auditoría de la SIGEN sobre el PROCREAR II, publicada en diciembre de 2025, sobre el período 2021-2023.",
+     "fuente_url": "https://www.infobae.com/politica/2025/12/08/la-sigen-detecto-fallas-en-el-procrear-ii-mora-record-controles-inexistentes-y-contratos-millonarios-sin-justificar/",
+     "fuerza": "fuerte",
+     "tipo": "gestión",
+     "respuesta_esperada": "La auditoría es posterior y las observaciones alcanzan a toda la gestión del programa.",
+     "refutacion": "El período auditado es el de su ministerio y las observaciones son sobre controles que dependían de él."
+    },
+    {
+     "area": "Energía",
+     "tesis": "Duró 46 días como interventor de Edesur y se fue por las demoras en el plan de obras.",
+     "cuerpo": "El ENRE lo puso al frente de la intervención de Edesur en marzo de 2023, después de los apagones que dejaron a miles de usuarios sin luz en plena ola de calor. Renunció el 9 de mayo de ese año, menos de siete semanas después, por demoras en la ejecución del plan de obras eléctricas. Volvió a Avellaneda sin haber terminado el mandato que le habían encomendado.",
+     "evidencia": "Renuncia presentada el 09/05/2023, 46 días después de asumir la intervención dispuesta por el ENRE el 21/03/2023.",
+     "fuente_url": "https://www.infobae.com/politica/2023/05/09/jorge-ferraresi-renuncio-como-interventor-de-edesur-46-dias-despues-de-haber-asumido/",
+     "fuerza": "media-fuerte",
+     "tipo": "gestión",
+     "respuesta_esperada": "La intervención era un cargo transitorio y volví porque el municipio me necesitaba.",
+     "refutacion": "La transitoriedad la fijó el decreto en 180 días, no en 46."
+    }
+   ],
+   "vulnerabilidades": [
+    "La salida del municipio con su esposa en el cargo le armó a la oposición un caso de familia en el Estado a meses de la campaña.",
+    "La auditoría del PROCREAR le pega en el área que usa como carta de presentación.",
+    "Su pelea con Máximo Kirchner y La Cámpora le cierra votos en el sector del peronismo que no perdona."
+   ],
+   "gancho": "Dejó Avellaneda para recorrer la provincia y el municipio quedó en manos de su esposa.",
+   "a_favor": [
+    "Ganó la intendencia de Avellaneda en 2011, 2015, 2019 y 2023, la última con 56,6% de los votos.",
+    "Desde julio de 2026 encabeza reuniones y recorridas por distintas secciones electorales para ampliar el armado del MDF.",
+    "Tiene obra de hábitat concreta en su distrito, con urbanización de barrios y viviendas entregadas."
+   ],
+   "badge": "",
+   "x": "jorgeferraresi"
   },
   {
    "id": "alak",
    "nombre": "Julio Alak",
    "slug": "julio-alak",
-   "rol": "Intendente de La Plata desde 2023",
+   "rol": "Intendente de La Plata · Presidente del PJ platense",
    "tag": "",
    "color": "#4a90d9",
-   "bio": "Fue ministro de Justicia y de Trabajo de la Nación y diputado nacional. Desde 2023 gobierna la capital provincial.",
+   "bio": "Abogado y procurador por la Universidad Nacional de La Plata, nació en Benito Juárez en 1958 e hizo toda su carrera política en la capital provincial. Fue intendente de La Plata entre 1991 y 2007, cuatro mandatos seguidos. En 2008 asumió como presidente de Aerolíneas Argentinas, el primero después de la estatización, y entre 2009 y 2015 fue ministro de Justicia y Derechos Humanos de la Nación, el que más tiempo estuvo en ese cargo. Volvió a la función provincial como ministro de Justicia de Kicillof entre 2019 y 2023. En 2023 recuperó la intendencia por 606 votos y arrancó su quinto mandato después de 16 años. Preside el PJ de La Plata y todavía no confirmó si compite por la gobernación.",
    "foto": "assets/fotos/alak.jpg",
    "categorias": [],
    "provincia": "Buenos Aires",
-   "partido": "Unión por la Patria",
+   "partido": "Partido Justicialista",
    "ejes": [
     25,
     55,
@@ -6093,16 +6253,95 @@
     40,
     35
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1991-12",
+     "evento": "Asume su primer mandato como intendente de La Plata."
+    },
+    {
+     "fecha": "2007-12",
+     "evento": "Termina su cuarto mandato consecutivo al frente de la Municipalidad."
+    },
+    {
+     "fecha": "2008-07",
+     "evento": "Asume como presidente de Aerolíneas Argentinas, el primero designado después de la estatización."
+    },
+    {
+     "fecha": "2009-07",
+     "evento": "Asume como ministro de Justicia y Derechos Humanos de la Nación."
+    },
+    {
+     "fecha": "2015-12",
+     "evento": "Deja el ministerio después de seis años, el período más largo en ese cargo."
+    },
+    {
+     "fecha": "2019-12",
+     "evento": "Asume como ministro de Justicia y Derechos Humanos de la provincia de Buenos Aires."
+    },
+    {
+     "fecha": "2023-10",
+     "evento": "Gana la intendencia de La Plata por 606 votos sobre Julio Garro."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume su quinto mandato como intendente, 16 años después del anterior."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Su nombre se instala entre los precandidatos a gobernador; todavía no confirmó."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Reciclado y trabajo",
+     "tesis": "Rescindió el contrato con las cooperativas de reciclado y dejó a más de 400 recuperadores sin trabajo.",
+     "cuerpo": "El municipio avisó a las cooperativas que el servicio pasaría a licitarse y después excluyó el reciclado del pliego, con el argumento de que no se podía licitar por cuestiones técnicas. La única propuesta que recibieron fue una tarjeta alimentaria. Los recuperadores habían trabajado diez años con el Municipio y con la UNLP en programas de separación en origen. Quedaron sin salario y sin acceso a los materiales que separan los vecinos.",
+     "evidencia": "Rescisión del contrato con las cooperativas de recuperadores urbanos y ofrecimiento de una tarjeta alimentaria en lugar del servicio, julio de 2026.",
+     "fuente_url": "https://huelladelsur.ar/2026/07/11/julio-alak-deja-sin-trabajo-a-mas-de-400-recicladores-y-desmantela-el-sistema-de-reciclado-en-la-plata/",
+     "fuerza": "fuerte",
+     "tipo": "política social",
+     "respuesta_esperada": "El sistema no funcionaba y había que ordenarlo con una licitación.",
+     "refutacion": "Excluir el reciclado del pliego no ordena nada, lo deja afuera."
+    },
+    {
+     "area": "Prioridades de inversión",
+     "tesis": "Concentró la obra en plazas y el centro mientras la periferia espera obras hídricas y seguridad.",
+     "cuerpo": "Vecinos de Altos de San Lorenzo, Los Hornos, Villa Elvira y Melchor Romero cuestionan que la inversión se haya ido a la remodelación de plazas y edificios céntricos. El reclamo principal es el agua: piden limpieza de zanjones, destape de conductos y obras de fondo ante la alerta por El Niño. También faltan patrullajes y luminarias en esquinas críticas. La Rendición de Cuentas 2025 muestra que la obra pública se llevó el 53% del gasto, con fuerte peso de la remodelación de espacios verdes.",
+     "evidencia": "Reclamos de vecinos de cuatro localidades de la periferia y concentración del 53% del gasto 2025 en obra pública, con eje en plazas.",
+     "fuente_url": "https://www.elportaldelaplata.com.ar/vecinos-de-la-periferia-cuestionan-las-prioridades-de-la-gestion-alak-plazas-lindas-periferia-postergada/",
+     "fuerza": "media-fuerte",
+     "tipo": "prioridades",
+     "respuesta_esperada": "Las plazas también son obra pública y mejoran el espacio de todos.",
+     "refutacion": "Con zanjones sin destapar, la plaza se inunda igual."
+    },
+    {
+     "area": "Transparencia",
+     "tesis": "Aprobó la rendición de cuentas 2025 con la oposición denunciando subejecución en Seguridad.",
+     "cuerpo": "El Concejo Deliberante aprobó la Rendición de Cuentas 2025 con 14 votos a favor y 9 en contra. El bloque del PRO habló de una enorme subejecución de partidas en Seguridad y de metas de gestión incumplidas. La Libertad Avanza denunció dificultades para acceder a la documentación completa antes de la sesión. El oficialismo reunió los votos con sectores dialoguistas de la oposición.",
+     "evidencia": "Sesión del 21/05/2026: 14 votos afirmativos y 9 negativos sobre una ejecución de casi 475 mil millones de pesos.",
+     "fuente_url": "https://www.laplata1.com/2026-05-21/con-criticas-por-la-seguridad-y-el-gasto-municipal-alak-aprobo-la-rendicion-de-cuentas-de-la-plata-123578/",
+     "fuerza": "media",
+     "tipo": "control",
+     "respuesta_esperada": "La rendición se aprobó y las cuentas están a disposición de todos.",
+     "refutacion": "Aprobar con nueve votos en contra no es tener las cuentas claras."
+    }
+   ],
+   "vulnerabilidades": [
+    "No confirmó la candidatura: si salta a la provincia deja La Plata y abre una sucesión interna con una docena de aspirantes.",
+    "Su edad y la vuelta a un cargo que ya había ocupado durante 16 años son el flanco más visible para la oposición."
+   ],
+   "gancho": "Gobernó La Plata 16 años, se fue 16 y volvió por 606 votos.",
+   "a_favor": [
+    "Cerró 2025 con superávit de 3.900 millones de pesos y destinó el 53% del gasto a obra pública.",
+    "Gobernó La Plata cuatro mandatos seguidos entre 1991 y 2007 y volvió a ganarla en 2023 después de 16 años.",
+    "Tiene recorrido en Justicia y en empresas públicas: estatización de Aerolíneas, seis años como ministro nacional y cuatro como ministro provincial."
+   ],
+   "badge": "",
+   "x": "Julio_Alak"
   },
   {
    "id": "delasota",
@@ -6608,10 +6847,10 @@
    "id": "santacroce",
    "nombre": "Roly Santacroce",
    "slug": "roly-santacroce",
-   "rol": "Intendente de Funes",
+   "rol": "Intendente de Funes · Precandidato a gobernador por RAÍS",
    "tag": "",
    "color": "#1b7f4f",
-   "bio": "Gobierna Funes y construyó un espacio propio dentro del peronismo santafesino. Aparece en las encuestas para la gobernación.",
+   "bio": "Nació en Salto, provincia de Buenos Aires, y llegó a Funes en 1997. Entró en política en 2002 y pasó por el Concejo Municipal antes de ganar la intendencia en 2019, cuando asumió el 10 de diciembre en medio del arranque de la pandemia. Fue reelecto en 2023 y convirtió a Funes en una usina de obra pública y pavimento, con un discurso de gestión municipal que después llevó al terreno provincial. En mayo de 2026 pidió licencia para irse al Mundial con amigos y lo contó en público. Rompió con la conducción del PJ santafesino, armó el sello RAÍS y se anotó para la gobernación con críticas frontales a los armadores del peronismo. Su divorcio abrió una causa patrimonial que lo puso en el centro de la escena judicial.",
    "foto": "",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -6624,25 +6863,105 @@
     50,
     45
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2002",
+     "evento": "Empieza a participar en política en Funes."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Ocupa una banca en el Concejo Municipal de Funes."
+    },
+    {
+     "fecha": "2019-09",
+     "evento": "Gana la intendencia de Funes."
+    },
+    {
+     "fecha": "2019-12",
+     "evento": "Asume como intendente en el inicio de la pandemia."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelecto intendente de Funes."
+    },
+    {
+     "fecha": "2026-05",
+     "evento": "Pide licencia para viajar al Mundial y lo admite en público."
+    },
+    {
+     "fecha": "2026-03",
+     "evento": "Su exesposa suma a Ana Rosenfeld a la causa por división de bienes."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Rompe con la conducción del PJ santafesino y arma el sello RAÍS."
+    },
+    {
+     "fecha": "2026-09",
+     "evento": "Se anota como precandidato a gobernador y cuestiona a los armadores del peronismo."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Prioridades",
+     "tesis": "Le pidió licencia al municipio para irse al Mundial con amigos.",
+     "cuerpo": "En mayo de 2026 Santacroce pidió licencia como intendente de Funes para viajar al Mundial y lo contó sin vueltas en medios y redes. La decisión se hizo pública mientras el municipio discutía obras y servicios, y él la defendió con el argumento de que necesitaba el viaje. La escena resume el estilo que lo hizo conocido: gestión personalista, humor y exposición permanente.",
+     "evidencia": "Licencia solicitada en mayo de 2026 y declaraciones públicas sobre el viaje al Mundial.",
+     "fuente_url": "https://tn.com.ar/politica/2026/05/27/vamos-y-nos-olvidamos-de-todo-un-intendente-santafesino-pidio-licencia-p",
+     "fuerza": "media-fuerte",
+     "tipo": "prioridades",
+     "respuesta_esperada": "Me tomé días que me correspondían y dejé el municipio en orden.",
+     "refutacion": "Un intendente puede tomarse vacaciones. El problema es contar que se va al Mundial como si fuera una hazaña."
+    },
+    {
+     "area": "Patrimonio",
+     "tesis": "Su divorcio derivó en una causa que investiga 14 propiedades y una fortuna que no cierra con el sueldo municipal.",
+     "cuerpo": "La exesposa de Santacroce, Romina Hoffmann, denunció violencia de género y después sumó a la abogada Ana Rosenfeld para la división de bienes. La defensa de Hoffmann sostiene que el patrimonio del intendente no guarda relación con sus ingresos públicos y apunta a al menos 14 propiedades, cuentas locales e internacionales y testaferros. La compensación reclamada va de 15 a 70 millones de dólares. Santacroce sostiene que es una operación política y que la causa no tiene sustento.",
+     "evidencia": "Causa por división de bienes en trámite desde 2026: 14 propiedades identificadas y reclamo de compensación de entre 15 y 70 millones de dólares.",
+     "fuente_url": "https://www.lt9.com.ar/la-ruta-del-dinero-en-funes-el-divorcio-de-santacroce-deriva-en-una-explosiva-causa-por",
+     "fuerza": "media-fuerte",
+     "tipo": "patrimonio",
+     "respuesta_esperada": "Es una causa de familia que se usa políticamente en mi contra.",
+     "refutacion": "La causa es de familia, pero el patrimonio de un intendente es un asunto público."
+    },
+    {
+     "area": "Partido",
+     "tesis": "Rompió con el PJ provincial y armó un sello propio para la gobernación.",
+     "cuerpo": "Santacroce cruzó públicamente a la conducción del PJ santafesino y la acusó de manejar el partido como una estructura de sellos. Después formalizó RAÍS, su propio espacio, y se lanzó por fuera de la estructura peronista. La jugada le da libertad para criticar a Pullaro y al PJ al mismo tiempo, y le deja el problema de armar una lista provincial desde un municipio de 60 mil habitantes.",
+     "evidencia": "Declaraciones contra la conducción del PJ santafesino y creación del sello RAÍS.",
+     "fuente_url": "https://www.letrap.com.ar/politica/santa-fe-roly-santacroce-cruzo-la-conduccion-del-pj-y-la-acuso-tener-s",
+     "fuerza": "media",
+     "tipo": "política interna",
+     "respuesta_esperada": "El PJ dejó de representar a la gente y por eso armé mi espacio.",
+     "refutacion": "Criticar los sellos y armar uno propio es la misma operación con otro nombre."
+    }
+   ],
+   "vulnerabilidades": [
+    "Su base es un municipio chico y no tiene estructura en el resto de la provincia.",
+    "La causa patrimonial le da a la oposición un tema que no depende de la campaña.",
+    "El sello propio lo deja sin los fiscales y la logística del PJ."
+   ],
+   "gancho": "El intendente que se tomó licencia para ir al Mundial y ahora quiere gobernar la provincia.",
+   "a_favor": [
+    "Ganó dos veces la intendencia de Funes y la convirtió en vidriera de obra pública y pavimento.",
+    "Tiene un estilo directo que le funcionó en redes y le permitió instalar temas municipales en la agenda provincial.",
+    "Se plantó frente a la conducción del PJ cuando casi todos los intendentes eligen quedarse adentro."
+   ],
+   "badge": "",
+   "x": "santacroceroly"
   },
   {
    "id": "delfrade",
    "nombre": "Carlos Del Frade",
    "slug": "carlos-del-frade",
-   "rol": "Diputado provincial por Santa Fe",
+   "rol": "Diputado provincial · Periodista de investigación",
    "tag": "",
    "color": "#e05c00",
-   "bio": "Periodista e investigador. Legislador provincial del Frente Amplio por la Soberanía, con foco en deuda, territorio y derechos.",
+   "bio": "Periodista de investigación y diputado provincial por Santa Fe desde diciembre de 2015. Nació en Rosario en 1963 y se formó en la Universidad Nacional de Rosario. Construyó su carrera con la saga Geografía Narco, ocho tomos sobre el avance del narcotráfico en la provincia, y con libros sobre corrupción y poder político. Investiga desde hace dos décadas el vínculo entre el delito, la política y la policía, y por eso recibió amenazas que lo obligaron a moverse con custodia. En la Legislatura preside un bloque pequeño y presentó proyectos sobre narcotráfico, transparencia y gasto público. En 2027 evalúa competir por la gobernación junto a Claudia Balagué y Palo Oliver, por fuera de Unidos.",
    "foto": "",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -6655,29 +6974,105 @@
     70,
     25
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1990",
+     "evento": "Empieza a publicar investigaciones periodísticas en Rosario."
+    },
+    {
+     "fecha": "2010",
+     "evento": "Publica el primer tomo de Geografía Narco, sobre el avance del delito en Santa Fe."
+    },
+    {
+     "fecha": "2015-12",
+     "evento": "Asume como diputado provincial por el Frente Social y Popular."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Reelecto diputado provincial."
+    },
+    {
+     "fecha": "2021-09",
+     "evento": "Denuncia amenazas del narcotráfico y aparece con custodia en medios nacionales."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelecto para un tercer mandato provincial."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Publica un nuevo tomo de Geografía Narco y sigue las causas por narcotráfico en Rosario."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Analiza con Balagué y Oliver una candidatura a gobernador por fuera de Unidos."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Estrategia",
+     "tesis": "Once años denunciando el narcotráfico no cambiaron la correlación de fuerzas en la Legislatura.",
+     "cuerpo": "Del Frade construyó un archivo propio sobre el delito y la corrupción en Santa Fe, con libros y presentaciones judiciales, y su bloque nunca tuvo los votos para torcer una decisión del oficialismo. La denuncia le dio autoridad moral y visibilidad, y también un techo político que no se mueve. Su espacio discute ahora una candidatura a gobernador sin estructura territorial fuera de Rosario.",
+     "evidencia": "Tres mandatos consecutivos en la Legislatura y un bloque minoritario sin capacidad de agenda propia.",
+     "fuente_url": "https://www.cfin.com.ar/se-comenta/carlos-del-frade-candidato-gobernador-santa-fe-2027/",
+     "fuerza": "media",
+     "tipo": "estrategia",
+     "respuesta_esperada": "El valor de denunciar no se mide en votos.",
+     "refutacion": "Para gobernar hace falta algo más que el archivo."
+    },
+    {
+     "area": "Gestión",
+     "tesis": "Nunca administró un presupuesto ni un área de gobierno.",
+     "cuerpo": "Su carrera es legislativa y periodística. No fue intendente, ni ministro, ni secretario, y su experiencia de gestión se limita a la tarea parlamentaria. La provincia que quiere gobernar maneja obra pública, policía, salud y educación, y su ficha no tiene antecedentes de haber conducido ninguna de esas áreas.",
+     "evidencia": "Trayectoria sin cargos ejecutivos ni de administración.",
+     "fuente_url": "https://carlosdelfrade.com.ar/biografia/",
+     "fuerza": "media-fuerte",
+     "tipo": "gestión",
+     "respuesta_esperada": "No hace falta gestionar para saber qué está mal.",
+     "refutacion": "Saber qué está mal y poder arreglarlo son dos trabajos distintos."
+    },
+    {
+     "area": "Alianzas",
+     "tesis": "Su espacio se define por lo que rechaza y no por lo que propone.",
+     "cuerpo": "Del Frade descarta integrarse a Unidos y también un acuerdo con el PJ, y la candidatura se arma sobre esas negativas. La construcción con Balagué y Oliver le da volumen legislativo y no le resuelve el problema de los fiscales, los intendentes y el financiamiento. Sin esas piezas, una boleta provincial no compite.",
+     "evidencia": "Declaraciones sobre no integrarse a Unidos y sobre la falta de acuerdo con el peronismo.",
+     "fuente_url": "https://www.cfin.com.ar/se-comenta/carlos-del-frade-candidato-gobernador-santa-fe-2027/",
+     "fuerza": "media",
+     "tipo": "alianzas",
+     "respuesta_esperada": "Preferimos construir sin los aparatos que sostienen todo lo que denunciamos.",
+     "refutacion": "Sin aparatos no se llega a la boleta."
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene estructura territorial ni experiencia ejecutiva.",
+    "Su espacio está fuera de las dos coaliciones que se disputan la provincia.",
+    "La denuncia permanente desgasta cuando no llega a resultados judiciales."
+   ],
+   "gancho": "El periodista que documentó el narcotráfico en Santa Fe y ahora quiere gobernarla.",
+   "a_favor": [
+    "Es la voz con más credibilidad sobre narcotráfico en Santa Fe, con ocho tomos documentados y amenazas concretas en su contra.",
+    "Tiene tres mandatos legislativos y un archivo de proyectos sobre transparencia y gasto.",
+    "Su palabra pesa en la agenda pública provincial, incluso cuando su bloque no tiene votos."
+   ],
+   "badge": "",
+   "x": "carlosdelfrade"
   },
   {
    "id": "scaglia",
    "nombre": "Gisela Scaglia",
    "slug": "gisela-scaglia",
-   "rol": "Vicegobernadora de Santa Fe",
+   "rol": "Diputada nacional · Presidenta del PRO de Santa Fe · Ex vicegobernadora",
    "tag": "",
    "color": "#f5c518",
-   "bio": "Fue diputada nacional por Santa Fe. Integra la fórmula provincial desde 2023 y suena como posible candidata si Pullaro no repite.",
+   "bio": "Licenciada en Ciencia Política por la Universidad Nacional de Rosario, nació en Gálvez en 1976. Fue diputada nacional por Santa Fe entre 2013 y 2021 y en 2023 acompañó a Maximiliano Pullaro como candidata a vicegobernadora en la fórmula que ganó por 27 puntos. Asumió la vicegobernación en diciembre de 2023 y renunció dos años después para asumir una banca en Diputados, en diciembre de 2025. Preside el PRO santafesino y forma parte de Provincias Unidas, la coalición que conduce Pullaro. Su perfil es técnico y de agenda internacional: salud global, discapacidad y hambre. En 2026 suena como candidata a gobernadora, sin lanzamiento formal.",
    "foto": "assets/fotos/scaglia.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
-   "partido": "PRO",
+   "partido": "PRO · Provincias Unidas",
    "ejes": [
     65,
     50,
@@ -6686,29 +7081,109 @@
     40,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2013-12",
+     "evento": "Asume como diputada nacional por Santa Fe."
+    },
+    {
+     "fecha": "2017",
+     "evento": "Reelecta diputada nacional por Cambiemos."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Termina su segundo mandato en Diputados."
+    },
+    {
+     "fecha": "2023-05",
+     "evento": "Pullaro la anuncia como candidata a vicegobernadora."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume como vicegobernadora de Santa Fe."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Encabeza la lista de diputados nacionales del espacio y gana la elección legislativa."
+    },
+    {
+     "fecha": "2025-12",
+     "evento": "Renuncia a la vicegobernación y asume su banca en Diputados."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Preside el PRO santafesino y responde a Pullaro dentro de Provincias Unidas."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Su nombre aparece entre los posibles candidatos a gobernador para 2027."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Mandato",
+     "tesis": "Renunció a la vicegobernación a mitad de mandato para asumir una banca en Diputados.",
+     "cuerpo": "Scaglia asumió como vicegobernadora en diciembre de 2023 y pidió la renuncia al cargo en diciembre de 2025, cuando fue electa diputada nacional. La provincia quedó sin vicegobernadora y la Legislatura aceptó la salida con los votos del oficialismo. En el PRO hubo malestar porque la presidenta del partido sacrificó el segundo cargo provincial para volver al Congreso.",
+     "evidencia": "Renuncia presentada en diciembre de 2025 y aceptada por la Legislatura; asumió su banca el 10 de diciembre.",
+     "fuente_url": "https://www.miradorprovincial.com/2025/12/11/gisela-scaglia-diputados-y-senadores-aceptaron-su-renuncia/",
+     "fuerza": "fuerte",
+     "tipo": "mandato",
+     "respuesta_esperada": "Santa Fe necesitaba una voz en el Congreso y desde ahí trabajo para la provincia.",
+     "refutacion": "Los votos que la hicieron vicegobernadora no incluían irse a los dos años."
+    },
+    {
+     "area": "Identidad partidaria",
+     "tesis": "Preside el PRO mientras su carrera política la conduce Pullaro, de otro partido.",
+     "cuerpo": "Scaglia preside el PRO santafesino y a la vez trabaja dentro de Provincias Unidas, la coalición que lidera el gobernador. En entrevistas definió su tarea como la de articular esas dos estructuras, sin candidato propio y sin diferencias públicas con el gobernador. El partido que preside quedó subordinado a la agenda de Unidos.",
+     "evidencia": "Declaraciones sobre su trabajo para que Provincias Unidas y el PRO funcionen juntos.",
+     "fuente_url": "https://www.perfil.com/noticias/modo-fontevecchia/gisela-scaglia-trabajo-para-que-provincias-unidas-y-el-",
+     "fuerza": "media-fuerte",
+     "tipo": "partido",
+     "respuesta_esperada": "El PRO es parte de la coalición y yo conduzco esa articulación.",
+     "refutacion": "Un partido que no fija posición propia no tiene candidato propio."
+    },
+    {
+     "area": "Perfil",
+     "tesis": "Su agenda internacional no se traduce en poder territorial en Santa Fe.",
+     "cuerpo": "Scaglia construyó su perfil en redes internacionales de salud global y discapacidad, y su base electoral siempre dependió de una boleta armada por otros. Nunca compitió por una intendencia ni condujo un distrito. La candidatura a gobernadora la pone en un terreno donde se vota por fiscales, intendentes y bolsas de dinero.",
+     "evidencia": "Trayectoria legislativa y de redes internacionales, sin cargos ejecutivos ni municipales.",
+     "fuente_url": "https://es.wikipedia.org/wiki/Gisela_Scaglia",
+     "fuerza": "media",
+     "tipo": "territorio",
+     "respuesta_esperada": "Hice campaña en toda la provincia como candidata a vicegobernadora.",
+     "refutacion": "Ir en la fórmula no es tener la estructura."
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene intendencia ni estructura propia.",
+    "Su paso por la vicegobernación duró dos años y dejó malestar en su propio partido.",
+    "El PRO santafesino está subordinado a la coalición de Pullaro."
+   ],
+   "gancho": "Ganó la vicegobernación por 27 puntos y la dejó a los dos años para volver al Congreso.",
+   "a_favor": [
+    "Integró la fórmula que ganó la provincia por 27 puntos en 2023.",
+    "Ocho años como diputada nacional y una agenda de salud global con proyección internacional.",
+    "Es presidenta del PRO santafesino, con llegada directa al gobernador y a la estructura de Unidos."
+   ],
+   "badge": "",
+   "x": "GiScaglia"
   },
   {
    "id": "petri",
    "nombre": "Luis Petri",
    "slug": "luis-petri",
-   "rol": "Ex ministro de Defensa de la Nación",
+   "rol": "Diputado nacional (LLA) · Vicepresidente segundo de la Cámara de Diputados",
    "tag": "",
    "color": "#c8102e",
-   "bio": "Fue diputado nacional y candidato a gobernador en 2023. Ocupó el Ministerio de Defensa y hoy suena fuerte para la sucesión de Cornejo.",
+   "bio": "Abogado mendocino nacido en San Martín en 1977. Hizo casi toda su carrera en la UCR: fue vicepresidente de la Juventud Radical, secretario legislativo del Senado provincial, diputado provincial entre 2006 y 2013 y diputado nacional entre 2013 y 2021, cuando llegó a vicepresidente segundo de la Cámara. En 2023 perdió la interna provincial contra Alfredo Cornejo y después fue compañero de fórmula de Patricia Bullrich en la elección presidencial. Milei lo nombró ministro de Defensa en diciembre de 2023 y estuvo dos años en el cargo, con la compra de los F-16 a Dinamarca como bandera y la crisis de la obra social de las Fuerzas Armadas como flanco. En agosto de 2025 dejó la UCR y se afilió a La Libertad Avanza para encabezar la lista que ganó la elección legislativa en Mendoza. Desde diciembre de 2025 es diputado nacional y vicepresidente segundo de la Cámara. Hoy lidera las encuestas para la gobernación, sin lanzamiento formal, y reclama una PASO provincial que Cornejo no quiere darle.",
    "foto": "assets/fotos/petri.jpg",
    "categorias": [],
    "provincia": "Mendoza",
-   "partido": "UCR",
+   "partido": "La Libertad Avanza",
    "ejes": [
     70,
     45,
@@ -6717,29 +7192,103 @@
     45,
     70
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2003",
+     "evento": "Vicepresidente de la Juventud Radical de Mendoza y secretario legislativo del Senado provincial."
+    },
+    {
+     "fecha": "2006",
+     "evento": "Asume como diputado provincial por la segunda sección electoral; será reelegido en 2010."
+    },
+    {
+     "fecha": "2013",
+     "evento": "Elegido diputado nacional por Mendoza en la lista de la UCR que encabezó Julio Cobos."
+    },
+    {
+     "fecha": "2017",
+     "evento": "Reelecto diputado nacional por Cambiemos y designado vicepresidente segundo de la Cámara."
+    },
+    {
+     "fecha": "2023-06",
+     "evento": "Patricia Bullrich lo anuncia como su compañero de fórmula; la dupla gana la PASO de Juntos por el Cambio y sale tercera en octubre."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume como ministro de Defensa de Javier Milei."
+    },
+    {
+     "fecha": "2025-08",
+     "evento": "Deja la UCR y se afilia a La Libertad Avanza para encabezar la lista de diputados nacionales."
+    },
+    {
+     "fecha": "2025-12",
+     "evento": "Renuncia a Defensa y asume su banca; lo nombran vicepresidente segundo de la Cámara."
+    },
+    {
+     "fecha": "2026-11",
+     "evento": "Encabeza la intención de voto a gobernador con 48,3% en la medición de DC Consultores difundida por Clarín."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Obra social de las Fuerzas Armadas",
+     "tesis": "La deuda de IOSFA se multiplicó por cinco en su gestión y él negó el crecimiento.",
+     "cuerpo": "Una auditoría interna de IOSFA, el documento 9/2025 al que accedió Ámbito, muestra que la deuda de la obra social pasó de 44.000 a 210.000 millones de pesos en un año. Petri había negado ese crecimiento en sucesivas presentaciones. Cinco días antes de dejar el ministerio ordenó su propia auditoría sobre el manejo de IOSFA y ese informe no apareció. La obra social pidió auxilio para pagar deudas con droguerías y perdió prestadores en todo el país.",
+     "evidencia": "Auditoría interna: la deuda pasó de $44.000 millones a $210.000 millones en un año.",
+     "fuente_url": "https://www.ambito.com/politica/auditoria-interna-iosfa-expone-el-endeudamiento-la-gestion-petri-un-ano-paso-44000-millones-210000-millones-n6243166",
+     "fuerza": "fuerte",
+     "tipo": "gestión"
+    },
+    {
+     "area": "Defensa",
+     "tesis": "La compra militar más cara en décadas se cerró con cuestionamientos técnicos y él contestó con una chicana.",
+     "cuerpo": "Los F-16 usados comprados a Dinamarca fueron la principal bandera de su gestión. La oposición los calificó de chatarra y puso el foco en el costo de mantenimiento y en la letra chica del paquete. Cuando le preguntaron por esas críticas respondió que ahora todos son sommeliers de aviones de caza, sin discutir los números del contrato. La compra quedó asociada a su figura y volvió al centro de la campaña mendocina.",
+     "evidencia": "Respuesta de Petri a las críticas por los F-16: ahora todos son sommeliers de aviones de caza.",
+     "fuente_url": "https://www.infobae.com/politica/2025/12/10/luis-petri-contesto-a-las-criticas-por-la-compra-de-los-f-16-ahora-todos-son-sommeliers-de-aviones-de-caza/",
+     "fuerza": "media",
+     "tipo": "defensa"
+    },
+    {
+     "area": "Coherencia partidaria",
+     "tesis": "Se afilió a La Libertad Avanza para conservar una banca después de veinte años en el radicalismo.",
+     "cuerpo": "En agosto de 2025 formalizó su pase a La Libertad Avanza como condición para encabezar la lista de diputados nacionales del frente que armó Cornejo con el oficialismo nacional. Dos años antes, como precandidato vicepresidencial de Juntos por el Cambio, había dicho que la motosierra de Milei se había convertido en una pincita de depilar. El giro le sirvió para ganar la elección legislativa y volver al Congreso, y le costó la relación con buena parte del radicalismo mendocino.",
+     "evidencia": "Luis Petri se fue de la UCR y se afilió a La Libertad Avanza para ser candidato.",
+     "fuente_url": "https://eleditormendoza.com.ar/politica/luis-petri-se-afilia-la-libertad-avanza-ser-candidato-otro-nombre-se-confirma-la-lista-n5369771",
+     "fuerza": "media-fuerte",
+     "tipo": "coherencia"
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene estructura territorial propia en Mendoza: su base es la imagen nacional y el sello de La Libertad Avanza.",
+    "Cornejo maneja el aparato de Cambia Mendoza y, según la prensa provincial, no habla con él desde 2025.",
+    "Su paso por Defensa le dejó un flanco abierto, la crisis de IOSFA, que la oposición nacional ya usa en su contra."
+   ],
+   "gancho": "Mide 48,3% para gobernador y su ex partido todavía no le perdona el pase.",
+   "a_favor": [
+    "Ganó la elección legislativa de 2025 en Mendoza encabezando la lista de La Libertad Avanza y el radicalismo local.",
+    "Lidera la intención de voto a gobernador con 48,3% (DC Consultores, octubre de 2026), más del doble que el segundo.",
+    "Tiene recorrido en los tres niveles del Estado: municipio, Provincia y Nación, incluida una cartera con presupuesto y fuerzas armadas."
+   ],
+   "badge": "",
+   "x": "luispetri"
   },
   {
    "id": "mema",
    "nombre": "Natalio Mema",
    "slug": "natalio-mema",
-   "rol": "Ministro de Gobierno de Mendoza",
+   "rol": "Ministro de Gobierno, Infraestructura y Desarrollo Territorial de Mendoza",
    "tag": "",
    "color": "#c8102e",
-   "bio": "Conduce la cartera de Gobierno, Infraestructura y Desarrollo Territorial. Integra el grupo de funcionarios que puja por la gobernación.",
+   "bio": "Abogado mendocino nacido en 1986, formado en la Universidad Champagnat, con un posgrado en administración tributaria subnacional. Entró a la gestión provincial como asesor y después fue coordinador de Gabinete de Servicios Públicos. En abril de 2017 Cornejo lo puso al frente de esa secretaría, donde manejó transporte, electricidad y agua, y desde ahí impulsó la ley de Movilidad que convirtió a Mendoza en la primera provincia en habilitar Uber. También llevó el pago con tarjetas y billeteras al Metrotranvía, otra primicia nacional. Con el regreso de Cornejo a la gobernación, en diciembre de 2023, asumió como ministro de Gobierno, Infraestructura y Desarrollo Territorial, la cartera que concentra obra pública, rutas, transporte y servicios. En 2026 defendió la inversión provincial en casi 480 kilómetros de rutas nacionales y el avance del cobre. En mayo admitió que quería suceder a Cornejo y en septiembre confirmó que estaba en ese posicionamiento.",
    "foto": "assets/fotos/mema.jpg",
    "categorias": [],
    "provincia": "Mendoza",
-   "partido": "UCR",
+   "partido": "UCR · Cambia Mendoza",
    "ejes": [
     65,
     50,
@@ -6748,29 +7297,103 @@
     40,
     60
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2013",
+     "evento": "Asesor legal del Concejo Deliberante de Godoy Cruz y de equipos técnicos de la UCR."
+    },
+    {
+     "fecha": "2016",
+     "evento": "Coordinador de Gabinete de la Secretaría de Servicios Públicos de Mendoza."
+    },
+    {
+     "fecha": "2017-04",
+     "evento": "Cornejo lo designa secretario de Servicios Públicos, con transporte, distribución eléctrica y agua bajo su órbita."
+    },
+    {
+     "fecha": "2018-07",
+     "evento": "El Senado provincial sanciona la ley de Movilidad que habilita Uber; Mendoza es la primera provincia del país en regular las aplicaciones."
+    },
+    {
+     "fecha": "2019-11",
+     "evento": "Rodolfo Suarez lo ratifica al frente de Servicios Públicos."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume como ministro de Gobierno, Infraestructura y Desarrollo Territorial."
+    },
+    {
+     "fecha": "2024-11",
+     "evento": "Se implementa el pago con tarjetas y billeteras en el Metrotranvía, primera experiencia del país en transporte urbano."
+    },
+    {
+     "fecha": "2026-05",
+     "evento": "Admite públicamente que quiere competir por la sucesión de Cornejo."
+    },
+    {
+     "fecha": "2026-09",
+     "evento": "Confirma en Infobae que está en ese posicionamiento y que negocia un frente común con La Libertad Avanza."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Tarifas y servicios públicos",
+     "tesis": "El aumento del agua salió por decreto, sin audiencia previa y con revisiones cada dos meses.",
+     "cuerpo": "El decreto 111 del 26 de enero de 2026 autorizó una suba del 17% en las tarifas de AYSAM y dejó abierta la puerta a ajustes bimestrales. Los servicios públicos están en la órbita de su ministerio y el argumento oficial fue que sin la recomposición el flujo de fondos proyectado daba déficit operativo. El impacto se sintió en un contexto de caída de la recaudación provincial y de tarifas de electricidad que también subieron.",
+     "evidencia": "Decreto 111/2026: 17% de aumento en la tarifa de agua desde enero, con revisiones bimestrales.",
+     "fuente_url": "https://www.diariouno.com.ar/economia/aysam-anuncio-un-aumento-del-17-la-boleta-agua-potable-y-saneamiento-n1522212",
+     "fuerza": "media-fuerte",
+     "tipo": "gestión"
+    },
+    {
+     "area": "Reforma del Estado",
+     "tesis": "Impulsó la disolución del ente que controlaba el agua y repartió sus funciones entre otras reparticiones.",
+     "cuerpo": "El Poder Ejecutivo mandó a la Legislatura un proyecto para disolver el EPAS, pagar el 100% de las indemnizaciones al personal desvinculado y transferir parte de sus funciones a Irrigación. Mema fue el encargado de defenderlo en Diputados, donde el proyecto consiguió media sanción. El EPAS asistía a los operadores de gestión comunitaria del interior, y la discusión sobre quién controla la calidad del servicio en esos municipios quedó sin respuesta clara.",
+     "evidencia": "Mema presentó en Diputados el proyecto de disolución del EPAS y el esquema de indemnizaciones.",
+     "fuente_url": "https://www.elsol.com.ar/mendoza/natalio-mema-presento-en-diputados-el-proyecto-de-disolucion-del-epas-que-pasara-con-los-trabajadores/",
+     "fuerza": "media",
+     "tipo": "reforma del Estado"
+    },
+    {
+     "area": "Minería y agua",
+     "tesis": "Avaló el desembarco del cobre en Uspallata con la promesa de controles que las organizaciones ambientales no dan por cumplidos.",
+     "cuerpo": "El gobierno del que es ministro aprobó por ley la declaración de impacto ambiental del proyecto San Jorge y la Justicia rechazó después las cautelares de organizaciones ambientalistas y comunidades originarias. Mema defendió la actividad con el argumento de que había rechazo en la población y que la provincia generó regulaciones para dar seguridad. El debate por el agua y por los controles ambientales en la zona de Uspallata sigue abierto en los tribunales.",
+     "evidencia": "La Justicia rechazó las cautelares de antimineros contra el proyecto San Jorge y su DIA sigue vigente.",
+     "fuente_url": "https://www.mendozapost.com/economia/proyecto-san-jorge-medidas-cautelares-impacto-ambiental/",
+     "fuerza": "media",
+     "tipo": "ambiente"
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene base electoral propia: nunca compitió por un cargo ejecutivo y su techo lo fija Cornejo.",
+    "Mide 4,8% en la encuesta de DC Consultores, el más bajo de los tres radicales que suenan.",
+    "Su gestión acumula los aumentos de tarifas y la disolución del EPAS, dos temas que la oposición puede usar en campaña."
+   ],
+   "gancho": "El ministro de las rutas y el agua que Cornejo quiere de sucesor y las encuestas ubican quinto, con 4,8%.",
+   "a_favor": [
+    "Gestionó la primera regulación de Uber del país y el primer sistema de pago con tarjeta en el transporte urbano.",
+    "Su ministerio ejecuta casi 480 kilómetros de rutas nacionales con fondos propios, una vidriera de gestión en plena caída de la obra pública nacional.",
+    "Es el funcionario con más años en el gabinete provincial: está desde 2017 y atravesó tres gobernaciones radicales."
+   ],
+   "badge": "",
+   "x": "NatalioMema"
   },
   {
    "id": "garciZalazar",
    "nombre": "Tadeo García Zalazar",
    "slug": "tadeo-garc-a-zalazar",
-   "rol": "Ministro de Educación de Mendoza",
+   "rol": "Ministro de Educación, Cultura, Infancias y DGE de Mendoza",
    "tag": "",
    "color": "#c8102e",
-   "bio": "Fue intendente de Godoy Cruz durante dos mandatos. Hoy es ministro provincial y uno de los nombres del oficialismo para 2027.",
-   "foto": "",
+   "bio": "Nació en Jujuy en 1975 y se crió en Villa Mercedes, San Luis. Es licenciado en Ciencia Política y Administración Pública por la UNCuyo y militó en Franja Morada. Trabajó en el municipio de Godoy Cruz como director de Vivienda y secretario de Ambiente, Obras y Servicios Públicos, y fue secretario de Gobierno en la primera gestión de Cornejo. Entre 2009 y 2011 fue director de Relaciones Institucionales del Senado durante la vicepresidencia de Julio Cobos. Fue diputado provincial entre 2011 y 2015, con leyes propias de pirotecnia y energía solar, y después intendente de Godoy Cruz durante dos mandatos: asumió en 2015 y fue reelecto en 2019 con casi el 60% de los votos. Presidió la UCR mendocina entre 2020 y 2023. Desde diciembre de 2023 es ministro de Educación, Cultura, Infancias y DGE. En agosto de 2026 se lanzó como candidato a gobernador con un mensaje que marcó diferencias con el rumbo económico de Milei.",
+   "foto": "assets/fotos/garciZalazar.jpg",
    "categorias": [],
    "provincia": "Mendoza",
-   "partido": "UCR",
+   "partido": "UCR · Cambia Mendoza",
    "ejes": [
     60,
     55,
@@ -6779,29 +7402,103 @@
     40,
     60
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "1999",
+     "evento": "Se recibe de licenciado en Ciencia Política y Administración Pública en la UNCuyo."
+    },
+    {
+     "fecha": "2009",
+     "evento": "Director general de Relaciones Institucionales del Senado de la Nación, en la vicepresidencia de Julio Cobos."
+    },
+    {
+     "fecha": "2011",
+     "evento": "Elegido diputado provincial por la tercera sección electoral; autor de las leyes de pirotecnia y de energía solar en viviendas."
+    },
+    {
+     "fecha": "2015-10",
+     "evento": "Gana la intendencia de Godoy Cruz y sucede a Alfredo Cornejo."
+    },
+    {
+     "fecha": "2019-09",
+     "evento": "Reelecto intendente con el 59,46% de los votos."
+    },
+    {
+     "fecha": "2020-02",
+     "evento": "Asume como presidente del Comité Provincial de la UCR de Mendoza."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume como ministro de Educación, Cultura, Infancias y DGE."
+    },
+    {
+     "fecha": "2026-08",
+     "evento": "Anuncia en X que quiere ser gobernador y cuestiona que la política mida la macro y no la vida cotidiana."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Queda en 7,6% en la encuesta de DC Consultores, detrás de Petri y de Ulpiano Suárez."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Salario docente",
+     "tesis": "Mendoza quedó última en el ranking nacional de salarios docentes con él al frente de la educación.",
+     "cuerpo": "El informe de agosto de 2026 ubicó a la provincia en el puesto 24 de 24, con 935.450 pesos brutos para un maestro de grado con diez años de antigüedad. La brecha con Neuquén, primera en la tabla, roza el triple. El gobierno respondió que el ranking no computa dos ítems provinciales, entre ellos Arraigo, y que con esos adicionales Mendoza subiría al puesto 9. La discusión pública quedó instalada igual y el sindicato docente la usa como bandera.",
+     "evidencia": "Mendoza, última del ranking nacional: $935.450 brutos para un maestro con diez años de antigüedad.",
+     "fuente_url": "https://www.sitioandino.com.ar/economia/salarios-docentes-mendoza-quedo-ultima-el-ranking-nacional-n5728102",
+     "fuerza": "fuerte",
+     "tipo": "gestión"
+    },
+    {
+     "area": "Deuda salarial",
+     "tesis": "El reclamo por el aumento que no se pagó en la pandemia sigue en la Suprema Corte sin resolución.",
+     "cuerpo": "El SUTE llevó a la Justicia la deuda salarial de 2020 y el expediente está en la Sala Segunda de la Suprema Corte desde 2024. En 2026 el ministro reconoció que hay que hacer una mejora y marcó la diferencia entre el período en litigio y su propia gestión. El reclamo convive con las paritarias anuales y con la discusión por el lugar de Mendoza en el ranking salarial.",
+     "evidencia": "El gobierno reconoció que hay que hacer una mejora en el reclamo por la deuda salarial docente de 2020.",
+     "fuente_url": "https://www.losandes.com.ar/politica/hay-que-hacer-una-mejora-sorpresivo-reconocimiento-el-gobierno-un-reclamo-salarial-docente-n6003260",
+     "fuerza": "media",
+     "tipo": "gestión"
+    },
+    {
+     "area": "Coherencia",
+     "tesis": "Dijo que hablar de candidaturas era prematuro y semanas después se lanzó.",
+     "cuerpo": "Semanas antes de su lanzamiento sostenía que faltaba tiempo para las elecciones y que la discusión electoral no estaba entre las prioridades de los mendocinos. El 13 de agosto publicó un mensaje extenso en X donde se postuló, defendió su paso por Godoy Cruz y marcó diferencias con el ajuste del gobierno nacional. El giro llegó justo cuando el radicalismo discute si sostiene la alianza con La Libertad Avanza.",
+     "evidencia": "El propio lanzamiento marca un cambio respecto de lo que había dicho semanas antes sobre la prematurez de la discusión electoral.",
+     "fuente_url": "https://www.mendozapost.com/politica/tadeo-garcia-zalazar-candidato-gobernador-2027/",
+     "fuerza": "media",
+     "tipo": "coherencia"
+    }
+   ],
+   "vulnerabilidades": [
+    "Mide 7,6%, muy lejos de Petri (48,3%) y de Ulpiano Suárez (22,8%), y es el tercer radical en la fila.",
+    "Su crítica a Milei incomoda a un gobierno provincial que impulsa el acuerdo con La Libertad Avanza.",
+    "La interna radical puede resolverse por acuerdo de cúpulas y no por PASO, y ahí corre con desventaja."
+   ],
+   "gancho": "Ocho años de Godoy Cruz y una encuesta que lo deja en 7,6%, detrás del intendente de la capital.",
+   "a_favor": [
+    "Ocho años de intendencia en Godoy Cruz, con reelección en 2019 con el 59,46% de los votos.",
+    "Gestión con marca ambiental: primer Plan de Ordenamiento Territorial de la provincia, reconversión a LED y red de municipios frente al cambio climático.",
+    "Tiene proyecto propio y lo dice: se diferenció del ajuste nacional dentro de un oficialismo que coquetea con La Libertad Avanza."
+   ],
+   "badge": "",
+   "x": "TadeoGZ"
   },
   {
    "id": "stevanato",
    "nombre": "Matías Stevanato",
    "slug": "mat-as-stevanato",
-   "rol": "Intendente de Maipú",
+   "rol": "Intendente de Maipú (Mendoza), desde diciembre de 2019",
    "tag": "",
    "color": "#1b7f4f",
-   "bio": "Gobierna Maipú y no puede renovar en 2027. Su nombre aparece en las mediciones para la gobernación mendocina.",
-   "foto": "",
+   "bio": "Político peronista nacido en Maipú en 1981. Empezó en la Juventud Peronista y en 2007 hizo campaña por Celso Jaque. En 2011 llegó al Senado provincial, donde se hizo conocido por rechazar la guía de aborto no punible y proponer en su lugar una asistencia económica para las mujeres víctimas de violación. En 2018 fue jefe de Gabinete de Alejandro Bermejo y al año siguiente se quedó con la intendencia con el 46% de los votos. Asumió en diciembre de 2019 y fue reelecto en 2023, así que lleva siete años al frente de uno de los municipios más poblados del Gran Mendoza. Su gestión se apoya en obra de cordón y vereda, espacios verdes y un discurso de cercanía. En 2026 empezó a moverse fuera de la provincia: se reunió con Natalia de la Sota y con el exgobernador José Octavio Bordón. El PJ mendocino lo tiene como su nombre mejor posicionado y Emir Félix dijo que le gustaría que fuera él, aunque nunca confirmó públicamente que va a competir.",
+   "foto": "assets/fotos/stevanato.jpg",
    "categorias": [],
    "provincia": "Mendoza",
-   "partido": "PJ",
+   "partido": "Partido Justicialista",
    "ejes": [
     55,
     50,
@@ -6810,16 +7507,90 @@
     45,
     55
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2007",
+     "evento": "Militante de la Juventud Peronista y de la campaña de Celso Jaque a la gobernación."
+    },
+    {
+     "fecha": "2011",
+     "evento": "Elegido senador provincial por Maipú; integra la comisión que archiva la guía de aborto no punible."
+    },
+    {
+     "fecha": "2018",
+     "evento": "Jefe de Gabinete de la intendencia de Maipú, con Alejandro Bermejo."
+    },
+    {
+     "fecha": "2019-09",
+     "evento": "Gana la intendencia por el Frente Elegí con el 46,19% de los votos."
+    },
+    {
+     "fecha": "2019-12",
+     "evento": "Asume como intendente de Maipú."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Reelecto intendente."
+    },
+    {
+     "fecha": "2026-09",
+     "evento": "Su nombre aparece entre los candidatos a gobernador del PJ en el relevamiento de Mendoza Today."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Emir Félix, presidente del PJ Mendoza, dice que le gustaría que fuera Stevanato el candidato."
+    },
+    {
+     "fecha": "2026-11",
+     "evento": "Se reúne con Natalia de la Sota y con el exgobernador José Octavio Bordón para ampliar contactos nacionales."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Gestión municipal",
+     "tesis": "La encuesta de su propio municipio lo deja en regular y el problema número uno son las calles.",
+     "cuerpo": "Un estudio de la consultora RZ difundido en septiembre de 2026 le dio 41,94% de evaluaciones positivas contra 29,73% negativas, con regular como la categoría más elegida. El 32,72% de los consultados señaló calles y asfalto como el problema principal, y sumando tasas municipales y limpieza los reclamos por áreas que maneja el municipio llegan al 62,9%. El propio informe sugiere que hay un problema de comunicación, porque el 39,4% ve mejoras y un 23% ve todo igual.",
+     "evidencia": "Encuesta en Maipú: 41,94% de imagen positiva, regular como categoría más elegida y el asfalto como principal reclamo.",
+     "fuente_url": "https://617.news/encuesta-en-maipu-gestion-regular-reclamos-a-stevanato-y-danza-de-nombres/",
+     "fuerza": "media-fuerte",
+     "tipo": "gestión"
+    },
+    {
+     "area": "Derechos sexuales y reproductivos",
+     "tesis": "Como senador rechazó la guía de aborto no punible y propuso pagarles a las víctimas en lugar de garantizar el acceso.",
+     "cuerpo": "En 2011 fue uno de los responsables de que la guía técnica para el aborto no punible no pasara el filtro del Senado provincial. Su alternativa era una asistencia habitacional y una suma de dinero de por vida para las mujeres que quedaran embarazadas por una violación, en lugar del protocolo sanitario. La posición volvió a circular cuando su nombre empezó a sonar para la gobernación y le complica el discurso entre votantes jóvenes.",
+     "evidencia": "Como senador fue uno de los responsables de que se rechazara la guía de aborto no punible; propuso una suma de dinero de por vida para las víctimas.",
+     "fuente_url": "https://www.diariouno.com.ar/mendoza/quien-es-matias-stevanato-el-elegido-de-los-bermejo-en-maipu-10162018_BkeofXDXiX",
+     "fuerza": "media-fuerte",
+     "tipo": "derechos"
+    },
+    {
+     "area": "Política interna",
+     "tesis": "Un senador de su propio partido armó bloque aparte con críticas duras a su gestión.",
+     "cuerpo": "Duilio Pezzutti, senador provincial del PJ por Maipú, se separó del bloque y usa las redes para cuestionar la gestión de Stevanato. La pelea muestra que el intendente no tiene aceitado el control del peronismo de su departamento, justo cuando necesita la estructura partidaria para una candidatura provincial. El episodio se sumó al cuadro de fragmentación del PJ mendocino, que cerró su congreso sin acuerdo y con La Cámpora afuera de la conducción.",
+     "evidencia": "Un senador maipucino del PJ armó su propio bloque con críticas incendiarias al intendente Stevanato.",
+     "fuente_url": "https://eleditormendoza.com.ar/politica/con-criticas-incendiarias-al-intendente-stevanato-un-senador-maipucino-del-pj-armo-su-propio-bloque-n10a7a525-cb20-443e-9575-8609d907ea46",
+     "fuerza": "media",
+     "tipo": "política interna"
+    }
+   ],
+   "vulnerabilidades": [
+    "Nunca confirmó públicamente que sea candidato, así que su candidatura depende de una definición ajena.",
+    "El PJ mendocino está fragmentado: La Cámpora quedó fuera de la conducción y hay internas abiertas.",
+    "Maipú pesa poco en el total provincial y su figura no se probó fuera del departamento."
+   ],
+   "gancho": "Tercero en las encuestas con 12,4%, sin haberse lanzado y con el peronismo todavía discutiendo si lo lleva.",
+   "a_favor": [
+    "Siete años al frente de Maipú con reelección, y una marca de gestión territorial que el PJ mendocino usa como vidriera.",
+    "Es el nombre mejor posicionado del peronismo: 12,4% en la encuesta de DC Consultores, tercero a nivel provincial.",
+    "Su gente quedó en la conducción del PJ: Matías Montes, que le responde, es vicepresidente segundo del partido."
+   ],
+   "badge": "",
+   "x": "MatiasStevanato"
   },
   {
    "id": "juri",
@@ -6886,10 +7657,10 @@
    "id": "abdala",
    "nombre": "Bartolomé Abdala",
    "slug": "bartolom-abdala",
-   "rol": "Senador nacional por San Luis",
+   "rol": "Senador nacional por San Luis · Presidente provisional del Senado",
    "tag": "",
    "color": "#7a4fd0",
-   "bio": "Preside provisionalmente el Senado. Es la figura mejor posicionada del espacio libertario en la provincia según las encuestas.",
+   "bio": "Contador público nacido en San Luis en 1964. Fundó la filial provincial del PRO en 2007 y al año siguiente fue ministro de Turismo de Alberto Rodríguez Saá, un cargo que dejó en 2009. Entre 2013 y 2021 fue diputado provincial, primero por Compromiso Federal y después reelecto por Cambiemos. En 2021 dejó el PRO y se pasó al Partido Libertario, y en 2023 encabezó la lista de La Libertad Avanza al Senado, donde entró con el 41% de los votos. Desde el 13 de diciembre de 2023 es presidente provisional del Senado, el tercer cargo en la línea sucesoria, y quedó a cargo del Poder Ejecutivo en dos oportunidades por viajes de Milei al exterior. En 2026 se plantó como candidato a gobernador de San Luis, pidió listas propias de La Libertad Avanza en toda la provincia y dijo que está en condiciones de golear electoralmente a Claudio Poggi. Su candidatura todavía depende de una definición partidaria y de cómo se acomode la relación entre Milei y el gobernador.",
    "foto": "assets/fotos/abdala.jpg",
    "categorias": [],
    "provincia": "San Luis",
@@ -6902,29 +7673,103 @@
     80,
     80
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2007",
+     "evento": "Funda la filial provincial del PRO en San Luis."
+    },
+    {
+     "fecha": "2008",
+     "evento": "Ministro de Turismo de la provincia, durante la gobernación de Alberto Rodríguez Saá."
+    },
+    {
+     "fecha": "2013",
+     "evento": "Elegido diputado provincial por Compromiso Federal."
+    },
+    {
+     "fecha": "2017",
+     "evento": "Reelecto diputado provincial, esta vez por Cambiemos."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Deja el PRO y se incorpora al Partido Libertario."
+    },
+    {
+     "fecha": "2023-10",
+     "evento": "Elegido senador nacional por San Luis con el 41,45% de los votos."
+    },
+    {
+     "fecha": "2023-12",
+     "evento": "Asume como presidente provisional del Senado."
+    },
+    {
+     "fecha": "2025-12",
+     "evento": "Queda a cargo del Poder Ejecutivo por el viaje de Milei a Oslo y la ausencia de Villarruel."
+    },
+    {
+     "fecha": "2026-09",
+     "evento": "Pide listas propias de La Libertad Avanza en toda la provincia y dice que puede golear a Poggi en 2027."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Transparencia partidaria",
+     "tesis": "Una denuncia lo acusó de fraguar afiliaciones para quedarse con el sello libertario en San Luis.",
+     "cuerpo": "Según la denuncia que publicó Clarín en septiembre de 2024, se cargaron fichas de afiliación al Partido Libertario sin el consentimiento de los afiliados, en el marco de la disputa por el control del sello en la provincia. El caso se sumó a las denuncias que arrastra desde su paso por la política puntana y llegó justo cuando ejercía la presidencia provisional del Senado. La denuncia instaló la pregunta sobre cómo se construyó el partido que hoy lo proyecta a la gobernación.",
+     "evidencia": "Denuncian que el senador Abdala fraguó fichas de afiliaciones para el partido libertario en San Luis.",
+     "fuente_url": "https://www.clarin.com/politica/denuncian-senador-abdala-fraguo-fichas-afiliaciones-partido-libertario-san-luis_0_guR6rlfCgE.html",
+     "fuerza": "media-fuerte",
+     "tipo": "transparencia"
+    },
+    {
+     "area": "Gestión ejecutiva",
+     "tesis": "Su único paso por un ministerio terminó en 2009 entre cuestionamientos y denuncias por irregularidades.",
+     "cuerpo": "Fue ministro de Turismo de Alberto Rodríguez Saá entre 2008 y 2009. Los relevamientos periodísticos sobre su biografía señalan que dejó el cargo después de cuestionamientos públicos y denuncias por presuntas irregularidades administrativas. Es el único antecedente de gestión ejecutiva en su currículum, y lo muestra más cómodo en la rosca legislativa que en la administración.",
+     "evidencia": "Su gestión al frente del Ministerio de Turismo concluyó tras cuestionamientos y denuncias por presuntas irregularidades administrativas.",
+     "fuente_url": "https://www.sanjuan8.com/pais/el-presidente-provisional-del-senado-bartolo-abdala-fue-denunciado-varios-delitos-n1264955",
+     "fuerza": "media",
+     "tipo": "gestión"
+    },
+    {
+     "area": "Coherencia",
+     "tesis": "Criticó a Poggi por el programa TuBi y después borró la publicación de sus redes.",
+     "cuerpo": "A fines de octubre de 2026 eliminó de sus cuentas un posteo en el que cuestionaba al gobernador Claudio Poggi por el programa TuBi. El borrado llamó la atención porque días antes había dicho que Poggi no había colaborado nada con el gobierno nacional y que se quería colar por atrás en La Libertad Avanza. La secuencia dejó la sensación de un ida y vuelta sin explicación pública, en plena negociación por el armado electoral de 2027.",
+     "evidencia": "Abdala eliminó una publicación en la que cuestionaba a Poggi por el programa TuBi.",
+     "fuente_url": "https://lalinea.org/2026/10/27/bomba-san-luis-2027-abdala-quiere-gobernar-o-negociar-con-el-poder/",
+     "fuerza": "media-fuerte",
+     "tipo": "coherencia"
+    }
+   ],
+   "vulnerabilidades": [
+    "Su estructura depende del sello de La Libertad Avanza, que responde a Karina Milei y a la Casa Rosada.",
+    "Arrastra un pasado en el PRO y en el rodriguezsaísmo que la propia La Libertad Avanza usa para descalificar a otros.",
+    "Si Milei cierra un acuerdo con Poggi, su candidatura se queda sin espacio y sin financiamiento."
+   ],
+   "gancho": "Presidió el Senado, ocupó el Ejecutivo dos veces y ahora quiere gobernar la provincia donde nació.",
+   "a_favor": [
+    "Presidió el Senado durante tres años y quedó a cargo del Poder Ejecutivo en dos oportunidades, incluida la ausencia simultánea de Milei y Villarruel en diciembre de 2025.",
+    "Ganó la senaduría con el 41,45% de los votos en 2023, cuando La Libertad Avanza todavía no tenía estructura en San Luis.",
+    "Es el dirigente libertario con más poder institucional en la provincia y el único que hoy discute el liderazgo con Poggi de igual a igual."
+   ],
+   "badge": "",
+   "x": "bartoloabdala"
   },
   {
    "id": "dalessandro",
    "nombre": "Carlos D'Alessandro",
    "slug": "carlos-d-alessandro",
-   "rol": "Diputado provincial de San Luis",
+   "rol": "Diputado provincial de San Luis · Monobloque Consolidación Argentina",
    "tag": "",
    "color": "#7a4fd0",
-   "bio": "Legislador provincial con perfil de renovación. Aparece entre los cuatro nombres que ordenan el tablero puntano para 2027.",
-   "foto": "",
+   "bio": "Dirigente de San Luis que armó La Libertad Avanza en la provincia y llegó al Congreso en 2023 como diputado nacional. En agosto de 2025 votó en contra del veto presidencial a la ley de emergencia en discapacidad, rompió con el bloque oficialista y armó la bancada Coherencia junto a otros legisladores. La pelea con Karina Milei por el sello partidario terminó en la Justicia y lo dejó sin poder usar el nombre de La Libertad Avanza en el distrito. Compitió en las provinciales con otro sello, renunció a su banca nacional y hoy es diputado provincial. En mayo de 2026 formalizó el monobloque Consolidación Argentina, el espacio que impulsa al pastor Dante Gebel como alternativa nacional, y después lanzó Dale San Luis para competir por la gobernación. Se presenta como tercera fuerza y rechaza las etiquetas: dice que los peronistas lo ven cerca del oficialismo y los poggistas le marcan reacciones peronistas. Su peso legislativo es real en una Legislatura donde el oficialismo necesita votos.",
+   "foto": "assets/fotos/dalessandro.jpg",
    "categorias": [],
    "provincia": "San Luis",
-   "partido": "Independiente",
+   "partido": "Consolidación Argentina",
    "ejes": [
     60,
     45,
@@ -6933,16 +7778,86 @@
     65,
     55
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2023",
+     "evento": "Arma La Libertad Avanza en San Luis y es elegido diputado nacional."
+    },
+    {
+     "fecha": "2025-08",
+     "evento": "Vota contra el veto a la ley de emergencia en discapacidad y se separa del bloque oficialista."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Conforma la bancada Coherencia con otros legisladores y entra en conflicto con Karina Milei por el sello partidario."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Compite en las elecciones provinciales con otro sello y renuncia a su banca nacional."
+    },
+    {
+     "fecha": "2026-05",
+     "evento": "Formaliza el monobloque Consolidación Argentina en la Legislatura de San Luis."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Lanza el partido Dale San Luis para competir en 2027."
+    },
+    {
+     "fecha": "2026-08",
+     "evento": "Comparte un acto institucional con Poggi y dirigentes del oficialismo, lo que alimenta las especulaciones sobre un acercamiento."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Su espacio se consolida como tercera fuerza según los análisis políticos provinciales."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
-   "badge": ""
+   "criticas": [
+    {
+     "area": "Representación",
+     "tesis": "Renunció a la banca nacional que había ganado en 2023 para hacer política provincial.",
+     "cuerpo": "D'Alessandro llegó al Congreso en 2023 con La Libertad Avanza y dejó el mandato antes de terminarlo, en medio de la pelea por el sello partidario y de su pelea con la conducción nacional. La salida lo dejó más fuerte en la Legislatura provincial y lo sacó de las discusiones nacionales donde se definen los fondos y las leyes que afectan a San Luis. La decisión se repitió en su espacio: romper y volver a empezar con otra marca.",
+     "evidencia": "D'Alessandro renunció a su banca nacional para enfocarse en la política local.",
+     "fuente_url": "https://www.perfil.com/noticias/politica/carlos-dalessandro-creo-el-monobloque-consolidacion-argentina-en-san-luis-y-avanza-el-espacio-que-impulsa-a-dante-gebel.phtml",
+     "fuerza": "media-fuerte",
+     "tipo": "representación"
+    },
+    {
+     "area": "Política interna",
+     "tesis": "La pelea con Karina Milei por el sello de La Libertad Avanza terminó en la Justicia y lo dejó sin el nombre del partido.",
+     "cuerpo": "La disputa por el control del sello en San Luis derivó en una intervención judicial y en la imposibilidad de usar el nombre de La Libertad Avanza en las elecciones provinciales. D'Alessandro, que había armado el espacio desde cero, compitió con otro sello. El episodio muestra que su capital político no alcanza para quedarse con la estructura que ayudó a crear.",
+     "evidencia": "La disputa por el sello derivó en una intervención judicial y en la imposibilidad de usar el nombre de La Libertad Avanza en el distrito.",
+     "fuente_url": "https://www.perfil.com/noticias/politica/carlos-dalessandro-creo-el-monobloque-consolidacion-argentina-en-san-luis-y-avanza-el-espacio-que-impulsa-a-dante-gebel.phtml",
+     "fuerza": "media-fuerte",
+     "tipo": "política interna"
+    },
+    {
+     "area": "Coherencia",
+     "tesis": "Se presenta como tercera fuerza y no termina de definirse entre oficialismo y oposición.",
+     "cuerpo": "En agosto de 2026 compartió un acto institucional con Poggi y dirigentes del oficialismo provincial, en un gesto que él mismo relativiza. Su espacio discute la reforma constitucional que impulsa el gobernador sin cerrar el apoyo, y él resume la confusión con una frase: los del PJ lo ven cerca del gobierno y los poggistas le marcan reacciones peronistas. Esa ambigüedad le permite negociar en la Legislatura y le complica construir una identidad propia de cara a 2027.",
+     "evidencia": "Una imagen de D'Alessandro junto a Poggi en un acto oficial abrió interrogantes sobre su posición frente al gobierno provincial.",
+     "fuente_url": "https://sanluistoday.com/noticia/una-imagen-que-abre-interrogantes-el-diputado-dalessandro-cerca-de-poggi-y-nuevas-senales-de-dialogo-politico-en-san-luis",
+     "fuerza": "media",
+     "tipo": "coherencia"
+    }
+   ],
+   "vulnerabilidades": [
+    "Su espacio es un monobloque de un solo legislador y no tiene estructura territorial.",
+    "Depende de la figura de Dante Gebel, que no confirmó su candidatura presidencial ni su desembarco provincial.",
+    "Quedó fuera de la estructura de La Libertad Avanza y sin acceso a los recursos de la Casa Rosada."
+   ],
+   "gancho": "El libertario que armó el partido de Milei en San Luis y hoy lo enfrenta desde un monobloque de uno.",
+   "a_favor": [
+    "Armó La Libertad Avanza en San Luis desde cero y llegó al Congreso en 2023, algo que ningún otro dirigente libertario logró en la provincia.",
+    "Tiene bloque propio y peso real en una Legislatura donde el oficialismo no siempre junta los votos que necesita.",
+    "Es el único dirigente provincial que se corrió del oficialismo nacional por una convicción: votó contra el veto a la ley de discapacidad."
+   ],
+   "badge": "",
+   "x": "_cdalessandro"
   },
   {
    "id": "deandreis",
