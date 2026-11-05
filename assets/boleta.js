@@ -48,14 +48,23 @@ function radarSVG(media, b) {
 function itemHTML(it, editable) {
   const c = MV.c[it.i];
   const sub = c.p + (it.j && it.j !== 'Nacional' ? ' · ' + it.j : '');
+  const ajeno = editable && leerLugar() && !candidaturaTeToca(it.c, it.j);
   const est = c.to ? '<span class="estrellas"><i>' + '★'.repeat(Math.max(1, Math.round(c.cu / c.to * 5))) + '☆'.repeat(5 - Math.max(1, Math.round(c.cu / c.to * 5))) + '</i></span>' : '';
   return '<div class="slot-item">' + avatar(c, 'slot-f') +
     '<div class="slot-txt"><a href="/c/' + c.s + '"><b>' + c.n + '</b></a><span>' + sub + '</span>' + est +
-    (c.le ? '<span class="slot-alerta">⚠ ' + c.le + ' crítica' + (c.le > 1 ? 's' : '') + ' letal' + (c.le > 1 ? 'es' : '') + '</span>' : '') + '</div>' +
+    (c.le ? '<span class="slot-alerta">⚠ ' + c.le + ' crítica' + (c.le > 1 ? 's' : '') + ' letal' + (c.le > 1 ? 'es' : '') + '</span>' : '') +
+    (ajeno ? '<span class="slot-ajeno">📍 No se vota donde vos votás</span>' : '') + '</div>' +
     (editable ? '<div class="slot-acc"><a href="/?cargo=' + it.c + '#catalogo" class="link-btn">Cambiar</a><button class="link-btn quitar" data-i="' + it.i + '" data-c="' + it.c + '">Quitar</button></div>' : '') +
     '</div>';
 }
 function vacioHTML(cargo, txt, editable) {
+  if (editable && !cargosDisponibles().includes(cargo)) {
+    const L = leerLugar();
+    const donde = cargo === 'intendente' ? (L.ciudad || 'tu localidad') : L.prov;
+    const txt = cargo === 'gobernador' && L.prov === 'CABA' ? 'En CABA no se elige gobernador: el jefe de Gobierno va en Intendente.'
+      : 'Todavía no cargamos candidatos a ' + CARGO_N[cargo].toLowerCase() + ' de ' + donde + '.';
+    return '<div class="slot-vacio no-aplica"><span>' + txt + '</span><button type="button" class="link-btn" data-lugar>Cambiar lugar</button></div>';
+  }
   return editable
     ? '<a class="slot-vacio" href="/?cargo=' + cargo + '#catalogo"><span>' + txt + '</span><b>+ Elegir</b></a>'
     : '<div class="slot-vacio"><span>' + txt + '</span></div>';
@@ -92,10 +101,15 @@ function render() {
   $b('rc-let').textContent = le;
   $b('rc-let').classList.toggle('rojo', le > 0);
   $b('finalizar').disabled = !n;
-  $b('finalizar').textContent = comp ? 'Compartir esta boleta' : (n < TOTAL_SLOTS ? 'Finalizar compra (' + n + '/' + TOTAL_SLOTS + ')' : 'Finalizar compra');
-  $b('sorpresa').hidden = comp || n >= TOTAL_SLOTS;
+  const total = totalSlots(), lleno = completa(b);
+  $b('finalizar').textContent = comp ? 'Compartir esta boleta' : (lleno ? 'Finalizar compra' : 'Finalizar compra (' + n + '/' + total + ')');
+  $b('sorpresa').hidden = comp || lleno;
   const pasos = [...$b('pasos').children];
-  pasos.forEach((p, i) => p.classList.toggle('on', i <= (n >= TOTAL_SLOTS ? 1 : 0)));
+  pasos.forEach((p, i) => p.classList.toggle('on', i <= (lleno ? 1 : 0)));
+  const L = leerLugar();
+  $b('b-sub').innerHTML = comp ? 'Un presidente, un gobernador, un intendente y hasta cinco legisladores.'
+    : L ? '📍 Votás en ' + (L.ciudad && L.ciudad !== L.prov ? L.ciudad + ', ' : '') + L.prov + '. <button type="button" class="link-btn" data-lugar>Cambiar</button>'
+      : 'Un presidente, un gobernador, un intendente y hasta cinco legisladores. <button type="button" class="link-btn" data-lugar>Decinos dónde votás</button>';
 
   const pf = perfil(b);
   $b('perfil').hidden = !pf;
@@ -130,9 +144,11 @@ async function compartir(red) {
   if (red === 'post' || red === 'story') {
     const pf = perfil(b);
     aviso('Generando la imagen…');
+    track('descarga_imagen', red);
     await descargarBoleta(itemsImagen(b), pf, red);
     return;
   }
+  track('comparte', red);
   compartirLink(red, textoShare(b), urlShare(b));
 }
 
@@ -143,14 +159,31 @@ async function finalizar() {
   document.body.classList.add('sin-scroll');
   [...$b('pasos').children].forEach(p => p.classList.add('on'));
   const comp = modoCompartida();
-  $b('m-tit').textContent = comp ? 'Compartí esta boleta' : (b.length < TOTAL_SLOTS ? '¡Compra parcial confirmada!' : '¡Listo! Compraste tu boleta');
+  $b('m-tit').textContent = comp ? 'Compartí esta boleta' : (completa(b) ? '¡Listo! Compraste tu boleta' : '¡Compra parcial confirmada!');
   const pf = perfil(b);
   $b('m-sub').textContent = pf ? 'Tu boleta salió ' + pf.emoji + ' ' + pf.tipo.toLowerCase() + '. Mandala al grupo y que empiece el debate.' : 'Mandala al grupo y que empiece el debate.';
-  if (!comp) confeti();
+  $b('m-rk').hidden = true;
+  if (!comp) {
+    confeti();
+    track('finaliza');
+    enviarBoleta(b).then(() => ranking()).then(rk => mostrarComparacion(rk, b));
+  }
   const img = $b('m-img');
   img.removeAttribute('src');
   const cv = await tarjetaBoleta(itemsImagen(b), pf, 'post');
   img.src = cv.toDataURL('image/jpeg', .85);
+}
+// "3 de cada 10 eligió el mismo presidente que vos": prueba social para empujar a compartir.
+function mostrarComparacion(rk, b) {
+  if (!rk || rk.total < MIN_RANKING) return;
+  const pres = b.find(x => x.c === 'presidencial');
+  if (!pres) return;
+  const p = posicion(rk, pres.i, 'presidencial', pres.j);
+  if (!p) return;
+  const pct = Math.round(100 * p.n / rk.total);
+  $b('m-rk').innerHTML = (pct >= 1 ? '<b>' + pct + '%</b> de las boletas eligió a ' : 'Pocas boletas eligieron a ') + MV.c[pres.i].n +
+    ' como presidente. Está <b>#' + p.pos + '</b> entre los más elegidos.';
+  $b('m-rk').hidden = false;
 }
 function cerrarModal() { $b('modal').hidden = true; document.body.classList.remove('sin-scroll'); render(); }
 
@@ -183,7 +216,10 @@ document.addEventListener('DOMContentLoaded', () => {
   $b('modal').addEventListener('click', e => { if (e.target.id === 'modal') cerrarModal(); });
   document.addEventListener('keydown', e => { if (e.key === 'Escape' && !$b('modal').hidden) cerrarModal(); });
   document.querySelectorAll('.modal [data-share]').forEach(b => b.addEventListener('click', () => compartir(b.dataset.share)));
+  if (modoCompartida()) track('abre_compartida');
+  document.addEventListener('mv:lugar', render);
   $b('copiar-boleta').addEventListener('click', () => {
+    track('usa_compartida');
     guardar(COMPARTIDA.slice());
     usada = true;
     history.replaceState(null, '', '/boleta');

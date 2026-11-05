@@ -1,6 +1,5 @@
 // Boleta: un presidente, un gobernador, un intendente y hasta cinco legisladores.
 const MAX_LEG = 5;
-const TOTAL_SLOTS = 8;
 const CARGO_N = { presidencial: 'Presidente', gobernador: 'Gobernador', intendente: 'Intendente', legislador: 'Legislador' };
 const CARGO_Q = { presidencial: 'p', gobernador: 'g', intendente: 'i', legislador: 'l' };
 const KEY = 'mv_boleta_v2';
@@ -32,8 +31,14 @@ function agregar(cid, cargo, jur) {
   } else if (b.filter(x => x.c === 'legislador').length >= MAX_LEG) {
     return { ok: false, msg: 'Ya tenés 5 legisladores. Sacá uno para sumar otro.' };
   }
-  b.push({ i: cid, c: cargo, j: jur || jurDe(cid, cargo) });
+  const j = jur || jurDe(cid, cargo);
+  b.push({ i: cid, c: cargo, j });
   guardar(b);
+  const L = leerLugar();
+  if (L && !candidaturaTeToca(cargo, j)) msg += '. Ojo: es de ' + j + ' y vos votás en ' + (cargo === 'intendente' ? (L.ciudad || L.prov) : L.prov);
+  track('agrega', cargo);
+  if (completa(b)) trackUnaVez('completa', 'mv_completa_' + boletaQuery(b));
+  document.dispatchEvent(new CustomEvent('mv:agregado', { detail: { cid, cargo } }));
   return { ok: true, msg };
 }
 function quitarCand(cid, cargo) {
@@ -67,7 +72,8 @@ function pintarEstado() {
   document.querySelectorAll('.btn.add').forEach(btn => {
     const en = b.some(x => x.i === btn.dataset.cid && x.c === btn.dataset.cargo);
     btn.classList.toggle('en', en);
-    btn.textContent = en ? '✓ En tu boleta' : 'Agregar a la boleta';
+    const corto = btn.closest('.rk-lista');
+    btn.textContent = en ? (corto ? '✓ En boleta' : '✓ En tu boleta') : (corto ? 'Agregar' : 'Agregar a la boleta');
     btn.setAttribute('aria-pressed', en);
   });
   // barra inferior
@@ -78,13 +84,14 @@ function pintarEstado() {
     let html = '';
     orden.forEach(cg => {
       const it = b.find(x => x.c === cg);
+      if (!it && !cargosDisponibles().includes(cg)) return;
       html += it ? avatar(MV.c[it.i], 'mb-s') : '<span class="mb-s vacio" title="' + CARGO_N[cg] + '">' + CARGO_N[cg][0] + '</span>';
     });
     const legs = b.filter(x => x.c === 'legislador');
     for (let k = 0; k < MAX_LEG; k++) html += legs[k] ? avatar(MV.c[legs[k].i], 'mb-s leg') : '<span class="mb-s leg vacio">L</span>';
     document.getElementById('mb-slots').innerHTML = html;
-    document.getElementById('mb-n').textContent = b.length + ' de ' + TOTAL_SLOTS;
-    const falta = orden.find(cg => !b.some(x => x.c === cg));
+    document.getElementById('mb-n').textContent = b.length + ' de ' + totalSlots();
+    const falta = cargosDisponibles().find(cg => cg !== 'legislador' && !b.some(x => x.c === cg));
     document.getElementById('mb-hint').textContent = falta ? 'Te falta ' + CARGO_N[falta].toLowerCase() : (legs.length < MAX_LEG ? 'Sumá legisladores' : '¡Completa!');
   }
 }
@@ -156,19 +163,171 @@ function completarAzar() {
   const b = leer();
   const usados = new Set(b.map(x => x.i));
   const azar = arr => arr[Math.floor(Math.random() * arr.length)];
+  const L = leerLugar();
+  const opciones = cg => MV.k.filter(k => k[1] === cg && !usados.has(k[0]) && candidaturaTeToca(cg, k[2], L));
+  track('azar');
   ['presidencial', 'gobernador', 'intendente'].forEach(cg => {
     if (b.some(x => x.c === cg)) return;
-    const ops = MV.k.filter(k => k[1] === cg && !usados.has(k[0]));
+    const ops = opciones(cg);
     if (!ops.length) return;
     const k = azar(ops); usados.add(k[0]); b.push({ i: k[0], c: cg, j: k[2] });
   });
   while (b.filter(x => x.c === 'legislador').length < MAX_LEG) {
-    const ops = MV.k.filter(k => k[1] === 'legislador' && !usados.has(k[0]));
+    const ops = opciones('legislador');
     if (!ops.length) break;
     const k = azar(ops); usados.add(k[0]); b.push({ i: k[0], c: 'legislador', j: k[2] });
   }
   guardar(b);
 }
+
+// ---------- dónde votás ----------
+// {prov, ciudad}. ciudad es una de las ciudades con candidatos a intendente, o '' si es otra localidad.
+const KEY_LUGAR = 'mv_lugar';
+function leerLugar() {
+  try { return JSON.parse(localStorage.getItem(KEY_LUGAR) || 'null'); } catch (e) { return null; }
+}
+function guardarLugar(l) {
+  try { localStorage.setItem(KEY_LUGAR, JSON.stringify(l)); } catch (e) {}
+  pintarLugar();
+  document.dispatchEvent(new CustomEvent('mv:lugar', { detail: l }));
+}
+// ¿Esta candidatura es de la jurisdicción del usuario? Sin lugar elegido, todo le toca.
+function candidaturaTeToca(cargo, jur, L) {
+  L = L === undefined ? leerLugar() : L;
+  if (!L || cargo === 'presidencial') return true;
+  if (cargo === 'gobernador') return jur === L.prov;
+  if (cargo === 'intendente') return Boolean(L.ciudad) && jur === L.ciudad;
+  return jur === 'Nacional' || jur === L.prov;
+}
+// Cargos que el usuario puede completar según dónde vota (si no hay candidatos cargados, no cuenta).
+function cargosDisponibles() {
+  const L = leerLugar();
+  return ['presidencial', 'gobernador', 'intendente', 'legislador']
+    .filter(cg => MV.k.some(k => k[1] === cg && candidaturaTeToca(cg, k[2], L)));
+}
+function totalSlots() {
+  return cargosDisponibles().reduce((n, cg) => n + (cg === 'legislador' ? MAX_LEG : 1), 0);
+}
+function completa(b) {
+  return cargosDisponibles().every(cg => cg === 'legislador'
+    ? b.filter(x => x.c === cg).length >= MAX_LEG
+    : b.some(x => x.c === cg));
+}
+function pintarLugar() {
+  const L = leerLugar();
+  document.querySelectorAll('.lugar-txt').forEach(e => {
+    e.textContent = L ? (L.ciudad && L.ciudad !== L.prov ? L.ciudad + ', ' + L.prov : L.prov) : '¿Dónde votás?';
+  });
+}
+
+let alElegirLugar = null;
+function pedirLugar(cb) {
+  alElegirLugar = cb || null;
+  const m = document.getElementById('m-lugar');
+  if (!m) return cb && cb(leerLugar());
+  const L = leerLugar() || {};
+  const conGob = new Set(MV.k.filter(k => k[1] === 'gobernador').map(k => k[2]));
+  const sel = document.getElementById('ml-prov');
+  sel.innerHTML = '<option value="">Elegí tu provincia</option>' +
+    MV.lugar.provs.map(p => '<option value="' + p + '">' + p + (conGob.has(p) || p === 'CABA' ? '' : ' (pronto)') + '</option>').join('');
+  sel.value = L.prov || '';
+  pintarCiudades(L.ciudad);
+  m.hidden = false;
+  document.body.classList.add('sin-scroll');
+  setTimeout(() => sel.focus(), 50);
+}
+function pintarCiudades(actual) {
+  const prov = document.getElementById('ml-prov').value;
+  const ciudades = Object.entries(MV.lugar.ciudades).filter(([, p]) => p === prov).map(([c]) => c);
+  const w = document.getElementById('ml-ciudad-w');
+  w.hidden = !prov || prov === 'CABA' || !ciudades.length;
+  document.getElementById('ml-ciudades').innerHTML = ciudades.map(c =>
+    '<label><input type="radio" name="ml-ciudad" value="' + c + '"' + (actual === c ? ' checked' : '') + '> ' + c + '</label>').join('') +
+    '<label><input type="radio" name="ml-ciudad" value=""' + (prov && !ciudades.includes(actual) ? ' checked' : '') + '> Otra localidad</label>';
+  const conGob = MV.k.some(k => k[1] === 'gobernador' && k[2] === prov);
+  const aviso = document.getElementById('ml-aviso');
+  aviso.hidden = !prov || conGob || prov === 'CABA';
+  aviso.textContent = 'Todavía no cargamos candidatos de ' + prov + '. Igual podés armar presidente y legisladores, y anotamos que la pediste.';
+  document.getElementById('ml-ok').disabled = !prov;
+}
+function cerrarLugar() {
+  const m = document.getElementById('m-lugar');
+  if (m) m.hidden = true;
+  if (!document.querySelector('.modal:not([hidden])')) document.body.classList.remove('sin-scroll');
+}
+document.addEventListener('DOMContentLoaded', () => {
+  pintarLugar();
+  const m = document.getElementById('m-lugar');
+  if (!m) return;
+  document.getElementById('ml-prov').addEventListener('change', () => pintarCiudades(''));
+  document.getElementById('ml-ok').addEventListener('click', () => {
+    const prov = document.getElementById('ml-prov').value;
+    if (!prov) return;
+    const r = document.querySelector('input[name=ml-ciudad]:checked');
+    const ciudad = prov === 'CABA' ? 'CABA' : (r ? r.value : '');
+    guardarLugar({ prov, ciudad });
+    track('elige_lugar', prov);
+    if (!MV.k.some(k => k[1] === 'gobernador' && k[2] === prov) && prov !== 'CABA') track('pide_lugar', prov);
+    cerrarLugar();
+    const cb = alElegirLugar; alElegirLugar = null;
+    if (cb) cb({ prov, ciudad });
+  });
+  m.querySelectorAll('[data-cerrar-lugar]').forEach(b => b.addEventListener('click', () => {
+    cerrarLugar();
+    const cb = alElegirLugar; alElegirLugar = null;
+    if (cb) cb(leerLugar());
+  }));
+  m.addEventListener('click', e => { if (e.target === m) cerrarLugar(); });
+  document.addEventListener('keydown', e => { if (e.key === 'Escape' && !m.hidden) cerrarLugar(); });
+});
+document.addEventListener('click', e => { if (e.target.closest('[data-lugar]')) pedirLugar(); });
+
+// ---------- métricas ----------
+// Vercel Web Analytics (si está activado en el proyecto) y un embudo propio y anónimo en /api/evento.
+function track(e, p) {
+  try { if (window.va) window.va('event', { name: e, ...(p ? { p: String(p) } : {}) }); } catch (err) {}
+  try {
+    const body = JSON.stringify({ e, p: p || '' });
+    if (!(navigator.sendBeacon && navigator.sendBeacon('/api/evento', new Blob([body], { type: 'text/plain' }))))
+      fetch('/api/evento', { method: 'POST', body, keepalive: true }).catch(() => {});
+  } catch (err) {}
+}
+function trackUnaVez(e, clave, p) {
+  try { if (localStorage.getItem(clave)) return; localStorage.setItem(clave, '1'); } catch (err) {}
+  track(e, p);
+}
+document.addEventListener('DOMContentLoaded', () => {
+  try { if (!sessionStorage.getItem('mv_visita')) { sessionStorage.setItem('mv_visita', '1'); track('visita'); } } catch (e) {}
+});
+
+// ---------- ranking ----------
+const MIN_RANKING = 20; // boletas mínimas antes de mostrar números, para no exhibir un ranking vacío
+let rankingP = null;
+function ranking() {
+  if (!rankingP) rankingP = fetch('/api/ranking').then(r => r.ok ? r.json() : null).then(d => (d && !d.off ? d : null)).catch(() => null);
+  return rankingP;
+}
+// Posición y cantidad de un candidato en su cargo (y en su jurisdicción, para gobernador e intendente).
+function posicion(rk, cid, cargo, jur) {
+  if (!rk) return null;
+  const lista = (rk.r[cargo] || []).filter(x => cargo === 'gobernador' || cargo === 'intendente' ? x[1] === jur : true);
+  const i = lista.findIndex(x => x[0] === cid);
+  return i < 0 ? null : { pos: i + 1, n: lista[i][2], de: lista.length };
+}
+function boletaId() {
+  try {
+    let id = localStorage.getItem('mv_bid');
+    if (!id) { id = (Date.now().toString(36) + Math.random().toString(36).slice(2, 12)).toLowerCase(); localStorage.setItem('mv_bid', id); }
+    return id;
+  } catch (e) { return ''; }
+}
+function enviarBoleta(b) {
+  const id = boletaId();
+  if (!id || !b.length) return Promise.resolve(null);
+  return fetch('/api/voto', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ id, b: b.map(x => ({ i: x.i, c: x.c })) }) })
+    .then(r => r.ok ? r.json() : null).catch(() => null);
+}
+const fmt = n => n.toLocaleString('es-AR');
 
 // ---------- propuestas ----------
 const KEY_P = 'mv_propuestas_v1';
