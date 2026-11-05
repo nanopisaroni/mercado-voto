@@ -9,137 +9,6 @@
  ],
  "candidatos": [
   {
-   "id": "adorni",
-   "nombre": "Manuel Adorni",
-   "slug": "manuel-adorni",
-   "rol": "Jefe de Gabinete de Ministros (2025–actualidad) — Ex Vocero Presidencial",
-   "tag": "Liberal / LLA / Comunicador",
-   "color": "#1a1a2e",
-   "bio": "Licenciado en Economía, político y comunicador argentino. Jefe de Gabinete de Ministros desde 2025. Anteriormente fue el vocero presidencial de Javier Milei entre diciembre de 2023 y 2025, cargo desde el cual se convirtió en una de las figuras más visibles del gobierno. Su estilo directo, cortante y su defensa frontal de las políticas del Ejecutivo lo transformaron en un fenómeno mediático. Su salto de vocero a jefe de gabinete representa la consolidación de un perfil político propio dentro del espacio oficialista.",
-   "foto": "assets/fotos/adorni.jpg",
-   "categorias": [
-    "diputado"
-   ],
-   "provincia": "Nacional",
-   "partido": "La Libertad Avanza",
-   "ejes": [
-    90,
-    30,
-    70,
-    35,
-    80,
-    85
-   ],
-   "trayectoria": [
-    {
-     "fecha": "2017",
-     "evento": "Comienza su actividad pública como analista económico en redes sociales y medios digitales."
-    },
-    {
-     "fecha": "2021",
-     "evento": "Se suma al espacio de Javier Milei como asesor comunicacional durante la campaña legislativa."
-    },
-    {
-     "fecha": "2022",
-     "evento": "Asume como coordinador de comunicación de La Libertad Avanza en la Ciudad de Buenos Aires."
-    },
-    {
-     "fecha": "2023-08",
-     "evento": "Participa activamente en la campaña presidencial de Milei como estratega de comunicación."
-    },
-    {
-     "fecha": "2023-12",
-     "evento": "Designado vocero presidencial — el primero del gobierno de Javier Milei."
-    },
-    {
-     "fecha": "2024",
-     "evento": "Se consolida como la voz oficial del gobierno. Sus conferencias de prensa se vuelven virales. Maneja la comunicación del ajuste, los DNU y los conflictos con gobernadores."
-    },
-    {
-     "fecha": "2024-12",
-     "evento": "Anunciado como nuevo Jefe de Gabinete de Ministros, reemplazando a Nicolás Posse."
-    },
-    {
-     "fecha": "2025-01",
-     "evento": "Asume como Jefe de Gabinete. Coordina la agenda legislativa y la relación con gobernadores."
-    }
-   ],
-   "promesas_cumplidas": [
-    "Profesionalización de la comunicación gubernamental — conferencias diarias sistemáticas",
-    "Transparencia en anuncios de medidas económicas (adelantó el ajuste sin eufemismos)",
-    "Reducción de la pauta oficial en medios (eliminación de publicidad oficial discrecional)",
-    "Ascenso a jefe de gabinete sin conflictos internos graves"
-   ],
-   "promesas_incumplidas": [
-    "No mantuvo la frecuencia de conferencias de prensa (espaciadas hacia fines de 2024)",
-    "La opacidad sobre ciertos temas (salud presidencial, viajes, reuniones) no se diferenció de gobiernos anteriores",
-    "No formó una 'escuela de comunicación' para el oficialismo — el equipo comunicacional sigue siendo pequeño",
-    "La relación con la prensa no mejoró: sigue siendo confrontativa"
-   ],
-   "cumplidas": 4,
-   "incumplidas": 4,
-   "criticas": [
-    {
-     "area": "Comunicación gubernamental",
-     "tesis": "Adorni no informa: construye relato. Sus conferencias no son ruedas de prensa sino monólogos con preguntas seleccionadas.",
-     "cuerpo": "Manuel Adorni revolucionó la comunicación gubernamental argentina. Sus conferencias de prensa matutinas se volvieron un ritual político: millones de personas las veían en vivo, se volvían virales en redes, y generaban agenda todos los días. Es un logro comunicacional indudable. Pero hay una diferencia entre comunicar bien y hacer propaganda con formato de conferencia de prensa.\n\nLas conferencias de Adorni no son espacios de diálogo con la prensa. Son monólogos donde el vocero lee un comunicado, responde preguntas que él mismo elige y corta cuando quiere. Los periodistas no pueden repreguntar. Las preguntas incómodas son ignoradas o respondidas con evasivas. Cuando alguien insiste, recibe una respuesta cortante. Adorni no debate: impone su versión de los hechos.\n\nEl problema no es que tenga sesgo —todo vocero lo tiene. El problema es que el formato de 'conferencia de prensa' sugiere un espacio de intercambio que no existe. Si el gobierno quiere comunicar, que publique comunicados. Si convoca a periodistas, que acepte preguntas sin censura.\n\nEl formato híbrido —conferencia sin preguntas reales— es lo peor de ambos mundos: parece transparente pero no lo es. Las repreguntas son el corazón del periodismo: sin ellas, el poder define la narrativa sin contradicción. Adorni lo sabe y lo diseñó así deliberadamente.",
-     "evidencia": "Conferencias: promedio 45 min, ~15 preguntas, 0 repreguntas posibles. Periodistas: múltiples quejas por respuesta evasivas. Estudio de monitoreo: 70% del tiempo ocupado por monólogo, 30% preguntas seleccionadas.",
-     "fuerza": "fuerte",
-     "tema": "Comunicación",
-     "tipo": "crítica de método",
-     "respuesta_esperada": "Respondo todas las preguntas que puedo en el tiempo que tengo. No censuro a nadie. Si no respondo algo es porque no tengo la información o no corresponde.",
-     "refutacion": "No se trata de censura, se trata de formato. Si no hay repregunta, no hay control periodístico. El poder no debería definir qué preguntas merecen respuesta."
-    },
-    {
-     "area": "Ascenso institucional",
-     "tesis": "Adorni no tiene experiencia para ser jefe de gabinete. Su ascenso responde a lealtad personal, no a idoneidad técnica.",
-     "cuerpo": "El salto de vocero a jefe de gabinete es inédito en la historia argentina. El jefe de gabinete coordina a todos los ministros, gestiona la agenda del presidente, negocia con gobernadores, supervisa la ejecución presupuestaria y responde ante el Congreso. Es, junto con el ministro de Economía, el cargo ejecutivo más complejo del gabinete. Adorni no tenía experiencia previa en ninguna de esas funciones.\n\nSu formación es en economía, pero nunca gestionó un presupuesto, nunca coordinó un equipo de ministros, nunca negoció una ley con la oposición. Su expertise es la comunicación. Nombrarlo jefe de gabinete es como nombrar a un excelente cirujano como director de un hospital: sus habilidades no son las que el cargo requiere.\n\nEl argumento oficial es que 'aprende rápido' y que 'tiene la confianza del presidente'. La confianza es necesaria pero no suficiente. Un jefe de gabinete sin experiencia en gestión es un cuello de botella: los ministros pierden tiempo explicándole lo que un político experimentado ya sabría.\n\nNo se trata de saberlo todo, se trata de tener experiencia mínima. Rodearse de equipos es una habilidad que se construye con años de gestión. No se improvisa. Y un país no puede darse el lujo de tener un jefe de gabinete en 'entrenamiento' mientras define el rumbo del gobierno.",
-     "evidencia": "Adorni: 0 cargos ejecutivos previos. Funciones del Jefe de Gabinete: coordinación de ministerios, jefe de gabinete, relaciones con Congreso, supervisión presupuestaria. Ninguna de esas funciones en su CV previo.",
-     "fuerza": "fuerte",
-     "tema": "Gestión política",
-     "tipo": "cuestionamiento de idoneidad",
-     "respuesta_esperada": "El presidente confía en mí. Estoy aprendiendo rápido. Rodearse de buenos equipos es más importante que saberlo todo.",
-     "refutacion": "No se trata de saberlo todo, se trata de tener experiencia mínima. Rodearse de equipos es una habilidad que se construye con años de gestión. No se improvisa. Y un país no puede darse el lujo de tener un jefe de gabinete en 'entrenamiento'."
-    },
-    {
-     "area": "Relación con la prensa",
-     "tesis": "Adorni no respeta el rol del periodismo como contrapoder. Su trato hostil a la prensa contradice su discurso de libertad de expresión.",
-     "cuerpo": "Argentina tiene una tradición de voceros presidenciales que —con distintos grados de habilidad— mantenían una relación profesional con la prensa. Adorni rompió ese molde. Su estilo es confrontativo, a veces despectivo, y está diseñado para posicionarlo como un 'luchador contra la prensa militante'. Funciona electoralmente: sus seguidores celebran cuando 'le planta cara a los periodistas'.\n\nPero institucionalmente es un desgaste. Cuando un vocero presidencial trata a los periodistas como adversarios, está enviando un mensaje sobre cómo el gobierno concibe la libertad de prensa: como un derecho que el poder concede, no como un derecho que la prensa ejerce. No hubo presos políticos ni medios clausurados, pero el clima de hostilidad hacia el periodismo crítico es real.\n\nLa libertad de prensa no significa que los periodistas no puedan ser criticados —significa que pueden hacer su trabajo sin represalias. Adorni no usa represalias estatales, pero usa el poder simbólico del Estado para deslegitimar a quienes preguntan. Eso no es libertad de prensa: es presión sobre la prensa.\n\nDistinguir entre preguntas de buena y mala fe es subjetivo. En una democracia, el poder no debería ser el que decide qué preguntas son legítimas. Lo que para Adorni es 'mala fe' para otros puede ser ejercicio legítimo del periodismo.",
-     "evidencia": "Conferencias: 'Usted no entiende', 'Esa es una pregunta malintencionada', 'No voy a responder eso'. Ausencia de conferencias tras malas noticias económicas. Lista de medios 'amigos' y 'enemigos' en comunicación oficial.",
-     "fuerza": "media",
-     "tema": "Libertad de prensa",
-     "tipo": "crítica de estilo institucional",
-     "respuesta_esperada": "No permito que nadie mienta impunemente. Si un periodista pregunta con mala fe, se lo voy a decir. Eso no es perseguir, es defenderse.",
-     "refutacion": "Distinguir entre preguntas de buena y mala fe es subjetivo. En una democracia, el poder no debería ser el que decide qué preguntas son legítimas. Lo que para vos es 'mala fe' para otros es ejercicio legítimo del periodismo."
-    },
-    {
-     "area": "Gestión como jefe de gabinete",
-     "tesis": "Adorni no tiene poder real como jefe de gabinete: es un coordinador sin capacidad de decisión autónoma.",
-     "cuerpo": "A diferencia de jefes de gabinete anteriores (Máximo Kirchner, Santiago Cafiero, Juan Manzur, incluso Nicolás Posse), que tenían peso político propio, Adorni llega al cargo sin una base de poder que no sea la confianza personal de Milei. Eso lo convierte en un jefe de gabinete frágil: cualquier ministro con peso propio (Caputo, Bullrich, Sturzenegger) puede ignorarlo si no está de acuerdo, porque saben que en una interna, el presidente elegiría al ministro antes que al jefe de gabinete.\n\nLa historia argentina muestra que los jefes de gabinete funcionan cuando tienen autonomía para coordinar. Si Adorni es solo un vocero con cargo de jefe de gabinete, no va a poder coordinar nada: los ministros van a hablar directo con Milei, y la jefatura de gabinete será un filtro burocrático, no político.\n\nEl riesgo es que la promoción de Adorni debilite la institucionalidad del gabinete en lugar de fortalecerla. Si el jefe de gabinete no puede tomar decisiones, entonces las decisiones las toma Milei directamente, y el cargo se vacía de contenido.\n\nAdorni no tiene base partidaria. No tiene territorio. No tiene trayectoria política. Ministros como Caputo (peso económico), Bullrich (peso partidario) o Sturzenegger (peso técnico) tienen respaldos que él no tiene. Sin poder propio, su autoridad depende enteramente de que Milei lo respalde en cada conflicto. Y en política, esa dependencia es el camino más corto a la irrelevancia.",
-     "evidencia": "Adorni: sin peso partidario, sin territorio, sin trayectoria política. Ministros: Caputo (peso económico), Bullrich (peso partidario PRO), Sturzenegger (peso técnico). Adorni no tiene ninguno de esos respaldos.",
-     "fuerza": "media",
-     "tema": "Gestión de gobierno",
-     "tipo": "riesgo estructural",
-     "respuesta_esperada": "Tengo toda la confianza del presidente y eso es suficiente. No necesito base partidaria porque no soy un político tradicional.",
-     "refutacion": "La confianza del presidente es necesaria pero no suficiente para coordinar ministros con poder propio. Sin base de poder, sos frágil. Y un jefe de gabinete frágil no coordina: administra."
-    }
-   ],
-   "vulnerabilidades": [
-    "Sin experiencia de gestión para el cargo de jefe de gabinete — curvas de aprendizaje costosas en un contexto de crisis",
-    "Su estilo confrontativo genera desgaste con la prensa y con sectores políticos que necesita para negociar",
-    "No tiene base política propia — depende totalmente de la voluntad de Milei",
-    "Su ascenso meteórico genera resistencia interna entre ministros con más trayectoria",
-    "Su rol como jefe de gabinete puede quedar vaciado si los ministros bypassan su autoridad"
-   ],
-   "gancho": "Conferencia diaria incluida. Repreguntas, no.",
-   "a_favor": [
-    "Comunica sin eufemismos: anunció el ajuste de frente y sostuvo la línea del gobierno todos los días.",
-    "Pasó de vocero a jefe de Gabinete: tiene la confianza directa del Presidente.",
-    "Recortó la pauta oficial discrecional, un reclamo histórico contra el uso político de la publicidad estatal."
-   ],
-   "badge": ""
-  },
-  {
    "id": "bregman",
    "nombre": "Myriam Bregman",
    "slug": "myriam-bregman",
@@ -847,136 +716,6 @@
     "Ocho años de presidenta, más vicepresidencia y Senado: nadie conoce el Estado como ella."
    ],
    "badge": "CLÁSICO"
-  },
-  {
-   "id": "delcano",
-   "nombre": "Nicolás del Caño",
-   "slug": "nicolas-del-cano",
-   "rol": "Diputado nacional por Mendoza (FIT/PTS)",
-   "tag": "Trotskismo / PTS / FIT / Izquierda",
-   "color": "#8e44ad",
-   "bio": "Nacido en 1985 en Mendoza, Del Caño es la cara joven del trotskismo argentino. Fue candidato a presidente en 2017 y 2021 por el PTS dentro del Frente de Izquierda. Diputado nacional desde 2017, se ha destacado por un estilo combativo y una línea dura contraria a cualquier 'conciliación' con el peronismo o el kirchnerismo. Su relación con Myriam Bregman y otras figuras del FIT está marcada por tensiones internas sobre la estrategia electoral y la línea política.",
-   "foto": "assets/fotos/delcano.jpg",
-   "categorias": [
-    "presidencial",
-    "diputado"
-   ],
-   "provincia": "Mendoza",
-   "partido": "Frente de Izquierda",
-   "ejes": [
-    8,
-    90,
-    35,
-    45,
-    90,
-    15
-   ],
-   "trayectoria": [
-    {
-     "fecha": "2008",
-     "evento": "Ingresa al Partido de los Trabajadores Socialistas (PTS)."
-    },
-    {
-     "fecha": "2015",
-     "evento": "Candidato a gobernador de Mendoza por el FIT, obtiene el 5% de los votos."
-    },
-    {
-     "fecha": "2017",
-     "evento": "Electo diputado nacional por Mendoza (FIT). Candidato a presidente (fórmula con Del Plá)."
-    },
-    {
-     "fecha": "2019",
-     "evento": "Candidato a vicepresidente en la fórmula de Nicolás del Caño."
-    },
-    {
-     "fecha": "2021",
-     "evento": "Reelecto diputado nacional. Candidato a presidente nuevamente (tercera fuerza en algunas provincias)."
-    },
-    {
-     "fecha": "2023",
-     "evento": "Apoya la candidatura de Myriam Bregman a presidenta; tensiones internas por la estrategia del FIT."
-    },
-    {
-     "fecha": "2024",
-     "evento": "Se consolida como voz de la oposición más intransigente al gobierno de Milei en el Congreso."
-    }
-   ],
-   "promesas_cumplidas": [
-    "Denuncia sistemática de los ajustes del gobierno de Macri, Fernández y Milei.",
-    "Presentación de proyectos de ley para aumentar impuestos a las grandes fortunas.",
-    "Defensa intransigente de los derechos laborales en el Congreso.",
-    "Visibilidad de la agenda anticapitalista en el debate público nacional."
-   ],
-   "promesas_incumplidas": [
-    "No logró la unidad de la izquierda más allá del FIT (el PO y el MST mantienen diferencias).",
-    "No logró crecer electoralmente más allá del 3-5% nacional.",
-    "Prometió renovación generacional de la izquierda pero el FIT sigue liderado por figuras históricas.",
-    "No consiguió que el FIT se posicione como la 'tercera fuerza' nacional estable.",
-    "Su distancia con Bregman no se tradujo en una alternativa política superadora."
-   ],
-   "cumplidas": 4,
-   "incumplidas": 5,
-   "criticas": [
-    {
-     "area": "Estrategia electoral",
-     "tesis": "Del Caño es el candidato permanente de una fuerza que no crece y no se renueva.",
-     "cuerpo": "Del Caño fue candidato a presidente en 2017 y 2021. En ambas oportunidades, el FIT obtuvo resultados magros (alrededor del 3% nacional). Su reelección como diputado en 2021 fue con el 6% en Mendoza. No hay crecimiento electoral sostenido. La izquierda argentina tiene un techo que no logra perforar.\n\nEl problema no es solo electoral: es estratégico. Del Caño representa una línea de 'ruptura revolucionaria' que no dialoga con la mayoría social. Su discurso es correcto para los convencidos, pero no interpela a los trabajadores peronistas, a los pobres urbanos, a los desocupados. La izquierda argentina no crece porque se dirige a un sujeto político imaginario (el proletariado revolucionario) que no existe en la Argentina del siglo XXI. Mientras tanto, el voto de izquierda se estanca y la dirigencia se recicla en los mismos cargos.",
-     "evidencia": "FIT: 3.2% (2017), 2.9% (2021), 2.7% (2023) en elecciones presidenciales. Del Caño: 6% en Mendoza (2021), mismo piso que 2017. Bregman: 2.7% en 2023.",
-     "fuerza": "fuerte",
-     "tema": "política-electoral",
-     "tipo": "estancamiento estratégico",
-     "respuesta_esperada": "La izquierda crece donde hay lucha obrera. No somos una fuerza electoralista, somos una herramienta de lucha. No medimos nuestro éxito en votos.",
-     "refutacion": "Si los votos no importan, ¿para qué se presentan a elecciones? Un partido que se presenta a elecciones, pide el voto y ocupa bancas no puede despreciar los resultados electorales."
-    },
-    {
-     "area": "Interna del FIT",
-     "tesis": "Del Caño y Bregman representan dos líneas que se necesitan mutuamente pero se frenan entre sí.",
-     "cuerpo": "La relación entre Nicolás del Caño y Myriam Bregman es la tensión estructural del FIT. Bregman representa un perfil más mediático, dialoguista, capaz de salir en los programas de televisión y hablarle a un público no militante. Del Caño representa la línea más dura, más cercana a la base del PTS, más desconfiada de la 'institucionalización' de la izquierda.\n\nEsa tensión no es nueva, pero se profundizó después de la campaña de 2023. Bregman compitió con un perfil más amplio; Del Caño y el PTS sintieron que se diluía la identidad partidaria. Las diferencias no son personales: son políticas. Una izquierda que quiere crecer necesita caras nuevas y lenguajes nuevos. Pero la dirigencia histórica del PTS resiste cualquier apertura que pueda 'desdibujar' la línea. El resultado es un frente que convive con sus contradicciones pero no las resuelve.",
-     "evidencia": "Diferencias públicas sobre la estrategia electoral 2023. Declaraciones de Bregman sobre la necesidad de 'ampliar el frente'. Resistencias internas del PTS a la apertura. Congreso del FIT postergado sine die.",
-     "fuerza": "fuerte",
-     "tema": "política-interna",
-     "tipo": "división estratégica",
-     "respuesta_esperada": "No hay división. Tenemos un debate sano sobre cómo construimos la fuerza. Eso es democracia interna, no debilidad.",
-     "refutacion": "La democracia interna es valiosa, pero cuando el debate público trasciende a los medios y las urnas no acompañan, ya no es debate: es crisis."
-    },
-    {
-     "area": "Discurso y representación",
-     "tesis": "Del Caño habla en nombre de los trabajadores pero representa a una porción muy pequeña de ellos.",
-     "cuerpo": "Del Caño usa el lenguaje de la clase trabajadora: 'los trabajadores y el pueblo', 'la burguesía', 'la burocracia sindical'. Pero los trabajadores no lo votan. En las fábricas, en los gremios, en los barrios populares, el FIT no tiene inserción masiva. Tiene presencia en algunas facultades, en algunos sindicatos combativos, en algunas asambleas barriales. Pero no representa a la mayoría de la clase trabajadora argentina.\n\nEsa brecha entre el discurso de clase y la base real no es un problema menor. Si la izquierda habla en nombre de los trabajadores pero los trabajadores no se sienten representados, el problema no es de los trabajadores: es de la izquierda. La Argentina tiene una clase trabajadora organizada, con tradición de lucha y conciencia política. Que el FIT no logre representarla no es culpa del peronismo ni del kirchnerismo: es culpa de un discurso que no conecta con la experiencia real de la gente.",
-     "evidencia": "FIT: ~3% en elecciones nacionales. Inserción sindical: minoritaria (SUTEBA, algunas comisiones internas). En barrios populares: presencia testimonial comparada con el peronismo.",
-     "fuerza": "fuerte",
-     "tema": "representación política",
-     "tipo": "desconexión con la base",
-     "respuesta_esperada": "Los trabajadores nos votan donde hay lucha. En las elecciones se expresa la conciencia de clase, que está influida por años de dominación burguesa y peronista.",
-     "refutacion": "Ese análisis culpa a los trabajadores de no tener la conciencia correcta. Un partido revolucionario debería preguntarse qué está haciendo mal, no explicar por qué los votantes están equivocados."
-    },
-    {
-     "area": "Análisis internacional",
-     "tesis": "Del Caño aplica un esquema ideológico rígido que no capta la complejidad del mundo actual.",
-     "cuerpo": "El trotskismo de Del Caño se apoya en un análisis de clases que divide el mundo entre burguesía imperialista y proletariado oprimido. Esa grilla analítica funciona para entender el siglo XIX y principios del XX, pero no capta la complejidad del capitalismo contemporáneo: cadenas globales de valor, plataformas digitales, trabajo informal, extractivismo, crisis climática.\n\nCuando Rusia invadió Ucrania, Del Caño respondió con el manual trotskista: 'guerra interimperialista', 'la OTAN provoca', 'Estados Unidos usa a Ucrania'. Era el análisis correcto para 1914, pero insuficiente para 2022. No hay análisis del nacionalismo ucraniano, de la agresión imperial rusa como hecho autónomo, de la complejidad de una guerra donde hay un agresor claro. La rigidez ideológica no es fidelidad a los principios: es pereza intelectual.",
-     "evidencia": "Declaraciones de Del Caño sobre Ucrania: 'guerra interimperialista', crítica asimétrica a la OTAN sin condena explícita a la invasión rusa. Posiciones similares sobre Venezuela y Cuba sin matices.",
-     "fuerza": "media-fuerte",
-     "tema": "relaciones internacionales",
-     "tipo": "dogmatismo ideológico",
-     "respuesta_esperada": "El análisis de clases es el único método científico para entender la realidad. No nos dejamos engañar por la propaganda de los imperios.",
-     "refutacion": "El análisis de clases no es una plantilla que se aplica igual a todas las situaciones históricas. Aplicar el mismo esquema a 1914 y 2022 no es ciencia: es dogma."
-    }
-   ],
-   "vulnerabilidades": [
-    "Estancamiento electoral: el FIT no supera el 3-4% nacional desde su fundación.",
-    "Tensión interna con Myriam Bregman y otras figuras del frente.",
-    "Discurso dogmático que no conecta con la mayoría de los trabajadores.",
-    "Falta de inserción territorial más allá de centros universitarios y sindicatos específicos.",
-    "Imagen de 'eterno candidato' que genera desgaste sin renovación.",
-    "Análisis internacional rígido que no capta las transformaciones del capitalismo contemporáneo."
-   ],
-   "gancho": "Sin financiamiento empresario. Ni lo intentes.",
-   "a_favor": [
-    "Décadas en el trotskismo sin saltos de alianza.",
-    "Rotación de bancas y salario de trabajador: lo que dice, lo aplica.",
-    "Pone en agenda la deuda y el FMI cuando el resto prefiere no hablar del tema."
-   ],
-   "badge": ""
   },
   {
    "id": "frigerio",
@@ -5016,82 +4755,6 @@
     "Habla claro y sin corrección política."
    ],
    "badge": "CLÁSICO"
-  },
-  {
-   "id": "espert",
-   "nombre": "José Luis Espert",
-   "slug": "jose-luis-espert",
-   "rol": "Diputado nacional por Buenos Aires",
-   "tag": "La Libertad Avanza",
-   "color": "#8e6cef",
-   "bio": "Economista y diputado nacional por La Libertad Avanza. Fue candidato presidencial en 2019 y en 2023.",
-   "foto": "assets/fotos/espert.jpg",
-   "categorias": [],
-   "provincia": "Nacional",
-   "partido": "La Libertad Avanza",
-   "ejes": [
-    92,
-    30,
-    55,
-    40,
-    80,
-    85
-   ],
-   "trayectoria": [
-    {
-     "fecha": "2019",
-     "evento": "Candidato presidencial por el Frente Despertar."
-    },
-    {
-     "fecha": "2021",
-     "evento": "Electo diputado nacional por Buenos Aires."
-    },
-    {
-     "fecha": "2023",
-     "evento": "Se suma a La Libertad Avanza."
-    },
-    {
-     "fecha": "2025",
-     "evento": "Se baja de la lista bonaerense de LLA tras admitir un pago vinculado a Fred Machado."
-    }
-   ],
-   "promesas_cumplidas": [],
-   "promesas_incumplidas": [],
-   "cumplidas": 0,
-   "incumplidas": 0,
-   "criticas": [
-    {
-     "area": "Integridad",
-     "tesis": "Admitió un pago vinculado a un empresario acusado de narcotráfico en Estados Unidos.",
-     "cuerpo": "En 2025 se conoció una transferencia de 200 mil dólares vinculada a Federico 'Fred' Machado, con pedido de extradición de Estados Unidos. Espert dijo que era por una consultoría. Tuvo que dejar la candidatura en plena campaña.",
-     "evidencia": "Renuncia a la candidatura en octubre de 2025.",
-     "fuerza": "letal",
-     "tipo": "crítica de integridad",
-     "respuesta_esperada": "Fue un trabajo profesional legítimo y declarado.",
-     "refutacion": "Si fuera tan claro, no habría tenido que bajarse."
-    },
-    {
-     "area": "Discurso",
-     "tesis": "'Cárcel o bala' como propuesta de seguridad.",
-     "cuerpo": "Su frase sobre los delincuentes resume un enfoque que sus críticos consideran incompatible con el Estado de derecho.",
-     "evidencia": "Declaraciones públicas en campaña.",
-     "fuerza": "media-fuerte",
-     "tipo": "crítica de enfoque",
-     "respuesta_esperada": "Es una forma de decir que se terminó la impunidad.",
-     "refutacion": "Un legislador sabe que las palabras importan."
-    }
-   ],
-   "vulnerabilidades": [
-    "Caso Machado.",
-    "Perdió el lugar en la lista y el respaldo de su espacio."
-   ],
-   "gancho": "Economista liberal. Viene con historial de pagos.",
-   "a_favor": [
-    "Defendió las ideas liberales cuando eran minoría absoluta.",
-    "Formación económica sólida y discurso claro.",
-    "Presidió la comisión de Presupuesto en Diputados."
-   ],
-   "badge": ""
   },
   {
    "id": "larreta",
@@ -9572,16 +9235,6 @@
    "jur": "Nacional"
   },
   {
-   "cid": "delcano",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
-   "cid": "espert",
-   "cargo": "presidencial",
-   "jur": "Nacional"
-  },
-  {
    "cid": "grabois",
    "cargo": "presidencial",
    "jur": "Nacional"
@@ -9732,11 +9385,6 @@
    "jur": "Mendoza"
   },
   {
-   "cid": "adorni",
-   "cargo": "legislador",
-   "jur": "Nacional"
-  },
-  {
    "cid": "caputo",
    "cargo": "legislador",
    "jur": "Nacional"
@@ -9783,17 +9431,17 @@
   },
   {
    "cid": "galperin",
-   "cargo": "legislador",
+   "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
    "cid": "brito",
-   "cargo": "legislador",
+   "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
    "cid": "rebord",
-   "cargo": "legislador",
+   "cargo": "presidencial",
    "jur": "Nacional"
   },
   {
