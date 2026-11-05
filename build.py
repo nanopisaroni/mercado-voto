@@ -13,7 +13,7 @@ ESPACIOS = {e["id"]: e for e in PROP["espacios"]}
 VIDEOS = json.load(open(f"{BASE}/data/videos.json", encoding="utf-8"))
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "31"  # versión de assets, para romper caché
+V = "32"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
