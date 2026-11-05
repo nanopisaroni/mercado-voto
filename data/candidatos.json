@@ -1112,9 +1112,9 @@
    "nombre": "Jorge Macri",
    "slug": "jorge-macri",
    "rol": "Jefe de Gobierno de la Ciudad de Buenos Aires (2023–actualidad)",
-   "tag": "PRO / Gestión urbana / Primismo",
+   "tag": "El jefe de gobierno que busca quedarse",
    "color": "#2ecc71",
-   "bio": "Jefe de Gobierno de la Ciudad de Buenos Aires desde diciembre de 2023. Primo de Mauricio Macri. Fue intendente de Vicente López (2011-2023), donde construyó una imagen de gestión eficiente, seguridad y orden urbano. Contador de profesión, encarna el ala más técnica del PRO, pero su gestión en CABA ha estado marcada por la tensión entre el legado de Larreta y su propio sello, más duro en seguridad y más alineado con la gestión nacional de Milei.",
+   "bio": "Jefe de Gobierno de la Ciudad de Buenos Aires desde diciembre de 2023. Fue intendente de Vicente López durante doce años y ministro de Gobierno porteño. Es sobrino de Mauricio Macri.",
    "foto": "assets/fotos/jmacri.jpg",
    "categorias": [
     "municipal",
@@ -1132,40 +1132,16 @@
    ],
    "trayectoria": [
     {
-     "fecha": "1995",
-     "evento": "Comienza su carrera como funcionario municipal en Vicente López, su ciudad natal."
+     "fecha": "2011-2023",
+     "evento": "Intendente de Vicente López."
     },
     {
-     "fecha": "2007",
-     "evento": "Asume como Secretario de Gobierno de Vicente López bajo la intendencia de Enrique García."
+     "fecha": "2023",
+     "evento": "Asume como jefe de Gobierno de la Ciudad."
     },
     {
-     "fecha": "2011",
-     "evento": "Elegido intendente de Vicente López por el PRO. Asume con el 47% de los votos."
-    },
-    {
-     "fecha": "2015",
-     "evento": "Reelecto como intendente con el 52%. Inicia plan de videovigilancia y ordenamiento urbano."
-    },
-    {
-     "fecha": "2019",
-     "evento": "Tercer mandato consecutivo en Vicente López con el 55.6%. Se consolida como el intendente mejor valorado del PRO."
-    },
-    {
-     "fecha": "2023-07",
-     "evento": "Gana la interna del PRO en CABA contra Martín Lousteau (UCR) y Ramiro Marra (LLA) con el 49.2%."
-    },
-    {
-     "fecha": "2023-12",
-     "evento": "Asume como Jefe de Gobierno de CABA. Recibe una ciudad ordenada fiscalmente pero con desafíos de seguridad y vivienda."
-    },
-    {
-     "fecha": "2024",
-     "evento": "Primer año: refuerza la seguridad con más policía, pero enfrenta críticas por el desalojo de la Villa 31 y recortes en cultura."
-    },
-    {
-     "fecha": "2025",
-     "evento": "Gestiona con Milei una relación de cooperación inestable. Tensión por el traspaso de la Policía Federal a la Ciudad."
+     "fecha": "2026",
+     "evento": "Confirma que buscará la reelección."
     }
    ],
    "promesas_cumplidas": [
@@ -1186,62 +1162,24 @@
    "incumplidas": 5,
    "criticas": [
     {
-     "area": "Orden urbano",
-     "tesis": "Macri gobierna para el Centro y el Norte, mientras el Sur de la Ciudad sigue abandonado.",
-     "cuerpo": "Jorge Macri llegó a Jefe de Gobierno con el discurso de 'ordenar la Ciudad'. El orden que aplica tiene una dirección geográfica clara: el Norte de CABA recibe inversión, seguridad, espacios verdes y subtes. El Sur —Villa 31, Barracas, Lugano, Soldati— recibe desalojos, contravenciones y promesas incumplidas.\\n\\nLa brecha Norte-Sur de CABA no es nueva, pero bajo la gestión Macri se profundizó. No hay un plan integral para el Sur. No hay inversión en vivienda social en las zonas más postergadas. La reforma del Código Contravencional no vino acompañada de políticas de inclusión: se castiga la pobreza sin ofrecer alternativas.\\n\\nEl orden que Macri pregona no es el de la igualdad de oportunidades: es el orden estético que la clase media y alta del Norte porteño reclama. Mientras tanto, los vecinos del Sur siguen esperando el subte, la cloaca, el pavimento.",
-     "evidencia": "Inversión per cápita en Norte vs Sur de CABA: estimación 3 a 1. Plan de vivienda: cero unidades en 2024. Tunel de subte: la línea F (Sur) sigue sin fecha de inicio. Porcentaje de calles sin asfaltar en el Sur: 15% (Norte: 1%).",
-     "fuerza": "fuerte",
-     "tema": "urbano",
-     "tipo": "desigualdad territorial",
-     "respuesta_esperada": "La brecha Norte-Sur no se resuelve en un año. Estamos trabajando en un plan integral para el Sur que incluye inversión en infraestructura, vivienda y empleo.",
-     "refutacion": "El plan integral para el Sur no se ve en el presupuesto ni en las obras. Mientras tanto, $3.000M en luminarias LED para Palermo y $0 en vivienda social."
-    },
-    {
-     "area": "Vivienda",
-     "tesis": "La política de vivienda de Macri es represiva, no inclusiva.",
-     "cuerpo": "El caso Villa 31 es emblemático. En diciembre de 2024, el gobierno de la Ciudad desalojó por la fuerza a los ocupantes de un sector de la Villa 31, con un operativo que incluyó vallas, caballos y gases lacrimógenos. No hubo alternativa habitacional previa. No hubo negociación. Hubo orden de desalojo y fuerza pública.\\n\\nLa Ciudad tiene 250.000 personas con déficit habitacional. En un año de gobierno, Macri no construyó ni una sola unidad de vivienda social. Su solución es la expulsión: sacar a los pobres del espacio público y confiar en que 'el mercado' resuelva. El mercado no resuelve. Los hoteles-pensión del Once y Congreso —donde viven familias enteras en piezas de 3x3— no son solución: son hacinamiento con precio.\\n\\nMacri habla de 'orden'. Pero el orden sin vivienda no es orden: es apartheid urbano.",
-     "evidencia": "Desalojo Villa 31: diciembre 2024, 120 familias desplazadas. CABA: 250.000 personas con déficit habitacional. Vivienda social construida 2024: 0. Hoteles-pensión: estimación 40.000 personas viviendo en piezas.",
-     "fuerza": "fuerte",
-     "tema": "urbano-social",
-     "tipo": "política represiva sin inclusión",
-     "respuesta_esperada": "La ocupación ilegal del espacio público no es solución habitacional. Ofrecimos alternativas: refugios, subsidios, lotes en Provincia. Eligieron no tomarlas.",
-     "refutacion": "Ofrecer refugios temporarios no es política de vivienda. Si tu única alternativa al desalojo es un colchón en un galpón, no estás solucionando el problema: lo estás corriendo de lugar."
-    },
-    {
-     "area": "Relación con Nación",
-     "tesis": "Macri es un opositor de living: critica a Milei en privado pero lo vota todo en público.",
-     "cuerpo": "Jorge Macri llegó al cargo con una relación ambigua con Milei. Durante la campaña, se diferenció de Larreta acercándose al discurso libertario. Una vez en el gobierno, votó todas las leyes clave del oficialismo: Ley Ómnibus, RIGI, reforma laboral, ajuste fiscal. Pero al mismo tiempo, reclama fondos que la Nación le debe a CABA por coparticipación y por el traspaso de la Policía Federal.\\n\\nEs una coreografía extraña. Acompaña el ajuste nacional que recorta fondos a la Ciudad mientras pide que le devuelvan la plata. Vota las reformas que empobrecen a sus propios vecinos mientras dice 'yo no estoy de acuerdo con todo'. Es la ambigüedad programática de un dirigente que quiere estar bien con Dios y con el Diablo.\\n\\nEl resultado es que no termina de construir una relación de cooperación genuina con Nación ni de erigirse como líder de la oposición metropolitana. Queda en tierra de nadie.",
-     "evidencia": "Votó a favor de la Ley Ómnibus (enero 2024), el RIGI (junio 2024) y la reforma laboral. En paralelo, reclamó $200.000M de coparticipación adeudada a CABA. Reuniones con Milei: 4 en 2024, todas públicas y sin acuerdos concretos.",
-     "fuerza": "media-fuerte",
-     "tema": "política",
-     "tipo": "ambigüedad estratégica",
-     "respuesta_esperada": "Soy un dirigente independiente. Voto lo que es bueno para la Ciudad y para el país. No tengo por qué alinearme ciegamente ni con Milei ni con nadie.",
-     "refutacion": "Votar todas las leyes del gobierno no es 'independencia'. Es alineamiento de facto con matices retóricos. Si estuvieras en desacuerdo real, habrías votado en contra aunque sea una vez."
-    },
-    {
-     "area": "Seguridad",
-     "tesis": "Macri confunde seguridad con militarización del espacio público.",
-     "cuerpo": "Macri aumentó el presupuesto de seguridad un 30% y sumó 5.000 efectivos a la Policía de la Ciudad. Bajó los índices de delitos callejeros en el Centro y el Norte. Pero lo hizo a costa de un modelo que confunde seguridad pública con control social.\\n\\nLa reforma del Código Contravencional tipifica como delito la ocupación del espacio público —dormir en la calle, vender en la vereda, cartonear— con multas que un ciudadano en situación de calle no puede pagar y arresto que equivale a criminalizar la pobreza. No es seguridad: es limpieza social con nombre bonito.\\n\\nAdemás, los delitos complejos —narcotráfico, ciberdelito, lavado— no se redujeron. La inseguridad que realmente preocupa a los porteños de clase media (entraderas, motochorros, robos violentos) sigue en niveles similares. Lo que bajó es el delito callejero visible, porque hay más policía. Pero tener más policía no es lo mismo que tener seguridad.",
-     "evidencia": "Presupuesto seguridad 2024: $150.000M (+30% vs 2023). Delitos callejeros en Comuna 1-4: -12%. Delitos complejos (narcotráfico, lavado): sin variación significativa. Arrestos por contravenciones: +45% en 2024.",
-     "fuerza": "media-fuerte",
-     "tema": "seguridad",
-     "tipo": "confusión de objetivos",
-     "respuesta_esperada": "La seguridad pública empieza por el orden en el espacio público. No podemos naturalizar la ocupación ilegal. Más policía es más control, más prevención y menos delito.",
-     "refutacion": "Confundir orden estético con seguridad es un error. Que un cartonero no pueda dormir en la calle no baja los homicidios. Es punitivismo sobre los más débiles disfrazado de política de seguridad."
+     "area": "Legitimidad",
+     "tesis": "Gobierna la Ciudad con el apellido y con la estructura del PRO.",
+     "cuerpo": "Jorge Macri llegó a la jefatura de gobierno con el aparato del PRO y el apellido de su tío. Es legítimo y es legal. Pero la Ciudad es el distrito donde el PRO gobierna desde 2007: cualquier cosa que se haga bien tiene dieciocho años de antecedente y cualquier cosa que se haga mal tiene un responsable con apellido.",
+     "evidencia": "Jefe de Gobierno desde 2023; sobrino de Mauricio Macri, jefe de Gobierno 2007-2015.",
+     "fuerza": "media",
+     "tipo": "Legitimidad",
+     "respuesta_esperada": "Que ganó la elección y que gobierna con equipo propio.",
+     "refutacion": "Ganó. La pregunta es qué va a mostrar en 2027 que no sea la continuidad de los anteriores."
     }
    ],
    "vulnerabilidades": [
-    "Política de vivienda: cero construcción social, desalojos forzosos como única respuesta al déficit habitacional",
-    "Brecha Norte-Sur: la desigualdad territorial no se redujo y en algunos indicadores se profundizó",
-    "Relación con Nación: sin alianza sólida ni capacidad de confrontación efectiva, queda en tierra de nadie",
-    "Seguridad: el aumento policial no se tradujo en reducción de delitos complejos",
-    "Transparencia: contrataciones directas a empresas vinculadas al PRO erosionan su imagen de gestor ordenado"
+    "Su gestión en la Ciudad es corta y con pocas obras propias.",
+    "El apellido pesa en un electorado que ya votó a su tío tres veces."
    ],
-   "gancho": "Apellido premium. El tránsito porteño viene aparte.",
+   "gancho": "Llegó desde Vicente López y ahora defiende la Ciudad.",
    "a_favor": [
-    "Ocho años como intendente de Vicente López: sabe gestionar un municipio.",
-    "Continuidad de un modelo que gobierna la Ciudad desde 2007.",
-    "Puso el orden del espacio público y la limpieza en el centro de su gestión."
+    "Tiene gestión municipal y provincial, con resultados medibles en Vicente López.",
+    "Es el candidato del oficialismo porteño y parte con ventaja estructural."
    ],
    "badge": ""
   },
@@ -1654,9 +1592,9 @@
    "nombre": "Martín Lousteau",
    "slug": "martin-lousteau",
    "rol": "Senador nacional por la Ciudad de Buenos Aires (UCR). Ex Embajador en Estados Unidos (2020–2022). Ex Ministro de Economía (2007–2008). Ex diputado nacional.",
-   "tag": "Radicalismo / Economista crítico",
+   "tag": "El economista que cambió de vereda",
    "color": "#e74c3c",
-   "bio": "Economista de la UBA y PhD por la London School of Economics. Fue el creador de la polémica Resolución 125 (retenciones móviles al campo) como Ministro de Economía de Cristina Kirchner, cargo del que renunció por el conflicto desatado. Diputado nacional, fundador del partido ECO y luego senador por la UCR. Embajador en Estados Unidos durante el gobierno de Alberto Fernández. Es la principal expresión del radicalismo crítico, con perfil técnico y posiciones moderadas. Su trayectoria combina gestión económica, academia y diplomacia.",
+   "bio": "Senador nacional por la Ciudad de Buenos Aires y dirigente de la UCR. Fue ministro de Economía en 2008, embajador en Estados Unidos y candidato a jefe de Gobierno en 2015 y 2023.",
    "foto": "assets/fotos/lousteau.jpg",
    "categorias": [
     "presidencial",
@@ -1674,44 +1612,20 @@
    ],
    "trayectoria": [
     {
-     "fecha": "1970",
-     "evento": "Nace en Buenos Aires. Estudia Economía en la UBA. Luego obtiene un PhD en la London School of Economics."
-    },
-    {
-     "fecha": "2007",
-     "evento": "Asume como Ministro de Economía de Cristina Kirchner con apenas 37 años. El más joven en democracia."
-    },
-    {
-     "fecha": "2008-03",
-     "evento": "Anuncia la Resolución 125 de retenciones móviles al campo. Desata el conflicto agropecuario más grande desde 2001."
-    },
-    {
-     "fecha": "2008-04",
-     "evento": "Renuncia al cargo en pleno conflicto con el campo. Critica el manejo del conflicto por parte del gobierno."
-    },
-    {
-     "fecha": "2013",
-     "evento": "Fundó el partido ECO (Espacio Cívico Organizado). Electo diputado nacional, se consolida como figura opositora."
+     "fecha": "2008",
+     "evento": "Ministro de Economía de la Nación."
     },
     {
      "fecha": "2015",
-     "evento": "Precandidato a Jefe de Gobierno de CABA. Pierde la interna de ECO pero queda como referente opositor al PRO en CABA."
+     "evento": "Candidato a jefe de Gobierno de la Ciudad."
     },
     {
-     "fecha": "2017",
-     "evento": "Electo senador nacional por CABA. Se convierte en voz crítica dentro de Cambiemos."
-    },
-    {
-     "fecha": "2020",
-     "evento": "Designado Embajador argentino en Estados Unidos por Alberto Fernández. Cargo sorpresivo dado su perfil opositor."
-    },
-    {
-     "fecha": "2022",
-     "evento": "Renuncia a la embajada. Vuelve a la política nacional. Se suma a la UCR para las elecciones 2023."
+     "fecha": "2019",
+     "evento": "Asume como senador nacional por CABA."
     },
     {
      "fecha": "2023",
-     "evento": "Electo senador nacional por la UCR en CABA. Se convierte en una de las voces más críticas del gobierno de Milei."
+     "evento": "Candidato a jefe de Gobierno por Juntos por el Cambio."
     }
    ],
    "promesas_cumplidas": [
@@ -1729,63 +1643,24 @@
    "incumplidas": 4,
    "criticas": [
     {
-     "area": "Gestión económica (Resolución 125)",
-     "tesis": "Lousteau creó la política económica más conflictiva de la democracia reciente y renunció sin asumir las consecuencias.",
-     "cuerpo": "La Resolución 125 de retenciones móviles —que establecía un aumento progresivo de las retenciones a la soja según el precio internacional— fue la política económica más divisiva de los últimos 20 años. Lousteau la diseñó como mecanismo de 'desacople' entre precios internacionales y domésticos, pero no calculó el poder de reacción del campo argentino. Cuando el conflicto estalló, el gobierno no dio marcha atrás y Lousteau renunció.\n\nLa renuncia de Lousteau fue presentada como un gesto de coherencia: él creía en la política, pero no en la forma en que el gobierno la estaba gestionando. Sin embargo, la pregunta incómoda es: si diseñaste la política, ¿no sos responsable de sus consecuencias? Lousteau se lavó las manos cuando el conflicto se puso difícil.\n\nEl resultado fue que la Resolución 125 terminó siendo votada en el Senado, con el desempate del vicepresidente Julio Cobos ('el voto no positivo'). La política quedó derogada de hecho, y el conflicto dejó heridas profundas entre el gobierno y el campo que no se cerraron hasta años después.\n\nLousteau se presenta como un técnico que entendió los límites de la política. Pero si entendía los límites, ¿por qué diseñó una política que sabía que iba a generar un conflicto extremo? La 125 fue un error de cálculo monumental, y Lousteau huyó en lugar de quedarse a gestionar las consecuencias.",
-     "evidencia": "Renuncia de Lousteau (abril 2008). Resolución 125: retenciones móviles. Conflicto agropecuario de 129 días. Voto de Cobos. Derogación de facto de la política.",
-     "fuerza": "fuerte",
-     "tema": "economía",
-     "tipo": "fracaso de gestión",
-     "respuesta_esperada": "La Resolución 125 era técnicamente correcta, era un instrumento para desacoplar precios internacionales de domésticos. No calculé la reacción política. Renuncié porque no compartía la forma en que el gobierno manejaba el conflicto.",
-     "refutacion": "Si diseñaste una política técnicamente correcta pero políticamente inviable, el error no es solo del gobierno: es también tuyo como diseñador. Renunciar no fue coherencia: fue eludir la responsabilidad por las consecuencias de tu propia política."
-    },
-    {
-     "area": "Trayectoria política",
-     "tesis": "Lousteau es un político que ha tenido más cargos que logros concretos, y su trayectoria está marcada por la renuncia antes que por la gestión.",
-     "cuerpo": "La carrera de Lousteau tiene un patrón recurrente: asume un cargo, enfrenta dificultades y renuncia o se va antes de tiempo. Fue ministro de Economía por 5 meses. Fue embajador en Estados Unidos por 2 años (se fue antes de terminar el mandato de Fernández). No completó su mandato como diputado en algún período. No lideró un espacio político que haya crecido más allá de su figura.\n\nLousteau es un político que construyó su carrera más sobre su capital técnico y su capacidad crítica que sobre la gestión de resultados. Es excelente para diagnosticar los problemas, pero menos efectivo para resolverlos. Su perfil de 'analista' funciona bien en el Senado y en los medios, pero no lo ha llevado a logros de gestión concretos.\n\nLa embajada en Estados Unidos es un ejemplo: Lousteau era la persona ideal para el cargo —economista formado en Londres, con redes internacionales, buen comunicador en inglés— pero no logró avances significativos en la relación bilateral. El vínculo con Estados Unidos durante su gestión no mejoró sustancialmente. Y cuando decidió renunciar para volver a la política doméstica, dejó el cargo sin un reemplazo claro.\n\nLousteau necesita mostrar que puede hacer más que criticar. Su capital político acumulado le exige pasar del diagnóstico a la gestión de resultados.",
-     "evidencia": "Ministro de Economía: 5 meses. Embajador: 2 años (mandato potencial de 4). Construcción de ECO como partido sin crecimiento nacional. Perfil de analista más que de gestor.",
-     "fuerza": "fuerte",
-     "tema": "política",
-     "tipo": "patrón de conducta",
-     "respuesta_esperada": "Cada renuncia tuvo motivos válidos. No creo en aferrarme a los cargos cuando las condiciones no están dadas. Prefiero la coherencia a la permanencia.",
-     "refutacion": "La coherencia no está reñida con la resiliencia. Todo político enfrenta condiciones adversas. Quedarse y resolver los problemas es más difícil que renunciar. El patrón de Lousteau sugiere más dificultad para la gestión que coherencia ideológica."
-    },
-    {
-     "area": "Posicionamiento ideológico",
-     "tesis": "Lousteau no tiene un anclaje ideológico claro, lo que lo convierte en un político diluido en un espectro que no logra definir.",
-     "cuerpo": "Lousteau ha ocupado un espacio ideológico que él mismo define como 'progresista en lo social, liberal en lo económico'. Pero en la práctica, esta combinación lo ha dejado sin un lugar claro en el mapa político argentino. Para el peronismo, es un economista elitista que aplicó políticas contra el campo. Para el PRO, es un progresista que no termina de alinearse. Para la izquierda, es un liberal encubierto.\n\nSu espacio ECO no logró crecer más allá de CABA. Su incorporación a la UCR fue más táctica que ideológica: necesitaba un partido con estructura para ser candidato en 2023. La UCR le dio un sello, pero no queda claro si Lousteau es radical de convicción o de conveniencia.\n\nEn el Senado, Lousteau se ha posicionado como una voz crítica del gobierno de Milei, pero también crítica del kirchnerismo. Eso lo convierte en un opositor a todo, lo que es intelectualmente honesto pero políticamente estéril. La política argentina premia los bandos claros; Lousteau se niega a elegir uno.\n\nEl resultado es un político respetado pero sin poder real. Su influencia está en los medios y en la academia, no en las decisiones concretas. Para ser relevante, Lousteau necesita definir su espacio y construir poder. Hasta ahora, no lo ha logrado.",
-     "evidencia": "ECO no creció más allá de CABA. Ingreso a la UCR sin identificación ideológica previa. Posicionamiento crítico hacia ambos lados de la grieta. Sin bloque legislativo propio.",
+     "area": "Trayectoria",
+     "tesis": "Cambió de espacio político tantas veces que ya no se sabe cuál es el propio.",
+     "cuerpo": "Lousteau fue ministro de Cristina Kirchner, después referente del radicalismo, después socio del PRO y después crítico del PRO. Cada cambio tuvo una explicación razonable. Juntos cuentan otra cosa: un dirigente que se mueve según el viento. En una elección donde la gente pide coherencia, es un flanco.",
+     "evidencia": "Ministro de Economía 2008; candidato a jefe de Gobierno 2015 y 2023 por espacios distintos.",
      "fuerza": "media-fuerte",
-     "tema": "política",
-     "tipo": "falta de definición",
-     "respuesta_esperada": "La grieta K vs PRO nos tiene anquilosados. Yo propongo un espacio superador: liberal en economía, progresista en derechos, republicano en instituciones. Ese espacio existe y crece aunque no tenga representación masiva.",
-     "refutacion": "Ese espacio existe hace 20 años y nunca superó el 15% de los votos. No es que la grieta no permita alternativas: es que la propuesta de Lousteau no convence suficientemente a los votantes. El diagnóstico de la grieta es correcto, pero la oferta política no logra seducir."
-    },
-    {
-     "area": "Embajada en Estados Unidos",
-     "tesis": "La gestión de Lousteau como embajador fue intrascendente y no generó resultados concretos para la relación bilateral.",
-     "cuerpo": "Cuando Alberto Fernández designó a Lousteau como embajador en Estados Unidos en 2020, la noticia sorprendió. Lousteau era opositor, había criticado al Frente de Todos y no tenía relación política con el gobierno. La interpretación general fue que Fernández buscaba un perfil técnico que pudiera dialogar con la administración Biden.\n\nLousteau estuvo dos años en Washington. Durante ese período, la relación con Estados Unidos no tuvo avances significativos. No se firmaron acuerdos comerciales importantes. El FMI siguió siendo el principal vínculo económico. El gobierno argentino mantuvo una relación distante con Washington.\n\nLousteau renunció en 2022 para volver a la política doméstica, argumentando que 'su ciclo estaba cumplido'. Pero si su ciclo estaba cumplido, ¿qué logró concretamente? No hubo un tratado, un acuerdo de inversiones o un hito diplomático que pueda atribuirse a su gestión.\n\nEl perfil de Lousteau era ideal para el cargo, pero la gestión no estuvo a la altura del perfil. La relación Argentina-EEUU no mejoró durante su mandato, y Lousteau se fue sin dejar una marca reconocible en la diplomacia bilateral.",
-     "evidencia": "Sin acuerdos bilaterales significativos durante su gestión. Renuncia anticipada (2 años de 4). Relación Argentina-EEUU sin cambios sustanciales. Sin hitos diplomáticos atribuibles.",
-     "fuerza": "media",
-     "tema": "política-exterior",
-     "tipo": "gestión intrascendente",
-     "respuesta_esperada": "La diplomacia no se mide por acuerdos espectaculares. Mi rol fue mantener un canal de diálogo abierto con la administración Biden en un contexto de crisis. Eso es más valioso de lo que parece.",
-     "refutacion": "Mantener el canal abierto es el mínimo esperable de un embajador. La pregunta es si Lousteau podría haber logrado más: acercar posiciones en el FMI, atraer inversiones, mejorar el clima bilateral. No hay evidencia de que haya ido más allá del mínimo."
+     "tipo": "Coherencia",
+     "respuesta_esperada": "Que cambiar de opinión es madurez política.",
+     "refutacion": "Puede ser. Cambiar de partido cuatro veces es otra cosa."
     }
    ],
    "vulnerabilidades": [
-    "Patrón de renuncias y abandono de cargos antes de tiempo",
-    "Resolución 125 como mochila histórica (asociación con el conflicto del campo)",
-    "Falta de construcción de poder político propio (ECO sin crecimiento nacional)",
-    "Dilución ideológica entre liberalismo, progresismo y radicalismo",
-    "Gestión intrascendente como embajador en Estados Unidos",
-    "Oposición elocuente pero ineficaz (sin incidencia real en decisiones)"
+    "Ya perdió la Ciudad dos veces.",
+    "Su relación con el PRO y con el radicalismo fue cambiante."
    ],
-   "gancho": "Economista con flequillo. Cambia de alianza sin cargo extra.",
+   "gancho": "Ministro de Cristina, senador radical, candidato eterno de la Ciudad.",
    "a_favor": [
-    "Formación económica sólida y experiencia como ministro de Economía.",
-    "Defiende la universidad pública y el financiamiento científico.",
-    "Perfil moderado que dialoga con el centro."
+    "Es el dirigente con más formación técnica del arco opositor porteño.",
+    "Tiene una banca nacional y una marca propia instalada."
    ],
    "badge": "REACONDICIONADO"
   },
@@ -3522,9 +3397,9 @@
    "nombre": "Diego Valenzuela",
    "slug": "diego-valenzuela",
    "rol": "Intendente de Tres de Febrero",
-   "tag": "PRO",
+   "tag": "El intendente que quiere la Ciudad",
    "color": "#f5c518",
-   "bio": "Intendente de Tres de Febrero desde 2015, reelegido dos veces. Economista y uno de los referentes del PRO bonaerense con perfil dialoguista.",
+   "bio": "Intendente de Tres de Febrero desde 2015, reelegido dos veces. Economista y uno de los dirigentes del PRO con perfil más dialoguista y gestión técnica.",
    "foto": "assets/fotos/valenzuela.jpg",
    "categorias": [],
    "provincia": "Buenos Aires",
@@ -3540,15 +3415,19 @@
    "trayectoria": [
     {
      "fecha": "2015",
-     "evento": "Gana la intendencia de Tres de Febrero, distrito históricamente peronista."
+     "evento": "Asume como intendente de Tres de Febrero."
     },
     {
      "fecha": "2019",
-     "evento": "Reelegido intendente."
+     "evento": "Reelecto."
     },
     {
      "fecha": "2023",
-     "evento": "Vuelve a ganar el municipio."
+     "evento": "Reelecto por tercera vez."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Suena como candidato a jefe de Gobierno porteño."
     }
    ],
    "promesas_cumplidas": [],
@@ -3557,35 +3436,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Gestión municipal",
-     "tesis": "Una década de gestión y los problemas estructurales del distrito siguen.",
-     "cuerpo": "Inundaciones, cloacas y transporte siguen en el centro de los reclamos vecinales. La oposición sostiene que la gestión priorizó obras visibles y comunicación por sobre la infraestructura básica.",
-     "evidencia": "Reclamos vecinales recurrentes por anegamientos y cobertura de servicios.",
+     "area": "Escala",
+     "tesis": "Gestiona un municipio del conurbano y quiere gobernar la capital.",
+     "cuerpo": "Valenzuela hace doce años que gobierna Tres de Febrero, un municipio de 340.000 habitantes. La Ciudad de Buenos Aires tiene 3 millones y un presupuesto varias veces mayor. La gestión municipal se parece poco a la porteña: no hay subte, no hay policía propia y la logística es otra.",
+     "evidencia": "Intendente de Tres de Febrero desde 2015.",
      "fuerza": "media",
-     "tipo": "crítica de gestión",
-     "respuesta_esperada": "Hicimos más obra en diez años que en las décadas anteriores.",
-     "refutacion": "Más obra no es suficiente si las prioridades no son las urgentes."
-    },
-    {
-     "area": "Identidad",
-     "tesis": "Su perfil dialoguista se diluye en un espacio que se corrió a la derecha.",
-     "cuerpo": "El votante moderado que lo eligió no sabe si está votando a un PRO de centro o a un aliado de Milei. La ambigüedad sirve para ganar un municipio, no para construir un proyecto propio.",
-     "evidencia": "Acuerdos electorales PRO-LLA en la provincia en 2025.",
-     "fuerza": "media",
-     "tipo": "crítica de posicionamiento",
-     "respuesta_esperada": "Lo que importa es la gestión, no las etiquetas.",
-     "refutacion": "Las etiquetas definen con quién gobernás."
+     "tipo": "Escala",
+     "respuesta_esperada": "Que la buena gestión se reconoce en cualquier escala.",
+     "refutacion": "Se reconoce, pero no se transfiere automáticamente."
     }
    ],
    "vulnerabilidades": [
-    "Escaso conocimiento fuera de su distrito.",
-    "Posicionamiento ambiguo entre el PRO y La Libertad Avanza."
+    "Tres de Febrero no es la Ciudad: 340.000 habitantes contra 3 millones.",
+    "No tiene estructura propia en CABA."
    ],
-   "gancho": "Intendente de conurbano. Edición no peronista.",
+   "gancho": "Doce años en Tres de Febrero. Ahora quiere el distrito grande.",
    "a_favor": [
-    "Le ganó al peronismo en Tres de Febrero en 2015 y lo retuvo en las elecciones siguientes.",
-    "Perfil dialoguista y de gestión, poco amigo de la grieta.",
-    "Conoce el conurbano desde adentro."
+    "Tiene tres mandatos de gestión municipal con resultados concretos.",
+    "Es el perfil técnico del PRO, sin el desgaste de la confrontación nacional."
    ],
    "badge": ""
   },
@@ -3743,9 +3611,9 @@
    "nombre": "Luis Juez",
    "slug": "luis-juez",
    "rol": "Senador nacional por Córdoba",
-   "tag": "PRO",
+   "tag": "El que ya fue intendente",
    "color": "#f5c518",
-   "bio": "Senador nacional por Córdoba y ex intendente de la ciudad. Dirigente del PRO cordobés, enfrentado al oficialismo provincial.",
+   "bio": "Senador nacional por Córdoba y dirigente del PRO. Fue intendente de la ciudad de Córdoba entre 2003 y 2007, y desde entonces ocupó bancas provinciales y nacionales. Su nombre suena para volver a la intendencia.",
    "foto": "assets/fotos/juez.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -3760,24 +3628,20 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2003",
-     "evento": "Gana la intendencia de la ciudad de Córdoba."
+     "fecha": "2003-2007",
+     "evento": "Intendente de la ciudad de Córdoba."
     },
     {
-     "fecha": "2007",
-     "evento": "Pierde la gobernación con Schiaretti en una elección que denunció como fraudulenta."
-    },
-    {
-     "fecha": "2016",
-     "evento": "Embajador en Ecuador; renuncia en 2017 tras un comentario ofensivo sobre los ecuatorianos."
+     "fecha": "2013-2019",
+     "evento": "Senador nacional por Córdoba."
     },
     {
      "fecha": "2021",
-     "evento": "Vuelve al Senado de la Nación."
+     "evento": "Vuelve al Senado nacional."
     },
     {
-     "fecha": "2023",
-     "evento": "Pierde la gobernación ajustadamente con Martín Llaryora."
+     "fecha": "2026",
+     "evento": "Suena como candidato a intendente de la capital."
     }
    ],
    "promesas_cumplidas": [],
@@ -3786,35 +3650,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Estilo",
-     "tesis": "Sus declaraciones ofensivas le costaron una embajada y le siguen costando votos.",
-     "cuerpo": "Juez construyó su marca con humor y chicana. Pero el mismo estilo lo llevó a renunciar a la embajada en Ecuador por un comentario discriminatorio. La pregunta es si alguien que no puede controlar lo que dice puede manejar una provincia.",
-     "evidencia": "Renuncia a la embajada en Ecuador, 2017.",
+     "area": "Actualidad",
+     "tesis": "Su carta de presentación es una gestión de hace veinte años.",
+     "cuerpo": "Juez fue intendente entre 2003 y 2007. Desde entonces no volvió a administrar nada: fue senador, legislador y candidato. La ciudad cambió más que su currículum. Volver con el recuerdo de una gestión vieja es una apuesta nostálgica.",
+     "evidencia": "Intendente 2003-2007; senador nacional en dos períodos.",
      "fuerza": "media-fuerte",
-     "tipo": "crítica de carácter",
-     "respuesta_esperada": "Fue una broma sacada de contexto y pedí disculpas.",
-     "refutacion": "Un embajador que tiene que pedir disculpas por bromear sobre el país anfitrión no hizo bien su trabajo."
-    },
-    {
-     "area": "Coherencia",
-     "tesis": "Del Frente Cívico progresista a aliado del macrismo y de Milei.",
-     "cuerpo": "Empezó como dirigente de centroizquierda enfrentado al peronismo cordobés. Hoy es aliado de la centroderecha y del gobierno libertario. Para sus críticos, la única constante es el antiperonismo cordobés.",
-     "evidencia": "Alianzas sucesivas: Frente Cívico, Cambiemos, Juntos por el Cambio, acuerdos con LLA.",
-     "fuerza": "media",
-     "tipo": "crítica de coherencia",
-     "respuesta_esperada": "Siempre estuve del mismo lado: contra el que gobierna Córdoba hace 25 años.",
-     "refutacion": "Estar en contra no es un programa de gobierno."
+     "tipo": "Actualidad",
+     "respuesta_esperada": "Que la experiencia no caduca y que la ciudad lo recuerda bien.",
+     "refutacion": "La experiencia no caduca, pero el diagnóstico sí."
     }
    ],
    "vulnerabilidades": [
-    "Perdió dos veces la gobernación.",
-    "Estilo que espanta al votante moderado."
+    "Su gestión municipal terminó hace casi veinte años.",
+    "Es un candidato de confrontación en una ciudad que premia la gestión."
    ],
-   "gancho": "Chicana incluida. Filtro no disponible.",
+   "gancho": "Vuelve por la ciudad que gobernó hace veinte años.",
    "a_favor": [
-    "Fue intendente de la ciudad de Córdoba y conoce la gestión.",
-    "Llegó dos veces muy cerca de la gobernación.",
-    "Discurso directo que conecta con el votante cansado del peronismo cordobés."
+    "Ya gobernó la ciudad y tiene nombre instalado en todo el electorado.",
+    "Es el dirigente opositor con más exposición en la provincia."
    ],
    "badge": "REACONDICIONADO"
   },
@@ -4031,9 +3884,9 @@
    "nombre": "Amalia Granata",
    "slug": "amalia-granata",
    "rol": "Diputada provincial de Santa Fe",
-   "tag": "Unite",
+   "tag": "La mediática que se hizo legisladora",
    "color": "#c95bb5",
-   "bio": "Diputada provincial por Santa Fe desde 2019, reelecta en 2023. Llegó a la política desde la televisión y la militancia contra el aborto legal.",
+   "bio": "Diputada provincial por Santa Fe. Se hizo conocida en los medios antes de entrar a la política y construyó el espacio Unite, con agenda de seguridad y familia. Su nombre suena para la intendencia de Rosario.",
    "foto": "assets/fotos/granata.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -4048,20 +3901,16 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2000s",
-     "evento": "Figura mediática en televisión."
-    },
-    {
-     "fecha": "2018",
-     "evento": "Se vuelve referente del movimiento contra la legalización del aborto."
-    },
-    {
-     "fecha": "2019",
-     "evento": "Electa diputada provincial en Santa Fe."
+     "fecha": "2021",
+     "evento": "Candidata a diputada provincial por Santa Fe."
     },
     {
      "fecha": "2023",
-     "evento": "Reelecta diputada provincial."
+     "evento": "Asume como diputada provincial."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Aparece entre los nombres para la intendencia de Rosario."
     }
    ],
    "promesas_cumplidas": [],
@@ -4070,35 +3919,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Agenda",
-     "tesis": "Una agenda de una sola causa no alcanza para gobernar una ciudad.",
-     "cuerpo": "Su crecimiento político viene de la militancia contra el aborto legal. Rosario necesita respuestas en seguridad, transporte y empleo, temas en los que no tiene antecedentes de gestión.",
-     "evidencia": "Proyectos presentados y discurso público centrado en la agenda provida y de familia.",
-     "fuerza": "media-fuerte",
-     "tipo": "crítica de capacidad",
-     "respuesta_esperada": "Defiendo a la familia y la seguridad de los rosarinos.",
-     "refutacion": "Defender no es gestionar: falta el cómo."
-    },
-    {
-     "area": "Estilo",
-     "tesis": "Polémicas mediáticas antes que propuestas.",
-     "cuerpo": "Buena parte de su presencia pública son cruces en redes y televisión. Funciona para instalarse, pero no muestra equipo ni plan.",
-     "evidencia": "Repercusión de sus intervenciones en medios y redes.",
+     "area": "Sustancia",
+     "tesis": "Tiene llegada y no tiene equipo.",
+     "cuerpo": "Granata puede llenar un acto y poner un tema en la agenda. Lo que no tiene es una estructura municipal: gente que sepa de transporte, de residuos, de presupuesto. La intendencia de Rosario no se gobierna con agenda mediática.",
+     "evidencia": "Diputada provincial desde 2023; espacio Unite de creación reciente.",
      "fuerza": "media",
-     "tipo": "crítica de estilo",
-     "respuesta_esperada": "Digo lo que la gente piensa y no se anima a decir.",
-     "refutacion": "Decirlo no es lo mismo que resolverlo."
+     "tipo": "Experiencia",
+     "respuesta_esperada": "Que la agenda se cambia desde el Ejecutivo y que para eso hay que ganar.",
+     "refutacion": "Exacto. Y para ganar hay que tener algo más que agenda."
     }
    ],
    "vulnerabilidades": [
-    "Sin experiencia ejecutiva.",
-    "Techo electoral en el votante progresista."
+    "Su carrera se construyó en los medios, no en la gestión.",
+    "Unite es un espacio nuevo, sin estructura municipal."
    ],
-   "gancho": "De la tele a la Legislatura. Con pañuelo celeste.",
+   "gancho": "Famosas primero, diputada después. Rosario es el próximo paso.",
    "a_favor": [
-    "Muy alta exposición mediática y llegada a votantes poco politizados.",
-    "Representa con claridad al electorado provida.",
-    "Fue reelecta: su electorado le es fiel."
+    "Tiene un nivel de conocimiento que ningún dirigente rosarino alcanza.",
+    "Instaló la agenda de seguridad con una voz propia."
    ],
    "badge": ""
   },
@@ -4251,9 +4089,9 @@
    "nombre": "Rodolfo Suarez",
    "slug": "rodolfo-suarez",
    "rol": "Ex gobernador de Mendoza",
-   "tag": "UCR",
+   "tag": "El ex gobernador que vuelve",
    "color": "#e03e3e",
-   "bio": "Ex gobernador de Mendoza entre 2019 y 2023 y ex intendente de la capital. Referente del radicalismo provincial.",
+   "bio": "Ex gobernador de Mendoza entre 2019 y 2023 y ex intendente de la capital entre 2014 y 2019. Senador nacional por Mendoza. Confirmó sus intenciones de volver a la intendencia de la ciudad.",
    "foto": "assets/fotos/suarez.jpg",
    "categorias": [],
    "provincia": "Mendoza",
@@ -4268,20 +4106,16 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2015",
-     "evento": "Intendente de la ciudad de Mendoza."
+     "fecha": "2014-2019",
+     "evento": "Intendente de la Ciudad de Mendoza."
     },
     {
-     "fecha": "2019",
+     "fecha": "2019-2023",
      "evento": "Gobernador de Mendoza."
     },
     {
-     "fecha": "2019",
-     "evento": "Reforma la ley 7722 sobre minería y la deroga días después ante protestas masivas."
-    },
-    {
      "fecha": "2023",
-     "evento": "Termina su mandato; Mendoza pierde el proyecto Portezuelo del Viento."
+     "evento": "Asume como senador nacional."
     }
    ],
    "promesas_cumplidas": [],
@@ -4290,35 +4124,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Agua y minería",
-     "tesis": "Quiso cambiar la ley que protege el agua y tuvo que retroceder en una semana.",
-     "cuerpo": "En diciembre de 2019 impulsó la reforma de la ley 7722 para habilitar el uso de sustancias químicas en la minería. Las protestas masivas lo obligaron a derogarla días después. Fue la crisis política más grande de su gestión.",
-     "evidencia": "Sanción y derogación de la reforma a la ley 7722, diciembre de 2019.",
-     "fuerza": "fuerte",
-     "tipo": "crítica de gestión",
-     "respuesta_esperada": "Escuchamos a los mendocinos y dimos marcha atrás.",
-     "refutacion": "Escuchar después de votar es tarde."
-    },
-    {
-     "area": "Obra pública",
-     "tesis": "Portezuelo del Viento se cayó bajo su gobierno.",
-     "cuerpo": "La represa era una obra histórica para el sur provincial. El laudo presidencial favorable a La Pampa terminó con el proyecto. Sus críticos dicen que la provincia no supo defenderlo a tiempo.",
-     "evidencia": "Laudo sobre Portezuelo del Viento, 2023.",
-     "fuerza": "media-fuerte",
-     "tipo": "crítica de gestión",
-     "respuesta_esperada": "Fue una decisión política del gobierno nacional.",
-     "refutacion": "Mendoza tenía años para blindar el proyecto."
+     "area": "Regreso",
+     "tesis": "Dejó la ciudad para gobernar la provincia y ahora quiere volver.",
+     "cuerpo": "Rodolfo Suarez fue intendente, después gobernador y después senador. Volver a la intendencia es volver al punto de partida después de ocho años. La pregunta que no responde es por qué la ciudad tendría que premiar el regreso.",
+     "evidencia": "Intendente 2014-2019, gobernador 2019-2023, senador desde 2023.",
+     "fuerza": "media",
+     "tipo": "Regreso",
+     "respuesta_esperada": "Que tiene cuentas pendientes con la ciudad.",
+     "refutacion": "Puede ser. Las cuentas pendientes se explican en campaña."
     }
    ],
    "vulnerabilidades": [
-    "Asociado a la crisis de la ley 7722.",
-    "Bajo perfil desde que dejó el cargo."
+    "Vuelve a un cargo que ya dejó, con el desgaste de la gobernación.",
+    "Su regreso compite con la sucesión de su propio espacio."
    ],
-   "gancho": "Ex gobernador. Viene sin Portezuelo.",
+   "gancho": "Dejó la gobernación y quiere recuperar la ciudad.",
    "a_favor": [
-    "Gobernó la provincia y antes la capital: experiencia completa.",
-    "Mantuvo el orden fiscal de Mendoza durante la pandemia.",
-    "Perfil de gestión, poco confrontativo."
+    "Tiene gestión municipal y provincial, algo que casi ningún candidato puede mostrar.",
+    "Es una figura con consenso dentro del radicalismo mendocino."
    ],
    "badge": ""
   },
@@ -4479,9 +4302,9 @@
    "nombre": "Daniel Passerini",
    "slug": "daniel-passerini",
    "rol": "Intendente de la ciudad de Córdoba",
-   "tag": "Hacemos Unidos por Córdoba",
+   "tag": "El intendente que heredó la ciudad",
    "color": "#4aa3a0",
-   "bio": "Intendente de la ciudad de Córdoba desde 2023. Fue viceintendente de Martín Llaryora y legislador provincial.",
+   "bio": "Médico y dirigente del llaryorismo. Fue viceintendente de Martín Llaryora y asumió como intendente de la ciudad de Córdoba en diciembre de 2023. No puede buscar la reelección en 2027.",
    "foto": "assets/fotos/passerini.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -4496,12 +4319,12 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2019",
-     "evento": "Viceintendente de Córdoba con Martín Llaryora."
+     "fecha": "2019-2023",
+     "evento": "Viceintendente de la ciudad de Córdoba."
     },
     {
      "fecha": "2023",
-     "evento": "Gana la intendencia de la ciudad de Córdoba."
+     "evento": "Asume como intendente de Córdoba."
     }
    ],
    "promesas_cumplidas": [],
@@ -4510,35 +4333,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Servicios",
-     "tesis": "El transporte urbano sigue siendo el gran problema sin resolver.",
-     "cuerpo": "Conflictos con las empresas, paros y frecuencias bajas son una constante en Córdoba. La gestión cambió de nombre, pero los usuarios siguen esperando el colectivo.",
-     "evidencia": "Paros y conflictos en el transporte urbano de Córdoba.",
-     "fuerza": "media-fuerte",
-     "tipo": "crítica de gestión",
-     "respuesta_esperada": "Estamos reordenando un sistema que heredamos quebrado.",
-     "refutacion": "Lo heredaron de su propio espacio."
-    },
-    {
      "area": "Continuidad",
-     "tesis": "Cambia la cara, no el sistema.",
-     "cuerpo": "El mismo partido gobierna Córdoba desde 1999 y la capital desde 2019. La oposición sostiene que la alternancia es una necesidad institucional.",
-     "evidencia": "Unión por Córdoba / Hacemos Unidos en el gobierno provincial desde 1999.",
+     "tesis": "Gobierna la ciudad que le dejaron armada.",
+     "cuerpo": "Passerini no armó su propio gobierno: continuó el de Llaryora, con los mismos secretarios y el mismo esquema. Eso da estabilidad y también quita margen para mostrar algo propio. En 2027 la pregunta no va a ser qué hizo, sino qué dejó de hacer.",
+     "evidencia": "Fue viceintendente de Llaryora y asumió la intendencia en 2023 con continuidad de gabinete.",
      "fuerza": "media",
-     "tipo": "crítica institucional",
-     "respuesta_esperada": "Los cordobeses eligen la gestión que funciona.",
-     "refutacion": "Veinticinco años sin alternancia no es sano para ninguna democracia."
+     "tipo": "Continuidad",
+     "respuesta_esperada": "Que la continuidad era lo que la ciudad necesitaba después de una transición.",
+     "refutacion": "Puede ser. Pero una continuidad sin obra propia se defiende con el presupuesto del anterior."
     }
    ],
    "vulnerabilidades": [
-    "Tasas municipales y transporte.",
-    "Dependencia del armado de Llaryora."
+    "No puede reelegir y su sucesión es parte de la interna provincial.",
+    "El transporte y la limpieza son las deudas más visibles."
    ],
-   "gancho": "Médico de cabecera del cordobesismo.",
+   "gancho": "Llegó de la mano de Llaryora y ahora tiene que defender la propia.",
    "a_favor": [
-    "Médico, con experiencia en el área de salud.",
-    "Conoce la gestión municipal como viceintendente y como intendente.",
-    "Le ganó a la oposición unida en 2023."
+    "Conoce la municipalidad desde adentro y tiene aceitada la relación con la provincia.",
+    "Mantuvo el esquema de gestión que heredó sin rupturas."
    ],
    "badge": ""
   },
@@ -4547,9 +4359,9 @@
    "nombre": "Pablo Javkin",
    "slug": "pablo-javkin",
    "rol": "Intendente de Rosario",
-   "tag": "UCR",
+   "tag": "El intendente que ya lleva dos",
    "color": "#e03e3e",
-   "bio": "Intendente de Rosario desde 2019, reelegido en 2023. Dirigente radical con perfil técnico.",
+   "bio": "Intendente de Rosario desde 2019, reelegido en 2023. Dirigente radical, fue concejal y diputado nacional. No puede buscar un tercer mandato consecutivo.",
    "foto": "assets/fotos/javkin.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -4564,16 +4376,20 @@
    ],
    "trayectoria": [
     {
+     "fecha": "2011-2015",
+     "evento": "Concejal de Rosario."
+    },
+    {
+     "fecha": "2015-2019",
+     "evento": "Diputado nacional por Santa Fe."
+    },
+    {
      "fecha": "2019",
-     "evento": "Gana la intendencia de Rosario."
+     "evento": "Asume como intendente de Rosario."
     },
     {
      "fecha": "2023",
-     "evento": "Reelegido intendente."
-    },
-    {
-     "fecha": "2024",
-     "evento": "Rosario registra una fuerte baja de homicidios."
+     "evento": "Reelecto."
     }
    ],
    "promesas_cumplidas": [],
@@ -4583,34 +4399,23 @@
    "criticas": [
     {
      "area": "Seguridad",
-     "tesis": "Rosario vivió sus años más violentos con él como intendente.",
-     "cuerpo": "Aunque la seguridad depende sobre todo de la provincia, la ciudad sufrió ataques narco, amenazas y récords de homicidios durante su primer mandato. Sus críticos sostienen que tardó en asumir un rol activo.",
-     "evidencia": "Récords de homicidios en Rosario entre 2020 y 2023.",
-     "fuerza": "media-fuerte",
-     "tipo": "crítica de gestión",
-     "respuesta_esperada": "La seguridad es responsabilidad de la provincia y la Nación, y nosotros hicimos todo lo que podíamos.",
-     "refutacion": "Un intendente también ordena el territorio: iluminación, control, urbanismo."
-    },
-    {
-     "area": "Servicios",
-     "tesis": "Transporte y limpieza, reclamos que no ceden.",
-     "cuerpo": "La crisis del transporte urbano y la recolección de residuos son reclamos constantes.",
-     "evidencia": "Conflictos del transporte urbano rosarino.",
-     "fuerza": "media",
-     "tipo": "crítica de gestión",
-     "respuesta_esperada": "El transporte es un problema de todas las ciudades del interior por los subsidios.",
-     "refutacion": "Por eso mismo hacía falta un plan propio."
+     "tesis": "Ocho años de gestión y la ciudad sigue marcada por la violencia.",
+     "cuerpo": "Javkin llegó a la intendencia en 2019 con la seguridad como tema central y la ciudad sigue teniendo tasas de homicidio entre las más altas del país. La competencia municipal es limitada, pero el intendente es la cara visible. Dos mandatos después, la deuda sigue siendo la misma.",
+     "evidencia": "Intendente desde 2019; Rosario mantiene indicadores de homicidio entre los más altos del país.",
+     "fuerza": "fuerte",
+     "tipo": "Gestión",
+     "respuesta_esperada": "Que la seguridad es competencia provincial y que él no tiene la policía.",
+     "refutacion": "Es cierto y es la defensa de todos los intendentes. También es la razón por la que la gente vota al que promete otra cosa."
     }
    ],
    "vulnerabilidades": [
-    "Asociado a los años de violencia.",
-    "Depende de la coalición provincial."
+    "La seguridad es la deuda que atraviesa sus dos mandatos.",
+    "No puede reelegir y su sucesión es una interna abierta."
    ],
-   "gancho": "Intendente de Rosario. Sobrevivió a los peores años.",
+   "gancho": "Dos mandatos, una ciudad y la seguridad sin resolver.",
    "a_favor": [
-    "Gobernó Rosario en el peor momento de violencia y la vio empezar a bajar.",
-    "Perfil técnico y dialoguista.",
-    "Coordinó con la provincia y la Nación en seguridad sin pelearse por la foto."
+    "Ordenó la municipalidad y mejoró la recaudación.",
+    "Es un intendente con diálogo abierto con el gobierno provincial."
    ],
    "badge": ""
   },
@@ -4619,9 +4424,9 @@
    "nombre": "Juan Monteverde",
    "slug": "juan-monteverde",
    "rol": "Referente de Ciudad Futura",
-   "tag": "Ciudad Futura",
+   "tag": "El sur como proyecto",
    "color": "#7a5cc4",
-   "bio": "Fundador de Ciudad Futura, espacio surgido de cooperativas y organizaciones barriales de Rosario. Fue candidato a intendente en 2023.",
+   "bio": "Fundador de Ciudad Futura, el espacio político que nació en el sur de Rosario y que administra el distrito municipal de la zona. Fue candidato a intendente y es una de las referencias de la izquierda rosarina.",
    "foto": "",
    "categorias": [],
    "provincia": "Santa Fe",
@@ -4636,12 +4441,16 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2013",
-     "evento": "Ciudad Futura entra al Concejo Municipal de Rosario."
+     "fecha": "2011",
+     "evento": "Funda Ciudad Futura."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Primera candidatura a intendente."
     },
     {
      "fecha": "2023",
-     "evento": "Candidato a intendente de Rosario; pierde con Pablo Javkin."
+     "evento": "Candidato a intendente y concejal."
     }
    ],
    "promesas_cumplidas": [],
@@ -4650,35 +4459,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Escala",
-     "tesis": "Una experiencia barrial no es lo mismo que gobernar una ciudad de un millón.",
-     "cuerpo": "Las cooperativas y proyectos de Ciudad Futura muestran capacidad de organización, pero en escala chica. La intendencia requiere administrar presupuestos, servicios y seguridad.",
-     "evidencia": "Trayectoria: concejal y organizador social, sin cargos ejecutivos.",
+     "area": "Alcance",
+     "tesis": "Su gestión es real pero su electorado es un tercio de la ciudad.",
+     "cuerpo": "Monteverde tiene algo que casi ningún candidato tiene: gestión con presupuesto. El problema es geográfico. Ciudad Futura construyó su base en el sur, y el sur no alcanza para ganar Rosario. Para ser intendente tiene que hablarle a la ciudad que no lo votó nunca.",
+     "evidencia": "Ciudad Futura administra el distrito sur de Rosario y compite desde 2011.",
      "fuerza": "media",
-     "tipo": "crítica de capacidad",
-     "respuesta_esperada": "Demostramos que se puede gestionar distinto.",
-     "refutacion": "En pequeño. Falta demostrarlo en grande."
-    },
-    {
-     "area": "Alianzas",
-     "tesis": "Para competir se alió con el peronismo que criticaba.",
-     "cuerpo": "En 2023 compitió con apoyo de sectores del peronismo, a pesar de haber construido su identidad como alternativa a los partidos tradicionales.",
-     "evidencia": "Armado electoral de 2023 en Rosario.",
-     "fuerza": "media",
-     "tipo": "crítica de coherencia",
-     "respuesta_esperada": "Sumamos a quienes compartían un proyecto para Rosario.",
-     "refutacion": "Es el mismo argumento que usan todos."
+     "tipo": "Alcance",
+     "respuesta_esperada": "Que el sur es la parte de la ciudad que más necesita y que eso se contagia.",
+     "refutacion": "Puede ser. Pero la elección se gana sumando el centro y el norte."
     }
    ],
    "vulnerabilidades": [
-    "Sin experiencia ejecutiva.",
-    "Techo en el votante de centro."
+    "Su base es el sur y la ciudad es mucho más que el sur.",
+    "La izquierda rosarina nunca disputó la intendencia en serio."
    ],
-   "gancho": "Cooperativista. Sin intermediarios (salvo el Concejo).",
+   "gancho": "Gobierna un distrito y propone una ciudad.",
    "a_favor": [
-    "Construyó Ciudad Futura desde los barrios, con cooperativas y escuelas.",
-    "Representa una izquierda que gestiona proyectos concretos.",
-    "Quedó cerca de ganar la intendencia en 2023."
+    "Tiene gestión territorial en el distrito sur, con presupuesto y equipos.",
+    "Es el espacio que más construyó en los barrios donde otros no llegan."
    ],
    "badge": ""
   },
@@ -4687,9 +4485,9 @@
    "nombre": "Ulpiano Suarez",
    "slug": "ulpiano-suarez",
    "rol": "Intendente de la ciudad de Mendoza",
-   "tag": "UCR",
+   "tag": "La ciudad ordenada",
    "color": "#e03e3e",
-   "bio": "Intendente de la ciudad de Mendoza desde 2019, reelegido en 2023.",
+   "bio": "Intendente de la ciudad de Mendoza desde 2019, reelegido en 2023. Dirigente radical, sobrino de Rodolfo Suarez. Su nombre suena para la gobernación y también para la reelección en la capital.",
    "foto": "assets/fotos/ulpiano.jpg",
    "categorias": [],
    "provincia": "Mendoza",
@@ -4704,12 +4502,16 @@
    ],
    "trayectoria": [
     {
+     "fecha": "2015-2019",
+     "evento": "Secretario de Gobierno de la Municipalidad de Mendoza."
+    },
+    {
      "fecha": "2019",
-     "evento": "Gana la intendencia de la ciudad de Mendoza."
+     "evento": "Asume como intendente de la ciudad."
     },
     {
      "fecha": "2023",
-     "evento": "Reelegido intendente."
+     "evento": "Reelecto."
     }
    ],
    "promesas_cumplidas": [],
@@ -4718,35 +4520,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Espacio público",
-     "tesis": "Orden para unos, expulsión para otros.",
-     "cuerpo": "Las ordenanzas sobre cuidacoches y uso del espacio público fueron celebradas por muchos vecinos y criticadas por organizaciones sociales, que denuncian que se persigue la pobreza en lugar de resolverla.",
-     "evidencia": "Ordenanzas municipales sobre cuidacoches y venta ambulante.",
+     "area": "Escala",
+     "tesis": "Gobierna una ciudad de 120.000 habitantes y quiere la provincia.",
+     "cuerpo": "Ulpiano Suarez tiene la capital más ordenada del Gran Mendoza y eso es un activo real. También es una escala chica: 120.000 habitantes contra 2 millones, con áreas metropolitanas que no dependen de la municipalidad.",
+     "evidencia": "Intendente de la Ciudad de Mendoza desde 2019; la provincia tiene cerca de 2 millones de habitantes.",
      "fuerza": "media",
-     "tipo": "crítica de enfoque",
-     "respuesta_esperada": "Los vecinos pidieron orden y les dimos orden.",
-     "refutacion": "El problema social sigue ahí, sólo cambió de cuadra."
-    },
-    {
-     "area": "Proyección",
-     "tesis": "Gestión de una ciudad chica, ambición de una provincia.",
-     "cuerpo": "La ciudad de Mendoza es una parte pequeña del Gran Mendoza. Sus críticos dudan de que su experiencia escale.",
-     "evidencia": "Población de la ciudad capital frente al área metropolitana.",
-     "fuerza": "media",
-     "tipo": "crítica de trayectoria",
-     "respuesta_esperada": "Gestionar bien no depende del tamaño.",
-     "refutacion": "Depende, y bastante."
+     "tipo": "Escala",
+     "respuesta_esperada": "Que la capital es el símbolo de la provincia y que la gestión se compara.",
+     "refutacion": "Se compara en la capital. La provincia se gobierna en los departamentos."
     }
    ],
    "vulnerabilidades": [
-    "Bajo conocimiento fuera de la capital.",
-    "Depende de la conducción de Cornejo."
+    "La capital tiene 120.000 habitantes y la provincia 2 millones.",
+    "Su carrera está atada al apellido Suarez."
    ],
-   "gancho": "Intendente prolijo. Viene con veredas.",
+   "gancho": "Mendoza capital funciona. La provincia es otra conversación.",
    "a_favor": [
-    "Ciudad con buena calificación en limpieza y espacio público.",
-    "Reelegido con amplio margen.",
-    "Continuidad de un modelo ordenado de gestión."
+    "Tiene una gestión ordenada y visible en la capital.",
+    "Es el intendente con mejor imagen del Gran Mendoza."
    ],
    "badge": ""
   },
@@ -5875,9 +5666,9 @@
    "nombre": "Ramiro Marra",
    "slug": "ramiro-marra",
    "rol": "Legislador de la Ciudad",
-   "tag": "La Libertad Avanza",
+   "tag": "El financista que se hizo político",
    "color": "#8e6cef",
-   "bio": "Legislador porteño y financista. Fue candidato a jefe de gobierno de la Ciudad en 2023.",
+   "bio": "Financista y legislador de la Ciudad de Buenos Aires. Fue candidato a jefe de Gobierno en 2023 por La Libertad Avanza y construyó una figura pública sobre redes sociales y contenido económico.",
    "foto": "assets/fotos/marra.jpg",
    "categorias": [],
    "provincia": "Nacional",
@@ -5893,15 +5684,11 @@
    "trayectoria": [
     {
      "fecha": "2021",
-     "evento": "Electo legislador porteño por La Libertad Avanza."
+     "evento": "Asume como legislador porteño por La Libertad Avanza."
     },
     {
      "fecha": "2023",
-     "evento": "Candidato a jefe de Gobierno porteño."
-    },
-    {
-     "fecha": "2025",
-     "evento": "Es expulsado de La Libertad Avanza y compite por fuera."
+     "evento": "Candidato a jefe de Gobierno de la Ciudad."
     }
    ],
    "promesas_cumplidas": [],
@@ -5910,35 +5697,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Coherencia",
-     "tesis": "Su principal capital era Milei, y Milei lo echó.",
-     "cuerpo": "Construyó su carrera como libertario fundador. La conducción de LLA lo expulsó y quedó compitiendo contra el espacio que ayudó a crear.",
-     "evidencia": "Expulsión de LLA, 2025.",
-     "fuerza": "fuerte",
-     "tipo": "crítica política",
-     "respuesta_esperada": "Me fui porque el espacio se llenó de casta.",
-     "refutacion": "No te fuiste: te echaron."
-    },
-    {
-     "area": "Electoral",
-     "tesis": "Quedó tercero en la Ciudad en 2023.",
-     "cuerpo": "En la elección porteña de 2023 quedó lejos de Jorge Macri y de Leandro Santoro.",
-     "evidencia": "Elección a jefe de Gobierno, 2023.",
+     "area": "Sustancia",
+     "tesis": "Es el candidato con más alcance y menos gestión.",
+     "cuerpo": "Marra tiene línea directa con un electorado que ningún otro dirigente alcanza. También tiene el currículum más corto: una banca legislativa y una candidatura. Gobernar la Ciudad es transporte, salud, educación y 8 millones de viajes diarios. El marketing abre la puerta; después hay que entrar.",
+     "evidencia": "Legislador porteño desde 2021 y candidato a jefe de Gobierno en 2023.",
      "fuerza": "media",
-     "tipo": "crítica electoral",
-     "respuesta_esperada": "Fue la primera elección del espacio en la Ciudad.",
-     "refutacion": "Y la mejor de Milei a nivel nacional."
+     "tipo": "Experiencia",
+     "respuesta_esperada": "Que la Ciudad también se puede ordenar desde el marketing.",
+     "refutacion": "Se puede comunicar. Administrar es otra cosa."
     }
    ],
    "vulnerabilidades": [
-    "Sin sello partidario fuerte.",
-    "Enfrentado a la conducción libertaria."
+    "Su figura pública se construyó en redes, no en gestión.",
+    "La relación con el espacio libertario fue cambiante."
    ],
-   "gancho": "Financista libertario. Expulsado del local original.",
+   "gancho": "Timba, Twitter y boleta. El liberalismo en modo marketing.",
    "a_favor": [
-    "Fue de los primeros en sumarse a Milei.",
-    "Conoce el mundo financiero y de inversiones.",
-    "Comunicador con fuerte presencia en redes."
+    "Tiene una audiencia propia que ningún otro candidato porteño tiene.",
+    "Es el nombre más identificado con el electorado liberal joven."
    ],
    "badge": "REACONDICIONADO"
   },
@@ -5947,9 +5723,9 @@
    "nombre": "Leandro Santoro",
    "slug": "leandro-santoro",
    "rol": "Diputado nacional por la Ciudad",
-   "tag": "Unión por la Patria",
+   "tag": "El peronismo porteño en su tercera",
    "color": "#3b8ed0",
-   "bio": "Diputado nacional por la Ciudad de Buenos Aires. Fue candidato a jefe de gobierno porteño en 2023.",
+   "bio": "Diputado nacional por la Ciudad de Buenos Aires. Fue candidato a jefe de Gobierno en 2023 y es una de las figuras más visibles del peronismo porteño, con perfil de centro y discurso económico moderado.",
    "foto": "assets/fotos/santoro.jpg",
    "categorias": [],
    "provincia": "Nacional",
@@ -5964,24 +5740,16 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2000s",
-     "evento": "Militante radical alfonsinista."
-    },
-    {
      "fecha": "2019",
-     "evento": "Legislador porteño."
+     "evento": "Candidato a vicejefe de Gobierno de la Ciudad."
     },
     {
      "fecha": "2021",
-     "evento": "Diputado nacional por el Frente de Todos."
+     "evento": "Asume como diputado nacional por CABA."
     },
     {
      "fecha": "2023",
-     "evento": "Candidato a jefe de Gobierno; pierde con Jorge Macri."
-    },
-    {
-     "fecha": "2025",
-     "evento": "Encabeza la lista peronista en la elección legislativa porteña."
+     "evento": "Candidato a jefe de Gobierno por Unión por la Patria."
     }
    ],
    "promesas_cumplidas": [],
@@ -5990,35 +5758,24 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Coherencia",
-     "tesis": "De radical a candidato del peronismo kirchnerista.",
-     "cuerpo": "Sus críticos le reprochan haber dejado la UCR para sumarse al espacio que el radicalismo históricamente enfrentó.",
-     "evidencia": "Trayectoria partidaria.",
+     "area": "Resultado",
+     "tesis": "Su techo electoral ya está medido y no alcanza.",
+     "cuerpo": "Santoro compite por tercera vez por la Ciudad. En 2023 perdió con una diferencia amplia y el peronismo porteño no logró romper el techo histórico. Insistir con el mismo candidato y el mismo diagnóstico es una forma de no cambiar nada para que todo cambie.",
+     "evidencia": "Candidaturas a la Ciudad en 2019 y 2023; diputado nacional desde 2021.",
      "fuerza": "media",
-     "tipo": "crítica de coherencia",
-     "respuesta_esperada": "Soy alfonsinista; el que se movió fue el radicalismo.",
-     "refutacion": "Es una explicación cómoda."
-    },
-    {
-     "area": "Electoral",
-     "tesis": "Perdió en la Ciudad dos veces.",
-     "cuerpo": "En 2023 y 2025 encabezó al peronismo porteño sin poder ganar.",
-     "evidencia": "Elecciones porteñas de 2023 y 2025.",
-     "fuerza": "media-fuerte",
-     "tipo": "crítica electoral",
-     "respuesta_esperada": "Hicimos la mejor elección del peronismo en la Ciudad en años.",
-     "refutacion": "La mejor derrota sigue siendo derrota."
+     "tipo": "Resultado",
+     "respuesta_esperada": "Que esta vez el escenario nacional es distinto.",
+     "refutacion": "Puede ser. El candidato, en cambio, es el mismo."
     }
    ],
    "vulnerabilidades": [
-    "Techo del peronismo en la Ciudad.",
-    "Desconfianza del radicalismo."
+    "Ya perdió la Ciudad dos veces.",
+    "El peronismo porteño no superó el 35% en ninguna elección reciente."
    ],
-   "gancho": "Radical alfonsinista. Ahora en góndola peronista.",
+   "gancho": "Ya fue dos veces. La tercera viene con la misma encuesta.",
    "a_favor": [
-    "Gran orador con formación política.",
-    "Puede hablarle a la clase media porteña desde el peronismo.",
-    "Coherencia en su defensa del Estado y la educación pública."
+    "Es el dirigente del peronismo porteño con mejor imagen en el electorado de centro.",
+    "Tiene recorrido legislativo y una posición clara en temas económicos."
    ],
    "badge": ""
   },
@@ -6268,9 +6025,9 @@
    "nombre": "Natalia de la Sota",
    "slug": "natalia-de-la-sota",
    "rol": "Diputada nacional por Córdoba",
-   "tag": "",
+   "tag": "Heredera del cordobesismo, hoy por fuera",
    "color": "#c8102e",
-   "bio": "Hija de José Manuel de la Sota y referente de Defendamos Córdoba. Dijo que no descarta ser candidata a gobernadora y que ve muy difícil un acuerdo con Llaryora.",
+   "bio": "Docente y política del Partido Justicialista. Es hija de José Manuel de la Sota y nieta de Arturo Zanichelli, los dos gobernadores de Córdoba. Entró a la función pública en 2011, fue concejala de la ciudad y legisladora provincial antes de llegar a la Cámara de Diputados en 2021. Renovó su banca en 2025 al frente de Defendamos Córdoba, con 170.837 votos, y desde ahí construyó un espacio propio, enfrentado al gobernador Llaryora y alineado con el kirchnerismo.",
    "foto": "assets/fotos/delasota.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -6283,15 +6040,79 @@
     55,
     50
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2011-2015",
+     "evento": "Directora de Gestiones Institucionales en la gobernación de su padre, José Manuel de la Sota."
+    },
+    {
+     "fecha": "2015-2019",
+     "evento": "Concejala de la ciudad de Córdoba."
+    },
+    {
+     "fecha": "2019-2021",
+     "evento": "Legisladora provincial por distrito único."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Electa diputada nacional por Córdoba, primera en la lista de Hacemos por Córdoba, con 491.969 votos."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Renueva la banca con Defendamos Córdoba: 170.837 votos, 8,75%."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Dice que no descarta ser candidata a gobernadora y que ve imposible un acuerdo con Llaryora."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Origen de la carrera",
+     "tesis": "Llegó a la política con el apellido y el cargo llegó antes que la elección.",
+     "cuerpo": "Natalia de la Sota no se hizo en la militancia ni en la gestión: se hizo en el despacho de su padre. Su primer cargo público fue Directora de Gestiones Institucionales en la gobernación de José Manuel de la Sota, entre 2011 y 2015. Recién después vino la elección, con el apellido ya instalado en toda la provincia. La pregunta no es si tiene capacidad, es si hubiera llegado al mismo lugar sin el apellido. Su hermana Candelaria también suena para cargos, lo que refuerza la lectura dinástica.",
+     "evidencia": "Wikipedia: Directora de Gestiones Institucionales 2011-2015 en la gobernación de su padre. Declaraciones de 2026 sobre la eventual candidatura de su hermana Candelaria, que ella misma respaldó.",
+     "fuerza": "fuerte",
+     "tipo": "Trayectoria",
+     "respuesta_esperada": "Que el apellido abre puertas y que eso no descalifica a nadie.",
+     "refutacion": "El apellido abre la puerta, no gana la elección. En 2025 sacó 8,75% sin el aparato provincial, y eso no lo consigue un apellido solo."
+    },
+    {
+     "area": "Coherencia de pertenencia",
+     "tesis": "Cambió tres veces de sello en cuatro años y ahora se reclama heredera del cordobesismo.",
+     "cuerpo": "En 2023 estaba en Hacemos por Córdoba y en Hacemos Coalición Federal. En 2025 armó Defendamos Córdoba y se alineó con el kirchnerismo, despegándose de Llaryora. Las tres cosas pueden ser legítimas, pero juntas cuentan una historia: la pertenencia se ajusta según la elección. Quien se define por oposición a un gobernador de su propio partido tiene que explicar qué queda del proyecto original cuando el proyecto original era ese gobernador.",
+     "evidencia": "Afilaciones declaradas: Hacemos por Córdoba (2023), Hacemos Coalición Federal (2023-2024), Defendamos Córdoba (2025). Cobertura periodística de su ruptura con Llaryora.",
+     "fuerza": "media-fuerte",
+     "tipo": "Pertenencia",
+     "respuesta_esperada": "Que el cordobesismo se terminó con su padre y que ella representa otra cosa.",
+     "refutacion": "Puede ser cierto. Pero si el cordobesismo se terminó, no se puede reclamar su herencia en la misma campaña."
+    },
+    {
+     "area": "Gestión",
+     "tesis": "Pide gobernar una provincia que nunca administró.",
+     "cuerpo": "Su recorrido es legislativo y de oficina: concejala, legisladora, diputada. Nunca tuvo a cargo un municipio, un ministerio ni un presupuesto de ejecución. Gobernar Córdoba son 5 millones de personas, 26 departamentos, una caja provincial y una policía. El currículum no dice que no pueda, dice que no lo hizo.",
+     "evidencia": "Trayectoria pública completa: gestión institucional, Concejo Deliberante, Legislatura, Cámara de Diputados.",
+     "fuerza": "media",
+     "tipo": "Experiencia",
+     "respuesta_esperada": "Que la Legislatura también es gestión y que gobernadores sin municipio hubo muchos.",
+     "refutacion": "Cierto, pero todos llegaron con un equipo de gestión probado. Ella todavía no lo mostró."
+    }
+   ],
+   "vulnerabilidades": [
+    "Toda su carrera pública empezó en el gobierno de su padre.",
+    "Nunca gestionó un municipio ni una cartera con presupuesto propio.",
+    "Su espacio tiene un solo distrito y un solo apellido."
+   ],
+   "gancho": "Apellido de gobernador, banca propia y una candidatura que no pide permiso.",
+   "a_favor": [
+    "Tiene banca propia y la renovó sin el aparato provincial.",
+    "Es la única dirigente cordobesa que se plantó frente a Llaryora desde adentro del peronismo.",
+    "Viene de una familia que gobernó Córdoba durante ocho años y conoce la provincia por dentro."
+   ],
    "badge": ""
   },
   {
@@ -6299,10 +6120,10 @@
    "nombre": "Miguel Siciliano",
    "slug": "miguel-siciliano",
    "rol": "Ex secretario de Gobierno de la Municipalidad de Córdoba",
-   "tag": "",
+   "tag": "El funcionario que quiere quedarse con la ciudad",
    "color": "#1b7f4f",
-   "bio": "Fue secretario de Gobierno y de Movilidad durante la gestión de Martín Llaryora en la ciudad. Su nombre circula como precandidato a intendente.",
-   "foto": "",
+   "bio": "Contador y dirigente del llaryorismo. Fue secretario de Gobierno y de Movilidad de la Municipalidad de Córdoba durante la gestión de Martín Llaryora, y antes tuvo un paso por la función pública provincial. Su nombre aparece en todas las listas de precandidatos a intendente de la capital.",
+   "foto": "assets/fotos/siciliano.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "Hacemos Unidos por Córdoba",
@@ -6314,15 +6135,45 @@
     45,
     45
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019-2023",
+     "evento": "Secretario de Gobierno de la Municipalidad de Córdoba."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Pasa a la Secretaría de Movilidad con la asunción de Passerini."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Suena como precandidato a intendente por el oficialismo municipal."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Perfil",
+     "tesis": "Es el candidato de la continuidad con otro nombre.",
+     "cuerpo": "Siciliano no propone una ciudad distinta: propone administrar la misma con otra firma. Fue secretario de Gobierno de Llaryora y siguió en el gabinete de Passerini. Si el oficialismo municipal tiene algo para mostrar, él es parte; si tiene algo para explicar, también.",
+     "evidencia": "Fue secretario de Gobierno durante la gestión de Llaryora y continuó en el gabinete de Passerini.",
+     "fuerza": "media",
+     "tipo": "Continuidad",
+     "respuesta_esperada": "Que la continuidad es una virtud cuando la gestión funciona.",
+     "refutacion": "Puede serlo. Pero entonces la candidatura se defiende con resultados, no con renovación."
+    }
+   ],
+   "vulnerabilidades": [
+    "Nunca ganó una elección.",
+    "Su figura se construyó en el gabinete, no en el territorio."
+   ],
+   "gancho": "Conoce cada pasillo del Palacio 6 de Julio. Falta que lo elijan.",
+   "a_favor": [
+    "Conoce la municipalidad por dentro, con nombre y apellido de cada área.",
+    "Es el nombre que el llaryorismo mira para sostener la ciudad."
+   ],
    "badge": ""
   },
   {
@@ -6330,9 +6181,9 @@
    "nombre": "Juan Pablo Quinteros",
    "slug": "juan-pablo-quinteros",
    "rol": "Ministro de Seguridad de Córdoba",
-   "tag": "",
+   "tag": "La seguridad como plataforma",
    "color": "#1b7f4f",
-   "bio": "Fue legislador provincial y candidato a intendente de la capital en 2019. Hoy conduce la cartera de Seguridad y aparece entre los posibles sucesores de Passerini.",
+   "bio": "Abogado y dirigente del llaryorismo. Fue legislador provincial y candidato a intendente de Córdoba en 2019. Desde 2023 conduce el Ministerio de Seguridad de la provincia, la cartera con más exposición del gobierno, y su nombre creció como posible sucesor de Passerini en la capital.",
    "foto": "",
    "categorias": [],
    "provincia": "Córdoba",
@@ -6345,15 +6196,50 @@
     45,
     50
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2015-2019",
+     "evento": "Legislador provincial por Córdoba."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Candidato a intendente de la ciudad de Córdoba."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Asume como ministro de Seguridad de la provincia."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Aparece entre los precandidatos a intendente de la capital."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Seguridad",
+     "tesis": "Su plataforma es el área que peor mide.",
+     "cuerpo": "Quinteros quiere ser intendente con el cargo de ministro de Seguridad como vidriera. El problema es que la seguridad es el tema donde el gobierno provincial recibe las críticas más consistentes: homicidios, narcomenudeo y control territorial. Ser el ministro del área es una plataforma solo si los números acompañan. Si no, es el flanco más expuesto de la campaña.",
+     "evidencia": "Candidato a intendente en 2019 y ministro de Seguridad desde 2023. La seguridad aparece como el principal reclamo ciudadano en las encuestas provinciales.",
+     "fuerza": "media-fuerte",
+     "tipo": "Gestión",
+     "respuesta_esperada": "Que los índices mejoraron y que la percepción va por otro lado.",
+     "refutacion": "Ese es justamente el problema: si la percepción va por otro lado, la vidriera no alcanza."
+    }
+   ],
+   "vulnerabilidades": [
+    "La seguridad es el área donde más se mide y donde más se reclama.",
+    "Perdió la elección de 2019 en la ciudad."
+   ],
+   "gancho": "Ministro de Seguridad con la ciudad como próximo objetivo.",
+   "a_favor": [
+    "Tiene la cartera más visible del gobierno provincial.",
+    "Ya fue candidato en la ciudad, así que conoce el terreno electoral.",
+    "Es el funcionario del gabinete con más exposición mediática."
+   ],
    "badge": ""
   },
   {
@@ -6361,10 +6247,10 @@
    "nombre": "Guillermo Robles",
    "slug": "guillermo-robles",
    "rol": "Abogado y empresario, referente de Soberanos",
-   "tag": "",
+   "tag": "El outsider con espacio propio",
    "color": "#7a4fd0",
-   "bio": "Creador del espacio cultural Pulqui y del partido Soberanos. Se lanzó como candidato a intendente de la ciudad de Córdoba.",
-   "foto": "",
+   "bio": "Abogado y empresario cordobés de 33 años. Creó el espacio cultural Pulqui y el partido Soberanos, con el que se lanzó como candidato a intendente de la ciudad de Córdoba. No ocupó cargos electivos ni de gestión.",
+   "foto": "assets/fotos/robles.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "Soberanos",
@@ -6376,15 +6262,45 @@
     75,
     65
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2020",
+     "evento": "Funda el espacio cultural Pulqui."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Crea el partido Soberanos."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Se lanza como candidato a intendente de Córdoba."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Experiencia",
+     "tesis": "Quiere administrar la ciudad sin haber administrado nada.",
+     "cuerpo": "Robles tiene 33 años, un estudio jurídico, una empresa y un espacio cultural. Nada de eso es gobierno. La intendencia de Córdoba maneja 10.000 empleados, un presupuesto de varios cientos de miles de millones y el transporte de toda el área metropolitana. La frescura es un argumento, la falta de gestión es un riesgo.",
+     "evidencia": "Declaraciones públicas de lanzamiento y perfil publicado en medios cordobeses: abogado, empresario, sin cargos electivos.",
+     "fuerza": "media",
+     "tipo": "Experiencia",
+     "respuesta_esperada": "Que los outsiders también pueden gestionar y que la estructura se arma.",
+     "refutacion": "Puede ser. Pero el argumento se prueba con equipo, no con eslóganes."
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene gestión ni cargo electivo previo.",
+    "Un partido nuevo en una ciudad de un millón de habitantes es una epopeya logística."
+   ],
+   "gancho": "Abogado, empresario y candidato sin estructura. Pura convicción y cartelería.",
+   "a_favor": [
+    "No viene de la política tradicional y eso juega a favor en un electorado cansado.",
+    "Tiene estructura propia, aunque sea chica, y no depende de un aparato ajeno."
+   ],
    "badge": ""
   },
   {
@@ -6392,9 +6308,9 @@
    "nombre": "Juan Negri",
    "slug": "juan-negri",
    "rol": "Dirigente del peronismo cordobés",
-   "tag": "",
+   "tag": "Un nombre del peronismo cordobés",
    "color": "#1b7f4f",
-   "bio": "Aparece entre los precandidatos a intendente de la ciudad de Córdoba que relevó la prensa provincial para 2027.",
+   "bio": "Dirigente del peronismo cordobés. Su nombre figura entre los precandidatos a intendente de la ciudad de Córdoba que relevó la prensa provincial para 2027.",
    "foto": "assets/fotos/negri.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -6407,15 +6323,24 @@
     50,
     40
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2026",
+     "evento": "Mencionado entre los precandidatos a intendente de la capital."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
    "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "vulnerabilidades": [
+    "Todavía no tiene una candidatura formal ni un espacio propio visible."
+   ],
+   "gancho": "Aparece en las listas de precandidatos. Falta que lo expliquen.",
+   "a_favor": [
+    "Forma parte del mapa que el peronismo cordobés discute para la ciudad."
+   ],
    "badge": ""
   },
   {
@@ -6423,9 +6348,9 @@
    "nombre": "Soledad Carrizo",
    "slug": "soledad-carrizo",
    "rol": "Diputada nacional por Córdoba",
-   "tag": "",
+   "tag": "La radical que vuelve a casa",
    "color": "#c8102e",
-   "bio": "Legisladora nacional del radicalismo cordobés. Su nombre suena como precandidata a intendente de la capital.",
+   "bio": "Abogada y dirigente radical. Fue intendenta de Quilino y diputada nacional por Córdoba desde 2013. Su nombre aparece entre los precandidatos a intendente de la capital.",
    "foto": "assets/fotos/carrizzo.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -6438,15 +6363,45 @@
     40,
     60
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2007-2013",
+     "evento": "Intendenta de Quilino."
+    },
+    {
+     "fecha": "2013",
+     "evento": "Asume como diputada nacional por Córdoba."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Suena como precandidata a intendente de Córdoba."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Territorio",
+     "tesis": "Su capital política no es la ciudad que quiere gobernar.",
+     "cuerpo": "Carrizo construyó su carrera en Quilino, en el norte provincial, y después en la Cámara de Diputados. La ciudad de Córdoba tiene otra lógica: 400 barrios, un transporte quebrado y una interna radical propia. Llegar con estructura nacional y sin territorio urbano es empezar la carrera desde atrás.",
+     "evidencia": "Fue intendenta de Quilino y diputada nacional por Córdoba desde 2013.",
+     "fuerza": "media",
+     "tipo": "Territorio",
+     "respuesta_esperada": "Que la ciudad también la votó como diputada.",
+     "refutacion": "La votó una lista, no ella sola. La intendencia se gana barrio por barrio."
+    }
+   ],
+   "vulnerabilidades": [
+    "Su base electoral está a 150 kilómetros de la capital.",
+    "No tiene estructura propia en la ciudad."
+   ],
+   "gancho": "Diputada nacional con base en el norte cordobés. La ciudad es otra cosa.",
+   "a_favor": [
+    "Tiene gestión municipal y una banca nacional con recorrido.",
+    "Es una de las dirigentes radicales con más continuidad en la provincia."
+   ],
    "badge": ""
   },
   {
@@ -6454,10 +6409,10 @@
    "nombre": "Myrian Prunotto",
    "slug": "myrian-prunotto",
    "rol": "Vicegobernadora de Córdoba",
-   "tag": "",
+   "tag": "La vicegobernadora que mira la ciudad",
    "color": "#1b7f4f",
-   "bio": "Fue intendenta de Estación Juárez Celman. Integra la fórmula provincial desde 2023 y aparece entre los nombres para la ciudad.",
-   "foto": "",
+   "bio": "Vicegobernadora de Córdoba desde 2023. Fue intendenta de Estación Juárez Celman, una localidad del área metropolitana, durante varios mandatos. Su nombre aparece entre los precandidatos a intendente de la capital.",
+   "foto": "assets/fotos/prunotto.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "Hacemos Unidos por Córdoba",
@@ -6469,15 +6424,45 @@
     40,
     45
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2007-2023",
+     "evento": "Intendenta de Estación Juárez Celman."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Asume como vicegobernadora de Córdoba."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Suena como precandidata a intendente de la ciudad."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Escala",
+     "tesis": "Gestionó una ciudad chica y ahora quiere la más grande de la provincia.",
+     "cuerpo": "Juárez Celman tiene alrededor de 100.000 habitantes y un presupuesto municipal acorde. Córdoba tiene 1,6 millones en el ejido y 2,5 en el área metropolitana. La lógica de gestión no escala sola: cambiar de escala es cambiar de problema.",
+     "evidencia": "Trayectoria como intendenta de Estación Juárez Celman y vicegobernadora desde 2023.",
+     "fuerza": "media",
+     "tipo": "Escala",
+     "respuesta_esperada": "Que la experiencia municipal se transfiere.",
+     "refutacion": "Se transfiere la cintura política, no la escala. Y la escala es el trabajo."
+    }
+   ],
+   "vulnerabilidades": [
+    "Su territorio es una ciudad de 100.000 habitantes, no la capital.",
+    "La vicegobernación no tiene presupuesto propio."
+   ],
+   "gancho": "Viene del interior chico y quiere la capital.",
+   "a_favor": [
+    "Tiene gestión municipal real y varios mandatos consecutivos.",
+    "Es la número dos del gobierno provincial."
+   ],
    "badge": ""
   },
   {
@@ -6702,9 +6687,9 @@
    "nombre": "Mariana Juri",
    "slug": "mariana-juri",
    "rol": "Senadora nacional por Mendoza",
-   "tag": "",
+   "tag": "La senadora que mira la capital",
    "color": "#c8102e",
-   "bio": "Legisladora nacional del radicalismo mendocino. Suena como candidata a intendenta de la ciudad de Mendoza.",
+   "bio": "Senadora nacional por Mendoza por la UCR. Fue diputada nacional y ministra de Turismo de la provincia. Su nombre suena para la intendencia de la ciudad de Mendoza.",
    "foto": "assets/fotos/juri.jpg",
    "categorias": [],
    "provincia": "Mendoza",
@@ -6717,15 +6702,45 @@
     40,
     60
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2009-2013",
+     "evento": "Diputada nacional por Mendoza."
+    },
+    {
+     "fecha": "2015-2019",
+     "evento": "Ministra de Turismo de Mendoza."
+    },
+    {
+     "fecha": "2019",
+     "evento": "Asume como senadora nacional."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Territorio",
+     "tesis": "Quiere una intendencia sin haber pisado un municipio como gestora.",
+     "cuerpo": "Juri fue diputada, ministra provincial y senadora. Ninguna de esas funciones se parece a la intendencia de una ciudad: recolección, alumbrado, tránsito, espacios verdes. La gestión municipal se aprende en el municipio.",
+     "evidencia": "Diputada 2009-2013, ministra de Turismo 2015-2019, senadora desde 2019.",
+     "fuerza": "media",
+     "tipo": "Experiencia",
+     "respuesta_esperada": "Que la gestión provincial enseña a administrar.",
+     "refutacion": "Enseña a administrar, no a resolver el bache de la esquina."
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene gestión municipal.",
+    "La capital es un distrito chico y muy disputado dentro de su propio partido."
+   ],
+   "gancho": "Turismo, Senado y ahora la intendencia.",
+   "a_favor": [
+    "Tiene experiencia legislativa y de gestión provincial.",
+    "Es una de las dirigentes radicales con más continuidad en Mendoza."
+   ],
    "badge": ""
   },
   {
@@ -6795,9 +6810,9 @@
    "nombre": "Fernando de Andreis",
    "slug": "fernando-de-andreis",
    "rol": "Ex secretario general de la Presidencia",
-   "tag": "",
+   "tag": "El hombre de gabinete",
    "color": "#f5c518",
-   "bio": "Fue legislador porteño y secretario general de la Presidencia durante el gobierno de Mauricio Macri. Suena como carta del PRO en la Ciudad.",
+   "bio": "Político del PRO. Fue secretario general de la Presidencia entre 2015 y 2019 y legislador de la Ciudad de Buenos Aires. Su nombre suena como carta del PRO para la sucesión porteña.",
    "foto": "assets/fotos/deandreis.jpg",
    "categorias": [],
    "provincia": "CABA",
@@ -6810,15 +6825,41 @@
     40,
     60
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2015-2019",
+     "evento": "Secretario general de la Presidencia de la Nación."
+    },
+    {
+     "fecha": "2019-2023",
+     "evento": "Legislador de la Ciudad de Buenos Aires."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Territorio",
+     "tesis": "Nunca tuvo que ganar una elección por sí mismo.",
+     "cuerpo": "De Andreis ocupó un cargo de confianza en la Presidencia y una banca legislativa. No administró un distrito ni construyó una estructura propia. En una Ciudad donde el PRO tiene tres candidatos posibles, eso lo deja dependiendo de una decisión de arriba.",
+     "evidencia": "Secretario general de la Presidencia 2015-2019; legislador porteño.",
+     "fuerza": "media",
+     "tipo": "Territorio",
+     "respuesta_esperada": "Que el gabinete también es política y que la banca lo legitimó.",
+     "refutacion": "La banca lo legitimó como legislador, no como jefe de gobierno."
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene gestión territorial ni base electoral propia.",
+    "Su figura está asociada al gobierno de Macri, con su desgaste."
+   ],
+   "gancho": "Manejó la Presidencia por dentro. Ahora quiere la Ciudad por fuera.",
+   "a_favor": [
+    "Tiene experiencia en la coordinación del Ejecutivo nacional.",
+    "Es un dirigente de bajo perfil y pocos frentes abiertos."
+   ],
    "badge": ""
   },
   {
@@ -6826,9 +6867,9 @@
    "nombre": "Carolina Labayru",
    "slug": "carolina-labayru",
    "rol": "Funcionaria del gabinete de Javkin",
-   "tag": "",
+   "tag": "La continuidad con otro nombre",
    "color": "#1b7f4f",
-   "bio": "Integra el gabinete municipal y el intendente la respalda como posible sucesora en Rosario.",
+   "bio": "Funcionaria del gabinete municipal de Rosario. El intendente Javkin la respalda como posible sucesora para 2027.",
    "foto": "",
    "categorias": [],
    "provincia": "Rosario",
@@ -6841,15 +6882,36 @@
     40,
     50
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2023-2026",
+     "evento": "Integra el gabinete de la Municipalidad de Rosario."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Perfil",
+     "tesis": "Su candidatura existe porque el intendente la nombró.",
+     "cuerpo": "Labayru no construyó una figura propia: la construyó el respaldo de Javkin. Eso puede alcanzar para ordenar el oficialismo, no para ganar una ciudad que viene castigando a la continuidad.",
+     "evidencia": "Respaldo público de Javkin y pertenencia al gabinete municipal.",
+     "fuerza": "media",
+     "tipo": "Perfil",
+     "respuesta_esperada": "Que el respaldo del intendente vale votos.",
+     "refutacion": "Vale estructura. Los votos son otra cosa."
+    }
+   ],
+   "vulnerabilidades": [
+    "No tiene vuelo electoral propio.",
+    "La continuidad en una ciudad con la seguridad sin resolver es un argumento débil."
+   ],
+   "gancho": "Está en el gabinete y el intendente la señala.",
+   "a_favor": [
+    "Conoce la municipalidad desde adentro y tiene el respaldo del intendente."
+   ],
    "badge": ""
   },
   {
@@ -6857,9 +6919,9 @@
    "nombre": "Mónica Peralta",
    "slug": "m-nica-peralta",
    "rol": "Diputada nacional por Santa Fe",
-   "tag": "",
+   "tag": "La diputada que quiere Rosario",
    "color": "#2e8b57",
-   "bio": "Legisladora nacional del GEN, con recorrido en la política rosarina. Aparece entre los nombres para la intendencia.",
+   "bio": "Diputada nacional por Santa Fe por el GEN. Tiene recorrido en la política rosarina y su nombre aparece entre los candidatos a la intendencia.",
    "foto": "",
    "categorias": [],
    "provincia": "Rosario",
@@ -6872,15 +6934,41 @@
     45,
     50
    ],
-   "trayectoria": [],
+   "trayectoria": [
+    {
+     "fecha": "2019",
+     "evento": "Candidata a concejala de Rosario."
+    },
+    {
+     "fecha": "2021",
+     "evento": "Asume como diputada nacional por Santa Fe."
+    }
+   ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [],
-   "gancho": "",
-   "a_favor": [],
+   "criticas": [
+    {
+     "area": "Estructura",
+     "tesis": "Tiene banca y no tiene aparato.",
+     "cuerpo": "Peralta puede sentarse en cualquier mesa y defender una posición. Lo que no tiene es la estructura territorial que exige una intendencia: 300 barrios y una elección que se define casa por casa.",
+     "evidencia": "Diputada nacional por Santa Fe desde 2021; el GEN no gobierna municipios en la provincia.",
+     "fuerza": "media",
+     "tipo": "Estructura",
+     "respuesta_esperada": "Que las alianzas pueden suplir la estructura.",
+     "refutacion": "Pueden. Pero entonces la candidatura no es propia, es parte de un acuerdo."
+    }
+   ],
+   "vulnerabilidades": [
+    "El GEN es un partido sin estructura municipal.",
+    "No gestionó nunca un Ejecutivo."
+   ],
+   "gancho": "Banca nacional, base rosarina y un partido chico.",
+   "a_favor": [
+    "Tiene una banca nacional y una agenda propia en temas sociales.",
+    "Es una dirigente con diálogo en todo el arco político santafesino."
+   ],
    "badge": ""
   }
  ],
