@@ -99,12 +99,14 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 .slide.s1 { background: linear-gradient(110deg, #fff159 0%, #ffe600 55%, #ffd000 100%); }
 .slide.s2 { background: linear-gradient(110deg, #3483fa 0%, #1f5fc7 100%); color: #fff; }
 .slide.s3 { background: linear-gradient(110deg, #2d2d2d 0%, #4a3b6b 100%); color: #fff; }
+.slide.s4 { background: linear-gradient(110deg, #00368c 0%, #0b4bb0 60%, #1358c9 100%); color: #fff; }
 .s-txt small { font-size: 12px; font-weight: 800; letter-spacing: .12em; opacity: .75; }
 .s-txt h1, .s-txt h2 { font-size: 36px; line-height: 1.08; letter-spacing: -1.2px; font-weight: 800; margin: 8px 0 10px; }
 .s-txt p { font-size: 15px; max-width: 470px; opacity: .85; margin-bottom: 18px; }
 .hero-btn { width: auto; display: inline-flex; padding: 12px 22px; }
 .s2 .hero-btn { background: #fff; color: var(--ml-blue); }
 .s3 .hero-btn { background: var(--ml-yellow); color: #2d2d2d; }
+.s4 .hero-btn { background: var(--ml-yellow); color: #00368c; }
 .s1 .hero-btn { background: #2d2d2d; }
 .s1 .hero-btn:hover { background: #000; }
 .s-art { font-size: 130px; line-height: 1; filter: drop-shadow(0 10px 20px rgba(0,0,0,.18)); transform: rotate(-8deg); }
@@ -566,13 +568,6 @@ details.mas[open] summary { display: none; }
 
 /* ---------- propuestas ---------- */
 .nav-prop{font-weight:700;color:#00368C}
-.propband{display:flex;align-items:center;justify-content:space-between;gap:24px;background:#00368C;color:#fff;border-radius:14px;padding:26px 30px;margin:18px 0 22px;overflow:hidden}
-.propband small{color:#ffe600;font-weight:800;letter-spacing:.08em}
-.propband h2{margin:6px 0 8px;font-size:26px;line-height:1.15}
-.propband p{margin:0 0 14px;color:#dbe6f7;max-width:640px}
-.propband .btn{background:#ffe600;color:#00368C;border:0}
-.pb-art{font-size:74px;line-height:1;filter:saturate(1.1)}
-@media(max-width:760px){.propband{flex-direction:column;align-items:flex-start}.pb-art{display:none}}
 
 .ph{background:#fff;border:1px solid #eee;border-radius:14px;padding:30px;margin:18px 0}
 .ph small{color:#3483fa;font-weight:800;letter-spacing:.08em}

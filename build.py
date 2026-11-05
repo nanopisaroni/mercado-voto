@@ -18,7 +18,7 @@ except Exception:
     COMENT = {}
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "38"  # versión de assets, para romper caché
+V = "39"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -554,18 +554,16 @@ def build_index():
     <div class="slide s1"><div class="s-txt"><small>ELECCIONES 2027</small><h1>Armá tu boleta<br>como si fuera un carrito</h1><p>Un presidente, un gobernador, un intendente y cinco legisladores. Leé lo bueno y lo malo de cada uno antes de comprar.</p><a class="btn hero-btn" href="/?guia=1#catalogo" data-guia>Armar mi boleta paso a paso</a><span class="hero-cont" id="hero-cont"></span></div><div class="s-art" aria-hidden="true">🗳️</div></div>
     <div class="slide s2"><div class="s-txt"><small>HOT SALE DE PROMESAS</small><h2>Hasta 100% incumplidas</h2><p>Ordená por reputación y mirá quién cumplió lo que prometió.</p><a class="btn hero-btn" href="/?orden=cumplimiento#catalogo">Ver mejor reputación</a></div><div class="s-art" aria-hidden="true">🏷️</div></div>
     <div class="slide s3"><div class="s-txt"><small>NUEVO</small><h2>¿Tu boleta es pura sangre<br>o Frankenstein?</h2><p>Al finalizar la compra te decimos qué tan coherente es. Después, a mandarla al grupo.</p><a class="btn hero-btn" href="/boleta">Ir a mi boleta</a></div><div class="s-art" aria-hidden="true">🧟</div></div>
+    <div class="slide s4"><div class="s-txt"><small>PROPUESTAS EN VENTA</small><h2>Ahora también se compran propuestas</h2><p>Cada espacio vende sus ideas: economía, trabajo, educación, seguridad y ocho ejes más. Sumá visión de país y futuro posible a tu carrito.</p><a class="btn hero-btn" href="/propuestas">Ver las __NPROP__ propuestas</a></div><div class="s-art" aria-hidden="true">💡</div></div>
   </div>
   <div class="dots" id="dots"></div>
-</section>'''
+</section>'''.replace("__NPROP__", str(len(PROP["propuestas"])))
     desc = "Elegí presidente, gobernador, intendente y legisladores como si fueran productos. Fichas con lo bueno, lo malo y las críticas de cada candidato. Armá tu boleta y compartila."
     return f'''{head("Mercado Voto · armá tu boleta", desc, "/api/og", "/")}
 {header()}
 <main class="main"><div class="wrap">
 {hero}
-<section class="propband">
-  <div class="pb-txt"><small>NUEVO</small><h2>Ahora también se compran propuestas</h2><p>Cada espacio vende sus ideas: economía, trabajo, educación, seguridad y ocho ejes más. Sumá visión de país y futuro posible a tu carrito.</p><a class="btn" href="/propuestas">Ver las {len(PROP["propuestas"])} propuestas</a></div>
-  <div class="pb-art" aria-hidden="true">💡</div>
-</section>
+
 <section class="cats" aria-label="Categorías">{cats}</section>
 <section class="panel semana" id="semana" hidden aria-labelledby="sem-tit">
   <div class="sem-cab"><div><h2 id="sem-tit">🔥 Lo más vendido de la semana</h2><div class="sub" id="sem-sub"></div></div>
