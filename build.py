@@ -11,14 +11,13 @@ PROP = json.load(open(f"{BASE}/data/propuestas.json", encoding="utf-8"))
 EJE_NAME = {e["id"]: e["nombre"] for e in PROP["ejes"]}
 ESPACIOS = {e["id"]: e for e in PROP["espacios"]}
 VIDEOS = json.load(open(f"{BASE}/data/videos.json", encoding="utf-8"))
-CAMPANAS = json.load(open(f"{BASE}/data/campanas.json", encoding="utf-8"))
 try:
     COMENT = json.load(open(f"{BASE}/data/comentarios.json", encoding="utf-8"))
 except Exception:
     COMENT = {}
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "39"  # versión de assets, para romper caché
+V = "40"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -182,7 +181,6 @@ def head(titulo, desc, og_img, url, extra=""):
 def header():
     nav = "".join(f'<a href="/?cargo={k}#catalogo">{v}</a>' for k, v in CARGOS)
     nav += '<a class="nav-prop" href="/propuestas">Propuestas</a>'
-    nav += '<a class="nav-camp" href="/campanas">Campaña digital</a>'
     nav += ('<a href="/?badge=NUEVO#catalogo">Outsiders</a><a href="/?orden=letales#catalogo">Más criticados</a>'
             '<a href="/?orden=cumplimiento#catalogo">Mejor reputación</a><a href="/?orden=ruptura#catalogo">Más disruptivos</a>')
     nav = '<button type="button" class="lugar-btn" data-lugar>📍 <span class="lugar-txt">¿Dónde votás?</span></button>' + nav
@@ -206,7 +204,7 @@ def footer():
     return f'''<footer><div class="wrap">
   <div class="f-logo">{logo()}<p>Un simulador para elegir candidatos como si fueran productos, leer lo que se dice a favor y en contra, y compartir tu boleta.</p></div>
   <div><b>Cómo leer las fichas</b><p>Las críticas, los argumentos a favor y el radar ideológico son una síntesis editorial, no una medición. Las estrellas salen de las promesas cumplidas registradas.</p></div>
-  <div><b>Privacidad</b><p>Las boletas no se compran ni se votan. Las campañas digitales son un servicio aparte. Tu boleta vive en tu navegador. Cuando la finalizás, la sumamos al ranking de los más elegidos de forma anónima: sin nombre, mail ni datos personales.</p></div>
+  <div><b>Privacidad</b><p>Las boletas no se compran ni se votan. Tu boleta vive en tu navegador. Cuando la finalizás, la sumamos al ranking de los más elegidos de forma anónima: sin nombre, mail ni datos personales.</p></div>
 </div><div class="wrap legal">Mercado Voto es un proyecto independiente y satírico, sin relación con ningún marketplace ni partido. Fotos: Wikimedia Commons.</div></footer>
 <div id="toast" class="toast" role="status" aria-live="polite"></div>
 <div class="modal" id="m-lugar" hidden role="dialog" aria-modal="true" aria-labelledby="ml-tit">
@@ -962,90 +960,6 @@ def datos_cliente():
 
 
 
-# ---------------------------------------------------------------- campañas
-
-ICONO_PLAN = {"arranque": "🚀", "treinta": "📅", "integral": "🏆"}
-
-
-def plata(n):
-    return "$" + f"{n:,}".replace(",", ".")
-
-
-def camp_card(p):
-    incluye = "".join(f"<li>{esc(x)}</li>" for x in p["incluye"])
-    return f'''<article class="ccard" data-plan="{p["id"]}" data-nombre="{esc(p["nombre"])}" data-precio="{p["precio"]}">
-  <div class="ccard-img" aria-hidden="true"><span>{ICONO_PLAN.get(p["id"], "✨")}</span><small>MERCADO VOTO · SERVICIOS</small></div>
-  <div class="ccard-cuerpo">
-    <span class="ccard-tag">Campaña digital · {esc(p["dias"])}</span>
-    <h3>{esc(p["nombre"])}</h3>
-    <p class="ccard-res">{esc(p["resumen"])}</p>
-    <div class="ccard-precio">{plata(p["precio"])}<small>pago único · precio de lanzamiento</small></div>
-    <details class="ccard-inc"><summary>Qué incluye</summary><ul>{incluye}</ul><p class="ccard-ideal">{esc(p["ideal"])}</p></details>
-    <button class="btn add-camp" data-plan="{p["id"]}">Contratar</button>
-  </div>
-</article>'''
-
-
-def addon_card(a):
-    return f'''<div class="addon" data-addon="{a["id"]}" data-nombre="{esc(a["nombre"])}" data-precio="{a["precio"]}">
-  <div class="addon-txt"><b>{esc(a["nombre"])}</b><p>{esc(a["detalle"])}</p></div>
-  <div class="addon-acc"><span>{plata(a["precio"])}</span><button type="button" class="link-btn addon-add">Sumar</button></div>
-</div>'''
-
-
-def build_campanas():
-    planes = "".join(camp_card(p) for p in CAMPANAS["planes"])
-    addons = "".join(addon_card(a) for a in CAMPANAS["addons"])
-    desc = "Campaña digital para candidaturas: sliders, posteos, videos verticales y PDF de lineamientos. Elegí un plan y coordinamos."
-    return f'''{head("Campaña digital · Mercado Voto", desc, "/api/og", "/campanas")}
-{header()}
-<main class="main"><div class="wrap">
-<div class="miga"><a href="/">Inicio</a> › <span>Campaña digital</span></div>
-<section class="camp-hero">
-  <div class="ch-txt"><small>SE COMPRA ACÁ</small><h1>Campaña digital para tu candidatura</h1>
-  <p>Sliders, posteos, videos verticales y el PDF de lineamientos. Elegí un plan, sumá lo que falte y lo coordinamos por WhatsApp.</p></div>
-  <div class="ch-art" aria-hidden="true">📣</div>
-</section>
-<div class="camp-grid">{planes}</div>
-<h2 class="camp-sub">Sumale algo suelto</h2>
-<div class="addons">{addons}</div>
-<section class="panel camp-como">
-  <h2>Cómo sigue</h2>
-  <ol class="pasos">
-    <li><b>1. Elegís el plan</b><span>Contratar y sumar los extras que necesites.</span></li>
-    <li><b>2. Dejás el contacto</b><span>Nombre, mail o WhatsApp y el espacio.</span></li>
-    <li><b>3. Coordinamos</b><span>Te escribimos para el pago por transferencia y arrancamos en 48 horas.</span></li>
-  </ol>
-  <p class="rk-nota">Los precios son de lanzamiento y se pueden cambiar. El sitio no cobra nada: registra el pedido y lo coordina una persona.</p>
-</section>
-</div></main>
-<div class="camp-bar" id="camp-bar" hidden>
-  <div class="cb-txt" id="cb-txt"></div>
-  <div class="cb-total" id="cb-total"></div>
-  <button class="btn" type="button" id="cb-seguir">Continuar</button>
-</div>
-<div class="modal" id="m-pedido" hidden role="dialog" aria-modal="true" aria-labelledby="mp-tit">
-  <div class="modal-c ped-c">
-    <button class="cerrar" type="button" data-cerrar-pedido aria-label="Cerrar">✕</button>
-    <h2 id="mp-tit">Confirmá el pedido</h2>
-    <div id="ped-resumen"></div>
-    <form id="ped-form">
-      <label class="ml-campo">Tu nombre<input id="p-nombre" required maxlength="80" autocomplete="name"></label>
-      <label class="ml-campo">Mail o WhatsApp<input id="p-contacto" required maxlength="120" autocomplete="email" placeholder="Para escribirte"></label>
-      <label class="ml-campo">Espacio o candidatura<input id="p-espacio" maxlength="80" placeholder="Ej: UCR Córdoba"></label>
-      <label class="ml-campo">Algo que tengamos que saber<textarea id="p-notas" rows="3" maxlength="500"></textarea></label>
-      <div class="p-error" id="p-error" hidden></div>
-      <button class="btn grande" type="submit" id="p-enviar">Confirmar pedido</button>
-      <p class="ped-nota">No se cobra nada ahora. Te escribimos para coordinar el pago.</p>
-    </form>
-    <div id="ped-ok" hidden></div>
-  </div>
-</div>
-{footer()}
-{scripts("/assets/campanas.js")}
-</body></html>'''
-
-
 os.makedirs(f"{BASE}/c", exist_ok=True)
 os.makedirs(f"{BASE}/api", exist_ok=True)
 open(f"{BASE}/index.html", "w").write(build_index())
@@ -1067,5 +981,3 @@ os.makedirs(f"{BASE}/p", exist_ok=True)
 for p in PROP["propuestas"]:
     open(f"{BASE}/p/{p['slug']}.html", "w", encoding="utf-8").write(build_propuesta(p))
 print("propuestas:", len(PROP["propuestas"]))
-open(f"{BASE}/campanas.html", "w", encoding="utf-8").write(build_campanas())
-print("campañas:", len(CAMPANAS["planes"]), "planes y", len(CAMPANAS["addons"]), "extras")
