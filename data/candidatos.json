@@ -6305,41 +6305,96 @@
   },
   {
    "id": "negri",
-   "nombre": "Juan Negri",
+   "nombre": "Juan Hipólito Negri",
    "slug": "juan-negri",
-   "rol": "Dirigente del peronismo cordobés",
-   "tag": "Un nombre del peronismo cordobés",
-   "color": "#1b7f4f",
-   "bio": "Dirigente del peronismo cordobés. Su nombre figura entre los precandidatos a intendente de la ciudad de Córdoba que relevó la prensa provincial para 2027.",
+   "rol": "Vocal del ERSEP · Ex concejal de Córdoba · Precandidato a intendente 2027",
+   "tag": "Radicalismo · Viva Córdoba",
+   "color": "#e03e3e",
+   "bio": "Radical de Córdoba e hijo del ex diputado nacional Mario Negri. Fue concejal y presidió el bloque opositor Córdoba Cambia entre 2019 y 2023. En 2025 entró como quinto candidato en la lista de Rodrigo de Loredo para la interna partidaria y su padre lo desautorizó en público. Hoy es vocal por la oposición en el ERSEP, el ente que controla los servicios públicos provinciales, y desde mayo de 2026 conduce Viva Córdoba, el espacio con el que busca la intendencia en 2027.",
    "foto": "assets/fotos/negri.jpg",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "PJ",
+   "partido": "UCR - Viva Córdoba",
    "ejes": [
-    35,
-    50,
+    70,
+    45,
+    40,
     55,
-    60,
-    50,
-    40
+    65,
+    60
    ],
    "trayectoria": [
     {
+     "fecha": "2019",
+     "evento": "Asume como concejal de la ciudad de Córdoba y preside el bloque Córdoba Cambia, primera minoría opositora."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Se baja de la carrera por la intendencia para que el candidato del espacio sea Rodrigo de Loredo."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Quinto candidato en la lista de De Loredo y Carrizo para la interna radical del 10 de agosto."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Asume como vocal por la oposición en el ERSEP, el ente regulador de los servicios públicos provinciales."
+    },
+    {
      "fecha": "2026",
-     "evento": "Mencionado entre los precandidatos a intendente de la capital."
+     "evento": "Lanza Viva Córdoba, su espacio para pelear la intendencia por fuera de las fronteras de la UCR."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Se distancia de De Loredo y se reúne con Gabriel Bornoroni para plantear su candidatura."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Todavía no tiene una candidatura formal ni un espacio propio visible."
+   "criticas": [
+    {
+     "area": "Familia política",
+     "tesis": "Su carrera quedó marcada por el desmarque público de su padre.",
+     "cuerpo": "Cuando se confirmó su lugar en la lista de De Loredo, en agosto de 2025, Mario Negri escribió a sus correligionarios que la decisión era absolutamente personal y que no la compartía. El episodio dejó al hijo explicando su jugada en el mismo terreno donde el padre construyó su poder.",
+     "evidencia": "Mensaje de Mario Negri difundido el 4 de agosto de 2025.",
+     "fuerza": "media",
+     "tipo": "crítica de trayectoria",
+     "respuesta_esperada": "Mi padre tiene su opinión y yo tengo mi camino.",
+     "refutacion": "El camino propio se mide cuando deja de necesitar el apellido."
+    },
+    {
+     "area": "Coherencia",
+     "tesis": "Se presenta como radical y negocia con La Libertad Avanza.",
+     "cuerpo": "En febrero de 2026 se reunió con Gabriel Bornoroni para avisarle que quería ser precandidato a intendente y que no acompañaba la jugada de De Loredo por la gobernación. El armado con el espacio que responde a Casa Rosada convive mal con la vocalía que ocupa como oposición en el ERSEP.",
+     "evidencia": "La Política Online, 13 de febrero de 2026.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Hablo con todos los espacios opositores.",
+     "refutacion": "Hablar con todos no es lo mismo que armar la candidatura con uno."
+    },
+    {
+     "area": "Gestión",
+     "tesis": "Llegó al ente regulador como cuota de la interna, no por perfil técnico.",
+     "cuerpo": "Su ingreso al ERSEP se negoció en el reparto de cargos que siguió a la interna radical de agosto de 2025. El control de los servicios públicos provinciales exige formación tarifaria y regulatoria, y su trayectoria pública es política y territorial.",
+     "evidencia": "Notas de agosto de 2025 sobre su ingreso al ERSEP tras la interna.",
+     "fuerza": "media",
+     "tipo": "crítica de idoneidad",
+     "respuesta_esperada": "Hace más de un año que estoy en el directorio y conozco los expedientes.",
+     "refutacion": "Un año de despacho no reemplaza la formación técnica que el cargo pide."
+    }
    ],
-   "gancho": "Aparece en las listas de precandidatos. Falta que lo expliquen.",
+   "vulnerabilidades": [
+    "Nunca ganó una elección ejecutiva.",
+    "Viva Córdoba todavía no tiene estructura ni candidatos propios.",
+    "Queda atrapado entre la UCR que dice representar y el armado con la LLA."
+   ],
+   "gancho": "El hijo del caudillo radical que ahora negocia con los libertarios.",
    "a_favor": [
-    "Forma parte del mapa que el peronismo cordobés discute para la ciudad."
+    "Apellido con peso en el radicalismo cordobés y red territorial en la capital.",
+    "Presidió el bloque opositor en el Concejo durante el mandato 2019-2023.",
+    "Armó un espacio propio con centros vecinales y dirigentes de fuera del partido."
    ],
    "badge": ""
   },
