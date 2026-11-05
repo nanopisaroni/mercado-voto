@@ -986,7 +986,7 @@
    "tag": "PRO / Economista / Macrismo",
    "color": "#f39c12",
    "bio": "Economista de formación, Frigerio fue el Ministro del Interior de Mauricio Macri durante todo su mandato (2015-2019), siendo uno de los funcionarios más influyentes del PRO. Diputado nacional entre 2019 y 2023, ganó la gobernación de Entre Ríos en 2023, rompiendo con la tradición peronista en la provincia. Su gestión oscila entre el pragmatismo de gestión y la lealtad a la marca PRO, en un distrito históricamente adverso para el macrismo.",
-   "foto": "",
+   "foto": "assets/fotos/frigerio.jpg",
    "categorias": [
     "gobernador"
    ],
@@ -2211,7 +2211,7 @@
    "tag": "Sindicalista / Peronista / Combativo",
    "color": "#c0392b",
    "bio": "Heredero de la conducción del gremio de Camioneros tras su padre Hugo Moyano. Secretario General desde 2024 y co-secretario de la CGT. Es el sindicalista más visible de la resistencia al gobierno de Milei. Con una base sindical disciplinada y un estilo frontal, combina la defensa del salario con la lógica del poder sindical peronista tradicional: negociación, paro, movilización y pacto con políticos.",
-   "foto": "",
+   "foto": "assets/fotos/moyano.jpg",
    "categorias": [
     "senador"
    ],
@@ -2764,7 +2764,7 @@
    "tag": "PRO / Operador territorial / Bullrichista",
    "color": "#f39c12",
    "bio": "Diputado nacional del PRO por la Provincia de Buenos Aires. Ex vicepresidente del Banco Provincia (2015-2019) y ex candidato a vicegobernador bonaerense con Néstor Grindetti (2023). Referente del interior bonaerense dentro del PRO, opera como nexo entre la dirigencia nacional y los intendentes. Alineado con Patricia Bullrich, representa el ala más dura del partido en materia de seguridad y gestión.",
-   "foto": "",
+   "foto": "assets/fotos/santilli.jpg",
    "categorias": [
     "diputado"
    ],
@@ -3465,7 +3465,7 @@
    "tag": "La Libertad Avanza",
    "color": "#8e6cef",
    "bio": "Diputado provincial y referente de La Libertad Avanza en Buenos Aires. Armó la estructura territorial del espacio en el conurbano.",
-   "foto": "",
+   "foto": "assets/fotos/pareja.jpg",
    "categorias": [],
    "provincia": "Buenos Aires",
    "partido": "La Libertad Avanza",
@@ -4427,7 +4427,7 @@
    "tag": "El sur como proyecto",
    "color": "#7a5cc4",
    "bio": "Fundador de Ciudad Futura, el espacio político que nació en el sur de Rosario y que administra el distrito municipal de la zona. Fue candidato a intendente y es una de las referencias de la izquierda rosarina.",
-   "foto": "",
+   "foto": "assets/fotos/monteverde.jpg",
    "categorias": [],
    "provincia": "Santa Fe",
    "partido": "Ciudad Futura",
@@ -4773,7 +4773,7 @@
    "tag": "Independiente",
    "color": "#8b8b8b",
    "bio": "Presidente de River Plate. Hijo del fundador del Banco Macro. Sin cargo electivo.",
-   "foto": "",
+   "foto": "assets/fotos/brito.jpg",
    "categorias": [],
    "provincia": "Nacional",
    "partido": "Independiente",
@@ -5677,7 +5677,7 @@
    "tag": "PRO",
    "color": "#f5c518",
    "bio": "Gobernador de Chubut desde 2023. Referente del PRO patagónico.",
-   "foto": "",
+   "foto": "assets/fotos/torres.jpg",
    "categorias": [],
    "provincia": "Nacional",
    "partido": "PRO",
@@ -6507,7 +6507,7 @@
    "tag": "La seguridad como plataforma",
    "color": "#1b7f4f",
    "bio": "Abogado y dirigente del llaryorismo. Fue legislador provincial y candidato a intendente de Córdoba en 2019. Desde 2023 conduce el Ministerio de Seguridad de la provincia, la cartera con más exposición del gobierno, y su nombre creció como posible sucesor de Passerini en la capital.",
-   "foto": "",
+   "foto": "assets/fotos/quinteros.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "Hacemos Unidos por Córdoba",
@@ -7600,7 +7600,7 @@
    "tag": "La senadora que mira la capital",
    "color": "#c8102e",
    "bio": "Senadora nacional por Mendoza por la UCR. Fue diputada nacional y ministra de Turismo de la provincia. Su nombre suena para la intendencia de la ciudad de Mendoza.",
-   "foto": "",
+   "foto": "assets/fotos/juri.jpg",
    "categorias": [],
    "provincia": "Mendoza",
    "partido": "UCR",
@@ -7924,7 +7924,7 @@
    "tag": "La continuidad con otro nombre",
    "color": "#1b7f4f",
    "bio": "Funcionaria del gabinete municipal de Rosario. El intendente Javkin la respalda como posible sucesora para 2027.",
-   "foto": "",
+   "foto": "assets/fotos/labayru.jpg",
    "categorias": [],
    "provincia": "Rosario",
    "partido": "Unidos",
@@ -7976,7 +7976,7 @@
    "tag": "La diputada que quiere Rosario",
    "color": "#2e8b57",
    "bio": "Diputada nacional por Santa Fe por el GEN. Tiene recorrido en la política rosarina y su nombre aparece entre los candidatos a la intendencia.",
-   "foto": "",
+   "foto": "assets/fotos/peralta.jpg",
    "categorias": [],
    "provincia": "Rosario",
    "partido": "GEN",
@@ -8029,44 +8029,91 @@
    "id": "alejandra-torres",
    "nombre": "Alejandra Torres",
    "slug": "alejandra-torres",
-   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "rol": "Diputada nacional por Córdoba (2023-2027), Provincias Unidas",
    "tag": "Legislador nacional",
    "color": "#1b7f4f",
-   "bio": "Alejandra Torres es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 159 proyectos, de los cuales 12 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "bio": "Abogada de la UNC, investigadora del IERAL de la Fundación Mediterránea y directora del IDESA antes de entrar en la función pública. Fue secretaria de Planeamiento, Modernización y Relaciones Internacionales de la Municipalidad de Córdoba con Martín Llaryora (2019-2023) y llegó al Congreso en 2023 de la mano de Juan Schiaretti. En Diputados integra el bloque Provincias Unidas y el interbloque Unidos. Su producción legislativa es baja y su asistencia a las votaciones nominales quedó por debajo de la de sus compañeros de bloque.",
    "foto": "assets/fotos/alejandra-torres.jpg",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "Provincias Unidas",
+   "partido": "Provincias Unidas (PJ cordobés)",
    "ejes": [
-    50,
-    50,
-    50,
+    35,
+    45,
     55,
-    50,
-    50
+    70,
+    30,
+    45
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
-     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+     "fecha": "1984",
+     "evento": "Se recibe de abogada en la Universidad Nacional de Córdoba. Recibe el premio Mauricio Yadarola."
     },
     {
-     "fecha": "2026",
-     "evento": "Presenta 159 proyectos en el período, 12 convertidos en ley."
+     "fecha": "1990s-2000s",
+     "evento": "Investigadora del IERAL (Fundación Mediterránea) y directora del Instituto de Trabajo y Seguridad Social de la Fundación Novum Millenium y de IDESA."
+    },
+    {
+     "fecha": "2000s",
+     "evento": "Consultora externa del BID y del Banco Mundial en más de diez países de América Latina."
+    },
+    {
+     "fecha": "2019-2023",
+     "evento": "Secretaria de Planeamiento, Modernización y Relaciones Internacionales de la Ciudad de Córdoba, con el intendente Martín Llaryora."
+    },
+    {
+     "fecha": "2023-12-10",
+     "evento": "Asume como diputada nacional por Córdoba, en el segundo lugar de la lista de Hacemos por Nuestro País."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Falta a la sesión especial que la oposición intentó abrir por el DNU 70/2023, en medio de la Marcha Federal Universitaria."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   "criticas": [
+    {
+     "area": "Asistencia",
+     "tesis": "No bajó al recinto cuando su ausencia definía el quórum.",
+     "cuerpo": "El 15 de octubre de 2026 la sesión se cayó por falta de quórum, en plena Marcha Federal Universitaria, mientras la oposición buscaba tratar el rechazo al DNU 70/2023, la emergencia en discapacidad y el endeudamiento de las familias. Los otros siete diputados cordobeses opositores estaban sentados en sus bancas. La cobertura señala que su ausencia generó cuestionamientos por el vínculo con su pareja, el exdirector de la ANSES Osvaldo Giordano, y aclara que esa relación no está establecida.",
+     "evidencia": null,
+     "fuente_url": "https://www.lariberaweb.com/general/alejandra-torres-no-dio-quorum-y-su-ausencia-genero-cuestionamientos/",
+     "fuerza": "fuerte",
+     "tipo": "Asistencia y disciplina de bloque"
+    },
+    {
+     "area": "Asistencia",
+     "tesis": "Faltó a la sesión de financiamiento universitario con un certificado de Covid.",
+     "cuerpo": "Avisó por escrito que transitaba problemas de salud, entre ellos Covid, y que no iba a estar en la sesión por el financiamiento de las universidades nacionales. Es una de las ausencias que explican su 70% de participación en las votaciones nominales, el registro más bajo de los cuatro cordobeses de Provincias Unidas.",
+     "evidencia": null,
+     "fuente_url": "https://www.perfil.com/noticias/cordoba/financiamiento-universitario-la-diputada-cordobesa-alejandra-torres-afirmo-que-tiene-covid-y-no-estara-en-la-sesion.phtml",
+     "fuerza": "media",
+     "tipo": "Asistencia"
+    },
+    {
+     "area": "Producción legislativa",
+     "tesis": "Veinticuatro proyectos en dos años y ninguno convertido en ley.",
+     "cuerpo": "El registro oficial de la Cámara le asigna 24 proyectos como autora entre marzo de 2024 y octubre de 2026, de los cuales 2 llegaron a dictamen de comisión y ninguno fue aprobado. Son números por debajo del promedio de la Cámara, que en 2026 ronda los 16 proyectos por diputado y año. La ficha que circulaba con 159 proyectos y 12 leyes no tiene respaldo documental.",
+     "evidencia": null,
+     "fuente_url": "https://www.dipudata.com/diputado/alejandra-torres",
+     "fuerza": "media-fuerte",
+     "tipo": "Producción"
+    }
    ],
-   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "vulnerabilidades": [
+    "70% de asistencia a las votaciones nominales, la más baja de su bloque cordobés.",
+    "Cero proyectos propios aprobados en el período.",
+    "Su figura pública se lee por el vínculo con Giordano más que por su producción legislativa."
+   ],
+   "gancho": "Currículum de consultora internacional, asistencia de 70% y cero leyes propias.",
    "a_favor": [
-    "Asistió al 88% de las votaciones del período.",
-    "Presentó 159 proyectos y 12 llegaron a ley."
+    "Trayectoria técnica poco común: IERAL, IDESA, BID y Banco Mundial antes de la función pública.",
+    "Gestionó Planeamiento y Relaciones Internacionales de la ciudad de Córdoba, con presupuesto y estructura propios.",
+    "Votó en contra de artículos de la primera Ley Ómnibus, lo que le costó el desplazamiento de su pareja al frente de la ANSES."
    ],
    "badge": ""
   },
@@ -8077,7 +8124,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Belén Avico es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 34 proyectos, de los cuales 15 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Belén Avico es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/belen-avico.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8092,12 +8139,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 34 proyectos en el período, 15 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8116,58 +8159,94 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 44% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 100% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "carlos-gutierrez",
    "nombre": "Carlos Gutiérrez",
    "slug": "carlos-gutierrez",
-   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "rol": "Diputado nacional por Córdoba (2023-2027), Provincias Unidas",
    "tag": "Legislador nacional",
    "color": "#1b7f4f",
-   "bio": "Carlos Gutiérrez es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 111 proyectos, de los cuales 8 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Dirigente rural de Río Cuarto que presidió Confederaciones Rurales Argentinas antes de entrar en la política. Fue concejal de Río Cuarto, ministro de Agricultura de Córdoba durante el primer gobierno de Schiaretti y legislador provincial entre 2011 y 2019. Llegó a Diputados en 2019 y fue reelecto en 2023. En el Congreso es la voz del cordobesismo en el debate agropecuario: presentó proyectos contra la suba de retenciones y cuestionó al gobierno nacional por lo que llamó un apriete al sector.",
    "foto": "",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "Provincias Unidas",
+   "partido": "Provincias Unidas (PJ cordobés)",
    "ejes": [
+    30,
+    40,
     50,
-    50,
-    50,
-    55,
-    50,
-    50
+    75,
+    30,
+    35
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
-     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+     "fecha": "1990s",
+     "evento": "Presidente de Confederaciones Rurales Argentinas (CRA)."
     },
     {
-     "fecha": "2026",
-     "evento": "Presenta 111 proyectos en el período, 8 convertidos en ley."
+     "fecha": "2004-2007",
+     "evento": "Concejal de la ciudad de Río Cuarto."
+    },
+    {
+     "fecha": "2007-2011",
+     "evento": "Ministro de Agricultura, Ganadería y Alimentación de la provincia de Córdoba, con Juan Schiaretti."
+    },
+    {
+     "fecha": "2011-2019",
+     "evento": "Legislador provincial por Departamento Único."
+    },
+    {
+     "fecha": "2019-12-10",
+     "evento": "Asume como diputado nacional por Córdoba."
+    },
+    {
+     "fecha": "2023-12-10",
+     "evento": "Renueva su banca por Córdoba en el bloque Provincias Unidas."
+    },
+    {
+     "fecha": "2025-04",
+     "evento": "Presenta un proyecto para impedir la vuelta de la rebaja de retenciones a cereales y oleaginosas."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Seis años de banca y ningún proyecto propio convertido en ley.",
+     "cuerpo": "El registro de la Cámara le asigna 42 proyectos como autor desde marzo de 2020, con 3 dictámenes de comisión y ninguno aprobado. Su peso político está en el bloque y en los medios, no en la sanción de normas. El dato cargado en la ficha, 111 proyectos y 8 leyes, no figura en ninguna fuente oficial.",
+     "evidencia": null,
+     "fuente_url": "https://www.dipudata.com/diputado/carlos-mario-gutierrez",
+     "fuerza": "media-fuerte",
+     "tipo": "Producción"
+    },
+    {
+     "area": "Intereses",
+     "tesis": "Legisla sobre el sector que presidió y del que vive.",
+     "cuerpo": "Fue presidente de Confederaciones Rurales Argentinas y ministro de Agricultura de Córdoba. En Diputados su agenda visible es la de las entidades del campo: presentó un proyecto para frenar la suba de retenciones y acusó al gobierno de ejercer un apriete sobre el sector. Tiene derecho a defender a su sector, y a la vez es el caso típico de representación de un interés económico concreto en una banca que debería cubrir a toda la provincia.",
+     "evidencia": null,
+     "fuente_url": "https://www.perfil.com/noticias/cordoba/retenciones-al-campo-para-carlos-gutierrez-es-un-apriete-muy-burdo.phtml",
+     "fuerza": "media",
+     "tipo": "Conflicto de interés"
+    }
    ],
-   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "vulnerabilidades": [
+    "Ningún proyecto propio aprobado en seis años de mandato.",
+    "Su perfil es rural y riocuartense, con poca tracción en la capital y en el norte provincial."
+   ],
+   "gancho": "El campo en una banca: expresidente de CRA, 99% de asistencia y cero leyes propias.",
    "a_favor": [
-    "Asistió al 100% de las votaciones del período.",
-    "Presentó 111 proyectos y 8 llegaron a ley."
+    "99% de asistencia a las votaciones nominales: 139 de 141.",
+    "Único de los cuatro con gestión ejecutiva provincial: ministro de Agricultura entre 2007 y 2011.",
+    "Presidió CRA, la entidad que agrupa a las rurales del interior, y conserva llegada directa al sector."
    ],
    "badge": ""
   },
@@ -8175,44 +8254,78 @@
    "id": "carolina-basualdo",
    "nombre": "Carolina Basualdo",
    "slug": "carolina-basualdo",
-   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "rol": "Diputada nacional por Córdoba (2025-2029), Provincias Unidas",
    "tag": "Legislador nacional",
    "color": "#1b7f4f",
-   "bio": "Carolina Basualdo es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 143 proyectos, de los cuales 5 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
-   "foto": "",
+   "bio": "Licenciada en Comunicación y exintendenta de Despeñaderos, la localidad del departamento Santa María donde construyó toda su carrera. Presidió la Comunidad Regional Santa María y llegó al Congreso en diciembre de 2025 por Provincias Unidas. Registra 50 proyectos presentados desde que llegó al Congreso y sostiene un discurso de gestión municipal austera y de equilibrio fiscal.",
+   "foto": "assets/fotos/carolina-basualdo.jpg",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "Provincias Unidas",
+   "partido": "Provincias Unidas (Hacemos Unidos por Córdoba)",
    "ejes": [
-    50,
-    50,
-    50,
+    40,
+    45,
     55,
-    50,
-    50
+    75,
+    35,
+    30
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
-     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+     "fecha": "2010s",
+     "evento": "Intendenta de Despeñaderos por Hacemos Unidos por Córdoba."
+    },
+    {
+     "fecha": "2020s",
+     "evento": "Presidenta de la Comunidad Regional Santa María."
+    },
+    {
+     "fecha": "2025-12-03",
+     "evento": "Jura como diputada nacional por Córdoba."
+    },
+    {
+     "fecha": "2025-12-10",
+     "evento": "Asume el mandato 2025-2029 en el bloque Provincias Unidas."
     },
     {
      "fecha": "2026",
-     "evento": "Presenta 143 proyectos en el período, 5 convertidos en ley."
+     "evento": "Presenta 50 proyectos en nueve meses, con 5 dictámenes de comisión y ninguno aprobado."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   "criticas": [
+    {
+     "area": "Producción legislativa",
+     "tesis": "Cincuenta proyectos en nueve meses y ninguno aprobado.",
+     "cuerpo": "Presentó 50 proyectos entre marzo y septiembre de 2026, con 5 dictámenes de comisión y cero aprobaciones. El volumen es alto para alguien que recién llega, y el resultado todavía es nulo. La ficha que circulaba con 143 proyectos y 5 leyes mezcla el total con leyes que no existen en el registro.",
+     "evidencia": null,
+     "fuente_url": "https://www.dipudata.com/diputado/carolina-basualdo",
+     "fuerza": "media",
+     "tipo": "Producción"
+    },
+    {
+     "area": "Gestión",
+     "tesis": "Responde a las quejas por las tasas comparando con el precio de la carne.",
+     "cuerpo": "Como intendenta de Despeñaderos defendió el costo de las tasas municipales con una frase que se volvió su marca: cuando la cuestionan, pregunta si saben cuánto cuesta un kilo de carne. La comparación sirve para explicar la presión tributaria, y también esquiva la pregunta por la progresividad del tributo en un pueblo donde el ingreso medio es bajo.",
+     "evidencia": null,
+     "fuente_url": "https://www.perfil.com/noticias/cordoba/carolina-basualdo-cuando-me-cuestionan-el-costo-de-las-tasas-les-pregunto-si-saben-cuanto-cuesta-un-kilo-de-carne.phtml",
+     "fuerza": "media",
+     "tipo": "Gestión municipal"
+    }
    ],
-   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "vulnerabilidades": [
+    "Cero leyes propias aprobadas.",
+    "No tiene paso previo por una legislatura provincial ni nacional: salta de un municipio de menos de 20 mil habitantes a la Cámara.",
+    "Su base territorial es un solo departamento del interior."
+   ],
+   "gancho": "De intendenta de un pueblo a diputada nacional en un año: 50 proyectos y ninguna ley.",
    "a_favor": [
-    "Asistió al 100% de las votaciones del período.",
-    "Presentó 143 proyectos y 5 llegaron a ley."
+    "97% de asistencia a las votaciones nominales desde que asumió.",
+    "Cincuenta proyectos presentados en nueve meses, por encima del promedio de la Cámara.",
+    "Gestionó un municipio con equilibrio fiscal y sin tomar deuda, según su propio relato y la cobertura de prensa."
    ],
    "badge": ""
   },
@@ -8223,7 +8336,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Enrique Lluch es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 24 proyectos, de los cuales 3 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Enrique Lluch es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/enrique-lluch.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8238,12 +8351,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 24 proyectos en el período, 3 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8262,15 +8371,10 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 12% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 100% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "gabriela-estevez",
@@ -8279,7 +8383,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#4a90d9",
-   "bio": "Gabriela Beatriz Estévez es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Unión Por La Patria. En el período presentó 1288 proyectos, de los cuales 7 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "bio": "Gabriela Beatriz Estévez es diputado nacional por Córdoba por el bloque Unión Por La Patria. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/gabriela-estevez.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8294,12 +8398,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque Unión Por La Patria."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 1288 proyectos en el período, 7 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8318,16 +8418,10 @@
      "refutacion": "Cierto. Pero hay opositores con menos proyectos y más leyes."
     }
    ],
-   "vulnerabilidades": [
-    "Sólo 7 de 1288 proyectos llegaron a ley (0.5%).",
-    "El volumen incluye cofirmas, así que el número infla su producción individual."
-   ],
-   "gancho": "Mucho volumen, poca conversión. El clásico presentador serial.",
-   "a_favor": [
-    "Es uno de los que más proyectos presenta en toda la Cámara: 1288 en el período.",
-    "Asistió al 88% de las votaciones."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "gonzalo-roca",
@@ -8336,7 +8430,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Gonzalo Roca es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 4 proyectos, de los cuales 2 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Gonzalo Roca es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/gonzalo-roca.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8351,12 +8445,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 4 proyectos en el período, 2 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8375,15 +8465,10 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 50% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 100% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "ignacio-aresca",
@@ -8392,7 +8477,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#1b7f4f",
-   "bio": "Ignacio García Aresca es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 110 proyectos, de los cuales 12 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "bio": "Ignacio García Aresca es diputado nacional por Córdoba por el bloque Provincias Unidas. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/ignacio-aresca.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8407,12 +8492,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 110 proyectos en el período, 12 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8431,58 +8512,104 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 11% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 88% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "juan-brugge",
    "nombre": "Juan Fernando Brügge",
    "slug": "juan-fernando-brugge",
-   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "rol": "Diputado nacional por Córdoba (2023-2027), Provincias Unidas",
    "tag": "Legislador nacional",
    "color": "#1b7f4f",
-   "bio": "Juan Fernando Brügge es diputado nacional por Córdoba desde diciembre de 2025, por el bloque Provincias Unidas. En el período presentó 399 proyectos, de los cuales 11 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
-   "foto": "",
+   "bio": "Doctor en Derecho y Ciencias Sociales por la UNC, profesor de Derecho Público Provincial y Municipal y una de las caras del Partido Demócrata Cristiano, que presidió entre 2011 y 2015. Fue legislador provincial, miembro del Consejo de la Magistratura y diputado nacional entre 2016 y 2019. Volvió a la Cámara en 2023 y es el legislador cordobés con más proyectos y más leyes propias del bloque. En paralelo se desempeña como director del Banco de la Provincia de Córdoba.",
+   "foto": "assets/fotos/juan-brugge.jpg",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "Provincias Unidas",
+   "partido": "Provincias Unidas / Partido Demócrata Cristiano",
    "ejes": [
-    50,
-    50,
-    50,
+    40,
     55,
     50,
-    50
+    70,
+    35,
+    40
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
-     "evento": "Asume como diputado nacional por Córdoba por el bloque Provincias Unidas."
+     "fecha": "2007",
+     "evento": "Legislador provincial de Córdoba. Integra el Consejo de la Magistratura."
+    },
+    {
+     "fecha": "2011-2015",
+     "evento": "Presidente del Partido Demócrata Cristiano."
+    },
+    {
+     "fecha": "2013",
+     "evento": "Director del Banco de la Provincia de Córdoba."
+    },
+    {
+     "fecha": "2016-03-01",
+     "evento": "Asume como diputado nacional por Córdoba, en reemplazo de Juan Carlos Massei. Preside la comisión de Comunicaciones e Informática."
+    },
+    {
+     "fecha": "2019-12-10",
+     "evento": "Termina su primer mandato y queda fuera de la Cámara."
+    },
+    {
+     "fecha": "2023-12-10",
+     "evento": "Vuelve como diputado nacional por Córdoba, en el bloque Provincias Unidas."
     },
     {
      "fecha": "2026",
-     "evento": "Presenta 399 proyectos en el período, 11 convertidos en ley."
+     "evento": "Acumula 234 proyectos como autor desde 2016, con 19 aprobados."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   "criticas": [
+    {
+     "area": "Asistencia",
+     "tesis": "Faltó a una de cada ocho votaciones del período.",
+     "cuerpo": "Votó en 122 de las 141 votaciones nominales desde diciembre de 2025, un 87%. En un bloque donde Gutiérrez llegó al 99% y Basualdo al 97%, sus 19 ausencias son la excepción. Para un diputado que hace del rigor constitucional su bandera, el dato pesa más que en cualquier otro.",
+     "evidencia": null,
+     "fuente_url": "https://www.dipudata.com/diputado/juan-fernando-brugge",
+     "fuerza": "media",
+     "tipo": "Asistencia"
+    },
+    {
+     "area": "Intereses",
+     "tesis": "Legisla sobre el sistema financiero mientras cobra como director del banco provincial.",
+     "cuerpo": "El Banco de la Provincia de Córdoba lo publica en su directorio como director, y él mantiene la banca nacional. La incompatibilidad no está probada y la ley permite ciertos cargos, pero la superposición existe: el mismo cuerpo que discute regulación financiera tiene sentado a un directivo de un banco público provincial. No hay una ley suya que lo beneficie directamente.",
+     "evidencia": null,
+     "fuente_url": "https://www.bancor.com.ar/institucional/autoridades/director2",
+     "fuerza": "media",
+     "tipo": "Conflicto de interés potencial"
+    },
+    {
+     "area": "Posición",
+     "tesis": "Votó contra la reforma laboral y quedó del lado del statu quo.",
+     "cuerpo": "Argumentó que la reforma laboral era una mala ley que iba a aumentar la conflictividad judicial, y votó en contra. El argumento es defendible desde el derecho del trabajo, y también lo alinea con el sindicalismo y el peronismo cordobés en un tema donde el oficialismo buscaba consenso. Quien esperaba un liberalismo institucional en su banca no lo encontró ahí.",
+     "evidencia": null,
+     "fuente_url": "https://www.perfil.com/noticias/cordoba/diputado-cordobes-que-voto-contra-la-reforma-laboral-no-es-una-ley-que-venga-a-dar-solucion-ni-a-los-empleadores-ni-a-los-trabajadores.phtml",
+     "fuerza": "media",
+     "tipo": "Posicionamiento"
+    }
    ],
-   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "vulnerabilidades": [
+    "87% de asistencia: 19 ausencias sobre 141 votaciones.",
+    "Doble rol como diputado y director de Bancor.",
+    "Su perfil técnico no moviliza votos: es un legislador de despacho, no de tribuna."
+   ],
+   "gancho": "El que más leyes saca del bloque, con un pie en el banco provincial.",
    "a_favor": [
-    "Asistió al 88% de las votaciones del período.",
-    "Presentó 399 proyectos y 11 llegaron a ley."
+    "19 proyectos propios aprobados sobre 234 presentados: la tasa de conversión más alta del bloque cordobés.",
+    "Doctor en Derecho, profesor de la UNC y expresidente del Partido Demócrata Cristiano.",
+    "Presidió la comisión de Comunicaciones e Informática y tiene oficio en el trámite parlamentario."
    ],
    "badge": ""
   },
@@ -8493,7 +8620,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Laura Elena Rodríguez Machado es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 24 proyectos, de los cuales 8 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Laura Elena Rodríguez Machado es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/laura-machado.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8508,12 +8635,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 24 proyectos en el período, 8 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8532,58 +8655,99 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 33% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 100% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "laura-soldano",
    "nombre": "Laura Soldano",
    "slug": "laura-soldano",
-   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "rol": "Diputada nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Laura Soldano es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 60 proyectos, de los cuales 0 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Empresaria de Río Cuarto, nacida en 1980. Dirige el colegio Carson y organiza las fiestas Lupita Fest, además de presentarse como coach de bienestar y meditación. Llegó al Congreso en diciembre de 2025 en la lista de La Libertad Avanza por Córdoba, sin ningún cargo electivo previo. Su campaña fue de perfil bajo: el propio espacio la mantuvo lejos de los medios y de los actos centrales. En Diputados integra el bloque oficialista y todavía no tiene producción legislativa propia documentada.",
    "foto": "assets/fotos/laura-soldano.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "La Libertad Avanza",
    "ejes": [
+    75,
+    35,
     50,
-    50,
-    50,
-    55,
-    50,
-    50
+    40,
+    80,
+    55
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
-     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+     "fecha": "1980",
+     "evento": "Nace en Río Cuarto."
     },
     {
-     "fecha": "2026",
-     "evento": "Presenta 60 proyectos en el período, 0 convertidos en ley."
+     "fecha": "2000s",
+     "evento": "Dirige el colegio Carson junto a su esposo Gastón González."
+    },
+    {
+     "fecha": "2010s",
+     "evento": "Organiza la productora de eventos Lupita Fest."
+    },
+    {
+     "fecha": "2025-08",
+     "evento": "Se confirma su candidatura a diputada nacional por Córdoba en la lista de La Libertad Avanza."
+    },
+    {
+     "fecha": "2025-10",
+     "evento": "Se publica que una de sus fiestas se hizo sin habilitación y el expediente terminó con una multa de 20 millones de pesos."
+    },
+    {
+     "fecha": "2025-12-10",
+     "evento": "Asume como diputada nacional por Córdoba."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   "criticas": [
+    {
+     "area": "Actividad privada",
+     "tesis": "Sus fiestas se hicieron sin habilitación y el expediente terminó en una multa millonaria.",
+     "cuerpo": "La Lupita Fest se realizó en un predio de la calle Presidente Perón al 3400 de Río Cuarto sin los informes técnicos, con seguridad no autorizada y sin servicio médico. El evento se trasladó a su casa en el country San Esteban, con unas 300 personas y entradas de 8 mil pesos. El expediente contravencional se cerró con el pago de una multa de 20 millones de pesos.",
+     "evidencia": "Expediente contravencional cerrado con multa de 20 millones de pesos por el evento de febrero de 2025.",
+     "fuente_url": "https://www.pagina12.com.ar/867553-la-candidata-de-las-fiestas-clandestinas-que-milei-mando-a-c/",
+     "fuerza": "fuerte",
+     "tipo": "habilitaciones"
+    },
+    {
+     "area": "Prioridades",
+     "tesis": "Dijo que los jubilados y la emergencia en discapacidad distraen del plan.",
+     "cuerpo": "En una entrevista al diario Alfil, consultada por el aumento a jubilados y por la ley de emergencia en discapacidad, respondió que son cosas que nos hacen distraer del plan. La frase quedó como definición de su alineamiento con el ajuste y la usaron sus propios compañeros de bloque para explicar por qué la mantenían lejos de los medios.",
+     "evidencia": "Declaración textual recogida por Clarín: son cosas que nos hacen distraer del plan.",
+     "fuente_url": "https://www.clarin.com/politica/laura-soldano-influencer-espiritual-entro-lista-libertad-avanza-revelacion-mistica_0_LMnM1RMTQ8.html",
+     "fuerza": "media-fuerte",
+     "tipo": "declaraciones"
+    },
+    {
+     "area": "Transparencia",
+     "tesis": "La fundación del colegio que dirige fue denunciada por manejos irregulares y sueldos impagos.",
+     "cuerpo": "Una nota periodística consignó denuncias por manejos financieros irregulares y falta de pago a docentes en la fundación del colegio Carson, que dirige con su esposo. Se trata de una denuncia periodística y no de una condena judicial.",
+     "evidencia": "Denuncia publicada en octubre de 2025, sin sentencia.",
+     "fuente_url": "https://www.pagina12.com.ar/867553-la-candidata-de-las-fiestas-clandestinas-que-milei-mando-a-c/",
+     "fuerza": "media",
+     "tipo": "denuncia"
+    }
    ],
-   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "vulnerabilidades": [
+    "No tiene experiencia legislativa ni cargos electivos previos.",
+    "El episodio de la fiesta sin habilitación la acompaña desde la campaña.",
+    "Su perfil público quedó asociado a declaraciones esotéricas más que a propuestas."
+   ],
+   "gancho": "La empresaria de las fiestas que llegó al Congreso sin pasar por un cargo electivo.",
    "a_favor": [
-    "Asistió al 100% de las votaciones del período.",
-    "Presentó 60 proyectos y 0 llegaron a ley."
+    "Ganó una banca nacional en su primera elección, en la lista que llevó a La Libertad Avanza al Congreso por Córdoba.",
+    "Dirige un colegio y una productora de eventos en Río Cuarto."
    ],
    "badge": ""
   },
@@ -8594,7 +8758,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Luis Albino Picat es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 77 proyectos, de los cuales 8 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Luis Albino Picat es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/luis-picat.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8609,12 +8773,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 77 proyectos en el período, 8 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8633,15 +8793,10 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 10% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 100% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "marcos-brizuela",
@@ -8650,7 +8805,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "Marcos Patiño Brizuela es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 17 proyectos, de los cuales 4 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Marcos Patiño Brizuela es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/marcos-brizuela.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8665,12 +8820,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 17 proyectos en el período, 4 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8689,58 +8840,88 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 24% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 100% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "maria-ibanez",
    "nombre": "María Cecilia Ibañez",
    "slug": "maria-cecilia-ibanez",
-   "rol": "Diputado nacional por Córdoba (2025-2029)",
+   "rol": "Diputada nacional por Córdoba (2023-2027)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "María Cecilia Ibañez es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 94 proyectos, de los cuales 0 llegaron a ser ley, con 100% de asistencia a las votaciones nominales.",
+   "bio": "Abogada cordobesa nacida en 1965. Llegó a la Cámara de Diputados en diciembre de 2023, en el tercer lugar de la lista de La Libertad Avanza por Córdoba. En abril de 2024 acompañó a Oscar Zago cuando armó el MID y fue secretaria parlamentaria de ese bloque. En agosto de 2025 firmó su regreso a La Libertad Avanza, que recuperó así una banca en una semana complicada para el oficialismo. Su paso por el MID no le cambió el sentido del voto.",
    "foto": "assets/fotos/maria-ibanez.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "La Libertad Avanza",
    "ejes": [
+    70,
+    40,
     50,
-    50,
-    50,
-    55,
-    50,
+    45,
+    65,
     50
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
-     "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
+     "fecha": "1965",
+     "evento": "Nace en Córdoba."
+    },
+    {
+     "fecha": "2023-12-10",
+     "evento": "Asume como diputada nacional por Córdoba, en el tercer lugar de la lista de La Libertad Avanza."
+    },
+    {
+     "fecha": "2024-04",
+     "evento": "Deja el bloque oficialista y se suma al MID que arma Oscar Zago tras la ruptura."
+    },
+    {
+     "fecha": "2024-2025",
+     "evento": "Ocupa la secretaría parlamentaria del MID."
+    },
+    {
+     "fecha": "2025-08",
+     "evento": "Firma su reincorporación a La Libertad Avanza y el oficialismo vuelve a 37 diputados."
     },
     {
      "fecha": "2026",
-     "evento": "Presenta 94 proyectos en el período, 0 convertidos en ley."
+     "evento": "Integra el bloque de La Libertad Avanza."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su producción legislativa es de perfil bajo y muy atada a la agenda del bloque."
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "Se fue del bloque oficialista y volvió dieciséis meses después, sin explicar el giro.",
+     "cuerpo": "En abril de 2024 siguió a Oscar Zago al MID cuando Menem lo corrió de la jefatura de bloque. En agosto de 2025 firmó una nota a Menem para dejar el MID y reincorporarse a La Libertad Avanza. La vuelta le devolvió al oficialismo la banca que había perdido y la dejó sin relato sobre por qué se había ido.",
+     "evidencia": "Nota de reincorporación firmada en agosto de 2025, dieciséis meses después de la salida.",
+     "fuente_url": "https://www.perfil.com/noticias/politica/cecilia-ibanez-dejo-el-mid-de-oscar-zago-y-volvio-a-la-libertad-avanza-el-oficialismo-recupero-una-banca-en-una-semana-dificil.phtml",
+     "fuerza": "media-fuerte",
+     "tipo": "coherencia"
+    },
+    {
+     "area": "Disciplina partidaria",
+     "tesis": "Votó con el oficialismo mientras su propio bloque se partía.",
+     "cuerpo": "Según la crónica de Perfil, su salida del MID se produjo después de semanas de votaciones divididas en las que ella se alineó con el oficialismo mientras Zago y Falcone acompañaban a la oposición o se ausentaban en los debates clave. El paso por el MID no le cambió el sentido del voto.",
+     "evidencia": "Votaciones divididas previas a la salida del MID, agosto de 2025.",
+     "fuente_url": "https://www.perfil.com/noticias/politica/cecilia-ibanez-dejo-el-mid-de-oscar-zago-y-volvio-a-la-libertad-avanza-el-oficialismo-recupero-una-banca-en-una-semana-dificil.phtml",
+     "fuerza": "media",
+     "tipo": "votaciones"
+    }
    ],
-   "gancho": "Legislador de bloque: ordena, acompaña y vota.",
+   "vulnerabilidades": [
+    "Su recorrido público está atado a las rupturas y reunificaciones del bloque oficialista.",
+    "No tiene una agenda legislativa propia que la distinga dentro de La Libertad Avanza."
+   ],
+   "gancho": "La diputada que se fue del bloque y volvió dieciséis meses después.",
    "a_favor": [
-    "Asistió al 100% de las votaciones del período.",
-    "Presentó 94 proyectos y 0 llegaron a ley."
+    "Fue secretaria parlamentaria del MID, un rol de conducción dentro del bloque."
    ],
    "badge": ""
   },
@@ -8751,7 +8932,7 @@
    "rol": "Diputado nacional por Córdoba (2025-2029)",
    "tag": "Legislador nacional",
    "color": "#7a4fd0",
-   "bio": "María Celeste Ponce es diputado nacional por Córdoba desde diciembre de 2025, por el bloque La Libertad Avanza. En el período presentó 29 proyectos, de los cuales 6 llegaron a ser ley, con 88% de asistencia a las votaciones nominales.",
+   "bio": "María Celeste Ponce es diputado nacional por Córdoba por el bloque La Libertad Avanza. Su producción legislativa está pendiente de verificación.",
    "foto": "assets/fotos/maria-ponce.jpg",
    "categorias": [],
    "provincia": "Córdoba",
@@ -8766,12 +8947,8 @@
    ],
    "trayectoria": [
     {
-     "fecha": "2025",
+     "fecha": "",
      "evento": "Asume como diputado nacional por Córdoba por el bloque La Libertad Avanza."
-    },
-    {
-     "fecha": "2026",
-     "evento": "Presenta 29 proyectos en el período, 6 convertidos en ley."
     }
    ],
    "promesas_cumplidas": [],
@@ -8790,57 +8967,94 @@
      "refutacion": "Es cierto. También es cierto que sin volumen no se incide en la agenda."
     }
    ],
-   "vulnerabilidades": [
-    "Presenta poco volumen legislativo, aunque con efectividad alta."
-   ],
-   "gancho": "Pocos proyectos, buena puntería: los que presenta, salen.",
-   "a_favor": [
-    "Convierte 21% de sus proyectos en ley, la proporción más alta del bloque.",
-    "Asistió al 88% de las votaciones del período."
-   ],
-   "badge": ""
+   "vulnerabilidades": [],
+   "gancho": "Ficha con datos de producción pendientes de verificación.",
+   "a_favor": [],
+   "badge": "Datos en revisión"
   },
   {
    "id": "alvarezrivero",
    "nombre": "Carmen Álvarez Rivero",
    "slug": "carmen-alvarez-rivero",
-   "rol": "Senadora nacional por Córdoba desde 2023",
+   "rol": "Senadora nacional por Córdoba (2021-2027)",
    "tag": "Legisladora nacional",
    "color": "#f5c518",
-   "bio": "Empresaria y dirigente del PRO. Fue diputada nacional por Córdoba y preside la comisión de Industria y Comercio del Senado. Su nombre suena para la gobernación si el PRO define una candidatura propia.",
-   "foto": "",
+   "bio": "Abogada, senadora nacional por Córdoba desde diciembre de 2021. Entró por Juntos por el Cambio y hoy integra el bloque de La Libertad Avanza en la Cámara Alta. Preside la comisión de Trabajo y Previsión Social, la que recibe los proyectos laborales y previsionales del Poder Ejecutivo. En agosto de 2025 quedó en el centro de la polémica por una frase sobre el hospital Garrahan y en 2026 mantiene frenado el debate del Estatuto del Periodista en su comisión.",
+   "foto": "assets/fotos/alvarezrivero.jpg",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "PRO",
+   "partido": "La Libertad Avanza",
    "ejes": [
-    50,
-    50,
+    75,
+    35,
+    55,
     50,
     65,
-    50,
-    55
+    60
    ],
    "trayectoria": [
     {
-     "fecha": "2023",
-     "evento": "Asume como senadora nacional por Córdoba."
+     "fecha": "2021-12-10",
+     "evento": "Asume como senadora nacional por Córdoba por Juntos por el Cambio."
     },
     {
-     "fecha": "2019-2023",
-     "evento": "Diputada nacional por Córdoba."
+     "fecha": "2023",
+     "evento": "Integra el interbloque de Juntos por el Cambio en el Senado."
+    },
+    {
+     "fecha": "2025-08",
+     "evento": "Sus dichos sobre el hospital Garrahan en un plenario de comisiones generan un pedido de repudio."
+    },
+    {
+     "fecha": "2026-11",
+     "evento": "Su comisión mantiene sin tratamiento el proyecto para actualizar el Estatuto del Periodista."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Integra el bloque de La Libertad Avanza en el Senado."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su figura está atada a un espacio provincial que también la limita."
+   "criticas": [
+    {
+     "area": "Salud",
+     "tesis": "Dijo que no conocía el derecho de los chicos a atenderse en el Garrahan.",
+     "cuerpo": "En un plenario de comisiones sostuvo que no creía que los niños argentinos tuvieran derecho a venir al Garrahan a ser curados y que ese derecho no lo conocía en ningún lado. Después dijo que fue malinterpretada y más tarde redobló la postura. El hospital pediátrico de referencia nacional quedó en el centro de la discusión por el financiamiento.",
+     "evidencia": "Declaración textual en un plenario de comisiones, agosto de 2025.",
+     "fuente_url": "https://tn.com.ar/politica/2025/08/20/polemica-en-el-senado-no-creo-que-los-ninos-argentinos-tengan-derecho-a-venir-al-garrahan-a-ser-curados/",
+     "fuerza": "fuerte",
+     "tipo": "declaraciones"
+    },
+    {
+     "area": "Trabajo",
+     "tesis": "El Estatuto del Periodista quedó sin vigencia y el proyecto para actualizarlo duerme en su comisión.",
+     "cuerpo": "La reforma laboral dejó sin efecto la ley 12.908 y el proyecto para actualizar el estatuto sigue frenado en la comisión que ella preside. Para obligar a la comisión a reunirse hacen falta nueve firmas de diecisiete y solo hay seis. El bloqueo deja a los periodistas sin el régimen que regula su trabajo.",
+     "evidencia": "Seis firmas de las nueve necesarias para forzar el tratamiento, noviembre de 2026.",
+     "fuente_url": "https://www.eldestapeweb.com/politica/quien-carmen-alvarez-rivero-senadora-libertaria-nieg",
+     "fuerza": "media-fuerte",
+     "tipo": "gestión legislativa"
+    },
+    {
+     "area": "Coherencia",
+     "tesis": "Entró por Juntos por el Cambio y hoy responde a La Libertad Avanza.",
+     "cuerpo": "La ficha oficial del Senado dice que ingresó por Juntos por el Cambio y que su bloque actual es La Libertad Avanza. Los medios ya la describen como la senadora libertaria, con el PRO como origen y no como identidad presente. El cambio de bloque no tuvo una explicación pública extensa.",
+     "evidencia": "Ficha oficial del Senado: ingreso por JxC, bloque actual La Libertad Avanza.",
+     "fuente_url": "https://www.senado.gob.ar/senadores/senador/522",
+     "fuerza": "media",
+     "tipo": "coherencia"
+    }
    ],
-   "gancho": "Senadora con peso propio y una carrera armada en la provincia.",
+   "vulnerabilidades": [
+    "Su frase sobre el Garrahan le dio a la oposición un tema de salud para toda la campaña.",
+    "El bloqueo del Estatuto del Periodista la enfrenta con el gremio de prensa.",
+    "Su identidad partidaria quedó difusa entre el PRO y La Libertad Avanza."
+   ],
+   "gancho": "La senadora que preside Trabajo y dijo que no conocía el derecho al Garrahan.",
    "a_favor": [
-    "Tiene banca nacional y recorrido en la provincia."
+    "Preside la comisión de Trabajo y Previsión Social del Senado, una de las de mayor peso en la agenda económica."
    ],
    "badge": ""
   },
@@ -8848,43 +9062,86 @@
    "id": "vigo",
    "nombre": "Alejandra Vigo",
    "slug": "alejandra-vigo",
-   "rol": "Senadora nacional por Córdoba desde 2021",
+   "rol": "Senadora nacional por Córdoba (2021-2027)",
    "tag": "Legisladora nacional",
    "color": "#1b7f4f",
-   "bio": "Senadora nacional por Córdoba y referente de Hacemos por Córdoba. Fue diputada nacional entre 2017 y 2021 y es la esposa de Juan Schiaretti, con quien construyó el espacio provincial.",
+   "bio": "Licenciada en Relaciones Internacionales, senadora nacional por Córdoba desde diciembre de 2021 y antes diputada nacional entre 2017 y 2021. Es esposa de Juan Schiaretti y una de las caras del schiarettismo en el Congreso. Preside la comisión de Asuntos Constitucionales y ocupa la vicepresidencia segunda del Senado. Es autora de la ley 27.696, conocida como Ley Vigo, que incorporó al Programa Médico Obligatorio la asistencia integral a víctimas de violencia de género.",
    "foto": "assets/fotos/vigo.jpg",
    "categorias": [],
    "provincia": "Córdoba",
    "partido": "Hacemos por Córdoba",
    "ejes": [
-    50,
+    40,
     50,
     50,
     65,
-    50,
-    55
+    35,
+    40
    ],
    "trayectoria": [
     {
      "fecha": "2017-2021",
-     "evento": "Diputada nacional por Córdoba."
+     "evento": "Diputada nacional por Córdoba por el bloque de Hacemos por Córdoba."
     },
     {
-     "fecha": "2021",
+     "fecha": "2021-12-10",
      "evento": "Asume como senadora nacional por Córdoba."
+    },
+    {
+     "fecha": "2022-10-27",
+     "evento": "Se sanciona la ley 27.696, de su autoría, sobre asistencia a víctimas de violencia de género."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Ocupa la vicepresidencia segunda del Senado y preside la comisión de Asuntos Constitucionales."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Integra el bloque Provincias Unidas, el espacio que conduce Martín Llaryora."
     }
    ],
    "promesas_cumplidas": [],
    "promesas_incumplidas": [],
    "cumplidas": 0,
    "incumplidas": 0,
-   "criticas": [],
-   "vulnerabilidades": [
-    "Su figura está atada a un espacio provincial que también la limita."
+   "criticas": [
+    {
+     "area": "Coherencia",
+     "tesis": "Acusó de corrupción al gobierno de Mestre, lo negó ante los periodistas y su marido la desautorizó.",
+     "cuerpo": "Como secretaria de Equidad y Formación de Empleo dijo que en el primer período de Ramón Mestre fue tremenda la corrupción. Frente a los periodistas negó haber acusado de corrupto al gobierno municipal, aunque el audio la contradecía. Schiaretti salió a desautorizarla públicamente.",
+     "evidencia": "Audio de la declaración y posterior desmentida, con desautorización pública de Schiaretti.",
+     "fuente_url": "https://eldoce.tv/politica/schiaretti-desautorizo-su-esposa-alejandra-vigo_14797/",
+     "fuerza": "media",
+     "tipo": "coherencia"
+    },
+    {
+     "area": "Transparencia",
+     "tesis": "Su currículum oficial en el Senado está desactualizado y contradice su propia ficha.",
+     "cuerpo": "El CV que publica el Senado la presenta como senadora del bloque Unidad Federal, cuando la ficha de la misma página informa que su bloque es Provincias Unidas. El texto también la describe con cargos partidarios que ya no ejerce. La inconsistencia está en el sitio oficial del cuerpo que integra.",
+     "evidencia": "Contradicción entre el CV y la ficha del mismo portal del Senado.",
+     "fuente_url": "https://www.senado.gob.ar/senadores/senador/523",
+     "fuerza": "media",
+     "tipo": "transparencia"
+    },
+    {
+     "area": "Independencia",
+     "tesis": "Su voz pública se lee como la del schiarettismo y queda atada a lo que decida su marido.",
+     "cuerpo": "Cuando cuestionó el recorte de fondos a las provincias, la prensa cordobesa la describió como esposa del ex gobernador y jefa del PJ de la capital, y marcó que Schiaretti no salió a respaldarla mientras el gobernador Llaryora sí lo hizo. La lectura pública de sus intervenciones pasa por el lugar que ocupa en el espacio provincial.",
+     "evidencia": "Cobertura de LPO sobre el episodio, 2024.",
+     "fuente_url": "https://www.lapoliticaonline.com/cordoba/tras-la-salida-de-giordano-el-schiarettismo-redob",
+     "fuerza": "media",
+     "tipo": "independencia"
+    }
    ],
-   "gancho": "Senadora con peso propio y una carrera armada en la provincia.",
+   "vulnerabilidades": [
+    "Su figura pública está atada a Schiaretti y al espacio provincial.",
+    "El episodio de la acusación y la desmentida sobre Mestre le quitó peso a sus denuncias.",
+    "Su currículum oficial desactualizado le da material a la oposición sobre el cuidado de los datos públicos."
+   ],
+   "gancho": "La senadora con ley propia y un apellido que la explica antes de que hable.",
    "a_favor": [
-    "Tiene banca nacional y recorrido en la provincia."
+    "Es autora de la ley 27.696, que incorporó al Programa Médico Obligatorio la asistencia integral a víctimas de violencia de género.",
+    "Preside la comisión de Asuntos Constitucionales y ocupa la vicepresidencia segunda del Senado."
    ],
    "badge": ""
   },
