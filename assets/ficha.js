@@ -33,3 +33,13 @@
   }));
   pintar();
 })();
+
+// Videos: se carga el iframe recién al hacer clic.
+document.addEventListener('click', e => {
+  const v = e.target.closest('.vid');
+  if (!v || v.dataset.done) return;
+  v.dataset.done = '1';
+  const id = v.dataset.vid;
+  v.innerHTML = '<iframe src="https://www.youtube-nocookie.com/embed/' + id +
+    '?autoplay=1&rel=0" allow="autoplay; encrypted-media; picture-in-picture" allowfullscreen title="Video del candidato"></iframe>';
+});

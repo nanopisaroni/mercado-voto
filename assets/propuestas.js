@@ -1,4 +1,4 @@
-// Página de propuestas: filtros, detalle y carrito.
+// Página de propuestas: filtros en la columna izquierda, detalle y carrito.
 (function () {
   const grid = document.getElementById('pgrid');
   if (!grid) return;
@@ -6,6 +6,9 @@
   const estado = { esp: '', eje: '', tipo: 'propuesta', q: '' };
   const cuenta = document.getElementById('p-cuenta');
   const vacio = document.getElementById('pvacio');
+  const titulo = document.getElementById('p-titulo');
+
+  const TIPO_TITULO = { propuesta: 'Todas las propuestas', vision: 'Visiones de país', futuro: 'Futuros posibles' };
 
   function aplicar() {
     let n = 0;
@@ -19,15 +22,28 @@
     }
     cuenta.textContent = n + (n === 1 ? ' resultado' : ' resultados');
     vacio.hidden = n > 0;
+    if (titulo) titulo.textContent = TIPO_TITULO[estado.tipo] || 'Propuestas';
+
+    // conteos por eje según espacio y tipo (sin aplicar el eje)
+    const base = cards.filter(c => (!estado.esp || c.dataset.esp === estado.esp)
+      && (!estado.tipo || c.dataset.tipo === estado.tipo));
+    const cnt = {};
+    base.forEach(c => { cnt[c.dataset.eje] = (cnt[c.dataset.eje] || 0) + 1; });
+    document.querySelectorAll('.cat-item').forEach(b => {
+      const v = b.dataset.v;
+      const k = b.querySelector('b');
+      if (k) k.textContent = v ? (cnt[v] || 0) : base.length;
+    });
   }
 
-  document.querySelectorAll('.chip[data-f]').forEach(chip => {
-    chip.addEventListener('click', () => {
-      const f = chip.dataset.f;
-      estado[f] = chip.dataset.v;
-      document.querySelectorAll('.chip[data-f="' + f + '"]').forEach(o => o.classList.toggle('on', o === chip));
-      aplicar();
-    });
+  document.addEventListener('click', e => {
+    const el = e.target.closest('[data-f]');
+    if (!el) return;
+    e.preventDefault();
+    const f = el.dataset.f;
+    estado[f] = el.dataset.v;
+    document.querySelectorAll('[data-f="' + f + '"]').forEach(o => o.classList.toggle('on', o === el));
+    aplicar();
   });
 
   document.querySelectorAll('.pcat').forEach(cat => {
@@ -35,7 +51,7 @@
       const t = cat.dataset.tipo;
       estado.tipo = t;
       document.querySelectorAll('.pcat').forEach(o => o.classList.toggle('on', o === cat));
-      document.querySelectorAll('.chip[data-f="tipo"]').forEach(o => o.classList.toggle('on', o.dataset.v === t));
+      document.querySelectorAll('[data-f="tipo"]').forEach(o => o.classList.toggle('on', o.dataset.v === t));
       aplicar();
     });
   });
@@ -46,7 +62,7 @@
     const v = qs.get(k);
     if (!v) return;
     estado[k] = v;
-    document.querySelectorAll('.chip[data-f="' + k + '"]').forEach(o => o.classList.toggle('on', o.dataset.v === v));
+    document.querySelectorAll('[data-f="' + k + '"]').forEach(o => o.classList.toggle('on', o.dataset.v === v));
     if (k === 'tipo') document.querySelectorAll('.pcat').forEach(o => o.classList.toggle('on', o.dataset.tipo === v));
   });
 
@@ -68,10 +84,11 @@
     const det = (p.detalle || []).map(d => '<li>' + esc(d) + '</li>').join('');
     const cands = (p.candidatos || []).map(c =>
       '<a class="pm-cand" href="/c/' + c.s + '">' + esc(c.n) + '</a>').join('');
+    const tipoCls = p.tipo === 'Visión de país' ? 'vision' : p.tipo === 'Futuro posible' ? 'futuro' : 'propuesta';
     cuerpo.innerHTML =
       '<div class="pm-top"><span class="p-eje">' + esc(p.eje) + '</span>'
       + '<span class="p-esp" style="--c:' + p.color + '">' + esc(p.esp) + '</span>'
-      + '<span class="p-tipo t-' + (p.tipo === 'Visión de país' ? 'vision' : p.tipo === 'Futuro posible' ? 'futuro' : 'propuesta') + '">' + esc(p.tipo) + '</span></div>'
+      + '<span class="p-tipo t-' + tipoCls + '">' + esc(p.tipo) + '</span></div>'
       + '<h2>' + esc(p.titulo) + '</h2>'
       + '<p class="pm-cuerpo">' + esc(p.cuerpo) + '</p>'
       + (det ? '<ul class="pm-det">' + det + '</ul>' : '')

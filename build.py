@@ -10,9 +10,10 @@ CANDIDATURAS = D["candidaturas"]
 PROP = json.load(open(f"{BASE}/data/propuestas.json", encoding="utf-8"))
 EJE_NAME = {e["id"]: e["nombre"] for e in PROP["ejes"]}
 ESPACIOS = {e["id"]: e for e in PROP["espacios"]}
+VIDEOS = json.load(open(f"{BASE}/data/videos.json", encoding="utf-8"))
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "27"  # versión de assets, para romper caché
+V = "29"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -209,20 +210,38 @@ def scripts(*extra):
 
 # ---------------------------------------------------------------- propuestas
 
+ICONO_EJE = {"economia": "💵", "trabajo": "👷", "produccion": "🌾", "educacion": "🎓", "salud": "🏥",
+             "seguridad": "🚓", "energia": "⚡", "infraestructura": "🛣️", "social": "🤝",
+             "instituciones": "🏛️", "federalismo": "🗺️", "exterior": "🌎"}
+
+
 def prop_card(p):
     e = ESPACIOS[p["espacio"]]
     eje = EJE_NAME[p["eje"]]
+    ico = ICONO_EJE.get(p["eje"], "•")
     pedido = json.dumps({"id": p["id"], "titulo": p["titulo"], "esp": e["nombre"],
                          "eje": eje, "tipo": TIPO_N[p["tipo"]]}, ensure_ascii=False)
+    pill = ""
+    if p["tipo"] != "propuesta":
+        pill = f'<span class="p-pill">{TIPO_N[p["tipo"]].upper()}</span>'
+    costo = f'<span class="p-costo c-{p["costo"] or "na"}">Costo {p["costo"]}</span>' if p["costo"] else ""
     return f'''<article class="prop" data-esp="{p["espacio"]}" data-eje="{p["eje"]}" data-tipo="{p["tipo"]}"
   data-busca="{esc((p["titulo"] + " " + p["bajada"] + " " + e["nombre"] + " " + eje).lower())}">
-  <div class="p-top"><span class="p-eje">{esc(eje)}</span><span class="p-esp" style="--c:{e["color"]}">{esc(e["nombre"])}</span></div>
-  <span class="p-tipo t-{p["tipo"]}">{TIPO_N[p["tipo"]]}</span>
-  <h3>{esc(p["titulo"])}</h3>
-  <p>{esc(p["bajada"])}</p>
-  <div class="p-foot">
-    <button class="btn add-p" data-id="{p["id"]}" data-prop='{esc(pedido)}'>Agregar</button>
-    <button class="link-btn ver-p" data-id="{p["id"]}">Ver detalle</button>
+  <div class="p-visual" style="--c:{e["color"]}">
+    <span class="p-ico" aria-hidden="true">{ico}</span>
+    <span class="p-marca">{esc(e["nombre"])}</span>
+    {pill}
+  </div>
+  <div class="p-info">
+    <h3>{esc(p["titulo"])}</h3>
+    <p class="p-baja">{esc(p["bajada"])}</p>
+    <div class="p-chips"><span class="p-eje">{esc(eje)}</span>{costo}</div>
+    <div class="p-precio">1 propuesta</div>
+    <div class="p-envio">Envío gratis a tu urna</div>
+    <div class="p-foot">
+      <button class="btn add-p" data-id="{p["id"]}" data-prop='{esc(pedido)}'>Agregar</button>
+      <button class="link-btn ver-p" data-id="{p["id"]}">Ver detalle</button>
+    </div>
   </div>
 </article>'''
 
@@ -230,17 +249,22 @@ def prop_card(p):
 def build_propuestas():
     props = PROP["propuestas"]
     fichas = "\n".join(prop_card(p) for p in props)
-    chips_esp = '<button class="chip on" data-f="esp" data-v="">Todos</button>' + "".join(
-        f'<button class="chip" data-f="esp" data-v="{e["id"]}"><i style="--c:{e["color"]}"></i>{esc(e["nombre"])}</button>'
-        for e in PROP["espacios"])
-    chips_eje = '<button class="chip on" data-f="eje" data-v="">Todos</button>' + "".join(
-        f'<button class="chip" data-f="eje" data-v="{e["id"]}">{esc(e["nombre"])}</button>' for e in PROP["ejes"])
-    chips_tipo = "".join(
-        f'<button class="chip{" on" if k == "propuesta" else ""}" data-f="tipo" data-v="{k}">{v}</button>'
-        for k, v in TIPO_N.items())
     n_prop = sum(1 for p in props if p["tipo"] == "propuesta")
     n_vis = sum(1 for p in props if p["tipo"] == "vision")
     n_fut = sum(1 for p in props if p["tipo"] == "futuro")
+
+    def cuenta_eje(eid):
+        return sum(1 for p in props if p["eje"] == eid and p["tipo"] == "propuesta")
+
+    cats = "".join(
+        f'<li><button class="cat-item" data-f="eje" data-v="{e["id"]}">{esc(e["nombre"])}<b>{cuenta_eje(e["id"])}</b></button></li>'
+        for e in PROP["ejes"])
+    chips_esp = "".join(
+        f'<button class="chip" data-f="esp" data-v="{e["id"]}"><i style="--c:{e["color"]}"></i>{esc(e["nombre"])}</button>'
+        for e in PROP["espacios"])
+    tipos = "".join(
+        f'<button class="chip{" on" if k == "propuesta" else ""}" data-f="tipo" data-v="{k}">{v}</button>'
+        for k, v in TIPO_N.items())
     datos = json.dumps({p["id"]: {"titulo": p["titulo"], "cuerpo": p["cuerpo"], "detalle": p["detalle"],
                                   "esp": ESPACIOS[p["espacio"]]["nombre"], "color": ESPACIOS[p["espacio"]]["color"],
                                   "eje": EJE_NAME[p["eje"]], "tipo": TIPO_N[p["tipo"]], "fuente": p["fuente"],
@@ -263,15 +287,25 @@ def build_propuestas():
   <button class="pcat" data-tipo="vision"><span>🌎</span><b>Visión de país</b><small>{n_vis} modelos en disputa</small></button>
   <button class="pcat" data-tipo="futuro"><span>🚀</span><b>Futuro posible</b><small>{n_fut} proyecciones</small></button>
 </section>
-<section class="pfiltros">
-  <div class="pbuscar"><input id="pq" type="search" placeholder="Buscar una propuesta, un tema, una promesa…" aria-label="Buscar propuestas"></div>
-  <div class="pchips"><b>Espacio</b>{chips_esp}</div>
-  <div class="pchips"><b>Eje</b>{chips_eje}</div>
-  <div class="pchips"><b>Tipo</b>{chips_tipo}</div>
-</section>
-<div class="presumen"><h2 id="p-titulo">Todas las propuestas</h2><span id="p-cuenta">{len(props)} resultados</span></div>
-<div class="pgrid" id="pgrid">{fichas}</div>
-<div class="sin-res" id="pvacio" hidden><b>No encontramos propuestas con esos filtros.</b><p>Probá con otro eje o limpiá la búsqueda.</p></div>
+<div class="pcols">
+  <aside class="pfiltros" id="pfiltros">
+    <div class="pbuscar"><input id="pq" type="search" placeholder="Buscar propuestas…" aria-label="Buscar propuestas"></div>
+    <h3>Categorías</h3>
+    <ul class="pcats-list">
+      <li><button class="cat-item on" data-f="eje" data-v="">Todas<b>{n_prop}</b></button></li>
+      {cats}
+    </ul>
+    <h3>Espacio</h3>
+    <div class="pchips-esp">{chips_esp}</div>
+    <h3>Tipo</h3>
+    <div class="pchips-tipo">{tipos}</div>
+  </aside>
+  <div class="pmain">
+    <div class="presumen"><h2 id="p-titulo">Todas las propuestas</h2><span id="p-cuenta">{len(props)} resultados</span></div>
+    <div class="pgrid" id="pgrid">{fichas}</div>
+    <div class="sin-res" id="pvacio" hidden><b>No encontramos propuestas con esos filtros.</b><p>Probá con otro eje o limpiá la búsqueda.</p></div>
+  </div>
+</div>
 </div></main>
 <div class="pbar" id="pbar" hidden><span><b id="pbar-n">0</b> propuestas en tu carrito</span><a class="btn" href="/boleta">Ver mi boleta →</a></div>
 <div class="modal" id="pm" hidden role="dialog" aria-modal="true">
@@ -284,6 +318,7 @@ def build_propuestas():
 {scripts("/assets/propuestas.js")}
 <script>window.MVP = {datos};</script>
 </body></html>'''
+
 
 
 # ---------------------------------------------------------------- catálogo
@@ -387,6 +422,69 @@ def build_index():
 {footer()}
 {scripts("/assets/catalogo.js")}
 </body></html>'''
+
+
+
+# ---------------------------------------------------------------- bloques de ficha
+
+ESP_MAP = [("LA LIBERTAD AVANZA", "lla"), ("PRO", "pro"), ("UNIÓN CÍVICA RADICAL", "ucr"), ("UCR", "ucr"),
+           ("HACEMOS", "hacemos"), ("PROVINCIAS UNIDAS", "pu"), ("FRENTE DE IZQUIERDA", "fit"),
+           ("PARTIDO OBRERO", "fit"), ("COALICIÓN CÍVICA", "cc"), ("ENCUENTRO", "erf"),
+           ("UNIÓN POR LA PATRIA", "fp"), ("JUSTICIALISTA", "fp"), ("PERONISTA", "fp")]
+
+
+def espacio_de(c):
+    up = (c.get("partido") or "").upper()
+    for k, v in ESP_MAP:
+        if k in up:
+            return v
+    return None
+
+
+def bloque_videos(c):
+    vids = VIDEOS.get(c["id"], [])
+    busq = "https://www.youtube.com/results?search_query=" + \
+        __import__("urllib.parse", fromlist=["quote"]).quote(c["nombre"] + " entrevista")
+    if not vids:
+        return f'''<section class="panel" id="videos"><h2>Escuchalo antes de comprar</h2>
+  <div class="sub">No encontramos videos verificados de {esc(c["nombre"])}. Podés buscarlo vos.</div>
+  <a class="btn sec" href="{busq}" target="_blank" rel="noopener">Buscar videos en YouTube</a></section>'''
+    items = ""
+    for i, v in enumerate(vids):
+        items += f'''<button class="vid" data-vid="{v["id"]}" aria-label="Reproducir {esc(v["titulo"])}">
+  <img src="https://i.ytimg.com/vi/{v["id"]}/hqdefault.jpg" alt="" loading="lazy">
+  <span class="play" aria-hidden="true">▶</span>
+  <span class="vid-t">{esc(v["titulo"])}</span>
+  <span class="vid-c">{esc((v.get("canal") or "YouTube")[:28])}</span>
+</button>'''
+    return f'''<section class="panel" id="videos">
+  <div class="vids-cab"><div><h2>Escuchalo antes de comprar</h2>
+  <div class="sub">Para oírle la voz y ver qué responde cuando le preguntan, no solo lo que dice el afiche.</div></div>
+  <a class="link-btn" href="{busq}" target="_blank" rel="noopener">Ver más en YouTube ↗</a></div>
+  <div class="vids-grid">{items}</div>
+</section>'''
+
+
+def bloque_veredicto(c):
+    favor = (c.get("a_favor") or [""])[0]
+    contra = (c.get("vulnerabilidades") or [""])[0]
+    if not favor and not contra:
+        return ""
+    e = espacio_de(c)
+    extra = ""
+    if e:
+        esp = ESPACIOS.get(e)
+        n = sum(1 for x in PROP["propuestas"] if x["espacio"] == e)
+        if esp:
+            extra = f'''<div class="ver-extra"><a href="/propuestas?esp={e}">Ver las {n} propuestas de {esc(esp["nombre"])} →</a></div>'''
+    return f'''<section class="panel veredicto">
+  <h2>El veredicto</h2>
+  <div class="vcols">
+    <div class="vsi"><b>Compralo si te convence esto</b><p>{esc(limpia(favor))}</p></div>
+    <div class="vno"><b>No lo compres si te pesa esto</b><p>{esc(limpia(contra))}</p></div>
+  </div>
+  {extra}
+</section>'''
 
 
 # ---------------------------------------------------------------- ficha
@@ -505,6 +603,10 @@ def build_ficha(c):
       {share}
     </aside>
   </div>
+
+  {bloque_videos(c)}
+
+  {bloque_veredicto(c)}
 
   <section class="panel pros-cons">
     <div class="pc pro"><h2><span>👍</span> Lo bueno</h2><div class="sub">Lo que dicen quienes lo apoyan.</div><ul>{a_favor}</ul></div>
