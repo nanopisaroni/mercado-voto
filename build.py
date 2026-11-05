@@ -258,6 +258,11 @@ def build_propuestas():
   <p>Además de elegir a quién votás, podés elegir qué te compran. Cada espacio vende sus ideas: {n_prop} propuestas concretas, {n_vis} visiones de país y {n_fut} futuros posibles, ordenados en doce ejes.</p>
   <div class="ph-stats"><span><b>{n_prop}</b> propuestas</span><span><b>{len(PROP["espacios"])}</b> espacios</span><span><b>12</b> ejes</span></div>
 </section>
+<section class="pcats">
+  <button class="pcat on" data-tipo="propuesta"><span>🧾</span><b>Propuestas</b><small>{n_prop} ideas concretas</small></button>
+  <button class="pcat" data-tipo="vision"><span>🌎</span><b>Visión de país</b><small>{n_vis} modelos en disputa</small></button>
+  <button class="pcat" data-tipo="futuro"><span>🚀</span><b>Futuro posible</b><small>{n_fut} proyecciones</small></button>
+</section>
 <section class="pfiltros">
   <div class="pbuscar"><input id="pq" type="search" placeholder="Buscar una propuesta, un tema, una promesa…" aria-label="Buscar propuestas"></div>
   <div class="pchips"><b>Espacio</b>{chips_esp}</div>

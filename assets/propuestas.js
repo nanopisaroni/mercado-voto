@@ -30,6 +30,26 @@
     });
   });
 
+  document.querySelectorAll('.pcat').forEach(cat => {
+    cat.addEventListener('click', () => {
+      const t = cat.dataset.tipo;
+      estado.tipo = t;
+      document.querySelectorAll('.pcat').forEach(o => o.classList.toggle('on', o === cat));
+      document.querySelectorAll('.chip[data-f="tipo"]').forEach(o => o.classList.toggle('on', o.dataset.v === t));
+      aplicar();
+    });
+  });
+
+  // parámetros de la URL: ?tipo=vision&esp=lla&eje=economia
+  const qs = new URLSearchParams(location.search);
+  ['tipo', 'esp', 'eje'].forEach(k => {
+    const v = qs.get(k);
+    if (!v) return;
+    estado[k] = v;
+    document.querySelectorAll('.chip[data-f="' + k + '"]').forEach(o => o.classList.toggle('on', o.dataset.v === v));
+    if (k === 'tipo') document.querySelectorAll('.pcat').forEach(o => o.classList.toggle('on', o.dataset.tipo === v));
+  });
+
   const q = document.getElementById('pq');
   if (q) {
     let t;
