@@ -55,6 +55,21 @@ Reparto actual: 15 presidenciales, 15 gobernadores (3 por provincia en cinco pro
 
 La boleta se arma con un presidente, un gobernador, un intendente y hasta cinco legisladores. El almacenamiento vive en `localStorage` bajo `mv_boleta_v2`, como lista de objetos `{i, c, j}`.
 
+## Propuestas
+
+`data/propuestas.json` tiene 87 propuestas de 9 espacios. Cada una genera su página en `p/<slug>.html` con:
+
+- `estado`: `{cod, txt}`. Códigos: `aprobada`, `parcial`, `en-curso`, `promesa`, `rechazada`, `provincial`, `vision`. El texto dice qué pasó y cuándo.
+- `problema`, `como[]`, `via` (`instrumento`, `mayoria`, `plazo`), `costo_txt`, `ganan`, `pagan`, `pros[]`, `contras[]`, `antecedentes[]` (`a`, `t`), `medir`, `preguntas[]`.
+- `refs[]`: `{t, u, tipo, primaria?}`. Tipos: `plataforma`, `norma`, `oficial`, `prensa`, `perfil`. La primera es la fuente primaria del espacio.
+- `verificado` (raíz del archivo): fecha en que se chequearon los estados.
+
+Las visiones de país y los futuros posibles (`estado.cod = vision`) no llevan `via`, `costo_txt`, `ganan`, `pagan`, `antecedentes` ni `medir`.
+
+Para rechequear que los links respondan: `python3 scripts/check_refs.py`. Las normas apuntan a argentina.gob.ar, que da errores 500 intermitentes.
+
+La preview de link de cada propuesta sale de `/api/og?pr=<id>` (datos en `api/_prop.js`, generado).
+
 ## Dónde votás y armado guiado
 
 La primera vez que alguien arma la boleta se le pregunta provincia y ciudad (se guarda en `localStorage` bajo `mv_lugar`). Con eso:
