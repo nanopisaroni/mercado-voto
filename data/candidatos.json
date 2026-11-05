@@ -8224,6 +8224,132 @@
     "Tiene una marca propia con alto conocimiento en todo el país."
    ],
    "badge": ""
+  },
+  {
+   "id": "garciadiaz",
+   "nombre": "Sebastián García Díaz",
+   "slug": "sebastian-garcia-diaz",
+   "rol": "Abogado · Director de Grupo Oxford · Precandidato a intendente",
+   "tag": "La Libertad Avanza · Gestión privada",
+   "color": "#8e6cef",
+   "bio": "Abogado por la Universidad Nacional de Córdoba, con un máster en Ciencias Políticas en la Universidad de Navarra y posgrados en políticas públicas en Texas, Georgetown y el IAE. Dirige la empresa familiar Oxford, de 60 años en el mercado, y preside la ONG Civilitas. Fue secretario de Prevención de la Drogadicción y Lucha contra el Narcotráfico de la provincia en 2009, durante la primera gobernación de Schiaretti. Ya fue candidato a intendente en 2007 y en 2023, cuando se presentó como el intendente del WhatsApp por Juntos por el Cambio. En 2026 se sumó a La Libertad Avanza y volvió a postularse para el Palacio 6 de Julio con un paquete de medidas que llama decreto motosierra.",
+   "foto": "assets/fotos/garciadiaz.jpg",
+   "categorias": [],
+   "provincia": "Córdoba",
+   "partido": "La Libertad Avanza",
+   "ejes": [
+    88,
+    30,
+    60,
+    55,
+    80,
+    80
+   ],
+   "trayectoria": [
+    {
+     "fecha": "2005",
+     "evento": "Candidato a diputado nacional por Córdoba."
+    },
+    {
+     "fecha": "2007",
+     "evento": "Primera candidatura a intendente de la ciudad de Córdoba."
+    },
+    {
+     "fecha": "2008",
+     "evento": "Gana el primer premio del concurso internacional de la Fundación Azteca con el ensayo La lucha por la libertad."
+    },
+    {
+     "fecha": "2009",
+     "evento": "Asume como secretario de Prevención de la Drogadicción y Lucha contra el Narcotráfico de la provincia, en la primera gobernación de Schiaretti."
+    },
+    {
+     "fecha": "2010",
+     "evento": "Publica Favelización de Córdoba: droga, poder y burocracia."
+    },
+    {
+     "fecha": "2015",
+     "evento": "Publica Siete días."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Se presenta como precandidato a intendente por Juntos por el Cambio, cerca de Patricia Bullrich, con la propuesta de ser el intendente del WhatsApp."
+    },
+    {
+     "fecha": "2023",
+     "evento": "Candidato a legislador provincial. Según su propia presentación, la lista sumó 250.000 votos."
+    },
+    {
+     "fecha": "2025",
+     "evento": "Publica El futuro de Córdoba, su plan de gobierno."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Propone levantar todas las peatonales del centro para reactivar la actividad económica."
+    },
+    {
+     "fecha": "2026",
+     "evento": "Presenta el informe Shock de seguridad y se suma a La Libertad Avanza como precandidato a intendente."
+    }
+   ],
+   "promesas_cumplidas": [],
+   "promesas_incumplidas": [],
+   "cumplidas": 0,
+   "incumplidas": 0,
+   "criticas": [
+    {
+     "area": "Sello partidario",
+     "tesis": "Cambió de espacio sin explicar qué lo hizo cambiar.",
+     "cuerpo": "En 2023 se presentó por Juntos por el Cambio, alineado con Patricia Bullrich, y elogió públicamente el plan de seguridad de Luis Juez. En 2026 aparece en La Libertad Avanza. El pase acompaña el de Bullrich y no es una contradicción formal, pero la alianza con Juez y su plan de gobierno de 2023 quedaron sin explicación en la versión nueva.",
+     "evidencia": "Radio Mitre Córdoba, 23 de febrero de 2023; video de Civilitas donde elogia el plan de Juez; La Voz, 2 de julio de 2026.",
+     "fuerza": "media-fuerte",
+     "tipo": "crítica de coherencia",
+     "respuesta_esperada": "Acompaño a Bullrich desde 2023 y hoy Bullrich está en La Libertad Avanza.",
+     "refutacion": "El sello cambió con ella, el elogio a Juez sigue sin explicación."
+    },
+    {
+     "area": "Ciudad",
+     "tesis": "Quiere levantar todas las peatonales del centro.",
+     "cuerpo": "En febrero de 2026 propuso permitir el paso libre de vehículos por todas las calles del centro para reactivar el comercio. La peatonalización costó obras, cambios de recorrido de colectivos y años de adaptación. El legislador provincial Matías Chamorro respondió que la idea atrasa cien años y que responde a alguien que solo compra en el shopping.",
+     "evidencia": "Perfil Córdoba, 20 de febrero de 2026.",
+     "fuerza": "fuerte",
+     "tipo": "crítica de propuesta",
+     "respuesta_esperada": "El centro se vació y hay que devolverle circulación.",
+     "refutacion": "Devolver el auto al centro no devuelve el comercio, y el costo de la obra ya está pagado."
+    },
+    {
+     "area": "Datos",
+     "tesis": "El 0,1% de condenas sale de contar un solo tipo de juicio.",
+     "cuerpo": "Su informe Shock de seguridad calcula que menos del 0,1% de los delitos termina en condena. La cuenta sale de 87 sentencias dictadas por el procedimiento tradicional sobre 167.949 denuncias. Los juicios abreviados, que resuelven la mayoría de las causas penales en Córdoba, no están en la cuenta. El diagnóstico puede ser correcto y el número sigue siendo un recorte.",
+     "evidencia": "La Voz, 2 de julio de 2026, con los datos del informe.",
+     "fuerza": "media",
+     "tipo": "crítica de método",
+     "respuesta_esperada": "El procedimiento tradicional es el que mide si el sistema juzga o deja prescribir.",
+     "refutacion": "Mide cuántos juicios largos terminan, no cuántos delitos quedan impunes."
+    },
+    {
+     "area": "Empresa",
+     "tesis": "Dirige una empresa familiar mientras propone bajar impuestos y desregular.",
+     "cuerpo": "Es director general de Oxford, la empresa de su familia, y al mismo tiempo propone reducir tasas municipales y revisar regulaciones de la ciudad. No hay ninguna ilegalidad en eso. La pregunta que queda abierta es cómo se separa el interés de la empresa del de la intendencia cuando las decisiones afectan costos y habilitaciones.",
+     "evidencia": "Presentación oficial de su candidatura y perfil público de Grupo Oxford.",
+     "fuerza": "media",
+     "tipo": "crítica de conflicto de interés",
+     "respuesta_esperada": "Vengo del sector privado justamente para ordenar el gasto público.",
+     "refutacion": "Ordenar el gasto no responde qué pasa con las habilitaciones de Oxford."
+    }
+   ],
+   "vulnerabilidades": [
+    "Nunca ganó una elección ejecutiva.",
+    "La Libertad Avanza no tiene estructura municipal propia en Córdoba.",
+    "Su agenda de motosierra choca con una ciudad acostumbrada a la obra pública."
+   ],
+   "gancho": "El empresario que quiere firmar el decreto motosierra en el Palacio 6 de Julio.",
+   "a_favor": [
+    "Tiene formación técnica y académica poco común en la política cordobesa.",
+    "Ya gestionó un área provincial, la secretaría de lucha contra el narcotráfico.",
+    "Produce documentos con datos propios en lugar de bajar lineamientos generales.",
+    "Dos campañas a intendente: conoce el municipio y el territorio."
+   ],
+   "badge": ""
   }
  ],
  "candidaturas": [
@@ -8796,6 +8922,11 @@
    "cid": "pullaro",
    "cargo": "presidencial",
    "jur": "Nacional"
+  },
+  {
+   "cid": "garciadiaz",
+   "cargo": "intendente",
+   "jur": "Córdoba"
   }
  ]
 }
