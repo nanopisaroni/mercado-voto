@@ -27,6 +27,11 @@
   const sel = document.getElementById('sel-cargo');
   if (sel) sel.addEventListener('change', pintar);
 
+  // Vista de la ficha, una vez por sesión, para el ranking de tendencia.
+  try {
+    if (!sessionStorage.getItem('mv_vf_' + F.id)) { sessionStorage.setItem('mv_vf_' + F.id, '1'); track('ver_ficha', F.id); }
+  } catch (e) {}
+
   document.querySelectorAll('.share-row [data-share]').forEach(b => b.addEventListener('click', () => {
     const url = location.origin + '/c/' + F.slug;
     track('comparte', 'ficha-' + b.dataset.share);

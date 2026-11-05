@@ -1,0 +1,77 @@
+{
+ "actualizado": "2026-11-05",
+ "nota": "Precios de lanzamiento en pesos. Se pueden cambiar acá: el sitio y el checkout leen este archivo.",
+ "planes": [
+  {
+   "id": "arranque",
+   "nombre": "Pack de arranque",
+   "precio": 180000,
+   "dias": "10 días",
+   "resumen": "Para instalar el perfil y empezar a publicar con criterio.",
+   "incluye": [
+    "Revisión del perfil y foto de portada",
+    "10 piezas gráficas para redes",
+    "4 posteos con texto y hashtags",
+    "Guion de presentación de 60 segundos"
+   ],
+   "ideal": "Candidatos que arrancan y necesitan presencia rápida."
+  },
+  {
+   "id": "treinta",
+   "nombre": "Campaña de 30 días",
+   "precio": 450000,
+   "dias": "30 días",
+   "resumen": "Un mes completo de contenido, con calendario y videos cortos.",
+   "incluye": [
+    "Todo lo del pack de arranque",
+    "Calendario de publicaciones de 30 días",
+    "8 videos verticales de 30 segundos",
+    "Línea gráfica propia del espacio",
+    "Respuesta a comentarios con criterio de campaña"
+   ],
+   "ideal": "Precandidaturas que ya tienen algo de territorio y quieren volumen."
+  },
+  {
+   "id": "integral",
+   "nombre": "Campaña integral",
+   "precio": 890000,
+   "dias": "60 días",
+   "resumen": "Estrategia, producción y seguimiento semanal.",
+   "incluye": [
+    "Todo lo de la campaña de 30 días",
+    "Auditoría de perfil y de competencia",
+    "Segmentación por provincia y por eje temático",
+    "PDF de lineamientos de campaña digital",
+    "Reporte semanal de alcance y respuesta",
+    "Ajuste de mensaje según lo que funcione"
+   ],
+   "ideal": "Candidaturas que compiten en serio y necesitan ordenar el mensaje."
+  }
+ ],
+ "addons": [
+  {
+   "id": "slider",
+   "nombre": "Slider para la home",
+   "precio": 90000,
+   "detalle": "Pieza destacada en la portada de Mercado Voto durante siete días, con enlace a la ficha."
+  },
+  {
+   "id": "posteos",
+   "nombre": "Pack de 10 posteos",
+   "precio": 120000,
+   "detalle": "Diez piezas con texto, para publicar en el plazo que elijas."
+  },
+  {
+   "id": "lineamientos",
+   "nombre": "PDF de lineamientos",
+   "precio": 150000,
+   "detalle": "Documento de campaña digital con ejes, tono, calendario y qué no decir."
+  },
+  {
+   "id": "auditoria",
+   "nombre": "Auditoría de perfil",
+   "precio": 60000,
+   "detalle": "Informe de cómo se ve el perfil hoy, qué conviene cambiar y en qué orden."
+  }
+ ]
+}

@@ -6,6 +6,7 @@ import { pipeline, hayRedis, json, limitado } from './_redis.js';
 export const EVENTOS = [
   'visita', 'elige_lugar', 'pide_lugar', 'empieza_guia', 'agrega', 'completa', 'finaliza',
   'comparte', 'descarga_imagen', 'abre_compartida', 'usa_compartida', 'azar',
+  'ver_ficha', 'ver_prop', 'ver_campana',
 ];
 
 export async function POST(request) {
@@ -20,6 +21,12 @@ export async function POST(request) {
   const p = String(body.p || '').slice(0, 40);
   if (e === 'pide_lugar' && p) cmds.push(['HINCRBY', 'pedidos', p, 1]);
   if (e === 'comparte' && p) cmds.push(['HINCRBY', 'funnel:redes', p, 1]);
+  // Vistas por ficha: serie diaria de 10 días para el ranking de tendencia.
+  if ((e === 'ver_ficha' || e === 'ver_prop' || e === 'ver_campana') && p) {
+    const hoy = new Date().toISOString().slice(0, 10);
+    cmds.push(['ZINCRBY', 'v:d:' + hoy, 1, p]);
+    cmds.push(['EXPIRE', 'v:d:' + hoy, 60 * 60 * 24 * 10]);
+  }
   await pipeline(cmds);
   return new Response(null, { status: 204 });
 }

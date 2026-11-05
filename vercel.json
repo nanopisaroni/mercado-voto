@@ -21,6 +21,9 @@
   "functions": {
     "api/og.js": {
       "includeFiles": "{assets/fotos/**,api/_fonts/**}"
+    },
+    "api/pedido.js": {
+      "includeFiles": "data/campanas.json"
     }
   }
 }

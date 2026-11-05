@@ -37,9 +37,22 @@ export async function POST(request) {
   const antes = new Set((prev || []).map(x => x.c + ':' + miembro(x)));
   const ahora = new Set(b.map(x => x.c + ':' + miembro(x)));
   const cmds = [];
+  const dia = new Date().toISOString().slice(0, 10);
+  const cargosDelDia = new Set();
   (prev || []).forEach(x => { if (!ahora.has(x.c + ':' + miembro(x))) cmds.push(['ZINCRBY', 'rk:' + x.c, -1, miembro(x)]); });
-  b.forEach(x => { if (!antes.has(x.c + ':' + miembro(x))) cmds.push(['ZINCRBY', 'rk:' + x.c, 1, miembro(x)]); });
-  if (!prev) cmds.push(['INCR', 'stats:boletas']);
+  b.forEach(x => {
+    if (antes.has(x.c + ':' + miembro(x))) return;
+    cmds.push(['ZINCRBY', 'rk:' + x.c, 1, miembro(x)]);
+    // Serie diaria para el ranking de la semana. Sólo suma: sacar a alguien no resta del día.
+    cmds.push(['ZINCRBY', 'rk:d:' + x.c + ':' + dia, 1, miembro(x)]);
+    cargosDelDia.add(x.c);
+  });
+  cargosDelDia.forEach(c => cmds.push(['EXPIRE', 'rk:d:' + c + ':' + dia, 60 * 60 * 24 * 10]));
+  if (!prev) {
+    cmds.push(['INCR', 'stats:boletas']);
+    cmds.push(['INCR', 'stats:boletas:d:' + dia]);
+    cmds.push(['EXPIRE', 'stats:boletas:d:' + dia, 60 * 60 * 24 * 10]);
+  }
   cmds.push(['SET', 'bol:' + id, JSON.stringify(b)]);
   await pipeline(cmds);
   return json({ ok: true, nueva: !prev });
