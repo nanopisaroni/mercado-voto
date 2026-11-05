@@ -13,7 +13,7 @@ ESPACIOS = {e["id"]: e for e in PROP["espacios"]}
 VIDEOS = json.load(open(f"{BASE}/data/videos.json", encoding="utf-8"))
 TIPO_N = {"propuesta": "Propuesta", "vision": "Visión de país", "futuro": "Futuro posible"}
 SITE = "https://mercado-voto.vercel.app"
-V = "32"  # versión de assets, para romper caché
+V = "33"  # versión de assets, para romper caché
 
 CARGOS = [("presidencial", "Presidente"), ("gobernador", "Gobernador"), ("intendente", "Intendente"), ("legislador", "Legisladores")]
 CARGO_SING = {"presidencial": "Presidente", "gobernador": "Gobernador", "intendente": "Intendente", "legislador": "Legislador"}
@@ -241,25 +241,184 @@ def prop_card(p):
     if p["tipo"] != "propuesta":
         pill = f'<span class="p-pill">{TIPO_N[p["tipo"]].upper()}</span>'
     costo = f'<span class="p-costo c-{p["costo"] or "na"}">Costo {p["costo"]}</span>' if p["costo"] else ""
-    return f'''<article class="prop" data-esp="{p["espacio"]}" data-eje="{p["eje"]}" data-tipo="{p["tipo"]}"
+    est = estado_badge(p, corto=True)
+    return f'''<article class="prop" data-esp="{p["espacio"]}" data-eje="{p["eje"]}" data-tipo="{p["tipo"]}" data-estado="{p["estado"]["cod"]}"
   data-busca="{esc((p["titulo"] + " " + p["bajada"] + " " + e["nombre"] + " " + eje).lower())}">
-  <div class="p-visual" style="--c:{e["color"]}">
+  <a class="p-visual" href="/p/{p["slug"]}" style="--c:{e["color"]}" tabindex="-1" aria-hidden="true">
     <span class="p-ico" aria-hidden="true">{ico}</span>
     <span class="p-marca">{esc(e["nombre"])}</span>
     {pill}
-  </div>
+  </a>
   <div class="p-info">
-    <h3>{esc(p["titulo"])}</h3>
+    {est}
+    <h3><a href="/p/{p["slug"]}">{esc(p["titulo"])}</a></h3>
     <p class="p-baja">{esc(p["bajada"])}</p>
     <div class="p-chips"><span class="p-eje">{esc(eje)}</span>{costo}</div>
     <div class="p-precio">1 propuesta</div>
     <div class="p-envio">Envío gratis a tu urna</div>
     <div class="p-foot">
       <button class="btn add-p" data-id="{p["id"]}" data-prop='{esc(pedido)}'>Agregar</button>
-      <button class="link-btn ver-p" data-id="{p["id"]}">Ver detalle</button>
+      <a class="link-btn" href="/p/{p["slug"]}">Ver ficha completa</a>
     </div>
   </div>
 </article>'''
+
+
+ESTADO_N = {"aprobada": ("✓", "Aprobada"), "parcial": ("◐", "Parcialmente concretada"), "en-curso": ("➜", "En curso"),
+            "promesa": ("○", "Promesa"), "rechazada": ("✕", "Rechazada o vetada"), "provincial": ("◆", "Política provincial"),
+            "vision": ("☆", "")}
+TIPO_REF = {"plataforma": "Plataforma oficial", "norma": "Norma oficial", "oficial": "Sitio oficial",
+            "prensa": "Prensa", "perfil": "Perfil periodístico"}
+FUENTE_PRIMARIA = {"plataforma": ("alta", "Plataforma presentada ante la Justicia Electoral"),
+                   "oficial": ("alta", "Anuncio oficial del gobierno"),
+                   "prensa": ("media", "Nota periodística sobre el programa"),
+                   "perfil": ("baja", "Perfil periodístico del espacio, no un documento del partido")}
+
+
+def estado_badge(p, corto=False):
+    cod = p["estado"]["cod"]
+    if cod == "vision":
+        return f'<span class="estado e-vision">{TIPO_N[p["tipo"]]}</span>'
+    ico, txt = ESTADO_N[cod]
+    return f'<span class="estado e-{cod}">{ico} {txt}</span>'
+
+
+def texto_estado(p):
+    t = p["estado"]["txt"]
+    if t.strip().rstrip(".") in ("Promesa", "Promesa de campaña", "Propuesta de método"):
+        return "Todavía no tiene proyecto aprobado ni medidas tomadas. Es lo que el espacio ofrece si gobierna o suma votos."
+    return t
+
+
+def fecha_larga(iso):
+    a, m, d = iso.split("-")
+    meses = ["enero", "febrero", "marzo", "abril", "mayo", "junio", "julio", "agosto", "septiembre", "octubre", "noviembre", "diciembre"]
+    return f"{int(d)} de {meses[int(m) - 1]} de {a}"
+
+
+def prop_mini(p):
+    e = ESPACIOS[p["espacio"]]
+    return (f'<a class="pmini" href="/p/{p["slug"]}"><span class="pmini-c" style="--c:{e["color"]}">{ICONO_EJE.get(p["eje"], "•")}</span>'
+            f'<span class="pmini-t"><small>{esc(e["nombre"])}</small><b>{esc(p["titulo"])}</b>{estado_badge(p, True)}</span></a>')
+
+
+def build_propuesta(p):
+    e = ESPACIOS[p["espacio"]]
+    eje = EJE_NAME[p["eje"]]
+    vision = p["estado"]["cod"] == "vision"
+    ico = ICONO_EJE.get(p["eje"], "•")
+    pedido = json.dumps({"id": p["id"], "titulo": p["titulo"], "esp": e["nombre"], "eje": eje, "tipo": TIPO_N[p["tipo"]]}, ensure_ascii=False)
+    cands = [CANDS[c] for c in p["candidatos"] if c in CANDS]
+    cands_html = "".join(f'<a class="pcand" href="/c/{c["slug"]}">{foto(c, "pcand-f")}<span>{esc(c["nombre"])}</span></a>' for c in cands)
+    refs = p["refs"]
+    n_norma = sum(1 for r in refs if r["tipo"] == "norma")
+    prim = refs[0]
+    nivel, prim_txt = FUENTE_PRIMARIA[prim["tipo"]]
+    verif = f"""<div class="verif">
+        <b>Verificación</b>
+        <ul>
+          <li class="v-{nivel}"><span>{'✓' if nivel != 'baja' else '!'}</span>Fuente primaria: {esc(prim_txt)}</li>
+          <li class="v-alta"><span>✓</span>{len(refs)} referencias, {n_norma} de ellas normas oficiales</li>
+          <li class="v-alta"><span>✓</span>Estado chequeado al {fecha_larga(PROP["verificado"])}</li>
+        </ul>
+        <a href="#referencias">Ver todas las fuentes</a>
+      </div>"""
+    refs_html = "".join(
+        f'<li id="ref-{i + 1}"><span class="rtipo r-{r["tipo"]}">{TIPO_REF[r["tipo"]]}</span>'
+        f'<a href="{esc(r["u"])}" target="_blank" rel="noopener">{esc(r["t"])}</a>{" <em>· fuente primaria</em>" if r.get("primaria") else ""}</li>'
+        for i, r in enumerate(refs))
+    li = lambda xs: "".join(f"<li>{esc(x)}</li>" for x in xs)
+    como = "".join(f'<li><span class="paso-n">{i + 1}</span><span>{esc(x)}</span></li>' for i, x in enumerate(p["como"]))
+    mismos = [x for x in PROP["propuestas"] if x["eje"] == p["eje"] and x["id"] != p["id"] and x["espacio"] != p["espacio"] and x["tipo"] == p["tipo"]]
+    del_esp = [x for x in PROP["propuestas"] if x["espacio"] == p["espacio"] and x["id"] != p["id"]]
+    share = f'''<div class="share-row" aria-label="Compartir">
+        <span>Compartir</span>
+        <button class="sh wa" data-share="wa" aria-label="Compartir por WhatsApp">{ICON["wa"]}</button>
+        <button class="sh x" data-share="x" aria-label="Compartir en X">{ICON["x"]}</button>
+        <button class="sh tg" data-share="tg" aria-label="Compartir por Telegram">{ICON["tg"]}</button>
+        <button class="sh ln" data-share="link" aria-label="Copiar link">{ICON["link"]}</button>
+      </div>'''
+    if vision:
+        cuerpo = f'''
+  <section class="panel"><h2>La idea</h2><p class="lead">{esc(p["problema"])}</p><p>{esc(p["cuerpo"])}</p></section>
+  <section class="panel"><h2>En qué se nota</h2><ol class="pasos-p">{como}</ol></section>'''
+    else:
+        cuerpo = f'''
+  <section class="panel"><h2>El problema que ataca</h2><p class="lead">{esc(p["problema"])}</p><p>{esc(p["cuerpo"])}</p></section>
+  <section class="panel"><h2>Cómo funcionaría</h2><ol class="pasos-p">{como}</ol></section>
+  <section class="panel"><h2>Qué hace falta para que pase</h2>
+    <div class="req">
+      <div><small>Instrumento</small><b>{esc(p["via"]["instrumento"])}</b></div>
+      <div><small>Votos necesarios</small><b>{esc(p["via"]["mayoria"])}</b></div>
+      <div><small>Plazo</small><b>{esc(p["via"]["plazo"])}</b></div>
+    </div>
+  </section>
+  <section class="panel"><h2>Quién gana y quién paga</h2>
+    <div class="gp2"><div class="gana"><small>Ganan</small><p>{esc(p["ganan"])}</p></div><div class="paga"><small>Pagan</small><p>{esc(p["pagan"])}</p></div></div>
+    <div class="costo-box"><b>Costo fiscal{": " + esc(p["costo"]) if p["costo"] else ""}</b><span>{esc(p["costo_txt"])}</span></div>
+  </section>'''
+    pros_contras = f'''<section class="panel pros-cons">
+    <div class="pc pro"><h2><span>👍</span> A favor</h2><div class="sub">Los mejores argumentos para comprarla.</div><ul>{li(p["pros"])}</ul></div>
+    <div class="pc con"><h2><span>👎</span> En contra</h2><div class="sub">Los mejores argumentos para no comprarla.</div><ul>{li(p["contras"])}</ul></div>
+  </section>'''
+    lateral = ""
+    if not vision:
+        lateral += f'''<section class="panel"><h2>Cómo saber si se cumplió</h2><div class="medir"><span>📏</span><p>{esc(p["medir"])}</p></div></section>
+    <section class="panel"><h2>Antecedentes</h2><ul class="timeline">{"".join(f'<li><span class="f">{esc(a["a"])}</span><span>{esc(a["t"])}</span></li>' for a in p["antecedentes"])}</ul></section>'''
+    lateral += f'''<section class="panel"><h2>Lo que todavía no responde</h2><ul class="limpia preguntas">{li(p["preguntas"])}</ul></section>'''
+    comparar = (f'''<section class="panel carrusel"><h2>Qué proponen otros sobre {esc(eje)}</h2><div class="sub">Compará antes de comprar.</div><div class="pminis">{"".join(prop_mini(x) for x in mismos[:8])}</div></section>''' if mismos else "")
+    mas = (f'''<section class="panel carrusel"><h2>Más de {esc(e["nombre"])}</h2><div class="pminis">{"".join(prop_mini(x) for x in del_esp[:8])}</div></section>''' if del_esp else "")
+    ficha_js = json.dumps({"slug": p["slug"], "titulo": p["titulo"], "esp": e["nombre"]}, ensure_ascii=False)
+    desc = f'{p["bajada"]} {e["nombre"]}: cómo funcionaría, qué hace falta, quién paga y las fuentes.'
+    detalle = li(p["detalle"])
+    return f'''{head(f'{p["titulo"]} · {e["nombre"]} · Mercado Voto', desc, f'/api/og?pr={p["id"]}', f'/p/{p["slug"]}')}
+{header()}
+<main class="main"><div class="wrap">
+  <div class="miga"><a href="/">Inicio</a> › <a href="/propuestas">Propuestas</a> › <a href="/propuestas?eje={p["eje"]}">{esc(eje)}</a> › <span>{esc(p["titulo"])}</span></div>
+  <div class="pdp ppdp">
+    <div class="pdp-galeria">
+      <div class="pp-visual" style="--c:{e["color"]}">
+        <span class="pp-ico" aria-hidden="true">{ico}</span>
+        <span class="pp-eje">{esc(eje)}</span>
+        <span class="pp-marca">{esc(e["nombre"])}</span>
+        <span class="pp-tipo">{TIPO_N[p["tipo"]].upper()}</span>
+      </div>
+    </div>
+    <div class="pdp-info">
+      <div class="pdp-sub">{TIPO_N[p["tipo"]]} · {esc(eje)} · Alcance {esc(p["alcance"].lower())}</div>
+      <h1>{esc(p["titulo"])}</h1>
+      <p class="pdp-gancho">{esc(p["bajada"])}</p>
+      <div class="estado-box e-{p["estado"]["cod"]}">{estado_badge(p)}<p>{esc(texto_estado(p))}</p></div>
+      <div class="precio-grande">1 propuesta</div>
+      <div class="cuotas">{"Costo fiscal " + esc(p["costo"]) if p["costo"] else "Sin costo fiscal directo"}</div>
+      <h3 class="saber">Lo que incluye</h3>
+      <ul class="saber-l">{detalle}</ul>
+      {f'<h3 class="saber">La impulsan</h3><div class="pcands">{cands_html}</div>' if cands_html else ""}
+    </div>
+    <aside class="pdp-compra">
+      <div class="envio-g"><b>Envío gratis</b> a tu urna</div>
+      <div class="vendedor">Vendida por <b>{esc(e["nombre"])}</b><br><small>{esc(e["familia"])}</small></div>
+      <button class="btn grande add-p" data-id="{p["id"]}" data-prop=\'{esc(pedido)}\'>Agregar al carrito</button>
+      <a class="btn sec grande" href="#comparar">Comparar con otros espacios</a>
+      {verif}
+      {share}
+    </aside>
+  </div>
+  <div class="bloques">
+    <div>{cuerpo}
+      {pros_contras}
+      <section class="panel" id="referencias"><h2>Referencias</h2><div class="sub">Fuentes de esta ficha. Las normas enlazan al texto oficial en argentina.gob.ar.</div><ol class="refs">{refs_html}</ol></section>
+    </div>
+    <div>{lateral}</div>
+  </div>
+  <div id="comparar">{comparar}</div>
+  {mas}
+  <p class="nota-ed">Ficha editorial de Mercado Voto. Resume la propuesta del espacio y los argumentos a favor y en contra; no es una opinión del sitio. ¿Encontraste un error? Escribinos y lo corregimos.</p>
+</div></main>
+{footer()}
+<script>window.PROP = {ficha_js};</script>
+{scripts("/assets/propuesta.js")}
+</body></html>'''
 
 
 def build_propuestas():
@@ -281,12 +440,9 @@ def build_propuestas():
     tipos = "".join(
         f'<button class="chip{" on" if k == "propuesta" else ""}" data-f="tipo" data-v="{k}">{v}</button>'
         for k, v in TIPO_N.items())
-    datos = json.dumps({p["id"]: {"titulo": p["titulo"], "cuerpo": p["cuerpo"], "detalle": p["detalle"],
-                                  "esp": ESPACIOS[p["espacio"]]["nombre"], "color": ESPACIOS[p["espacio"]]["color"],
-                                  "eje": EJE_NAME[p["eje"]], "tipo": TIPO_N[p["tipo"]], "fuente": p["fuente"],
-                                  "costo": p["costo"], "alcance": p["alcance"],
-                                  "candidatos": [{"n": CANDS[c]["nombre"], "s": CANDS[c]["slug"]} for c in p["candidatos"] if c in CANDS]}
-                      for p in props}, ensure_ascii=False)
+    estados = '<button class="chip on" data-f="est" data-v="">Todos</button>' + "".join(
+        f'<button class="chip" data-f="est" data-v="{k}">{ESTADO_N[k][1]} <small>{sum(1 for p in props if p["estado"]["cod"] == k)}</small></button>'
+        for k in ["aprobada", "parcial", "en-curso", "promesa", "rechazada", "provincial"])
     desc = (f"Comprá propuestas, no solo candidatos. {len(props)} ideas de {len(PROP['espacios'])} espacios políticos, "
             "ordenadas en doce ejes temáticos, con visión de país y futuro posible.")
     return f'''{head("Propuestas, visión de país y futuro posible · Mercado Voto", desc, "/api/og", "/propuestas")}
@@ -315,6 +471,8 @@ def build_propuestas():
     <div class="pchips-esp">{chips_esp}</div>
     <h3>Tipo</h3>
     <div class="pchips-tipo">{tipos}</div>
+    <h3>Estado</h3>
+    <div class="pchips-tipo">{estados}</div>
   </aside>
   <div class="pmain">
     <div class="presumen"><h2 id="p-titulo">Todas las propuestas</h2><span id="p-cuenta">{len(props)} resultados</span></div>
@@ -324,15 +482,8 @@ def build_propuestas():
 </div>
 </div></main>
 <div class="pbar" id="pbar" hidden><span><b id="pbar-n">0</b> propuestas en tu carrito</span><a class="btn" href="/boleta">Ver mi boleta →</a></div>
-<div class="modal" id="pm" hidden role="dialog" aria-modal="true">
-  <div class="modal-c pm-c">
-    <button class="cerrar" id="pm-cerrar" aria-label="Cerrar">✕</button>
-    <div id="pm-body"></div>
-  </div>
-</div>
 {footer()}
 {scripts("/assets/propuestas.js")}
-<script>window.MVP = {datos};</script>
 </body></html>'''
 
 
@@ -493,6 +644,13 @@ def bloque_videos(c):
 </section>'''
 
 
+def bloque_propuestas(c):
+    props = [p for p in PROP["propuestas"] if c["id"] in p["candidatos"]]
+    if not props:
+        return ""
+    return f'''<section class="panel carrusel"><h2>Propuestas que impulsa</h2><div class="sub">Cada una tiene su ficha con fuentes, costo y qué hace falta para que pase.</div><div class="pminis">{"".join(prop_mini(p) for p in props)}</div></section>'''
+
+
 def bloque_veredicto(c):
     favor = (c.get("a_favor") or [""])[0]
     contra = (c.get("vulnerabilidades") or [""])[0]
@@ -635,6 +793,7 @@ def build_ficha(c):
   {bloque_videos(c)}
 
   {bloque_veredicto(c)}
+  {bloque_propuestas(c)}
 
   <section class="panel pros-cons">
     <div class="pc pro"><h2><span>👍</span> Lo bueno</h2><div class="sub">Lo que dicen quienes lo apoyan.</div><ul>{a_favor}</ul></div>
@@ -779,4 +938,12 @@ open(f"{BASE}/assets/data.js", "w").write(f"window.MV={datos};\n")
 open(f"{BASE}/api/_data.js", "w").write(f"// Generado por build.py\nexport default {datos};\n")
 print(f"index con {len(CANDIDATURAS)} candidaturas · {len(CAND)} fichas · boleta")
 open(f"{BASE}/propuestas.html", "w", encoding="utf-8").write(build_propuestas())
+prop_og = {p["id"]: {"t": p["titulo"], "b": p["bajada"], "esp": ESPACIOS[p["espacio"]]["nombre"],
+                    "col": ESPACIOS[p["espacio"]]["color"], "eje": EJE_NAME[p["eje"]], "tipo": TIPO_N[p["tipo"]],
+                    "est": "" if p["estado"]["cod"] == "vision" else ESTADO_N[p["estado"]["cod"]][1],
+                    "refs": len(p["refs"])} for p in PROP["propuestas"]}
+open(f"{BASE}/api/_prop.js", "w").write("// Generado por build.py\nexport default " + json.dumps(prop_og, ensure_ascii=False, separators=(",", ":")) + ";\n")
+os.makedirs(f"{BASE}/p", exist_ok=True)
+for p in PROP["propuestas"]:
+    open(f"{BASE}/p/{p['slug']}.html", "w", encoding="utf-8").write(build_propuesta(p))
 print("propuestas:", len(PROP["propuestas"]))

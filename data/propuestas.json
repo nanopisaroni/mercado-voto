@@ -208,7 +208,73 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-recorte-del-gasto-y-ocho-ministerios"
+   "slug": "lla-recorte-del-gasto-y-ocho-ministerios",
+   "estado": {
+    "cod": "aprobada",
+    "txt": "Ejecutada. El gabinete bajó a nueve ministerios en diciembre de 2023 y a ocho en 2024, cuando se eliminó Infraestructura."
+   },
+   "problema": "Un Estado que gasta más de lo que recauda y cubre la diferencia con emisión. El DNU 70/2023 fijó como meta un ajuste de 5 puntos del PBI para cortar ese circuito.",
+   "como": [
+    "Fusionar ministerios y eliminar secretarías superpuestas.",
+    "Congelar la obra pública nacional y las transferencias discrecionales a provincias.",
+    "Reducir la planta estatal con retiros voluntarios y la no renovación de contratos.",
+    "Sostener el superávit como regla de cada presupuesto."
+   ],
+   "pros": [
+    "Ataca el origen fiscal de la inflación en lugar de controlar precios.",
+    "Un gabinete chico simplifica quién decide qué.",
+    "Es medible mes a mes con el resultado fiscal publicado por Economía."
+   ],
+   "contras": [
+    "Gran parte del ahorro vino de licuar jubilaciones y frenar obra, no de eficiencia.",
+    "Menos ministerios no significa menos gasto: muchas áreas pasaron a ser secretarías.",
+    "La obra pública frenada tiene costos de mantenimiento y competitividad que aparecen después."
+   ],
+   "preguntas": [
+    "¿Qué parte del ajuste es permanente y qué parte es licuación por inflación?",
+    "¿Cuánto cuesta reactivar después la obra pública que se dejó de mantener?"
+   ],
+   "via": {
+    "instrumento": "Decreto (Ley de Ministerios) y Presupuesto",
+    "mayoria": "La estructura del gabinete la define el Ejecutivo; el Presupuesto necesita mayoría simple en ambas cámaras.",
+    "plazo": "Inmediato para el gabinete; varios años para el gasto"
+   },
+   "costo_txt": "No cuesta: ahorra. El impacto recae sobre quienes recibían ese gasto.",
+   "ganan": "Ahorristas y asalariados, si el menor déficit se traduce en menos inflación.",
+   "pagan": "Empleados públicos, contratistas de obra, provincias que dependían de transferencias y jubilados en la etapa de licuación.",
+   "medir": "Resultado fiscal primario y financiero del Sector Público Nacional (mensual) y dotación de personal estatal.",
+   "antecedentes": [
+    {
+     "a": "2001",
+     "t": "Ley de Déficit Cero de Fernando de la Rúa y Domingo Cavallo: recortó salarios y jubilaciones y no evitó el default."
+    },
+    {
+     "a": "2023",
+     "t": "DNU 70/2023: declara la emergencia y fija el ajuste de 5 puntos del PBI como objetivo."
+    },
+    {
+     "a": "2024",
+     "t": "Decretos que eliminan el Ministerio de Infraestructura y dejan el gabinete en ocho carteras."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "DNU 70/2023, Bases para la Reconstrucción de la Economía",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-395521/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Cronista: Milei eliminó Infraestructura y el gabinete quedó en ocho ministerios",
+     "u": "https://www.cronista.com/economia-politica/milei-elimino-finalmente-infraestructura-y-avanza-con-mas-recortes-de-empleados",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "lla-02",
@@ -233,7 +299,78 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-reforma-tributaria-sin-retenciones"
+   "slug": "lla-reforma-tributaria-sin-retenciones",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. Se eliminó el Impuesto PAIS a fines de 2024 y se bajaron retenciones al agro, pero no hubo una reforma tributaria integral aprobada por el Congreso."
+   },
+   "problema": "Más de un centenar de tributos nacionales, provinciales y municipales, varios de ellos en cascada como Ingresos Brutos, que encarecen la producción y premian la informalidad.",
+   "como": [
+    "Eliminar impuestos considerados distorsivos, empezando por los nacionales.",
+    "Terminar con los regímenes de retenciones y percepciones anticipadas.",
+    "Bajar las retenciones a las exportaciones a medida que lo permita el superávit.",
+    "Compensar la recaudación con regalías por recursos naturales."
+   ],
+   "pros": [
+    "Simplificar el sistema baja el costo de cumplir con el fisco, sobre todo para pymes.",
+    "Las retenciones castigan a la exportación, que es la principal fuente de dólares.",
+    "Es una demanda compartida por casi todo el sector productivo."
+   ],
+   "contras": [
+    "Las regalías por recursos naturales son de las provincias (art. 124 de la Constitución), no de la Nación.",
+    "Sin Ingresos Brutos en la mesa, el impuesto más distorsivo queda intacto.",
+    "El propio Gobierno descartó en 2026 una reforma integral y la pateó hacia adelante."
+   ],
+   "preguntas": [
+    "¿Con qué se reemplaza la recaudación de las retenciones si las regalías son provinciales?",
+    "¿Qué incentivo tienen las provincias para bajar Ingresos Brutos si pierden coparticipación?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso (y acuerdo con provincias)",
+    "mayoria": "Mayoría simple para impuestos nacionales. Ingresos Brutos es provincial: sólo lo pueden bajar las legislaturas de cada provincia.",
+    "plazo": "Escalonado, varios años"
+   },
+   "costo_txt": "Alto: cada punto de impuesto que se elimina es recaudación que hay que reemplazar o dejar de gastar.",
+   "ganan": "Exportadores, industria y comercios con alta carga en cascada.",
+   "pagan": "Provincias: Ganancias e IVA son coparticipables, así que bajar esos impuestos les reduce transferencias.",
+   "medir": "Presión tributaria consolidada como porcentaje del PBI y cantidad de tributos vigentes.",
+   "antecedentes": [
+    {
+     "a": "2017",
+     "t": "Reforma tributaria de Macri (Ley 27.430): baja gradual de contribuciones y Ganancias empresarial, interrumpida por la crisis de 2018."
+    },
+    {
+     "a": "2024",
+     "t": "Fin del Impuesto PAIS en diciembre."
+    },
+    {
+     "a": "2026",
+     "t": "El FMI publica recomendaciones de reforma tributaria y CAME pide priorizar Ingresos Brutos."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    },
+    {
+     "t": "CAME rechazó la reforma tributaria sugerida por el FMI (2026)",
+     "u": "https://www.noticiasnqn.com.ar/amp/noticias/2026/05/31/337387-came-rechazo-la-reforma-tributaria-sugerida-por-el-fmi-y-pidio-cambios-en-ingresos-brutos",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "lla-03",
@@ -258,7 +395,83 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "lla-flexibilizacion-laboral"
+   "slug": "lla-flexibilizacion-laboral",
+   "estado": {
+    "cod": "aprobada",
+    "txt": "Aprobada. La Ley 27.802 de Modernización Laboral se sancionó el 27 de febrero de 2026 y se promulgó con el Decreto 137/2026."
+   },
+   "problema": "Casi la mitad de los trabajadores no está registrado, y el empleo privado formal lleva más de una década estancado.",
+   "como": [
+    "Habilitar convenios colectivos por empresa por sobre los de actividad.",
+    "Fijar topes y un fondo de asistencia para las indemnizaciones por despido.",
+    "Crear banco de horas y modalidades de jornada más flexibles.",
+    "Incentivos para registrar empleo no declarado y regular el trabajo en plataformas."
+   ],
+   "pros": [
+    "Ataca uno de los costos que más frenan la contratación formal: la incertidumbre del despido.",
+    "Los convenios por empresa permiten adaptar reglas a pymes y economías regionales.",
+    "Ya está aprobada: se puede evaluar con datos en uno o dos años."
+   ],
+   "contras": [
+    "La evidencia internacional sobre flexibilización y empleo es mixta: depende del ciclo económico.",
+    "Debilita la negociación colectiva, que protege a los trabajadores con menos poder.",
+    "El empleo crece con demanda: si la economía no crece, la ley sola no alcanza."
+   ],
+   "preguntas": [
+    "¿Cuántos empleos nuevos se registraron por la ley y cuántos por el ciclo económico?",
+    "¿Qué pasa con la litigiosidad laboral después del traspaso de la justicia del trabajo?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple en ambas cámaras. En el Senado salió con 42 votos afirmativos.",
+    "plazo": "Vigente desde marzo de 2026; el Fondo de Asistencia Laboral, desde noviembre de 2026"
+   },
+   "costo_txt": "Medio: los incentivos a la formalización reducen aportes que cobra el Estado.",
+   "ganan": "Empleadores, en especial pymes, y trabajadores informales si efectivamente se los registra.",
+   "pagan": "Trabajadores registrados, que pierden protección frente al despido, y los sindicatos de actividad.",
+   "medir": "Asalariados privados registrados (SIPA) y tasa de informalidad laboral (EPH-INDEC).",
+   "antecedentes": [
+    {
+     "a": "2000",
+     "t": "Ley de reforma laboral de De la Rúa, envuelta en el escándalo de sobornos en el Senado."
+    },
+    {
+     "a": "2024",
+     "t": "El Título V de la Ley Bases introduce cambios laborales parciales."
+    },
+    {
+     "a": "2026",
+     "t": "Sanción de la Ley 27.802 y reglamentación por los decretos 407 y 408/2026."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.802 de Modernización Laboral (2026)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-423680/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Marval: el Congreso aprueba la Ley de Modernización Laboral",
+     "u": "https://www.marval.com/Publicacion/el-congreso-aprueba-la-ley-de-modernizacion-laboral-17499?lang=es",
+     "tipo": "prensa"
+    },
+    {
+     "t": "El Economista: la reforma laboral ya es ley, todos los cambios",
+     "u": "https://eleconomista.com.ar/politica/reforma-laboral-ya-ley-todos-cambios-indemnizaciones-despidos-sindicatos-vacaciones-horas-extras-n93150",
+     "tipo": "prensa"
+    },
+    {
+     "t": "Ley 20.744 de Contrato de Trabajo (texto actualizado)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-25552/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-04",
@@ -283,7 +496,67 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-apertura-comercial-unilateral"
+   "slug": "lla-apertura-comercial-unilateral",
+   "estado": {
+    "cod": "parcial",
+    "txt": "En curso. Se eliminaron las licencias de importación (SIRA), se bajaron aranceles puntuales y se ratificó el acuerdo Mercosur-UE (Ley 27.800, 2026), que todavía no está vigente."
+   },
+   "problema": "Una economía muy cerrada, con aranceles altos y trabas administrativas, donde muchos bienes cuestan bastante más que en los países vecinos.",
+   "como": [
+    "Eliminar permisos previos y cupos de importación.",
+    "Bajar aranceles de forma unilateral en insumos y bienes de capital.",
+    "Firmar acuerdos comerciales con Estados Unidos y la Unión Europea."
+   ],
+   "pros": [
+    "Baja precios de bienes que en Argentina eran excepcionalmente caros.",
+    "Los insumos importados más baratos mejoran la competitividad de quien exporta.",
+    "Limita el poder de mercado de empresas protegidas."
+   ],
+   "contras": [
+    "El Arancel Externo Común del Mercosur limita bajar aranceles por cuenta propia.",
+    "Abrir en plena apreciación cambiaria puede destruir empleo industrial antes de que aparezca el nuevo.",
+    "Sin plan de reconversión, los costos se concentran en regiones industriales."
+   ],
+   "preguntas": [
+    "¿Qué sectores se van a reconvertir y con qué herramientas?",
+    "¿Cómo se compatibiliza la apertura unilateral con las reglas del Mercosur?"
+   ],
+   "via": {
+    "instrumento": "Decretos y tratados",
+    "mayoria": "Los aranceles se tocan por decreto dentro de las reglas del Mercosur; los tratados necesitan aprobación del Congreso.",
+    "plazo": "Gradual"
+   },
+   "costo_txt": "Bajo en lo fiscal, alto en lo productivo para sectores protegidos.",
+   "ganan": "Consumidores y empresas que importan insumos.",
+   "pagan": "Industrias que competían gracias a la protección: textil, calzado, electrónica, metalmecánica.",
+   "medir": "Arancel promedio efectivo, importaciones como % del PBI y empleo industrial registrado.",
+   "antecedentes": [
+    {
+     "a": "1991",
+     "t": "Apertura de los noventa: bajó precios y también cerró industrias con fuerte impacto regional."
+    },
+    {
+     "a": "2023",
+     "t": "Fin del SIRA y reemplazo por un sistema sin licencias previas."
+    },
+    {
+     "a": "2026",
+     "t": "Ley 27.800: Argentina ratifica el acuerdo interino Mercosur-UE; falta la ratificación europea."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Argentina ratifica el Acuerdo Mercosur-Unión Europea (Ley 27.800)",
+     "u": "https://abogados.com.ar/argentina-ratifica-el-acuerdo-mercosur-union-europea/38624",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "lla-05",
@@ -308,7 +581,78 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-privatizar-las-empresas-publicas-deficitarias"
+   "slug": "lla-privatizar-las-empresas-publicas-deficitarias",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "En curso. La Ley Bases habilitó privatizar seis empresas. En 2026 se licitó el 90% de AySA, se llamó a licitación para concesionar los ferrocarriles de carga y se autorizó vender dos centrales de ENARSA. Intercargo sigue siendo estatal."
+   },
+   "problema": "Empresas públicas con déficit operativo que cubre el Tesoro y con inversiones atrasadas en servicios básicos.",
+   "como": [
+    "Usar la lista de empresas sujetas a privatización aprobada en la Ley Bases.",
+    "Vender total o parcialmente por licitación pública o conceder la operación.",
+    "Atraer inversión privada a energía, minería y litio con el RIGI.",
+    "Destinar parte de lo recaudado a deuda y, desde el DNU 314/2026, a reequipar las Fuerzas Armadas."
+   ],
+   "pros": [
+    "Corta déficits operativos que se pagan con impuestos de todos.",
+    "Puede traer inversión que el Estado no tiene para hacer.",
+    "Los procesos son por licitación pública y quedan documentados."
+   ],
+   "contras": [
+    "Servicios como el agua son monopolios naturales: sin buen regulador, el privado no compite.",
+    "Las privatizaciones de los noventa dejan antecedentes de tarifas altas e inversiones incumplidas.",
+    "Vender en un mercado con riesgo país alto puede significar vender barato."
+   ],
+   "preguntas": [
+    "¿Qué regulador controla las tarifas y la inversión después de vender?",
+    "¿Cuánto se recauda frente al valor de los activos?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso + licitaciones",
+    "mayoria": "Cada privatización necesita autorización legal. La Ley Bases la dio para un grupo cerrado de empresas.",
+    "plazo": "2024 a 2027, empresa por empresa"
+   },
+   "costo_txt": "Ingreso fiscal por única vez. El programa financiero prevé US$ 800 millones en 2026 y US$ 1.500 millones en 2027.",
+   "ganan": "El Tesoro, que deja de cubrir pérdidas, y los inversores privados.",
+   "pagan": "Usuarios, si las tarifas suben para hacer rentable el servicio; trabajadores de las empresas.",
+   "medir": "Cantidad de empresas privatizadas, recaudación obtenida y transferencias del Tesoro a empresas públicas.",
+   "antecedentes": [
+    {
+     "a": "1990",
+     "t": "Privatización de ENTel, Aerolíneas, YPF y servicios públicos bajo Menem."
+    },
+    {
+     "a": "2006",
+     "t": "Reestatización de Aguas Argentinas como AySA."
+    },
+    {
+     "a": "2024",
+     "t": "Ley 27.742 de Bases: autoriza privatizar AySA, ENARSA, Intercargo, Belgrano Cargas, SOFSE y Corredores Viales."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.742 de Bases (2024)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-401266/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Infobae: la lista completa de privatizaciones en 2026",
+     "u": "https://www.infobae.com/economia/2026/06/21/la-lista-completa-de-privatizaciones-que-empresas-siguen-en-la-mira-oficial-y-cuanto-espera-recaudar-el-gobierno-antes-de-fin-de-ano/",
+     "tipo": "prensa"
+    },
+    {
+     "t": "DNU 314/2026, Plan de Reequipamiento Militar (ARMA)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/decreto-314-2026-425373/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-06",
@@ -333,7 +677,78 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-tolerancia-cero-y-tecnologia-en-la-calle"
+   "slug": "lla-tolerancia-cero-y-tecnologia-en-la-calle",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. Rige el protocolo antipiquetes y se aprobó el Régimen Penal Juvenil (Ley 27.801). Las cárceles con gestión privada no avanzaron."
+   },
+   "problema": "Altos niveles de delito en grandes ciudades y un sistema penal lento, con cárceles sobrepobladas.",
+   "como": [
+    "Endurecer penas y reducir beneficios procesales.",
+    "Construir cárceles con participación privada.",
+    "Bases de datos con reconocimiento facial y lectura automática de patentes.",
+    "Bajar la edad de imputabilidad."
+   ],
+   "pros": [
+    "Responde a la principal preocupación de muchos votantes.",
+    "La tecnología de vigilancia ayuda a encontrar prófugos y vehículos robados.",
+    "Las penas más claras reducen la sensación de impunidad."
+   ],
+   "contras": [
+    "El reconocimiento facial de la Ciudad fue suspendido por la justicia en 2022 por falta de controles.",
+    "Más presos sin más cárceles empeora el hacinamiento, que también reproduce delito.",
+    "La evidencia muestra que la certeza de castigo disuade más que la dureza de la pena."
+   ],
+   "preguntas": [
+    "¿Quién controla los datos biométricos y cómo se evitan errores contra inocentes?",
+    "¿Hay presupuesto para alojar a la población presa adicional?"
+   ],
+   "via": {
+    "instrumento": "Leyes penales y decisiones del Ejecutivo",
+    "mayoria": "Las reformas penales necesitan mayoría simple; el uso de tecnología depende de cada jurisdicción.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Alto: construir y operar cárceles y sistemas de vigilancia es caro y permanente.",
+   "ganan": "Víctimas de delitos y barrios con alta inseguridad, si baja el delito.",
+   "pagan": "Libertades individuales y privacidad; el sistema carcelario, si crece la población presa.",
+   "medir": "Tasa de homicidios y de robos (Sistema Nacional de Información Criminal) y ocupación carcelaria (SNEEP).",
+   "antecedentes": [
+    {
+     "a": "2019",
+     "t": "Sistema de Reconocimiento Facial de Prófugos en la Ciudad de Buenos Aires, suspendido judicialmente en 2022."
+    },
+    {
+     "a": "2023",
+     "t": "Protocolo para el mantenimiento del orden público ante cortes de calle."
+    },
+    {
+     "a": "2026",
+     "t": "Ley 27.801: imputabilidad desde los 14 años, con un máximo de 15 años de pena para adolescentes."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.801 de Régimen Penal Juvenil (2026)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-423722/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Es ley el Régimen Penal Juvenil: la imputabilidad baja a 14 años",
+     "u": "https://www.lavozdesanjusto.com.ar/es-ley-el-nuevo-regimen-penal-juvenil-y-la-edad-de-imputabilidad-baja-a-14-anos",
+     "tipo": "prensa"
+    },
+    {
+     "t": "Ley 24.059 de Seguridad Interior (1992)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-458/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-07",
@@ -358,7 +773,78 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "lla-desregulacion-y-reforma-del-estado"
+   "slug": "lla-desregulacion-y-reforma-del-estado",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "En curso. El DNU 70/2023 derogó y modificó cientos de normas; el Ministerio de Desregulación funciona desde 2024. La coparticipación no se tocó."
+   },
+   "problema": "Regulaciones acumuladas durante décadas que obligan a pedir permisos para casi todo y dan margen de discrecionalidad a los funcionarios.",
+   "como": [
+    "Derogar normas que restringen la competencia o la oferta.",
+    "Digitalizar trámites y expedientes.",
+    "Un ministerio dedicado a revisar regulaciones de forma continua.",
+    "Discutir un nuevo régimen de coparticipación."
+   ],
+   "pros": [
+    "Baja costos de entrada a mercados y de cumplimiento.",
+    "Algunas desregulaciones tienen efectos medibles, como la oferta de alquileres.",
+    "Reduce espacios para la corrupción administrativa."
+   ],
+   "contras": [
+    "Gobernar por DNU concentra poder en el Ejecutivo y genera inseguridad jurídica si un juez lo suspende.",
+    "Desregular sin controles puede dejar a usuarios sin protección.",
+    "Eliminar la coparticipación necesita el acuerdo de todas las provincias, algo que no pasa desde 1988."
+   ],
+   "preguntas": [
+    "¿Qué pasa con las normas si el DNU es declarado inconstitucional?",
+    "¿Con qué régimen se reemplaza la coparticipación?"
+   ],
+   "via": {
+    "instrumento": "DNU, decretos y leyes",
+    "mayoria": "Los DNU rigen salvo que ambas cámaras los rechacen. La coparticipación exige una ley-convenio aprobada por el Congreso y por todas las provincias.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Bajo: desregular cuesta poco en lo fiscal.",
+   "ganan": "Emprendedores, consumidores y sectores donde había barreras de entrada.",
+   "pagan": "Actividades que vivían de la regulación y usuarios que perdieron protecciones.",
+   "medir": "Cantidad de normas derogadas y tiempo y costo de trámites clave (abrir una empresa, importar, construir).",
+   "antecedentes": [
+    {
+     "a": "1991",
+     "t": "Decreto de desregulación de Cavallo (Decreto 2284/91)."
+    },
+    {
+     "a": "1994",
+     "t": "La reforma constitucional ordenó una nueva ley de coparticipación antes de 1996. Nunca se sancionó."
+    },
+    {
+     "a": "2023",
+     "t": "DNU 70/2023 de Bases para la Reconstrucción de la Economía."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "DNU 70/2023, Bases para la Reconstrucción de la Economía",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-395521/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-08",
@@ -382,7 +868,73 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-salud-con-competencia-privada"
+   "slug": "lla-salud-con-competencia-privada",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. Se desreguló el precio de las prepagas (DNU 70/2023) y la receta electrónica es obligatoria. No hay reforma integral del sistema."
+   },
+   "problema": "Un sistema fragmentado en público, obras sociales y prepagas, con cientos de obras sociales y fuertes diferencias de calidad entre provincias.",
+   "como": [
+    "Libertad de precios y competencia entre prepagas y obras sociales.",
+    "Libre elección de cobertura.",
+    "Telemedicina y receta electrónica para bajar costos.",
+    "Mejorar la infraestructura hospitalaria existente."
+   ],
+   "pros": [
+    "La receta electrónica redujo fraudes y simplificó el acceso a medicamentos.",
+    "Elegir cobertura obliga a los prestadores a mejorar.",
+    "La telemedicina acerca especialistas a lugares sin ellos."
+   ],
+   "contras": [
+    "Con libertad de precios, las cuotas de prepagas subieron fuerte en 2024.",
+    "En salud la competencia tiene límites: el paciente no puede comparar calidad fácilmente.",
+    "No dice qué pasa con el sistema público, que atiende a quienes no tienen cobertura."
+   ],
+   "preguntas": [
+    "¿Cómo se evita que la competencia excluya a los afiliados más caros?",
+    "¿Qué inversión concreta se prevé para hospitales públicos?"
+   ],
+   "via": {
+    "instrumento": "DNU, resoluciones y ley",
+    "mayoria": "Parte ya se hizo por DNU; una reforma de obras sociales necesitaría ley.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Alto si se invierte en hospitales; bajo en la parte de desregulación.",
+   "ganan": "Afiliados con capacidad de pago y de elegir.",
+   "pagan": "Afiliados de mayor edad o con enfermedades crónicas, si la competencia selecciona riesgos; obras sociales sindicales.",
+   "medir": "Cuota promedio de prepagas frente a inflación, cobertura de salud por hogar (EPH) y tiempos de espera.",
+   "antecedentes": [
+    {
+     "a": "2020",
+     "t": "Ley 27.553 de recetas electrónicas y telesalud."
+    },
+    {
+     "a": "2023",
+     "t": "DNU 70/2023: libertad de precios para prepagas."
+    },
+    {
+     "a": "2025",
+     "t": "La receta electrónica pasa a ser obligatoria también para estudios y prácticas."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "DNU 70/2023, Bases para la Reconstrucción de la Economía",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-395521/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 27.553 de recetas electrónicas y telesalud (2020)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-340919",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-09",
@@ -406,7 +958,67 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "lla-planes-que-se-apagan-con-empleo"
+   "slug": "lla-planes-que-se-apagan-con-empleo",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. El Potenciar Trabajo se reemplazó en 2024 por nuevos programas sin intermediarios, mientras la AUH tuvo fuertes aumentos reales."
+   },
+   "problema": "Millones de personas con planes sociales que no logran pasar al empleo formal, y programas mediados por organizaciones.",
+   "como": [
+    "Eliminar intermediarios en la asignación de planes.",
+    "Retirar planes a medida que se crea empleo privado.",
+    "Sostener transferencias por hijo como la AUH como red básica."
+   ],
+   "pros": [
+    "Cortar intermediarios reduce clientelismo y extorsión.",
+    "Priorizar la AUH concentra la ayuda en los chicos.",
+    "Pone la meta en el empleo y no en la asistencia permanente."
+   ],
+   "contras": [
+    "La condición, que el empleo crezca, no depende del programa.",
+    "Quien pierde el plan sin conseguir trabajo cae en la indigencia.",
+    "La economía popular no siempre tiene un empleo formal al cual pasar."
+   ],
+   "preguntas": [
+    "¿Qué pasa con quien pierde el plan y no consigue empleo?",
+    "¿Hay capacitación o intermediación laboral para el pasaje?"
+   ],
+   "via": {
+    "instrumento": "Decretos y presupuesto",
+    "mayoria": "Los programas sociales se crean y cierran por decisión del Ejecutivo.",
+    "plazo": "Progresivo"
+   },
+   "costo_txt": "Ahorra a mediano plazo; el costo social depende de si aparece el empleo.",
+   "ganan": "Beneficiarios que dejan de depender de un intermediario y el Tesoro.",
+   "pagan": "Beneficiarios sin calificación que no consiguen empleo y las organizaciones sociales.",
+   "medir": "Beneficiarios de programas sociales, tasa de pobreza e indigencia (INDEC) y pasaje a empleo registrado.",
+   "antecedentes": [
+    {
+     "a": "2002",
+     "t": "Plan Jefas y Jefes de Hogar, primer plan masivo tras la crisis."
+    },
+    {
+     "a": "2009",
+     "t": "Creación de la Asignación Universal por Hijo."
+    },
+    {
+     "a": "2024",
+     "t": "Fin del Potenciar Trabajo y pago directo sin organizaciones."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.345 de Emergencia Social y Salario Social Complementario",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-269491/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-10",
@@ -430,7 +1042,67 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "lla-alineamiento-con-estados-unidos-e-israel"
+   "slug": "lla-alineamiento-con-estados-unidos-e-israel",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "En curso. Alineamiento explícito con Estados Unidos e Israel, salida de la OMS anunciada en 2025 y acuerdo financiero con el Tesoro estadounidense en 2025."
+   },
+   "problema": "Una política exterior históricamente pendular que, según el Gobierno, alejó inversiones y aliados.",
+   "como": [
+    "Votar con Estados Unidos e Israel en organismos internacionales.",
+    "Buscar acuerdos comerciales y financieros con Washington.",
+    "Tomar distancia de foros que el Gobierno considera hostiles."
+   ],
+   "pros": [
+    "El respaldo financiero de Estados Unidos en 2025 mostró beneficios concretos del vínculo.",
+    "Una postura clara da previsibilidad a inversores occidentales.",
+    "Acerca a la Argentina a la OCDE y a acuerdos comerciales."
+   ],
+   "contras": [
+    "China es uno de los principales compradores de exportaciones argentinas y tiene un swap con el BCRA.",
+    "El alineamiento automático reduce margen de negociación.",
+    "Puede exponer al país a conflictos ajenos."
+   ],
+   "preguntas": [
+    "¿Qué pasa con el comercio con China si se tensa la relación?",
+    "¿Qué obtiene el país a cambio de los votos en organismos internacionales?"
+   ],
+   "via": {
+    "instrumento": "Decisión del Ejecutivo",
+    "mayoria": "La política exterior la conduce el Presidente; los tratados pasan por el Congreso.",
+    "plazo": "Inmediato"
+   },
+   "costo_txt": "Bajo en lo fiscal.",
+   "ganan": "Sectores que buscan inversión y financiamiento de Estados Unidos.",
+   "pagan": "Relaciones con socios comerciales clave como China y Brasil, si se tensan.",
+   "medir": "Acuerdos comerciales firmados, inversión extranjera directa y comercio con Estados Unidos y China.",
+   "antecedentes": [
+    {
+     "a": "1990",
+     "t": "Las relaciones carnales con Estados Unidos durante el menemismo."
+    },
+    {
+     "a": "2025",
+     "t": "Anuncio de salida de la Organización Mundial de la Salud."
+    },
+    {
+     "a": "2025",
+     "t": "Línea de swap del Tesoro de Estados Unidos con el BCRA."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Argentina ratifica el Acuerdo Mercosur-Unión Europea (Ley 27.800)",
+     "u": "https://abogados.com.ar/argentina-ratifica-el-acuerdo-mercosur-union-europea/38624",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "lla-11",
@@ -454,7 +1126,49 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "lla-el-estado-minimo-como-condicion-de-la-libertad"
+   "slug": "lla-el-estado-minimo-como-condicion-de-la-libertad",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "El diagnóstico libertario: el Estado ocupa el lugar del individuo y es la causa de la decadencia argentina. La solución es achicarlo hasta su mínima expresión.",
+   "como": [
+    "Superávit fiscal como regla innegociable.",
+    "Desregulación y apertura como política permanente.",
+    "Un Estado limitado a seguridad, justicia y defensa en el largo plazo."
+   ],
+   "pros": [
+    "Ofrece un diagnóstico claro y una dirección coherente.",
+    "Pone la responsabilidad individual y el mérito en el centro.",
+    "Ganó dos elecciones nacionales con este programa."
+   ],
+   "contras": [
+    "Ningún país desarrollado funciona con un Estado mínimo: todos tienen salud y educación públicas.",
+    "La práctica de gobierno incluye DNU y concentración de poder, poco compatibles con el liberalismo clásico.",
+    "Deja sin respuesta qué pasa con quienes no pueden competir en el mercado."
+   ],
+   "preguntas": [
+    "¿Qué funciones del Estado sobreviven en la versión final del programa?",
+    "¿Cómo se sostiene una sociedad con fuertes desigualdades sin red pública?"
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "DNU 70/2023, Bases para la Reconstrucción de la Economía",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-395521/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 27.742 de Bases (2024)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-401266/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "lla-12",
@@ -478,7 +1192,49 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "lla-treinta-y-cinco-anos-en-tres-etapas"
+   "slug": "lla-treinta-y-cinco-anos-en-tres-etapas",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "La hoja de ruta más larga del arco político: 35 años en tres generaciones de reformas, de la economía a la salud, la educación y la seguridad.",
+   "como": [
+    "Primera etapa: gasto, impuestos, trabajo y apertura (en ejecución).",
+    "Segunda: sistema previsional, empleo público y ministerios.",
+    "Tercera: salud, educación, seguridad y fin de la coparticipación."
+   ],
+   "pros": [
+    "Reconoce que los cambios estructurales llevan décadas.",
+    "Ordena prioridades en lugar de prometer todo a la vez.",
+    "Permite evaluar cada etapa por separado."
+   ],
+   "contras": [
+    "Ningún programa sobrevive 35 años sin consensos con la oposición.",
+    "La reforma previsional y el fin de la coparticipación necesitan mayorías que hoy no existen.",
+    "Un horizonte tan largo dificulta exigir resultados concretos."
+   ],
+   "preguntas": [
+    "¿Qué pasa con la hoja de ruta si cambia el gobierno?",
+    "¿Cuál es el plan para la reforma previsional?"
+   ],
+   "refs": [
+    {
+     "t": "Plataforma electoral 2025, Alianza La Libertad Avanza",
+     "u": "https://www.electoral.gob.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/14%20503%20-%20plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.742 de Bases (2024)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-401266/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pro-01",
@@ -503,7 +1259,63 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "pro-alineamiento-con-occidente"
+   "slug": "pro-alineamiento-con-occidente",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "Coincide con la política exterior del Gobierno, que el PRO acompaña. El acuerdo Mercosur-UE fue ratificado por la Argentina en 2026."
+   },
+   "problema": "Una inserción internacional inestable que cambia con cada gobierno y desalienta inversiones.",
+   "como": [
+    "Acuerdos comerciales con Estados Unidos y la Unión Europea.",
+    "Vínculo estratégico con Israel.",
+    "Ingreso a la OCDE y adopción de sus estándares."
+   ],
+   "pros": [
+    "El acuerdo con la UE abre un mercado de cientos de millones de consumidores.",
+    "Los estándares de la OCDE mejoran la calidad institucional.",
+    "Da previsibilidad más allá de un gobierno."
+   ],
+   "contras": [
+    "Europa congeló la ratificación del acuerdo en el Parlamento Europeo.",
+    "Puede tensar la relación con China.",
+    "Depende de que el resto del Mercosur avance al mismo ritmo."
+   ],
+   "preguntas": [
+    "¿Qué pasa si Europa no ratifica el acuerdo?",
+    "¿Cómo se compensa a los sectores que pierden?"
+   ],
+   "via": {
+    "instrumento": "Ejecutivo y tratados",
+    "mayoria": "Los tratados necesitan aprobación del Congreso por mayoría simple.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Bajo en lo fiscal; alto para sectores expuestos a la competencia europea.",
+   "ganan": "Agroindustria y servicios exportables.",
+   "pagan": "Industrias que compiten con importaciones europeas.",
+   "medir": "Exportaciones a la UE y a Estados Unidos y avance en el proceso de adhesión a la OCDE.",
+   "antecedentes": [
+    {
+     "a": "2019",
+     "t": "Cierre político del acuerdo Mercosur-UE durante el gobierno de Macri."
+    },
+    {
+     "a": "2026",
+     "t": "Firma en Asunción y ratificación argentina por Ley 27.800."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Argentina ratifica el Acuerdo Mercosur-Unión Europea (Ley 27.800)",
+     "u": "https://abogados.com.ar/argentina-ratifica-el-acuerdo-mercosur-union-europea/38624",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "pro-02",
@@ -527,7 +1339,63 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "pro-ficha-limpia"
+   "slug": "pro-ficha-limpia",
+   "estado": {
+    "cod": "rechazada",
+    "txt": "Rechazada. El Senado votó Ficha Limpia el 7 de mayo de 2025: obtuvo 36 votos y necesitaba 37. Podía volver a presentarse desde marzo de 2026."
+   },
+   "problema": "Personas condenadas por corrupción pueden ser candidatas mientras la condena no esté firme, lo que en Argentina puede llevar más de una década.",
+   "como": [
+    "Impedir candidaturas de personas condenadas en segunda instancia por delitos contra la administración pública.",
+    "Aplicarla a cargos nacionales.",
+    "Invitar a las provincias a adherir con leyes propias."
+   ],
+   "pros": [
+    "Varias provincias ya tienen leyes similares, como Mendoza y Chubut.",
+    "Responde a un reclamo de amplio consenso social.",
+    "No requiere presupuesto."
+   ],
+   "contras": [
+    "Condenar en segunda instancia no es una condena firme: puede afectar la presunción de inocencia.",
+    "Puede usarse para proscribir opositores si la justicia es manipulable.",
+    "Su apoyo cambia según a quién afecte en cada momento."
+   ],
+   "preguntas": [
+    "¿Desde qué instancia debería impedir la candidatura?",
+    "¿Cómo se evita su uso político contra opositores?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría absoluta en el Senado (37 votos) por modificar el régimen electoral.",
+    "plazo": "Para la elección siguiente a su sanción"
+   },
+   "costo_txt": "Ninguno.",
+   "ganan": "La confianza en el sistema político.",
+   "pagan": "Dirigentes con condenas no firmes.",
+   "medir": "Sanción de la ley y cantidad de provincias con normas equivalentes.",
+   "antecedentes": [
+    {
+     "a": "2025",
+     "t": "Diputados la aprueba y el Senado la rechaza por un voto."
+    },
+    {
+     "a": "2025",
+     "t": "La Corte confirma la condena a Cristina Kirchner en la causa Vialidad y queda inhabilitada por esa vía."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "El Economista: cayó Ficha Limpia, así votaron los senadores",
+     "u": "https://eleconomista.com.ar/politica/cayo-ficha-limpia-uno-uno-asi-votaron-senadores-n84520",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "pro-03",
@@ -552,7 +1420,63 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pro-equilibrio-fiscal-y-baja-de-impuestos"
+   "slug": "pro-equilibrio-fiscal-y-baja-de-impuestos",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "Acompaña la política fiscal del Gobierno. La baja de impuestos sigue pendiente."
+   },
+   "problema": "Una presión tributaria alta sobre el sector formal y una historia de déficits crónicos.",
+   "como": [
+    "Sostener el superávit fiscal.",
+    "Bajar primero los impuestos más distorsivos.",
+    "Simplificar el régimen para pymes."
+   ],
+   "pros": [
+    "La secuencia, primero orden y después baja, es prudente.",
+    "Evita repetir bajas de impuestos que terminan en déficit.",
+    "Prioriza a las pymes."
+   ],
+   "contras": [
+    "El PRO ya prometió bajar impuestos en 2017 y la crisis de 2018 lo frenó.",
+    "No precisa qué impuestos bajan ni cuándo.",
+    "Depende de una política que conduce otro espacio."
+   ],
+   "preguntas": [
+    "¿Qué impuesto se baja primero y en cuánto?",
+    "¿Qué se hace si el superávit no alcanza?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple; acuerdo con provincias para Ingresos Brutos.",
+    "plazo": "Escalonado"
+   },
+   "costo_txt": "Medio: depende del ritmo de la baja.",
+   "ganan": "Empresas formales y pymes.",
+   "pagan": "Nadie en el corto plazo si se respeta la secuencia; las provincias si baja la coparticipación.",
+   "medir": "Resultado fiscal y presión tributaria como % del PBI.",
+   "antecedentes": [
+    {
+     "a": "2017",
+     "t": "Reforma tributaria del gobierno de Macri con baja gradual de contribuciones y Ganancias."
+    },
+    {
+     "a": "2018",
+     "t": "Crisis cambiaria y acuerdo con el FMI que frena la baja de impuestos."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "pro-04",
@@ -577,7 +1501,68 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pro-reforma-laboral-moderna"
+   "slug": "pro-reforma-laboral-moderna",
+   "estado": {
+    "cod": "aprobada",
+    "txt": "Aprobada con votos del PRO: Ley 27.802 de Modernización Laboral (febrero de 2026)."
+   },
+   "problema": "Altos costos no salariales y litigiosidad que desalientan la contratación formal.",
+   "como": [
+    "Contratos más flexibles.",
+    "Reducción de contribuciones para nuevos empleos.",
+    "Incentivos para registrar trabajo informal."
+   ],
+   "pros": [
+    "Ya es ley: se puede medir su efecto.",
+    "Baja el costo de contratar para pymes.",
+    "Ataca la informalidad, que deja sin derechos a millones."
+   ],
+   "contras": [
+    "Los efectos en empleo son inciertos y dependen del crecimiento.",
+    "Recorta derechos de quien ya tiene empleo formal.",
+    "El crédito político lo capitaliza otro espacio."
+   ],
+   "preguntas": [
+    "¿Cuánto empleo formal nuevo se generó?",
+    "¿Qué pasa con los convenios colectivos vencidos?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple. Ya sancionada.",
+    "plazo": "Vigente desde 2026"
+   },
+   "costo_txt": "Medio: los incentivos reducen aportes.",
+   "ganan": "Pymes y trabajadores informales que se registren.",
+   "pagan": "Trabajadores registrados con menos protección y sindicatos.",
+   "medir": "Asalariados privados registrados (SIPA) e informalidad (EPH).",
+   "antecedentes": [
+    {
+     "a": "2017",
+     "t": "El gobierno de Macri intenta una reforma laboral que no logra aprobar."
+    },
+    {
+     "a": "2026",
+     "t": "Sanción de la Ley 27.802 con apoyo de PRO, UCR y aliados."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.802 de Modernización Laboral (2026)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-423680/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Marval: el Congreso aprueba la Ley de Modernización Laboral",
+     "u": "https://www.marval.com/Publicacion/el-congreso-aprueba-la-ley-de-modernizacion-laboral-17499?lang=es",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "pro-05",
@@ -602,7 +1587,77 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "pro-narcomenudeo-y-regimen-penal-juvenil"
+   "slug": "pro-narcomenudeo-y-regimen-penal-juvenil",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. El Régimen Penal Juvenil se aprobó en febrero de 2026 (Ley 27.801): la imputabilidad baja de 16 a 14 años. La desfederalización del narcomenudeo depende de cada provincia."
+   },
+   "problema": "El narcomenudeo controla territorios en barrios de grandes ciudades y la justicia federal no da abasto para perseguirlo.",
+   "como": [
+    "Que las provincias asuman la persecución del narcomenudeo adhiriendo a la Ley 26.052.",
+    "Bajar la edad de imputabilidad con un régimen penal juvenil específico.",
+    "Más equipamiento y tecnología para policías provinciales."
+   ],
+   "pros": [
+    "Las provincias conocen mejor el territorio que la justicia federal.",
+    "El nuevo régimen juvenil reemplaza una ley de la dictadura de 1980.",
+    "Incluye mediación penal con consentimiento de la víctima."
+   ],
+   "contras": [
+    "Bajar la edad no ataca a quienes reclutan adolescentes para delinquir.",
+    "Desfederalizar sin presupuesto traslada el problema sin resolverlo.",
+    "Las provincias que adhirieron, como Córdoba o Santa Fe, siguen con altos niveles de microtráfico."
+   ],
+   "preguntas": [
+    "¿Qué recursos reciben las provincias que asumen el narcomenudeo?",
+    "¿Hay institutos adecuados para cumplir las penas juveniles?"
+   ],
+   "via": {
+    "instrumento": "Leyes nacionales y provinciales",
+    "mayoria": "El régimen penal juvenil ya es ley; cada provincia debe adherir por ley propia al narcomenudeo.",
+    "plazo": "Vigencia del régimen juvenil 180 días después de marzo de 2026"
+   },
+   "costo_txt": "Alto para las provincias, que asumen fiscales, jueces y policía.",
+   "ganan": "Barrios con narcomenudeo y víctimas de delitos cometidos por adolescentes.",
+   "pagan": "Presupuestos provinciales y adolescentes en conflicto con la ley.",
+   "medir": "Causas por narcomenudeo en fueros provinciales y delitos cometidos por menores de 18 años.",
+   "antecedentes": [
+    {
+     "a": "2005",
+     "t": "Ley 26.052 permite a las provincias perseguir el narcomenudeo."
+    },
+    {
+     "a": "2023",
+     "t": "Santa Fe adhiere con la Ley 14.239."
+    },
+    {
+     "a": "2026",
+     "t": "Ley 27.801: imputabilidad a los 14 años y máximo de 15 años de pena."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.801 de Régimen Penal Juvenil (2026)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-423722/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Es ley el Régimen Penal Juvenil: la imputabilidad baja a 14 años",
+     "u": "https://www.lavozdesanjusto.com.ar/es-ley-el-nuevo-regimen-penal-juvenil-y-la-edad-de-imputabilidad-baja-a-14-anos",
+     "tipo": "prensa"
+    },
+    {
+     "t": "Ley 26.052 de desfederalización del narcomenudeo",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-109264",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pro-06",
@@ -627,7 +1682,63 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pro-evaluacion-y-alfabetizacion"
+   "slug": "pro-evaluacion-y-alfabetizacion",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa nacional basada en la experiencia de la Ciudad. Las pruebas Aprender existen desde 2016."
+   },
+   "problema": "Una parte grande de los chicos termina la primaria sin comprender lo que lee, según las evaluaciones nacionales.",
+   "como": [
+    "Evaluaciones censales periódicas en lengua y matemática.",
+    "Programas de alfabetización en primer ciclo con metas por escuela.",
+    "Publicar resultados para orientar recursos."
+   ],
+   "pros": [
+    "Sin medir no se sabe qué funciona.",
+    "Enfocarse en alfabetización inicial ataca el problema en su origen.",
+    "Programas con metas de alfabetización, como el de Ceará en Brasil, lograron mejoras sostenidas en lectura."
+   ],
+   "contras": [
+    "Publicar resultados por escuela puede estigmatizar a las que atienden a chicos pobres.",
+    "Evaluar sin invertir en mejorar sólo confirma el diagnóstico.",
+    "Depende de 24 jurisdicciones con políticas distintas."
+   ],
+   "preguntas": [
+    "¿Se publicarían resultados por escuela o sólo agregados?",
+    "¿Qué pasa con las escuelas que no mejoran?"
+   ],
+   "via": {
+    "instrumento": "Consejo Federal de Educación y presupuesto",
+    "mayoria": "Las escuelas dependen de las provincias: hace falta acuerdo en el Consejo Federal.",
+    "plazo": "Resultados en 3 a 5 años"
+   },
+   "costo_txt": "Medio: capacitación docente y materiales.",
+   "ganan": "Chicos de escuelas con peores resultados, si los datos orientan recursos.",
+   "pagan": "Gremios docentes que rechazan los rankings de escuelas.",
+   "medir": "Resultados de Aprender y de pruebas internacionales en lectura de tercer y sexto grado.",
+   "antecedentes": [
+    {
+     "a": "2016",
+     "t": "Primeras pruebas Aprender."
+    },
+    {
+     "a": "2024",
+     "t": "Compromiso federal por la alfabetización en el Consejo Federal de Educación."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.206 de Educación Nacional (2006)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-123542/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pro-07",
@@ -652,7 +1763,63 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pro-obra-publica-con-capital-privado"
+   "slug": "pro-obra-publica-con-capital-privado",
+   "estado": {
+    "cod": "promesa",
+    "txt": "El régimen de PPP existe desde 2016 (Ley 27.328) pero su programa vial se frenó con la crisis de 2018."
+   },
+   "problema": "El Estado no tiene recursos para la infraestructura que necesita el país y la obra pública nacional está frenada.",
+   "como": [
+    "Contratos de participación público-privada donde el privado financia y construye.",
+    "El Estado paga por disponibilidad o resultados durante años.",
+    "Concesiones de rutas con peaje."
+   ],
+   "pros": [
+    "Permite hacer obra sin endeudamiento directo del Tesoro.",
+    "Traslada riesgos de construcción al privado.",
+    "El pago por resultados incentiva el mantenimiento."
+   ],
+   "contras": [
+    "Con riesgo país alto, el financiamiento privado es muy caro.",
+    "El programa PPP vial de 2018 se cayó cuando subieron las tasas.",
+    "Compromete gasto futuro fuera del déficit visible."
+   ],
+   "preguntas": [
+    "¿A qué tasa se financia el privado con el riesgo país actual?",
+    "¿Cuánto gasto futuro se compromete?"
+   ],
+   "via": {
+    "instrumento": "Ley vigente y contratos",
+    "mayoria": "La Ley 27.328 ya lo permite; cada contrato necesita aprobación y crédito presupuestario plurianual.",
+    "plazo": "Contratos de 15 a 30 años"
+   },
+   "costo_txt": "Diferido: el Estado no paga al inicio pero se compromete por décadas.",
+   "ganan": "Usuarios de rutas y obras, empresas constructoras e inversores.",
+   "pagan": "Futuros presupuestos y usuarios de peajes.",
+   "medir": "Monto de inversión adjudicada por PPP y kilómetros de ruta construidos o mantenidos.",
+   "antecedentes": [
+    {
+     "a": "2016",
+     "t": "Ley 27.328 de Contratos de Participación Público-Privada."
+    },
+    {
+     "a": "2018",
+     "t": "Adjudicación de la primera etapa de PPP viales, luego abandonada."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.328 de Participación Público-Privada (2016)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-27328-268322/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pro-08",
@@ -676,7 +1843,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "pro-republica-mercado-y-occidente"
+   "slug": "pro-republica-mercado-y-occidente",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "República, mercado y Occidente: el PRO se presenta como la centroderecha institucional que combina economía de mercado con reglas estables.",
+   "como": [
+    "Alternancia y respeto a la división de poderes.",
+    "Economía de mercado con Estado regulador.",
+    "Inserción en Occidente."
+   ],
+   "pros": [
+    "Combina orden económico con respeto institucional.",
+    "Gobernó la Ciudad durante casi dos décadas.",
+    "Formó cuadros técnicos con experiencia de gestión."
+   ],
+   "contras": [
+    "Su identidad se diluyó al acompañar al Gobierno de Milei.",
+    "Su gestión nacional terminó con crisis cambiaria y acuerdo con el FMI.",
+    "Hoy es socio menor en la mayoría de los distritos."
+   ],
+   "preguntas": [
+    "¿Qué lo distingue hoy de La Libertad Avanza?",
+    "¿Puede volver a competir por la presidencia con candidato propio?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Argentina ratifica el Acuerdo Mercosur-Unión Europea (Ley 27.800)",
+     "u": "https://abogados.com.ar/argentina-ratifica-el-acuerdo-mercosur-union-europea/38624",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "pro-09",
@@ -700,7 +1904,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "pro-un-pais-integrado-al-mundo"
+   "slug": "pro-un-pais-integrado-al-mundo",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Una Argentina normal: integrada al comercio, con inversión extranjera y una democracia que no se discute.",
+   "como": [
+    "Acuerdos comerciales vigentes.",
+    "Inversión extranjera directa creciente.",
+    "Clase media con empleo formal."
+   ],
+   "pros": [
+    "Es un horizonte concreto y comparable con países vecinos.",
+    "No depende de un liderazgo personal.",
+    "Busca un consenso amplio."
+   ],
+   "contras": [
+    "No explica cómo se llega ni en qué plazo.",
+    "Depende de una estabilidad que el país no logró sostener.",
+    "Comparte la meta con otros espacios sin diferenciarse."
+   ],
+   "preguntas": [
+    "¿Se construye con Milei o como alternativa?",
+    "¿Qué indicadores definen una Argentina normal?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil del PRO",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/pro",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Argentina ratifica el Acuerdo Mercosur-Unión Europea (Ley 27.800)",
+     "u": "https://abogados.com.ar/argentina-ratifica-el-acuerdo-mercosur-union-europea/38624",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "ucr-01",
@@ -725,7 +1966,63 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "ucr-equilibrio-fiscal-sin-ajuste-brusco"
+   "slug": "ucr-equilibrio-fiscal-sin-ajuste-brusco",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa de campaña 2025. El radicalismo acompañó buena parte de la agenda fiscal del Gobierno en el Congreso."
+   },
+   "problema": "Bajar la inflación sin que todo el ajuste recaiga sobre jubilados, universidades y provincias.",
+   "como": [
+    "Equilibrio fiscal con metas graduales.",
+    "Proteger partidas de jubilaciones, educación y salud.",
+    "Baja de impuestos distorsivos y crédito para pymes y economías regionales."
+   ],
+   "pros": [
+    "Reconoce que el orden fiscal es necesario sin romper la red social.",
+    "Evita los costos políticos de un ajuste brusco.",
+    "Tiene apoyo en gobernadores radicales con cuentas ordenadas."
+   ],
+   "contras": [
+    "El gradualismo de 2016 a 2018 terminó con crisis y FMI.",
+    "No identifica qué gasto recortar a cambio.",
+    "El bloque radical votó dividido en temas clave."
+   ],
+   "preguntas": [
+    "¿Qué gasto se recorta para proteger las partidas sociales?",
+    "¿Qué plazo tiene el equilibrio?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto anual",
+    "mayoria": "Mayoría simple en ambas cámaras.",
+    "plazo": "Gradual"
+   },
+   "costo_txt": "Medio: proteger partidas sociales exige ajustar en otros rubros o recaudar más.",
+   "ganan": "Jubilados, universidades y pymes del interior.",
+   "pagan": "Otros rubros del gasto, o la velocidad de la baja de la inflación.",
+   "medir": "Resultado fiscal y gasto real en jubilaciones, universidades y salud.",
+   "antecedentes": [
+    {
+     "a": "2016",
+     "t": "Gradualismo fiscal de Cambiemos, con la UCR como socia."
+    },
+    {
+     "a": "2024",
+     "t": "Parte del bloque radical sostiene los vetos del Gobierno."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Chequeado: cómo puede el Congreso insistir con una ley vetada",
+     "u": "https://chequeado.com/el-explicador/el-veto-de-javier-milei-como-puede-el-congreso-insistir-con-una-ley-rechazada-por-el-ejecutivo/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "ucr-02",
@@ -749,7 +2046,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "ucr-salud-mental-y-medicamentos-esenciales"
+   "slug": "ucr-salud-mental-y-medicamentos-esenciales",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La Ley de Salud Mental rige desde 2010 y el Gobierno propuso modificarla."
+   },
+   "problema": "Una demanda creciente de atención en salud mental y adicciones, con servicios concentrados en grandes ciudades.",
+   "como": [
+    "Aumentar el presupuesto de salud mental hacia la meta de la Ley 26.657.",
+    "Reforzar vacunación y medicamentos esenciales.",
+    "Historia clínica digital y coordinación entre Nación, provincias y municipios."
+   ],
+   "pros": [
+    "La salud mental es una de las demandas más crecientes tras la pandemia.",
+    "La historia clínica digital evita estudios repetidos y errores.",
+    "Facundo Manes, su principal referente, es especialista en el tema."
+   ],
+   "contras": [
+    "La Ley 26.657 fija una meta de presupuesto que nunca se cumplió.",
+    "No precisa de dónde salen los fondos.",
+    "Sin coordinación con provincias, la historia clínica digital no funciona."
+   ],
+   "preguntas": [
+    "¿Qué porcentaje del presupuesto de salud iría a salud mental?",
+    "¿Se mantiene la Ley 26.657 o se reforma?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto y acuerdos federales",
+    "mayoria": "No requiere ley nueva, salvo para modificar la 26.657.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Alto: más profesionales, dispositivos y medicamentos.",
+   "ganan": "Personas con padecimientos mentales y adicciones y sus familias.",
+   "pagan": "El presupuesto de salud, que ya está tensionado.",
+   "medir": "Porcentaje del presupuesto de salud destinado a salud mental y cobertura de vacunación del calendario.",
+   "antecedentes": [
+    {
+     "a": "2010",
+     "t": "Ley 26.657 de Salud Mental."
+    },
+    {
+     "a": "2020",
+     "t": "Ley 27.553 de recetas electrónicas y telesalud."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.657 de Salud Mental (2010)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-175977/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 27.553 de recetas electrónicas y telesalud (2020)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-340919",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "ucr-03",
@@ -773,7 +2131,82 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "ucr-recomponer-el-presupuesto-educativo"
+   "slug": "ucr-recomponer-el-presupuesto-educativo",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. El Congreso insistió en 2025 con la Ley de Financiamiento Universitario después del veto; el Gobierno la promulgó con objeciones."
+   },
+   "problema": "El presupuesto educativo cayó en términos reales, con fuerte impacto en universidades y salarios docentes.",
+   "como": [
+    "Recomponer el presupuesto educativo y universitario.",
+    "Invertir en infraestructura escolar y conectividad.",
+    "Reformar la formación docente y evaluar aprendizajes."
+   ],
+   "pros": [
+    "La educación pública tiene amplio respaldo social, como mostraron las marchas universitarias.",
+    "Une financiamiento con evaluación y formación docente.",
+    "La Ley 26.206 ya fija un piso de 6% del PBI que se incumple."
+   ],
+   "contras": [
+    "No explica cómo se financia sin déficit.",
+    "Más presupuesto no garantiza mejores aprendizajes sin reformas.",
+    "Las universidades tienen problemas de graduación y control de gasto."
+   ],
+   "preguntas": [
+    "¿De dónde sale el financiamiento?",
+    "¿Qué metas de aprendizaje y graduación acompañan el aumento?"
+   ],
+   "via": {
+    "instrumento": "Ley y Presupuesto",
+    "mayoria": "La insistencia frente a un veto necesita dos tercios en ambas cámaras.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Alto: recuperar el poder de compra de salarios universitarios y docentes.",
+   "ganan": "Estudiantes, docentes y el sistema científico.",
+   "pagan": "El resultado fiscal o otras partidas.",
+   "medir": "Gasto educativo consolidado como % del PBI y salario real docente y universitario.",
+   "antecedentes": [
+    {
+     "a": "2005",
+     "t": "Ley 26.075 fija la meta del 6% del PBI para 2010."
+    },
+    {
+     "a": "2024",
+     "t": "Veto a la Ley de Financiamiento Universitario, sostenido en Diputados."
+    },
+    {
+     "a": "2025",
+     "t": "El Congreso insiste con una nueva ley universitaria y logra los dos tercios."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.206 de Educación Nacional (2006)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-123542/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 26.075 de Financiamiento Educativo (2005)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-112976/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Cronista: el Gobierno promulgó las leyes de emergencia pediátrica y financiamiento universitario",
+     "u": "https://www.cronista.com/economia-politica/el-gobierno-promulgo-las-leyes-de-emergencia-pediatrica-y-financiamiento-universitario-pero-con-trabas",
+     "tipo": "prensa"
+    },
+    {
+     "t": "Chequeado: cómo puede el Congreso insistir con una ley vetada",
+     "u": "https://chequeado.com/el-explicador/el-veto-de-javier-milei-como-puede-el-congreso-insistir-con-una-ley-rechazada-por-el-ejecutivo/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "ucr-04",
@@ -797,7 +2230,72 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "ucr-credito-hipotecario-estable"
+   "slug": "ucr-credito-hipotecario-estable",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. Los créditos UVA volvieron en 2024 de la mano de los bancos, sin un marco legal nuevo."
+   },
+   "problema": "Comprar una vivienda con crédito es casi imposible para la clase media, y los alquileres se llevan una parte creciente del salario.",
+   "como": [
+    "Reglas estables para el crédito hipotecario UVA, con límites a la relación cuota-ingreso.",
+    "Un marco de alquileres claro para inquilinos y propietarios.",
+    "Lotes con servicios y urbanización."
+   ],
+   "pros": [
+    "El crédito hipotecario en Argentina es mínimo comparado con la región.",
+    "Las reglas estables reducen el riesgo para deudores y bancos.",
+    "Lotes con servicios abaratan el acceso al suelo."
+   ],
+   "contras": [
+    "Los UVA de 2016 sufrieron con la devaluación de 2018 y requirieron congelamientos.",
+    "El crédito hipotecario necesita baja inflación sostenida.",
+    "Otro marco de alquileres podría reducir la oferta, como pasó con la ley de 2020."
+   ],
+   "preguntas": [
+    "¿Qué pasa con la cuota si la inflación supera a los salarios?",
+    "¿Cómo sería el nuevo marco de alquileres?"
+   ],
+   "via": {
+    "instrumento": "Ley y regulación del BCRA",
+    "mayoria": "Mayoría simple; el BCRA puede regular condiciones del crédito.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio: requiere subsidios o garantías públicas si se protege al deudor.",
+   "ganan": "Familias que quieren comprar su primera vivienda.",
+   "pagan": "Bancos, si se limitan condiciones, o el Estado, si garantiza.",
+   "medir": "Stock de crédito hipotecario como % del PBI y cantidad de escrituras con hipoteca.",
+   "antecedentes": [
+    {
+     "a": "2016",
+     "t": "Lanzamiento de los créditos UVA."
+    },
+    {
+     "a": "2020",
+     "t": "Ley 27.551 de alquileres, derogada en 2023 por el DNU 70."
+    },
+    {
+     "a": "2024",
+     "t": "Los bancos relanzan créditos hipotecarios UVA."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.551 de Alquileres (derogada por el DNU 70/2023)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-339378/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ministerio de Desregulación: informe sobre alquileres tras la derogación",
+     "u": "https://www.argentina.gob.ar/sites/default/files/ley_alquileres_informe_1410.pdf",
+     "tipo": "oficial"
+    }
+   ]
   },
   {
    "id": "ucr-05",
@@ -821,7 +2319,67 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "ucr-agua-incendios-y-transicion-ordenada"
+   "slug": "ucr-agua-incendios-y-transicion-ordenada",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. El Sistema Federal de Manejo del Fuego pasó al Ministerio de Seguridad en 2024."
+   },
+   "problema": "Incendios forestales cada vez más grandes, sequías y conflictos por el agua entre provincias.",
+   "como": [
+    "Gestión integral del agua por cuencas.",
+    "Fortalecer el Sistema Federal de Manejo del Fuego con brigadas y equipamiento.",
+    "Promover renovables y eficiencia energética."
+   ],
+   "pros": [
+    "Los incendios en la Patagonia y el Litoral muestran que el sistema actual no alcanza.",
+    "Vincula ambiente con producción en lugar de enfrentarlos.",
+    "Ya hay un marco legal de manejo del fuego."
+   ],
+   "contras": [
+    "Las propuestas son generales y sin metas cuantificadas.",
+    "El agua es de dominio provincial: la Nación tiene poco margen.",
+    "Compite con la agenda de explotación de recursos naturales."
+   ],
+   "preguntas": [
+    "¿Cuánto presupuesto adicional se asignaría al manejo del fuego?",
+    "¿Cómo se resuelven los conflictos interprovinciales por el agua?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto y leyes ambientales",
+    "mayoria": "Las leyes de presupuestos mínimos necesitan mayoría simple; la gestión es compartida con provincias.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Medio: brigadas, aviones hidrantes y obras hídricas.",
+   "ganan": "Poblaciones en zonas de incendio y productores afectados por sequías.",
+   "pagan": "El presupuesto nacional y actividades con restricciones ambientales.",
+   "medir": "Hectáreas afectadas por incendios por año y presupuesto ejecutado del Sistema Federal de Manejo del Fuego.",
+   "antecedentes": [
+    {
+     "a": "2012",
+     "t": "Ley 26.815 de Manejo del Fuego."
+    },
+    {
+     "a": "2020",
+     "t": "Ley 27.604 prohíbe cambiar el uso del suelo en zonas incendiadas."
+    },
+    {
+     "a": "2024",
+     "t": "El sistema pasa a la órbita del Ministerio de Seguridad."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.815 de Manejo del Fuego (2012)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-207401",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "ucr-06",
@@ -846,7 +2404,72 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "ucr-justicia-independiente-y-digital"
+   "slug": "ucr-justicia-independiente-y-digital",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. El Consejo de la Magistratura funciona con la composición anterior a 2006, restituida por la Corte en 2021."
+   },
+   "problema": "Una justicia lenta, con concursos de jueces que tardan años y cientos de cargos vacantes cubiertos por subrogantes.",
+   "como": [
+    "Fortalecer el Consejo de la Magistratura y acelerar concursos.",
+    "Designaciones transparentes con audiencias públicas.",
+    "Digitalizar todos los expedientes."
+   ],
+   "pros": [
+    "La demora en cubrir vacantes debilita la independencia judicial.",
+    "La digitalización ya funciona en varias provincias.",
+    "Busca acuerdos amplios, no una reforma de un solo partido."
+   ],
+   "contras": [
+    "Cada reforma del Consejo terminó judicializada.",
+    "No dice qué composición propone.",
+    "Depende de acuerdos entre oficialismo y oposición que hoy no existen."
+   ],
+   "preguntas": [
+    "¿Qué composición del Consejo propone?",
+    "¿Cuánto tiempo debería durar un concurso?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Reformar el Consejo de la Magistratura necesita mayoría absoluta de cada cámara.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio: tecnología y nuevos cargos.",
+   "ganan": "Ciudadanos que litigan y quienes esperan sentencias.",
+   "pagan": "Nadie en particular; limita la discrecionalidad del poder político.",
+   "medir": "Cantidad de cargos vacantes en la justicia federal y duración promedio de los concursos.",
+   "antecedentes": [
+    {
+     "a": "1997",
+     "t": "Ley 24.937 crea el Consejo de la Magistratura."
+    },
+    {
+     "a": "2006",
+     "t": "Ley 26.080 reduce el Consejo a 13 miembros."
+    },
+    {
+     "a": "2021",
+     "t": "La Corte declara inconstitucional esa composición."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 24.937 del Consejo de la Magistratura",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-48231/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "ucr-07",
@@ -870,7 +2493,64 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "ucr-prevencion-e-inteligencia-criminal"
+   "slug": "ucr-prevencion-e-inteligencia-criminal",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa de campaña."
+   },
+   "problema": "El narcotráfico gana territorio en ciudades como Rosario y en zonas de frontera, con fuerzas mal coordinadas.",
+   "como": [
+    "Inteligencia criminal y seguimiento del dinero del narcotráfico.",
+    "Coordinación entre fuerzas federales, provinciales y municipales.",
+    "Profesionalización y control de las fuerzas."
+   ],
+   "pros": [
+    "Atacar el dinero es más efectivo que perseguir al último eslabón.",
+    "La coordinación entre fuerzas fue clave en la baja de homicidios en Rosario desde 2024.",
+    "Mantiene el respeto institucional."
+   ],
+   "contras": [
+    "Es una propuesta genérica, compartida por casi todos los espacios.",
+    "No fija metas ni presupuesto.",
+    "La inteligencia criminal requiere controles que hoy son débiles."
+   ],
+   "preguntas": [
+    "¿Qué organismo coordina a las fuerzas?",
+    "¿Qué controles se prevén sobre la inteligencia criminal?"
+   ],
+   "via": {
+    "instrumento": "Ley y decisiones del Ejecutivo",
+    "mayoria": "La coordinación puede hacerse por convenios; reformas a inteligencia necesitan ley.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio: tecnología, formación y sistemas de información.",
+   "ganan": "Barrios afectados por el narcotráfico.",
+   "pagan": "Organizaciones criminales y redes de lavado.",
+   "medir": "Homicidios dolosos en ciudades críticas y causas por lavado de activos con condena.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "Plan conjunto Nación-Santa Fe en Rosario y caída fuerte de homicidios."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 24.059 de Seguridad Interior (1992)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-458/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 26.052 de desfederalización del narcomenudeo",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-109264",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "ucr-08",
@@ -894,7 +2574,77 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "ucr-movilidad-jubilatoria-automatica"
+   "slug": "ucr-movilidad-jubilatoria-automatica",
+   "estado": {
+    "cod": "rechazada",
+    "txt": "Vetada. El Congreso aprobó en 2024 una ley de movilidad con recomposición; el Gobierno la vetó (Decreto 782/2024) y el veto se sostuvo. Rige el DNU 274/2024, que actualiza por inflación."
+   },
+   "problema": "Los haberes jubilatorios perdieron poder de compra durante años y se actualizan según la fórmula que elige cada gobierno.",
+   "como": [
+    "Una fórmula de movilidad fijada por ley, que combine inflación y salarios.",
+    "Revisión del haber mínimo.",
+    "Menos discrecionalidad del Ejecutivo en bonos y aumentos."
+   ],
+   "pros": [
+    "Una fórmula por ley evita que cada gobierno cambie las reglas.",
+    "Combinar inflación y salarios protege en fases de crecimiento.",
+    "El haber mínimo está por debajo de la canasta básica de un adulto mayor."
+   ],
+   "contras": [
+    "No dice cómo se financia el mayor gasto.",
+    "Las fórmulas con rezago perdieron contra la inflación en 2018 y 2023.",
+    "El sistema tiene un problema estructural de pocos aportantes por jubilado."
+   ],
+   "preguntas": [
+    "¿Qué fórmula concreta propone?",
+    "¿Cómo se financia el costo adicional?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple; ante un veto, dos tercios en ambas cámaras.",
+    "plazo": "Inmediato una vez sancionada"
+   },
+   "costo_txt": "Alto: cada punto de aumento real en jubilaciones es uno de los gastos más grandes del presupuesto.",
+   "ganan": "Jubilados y pensionados.",
+   "pagan": "El resultado fiscal, salvo que se compense con otros recortes o impuestos.",
+   "medir": "Haber mínimo real (deflactado por IPC) y su relación con la canasta básica.",
+   "antecedentes": [
+    {
+     "a": "2017",
+     "t": "Cambio de fórmula de movilidad, con protestas frente al Congreso."
+    },
+    {
+     "a": "2020",
+     "t": "Ley 27.609, nueva fórmula con salarios y recaudación."
+    },
+    {
+     "a": "2024",
+     "t": "DNU 274/2024: actualización mensual por IPC. Veto a la ley de recomposición."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "DNU 274/2024, movilidad jubilatoria por IPC",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-397577/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Decreto 782/2024, veto a la ley de movilidad",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-403575/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Chequeado: cómo puede el Congreso insistir con una ley vetada",
+     "u": "https://chequeado.com/el-explicador/el-veto-de-javier-milei-como-puede-el-congreso-insistir-con-una-ley-rechazada-por-el-ejecutivo/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "ucr-09",
@@ -918,7 +2668,63 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "ucr-mercosur-y-diplomacia-profesional"
+   "slug": "ucr-mercosur-y-diplomacia-profesional",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "Coincide con la ratificación del acuerdo Mercosur-UE en 2026."
+   },
+   "problema": "Una política exterior que cambia de signo con cada gobierno y una Cancillería debilitada.",
+   "como": [
+    "Mercosur como plataforma comercial.",
+    "Relaciones previsibles con democracias occidentales.",
+    "Diplomacia profesional y defensa de los derechos humanos."
+   ],
+   "pros": [
+    "El Mercosur sigue siendo el principal destino de manufacturas argentinas.",
+    "Una diplomacia profesional da continuidad entre gobiernos.",
+    "Evita alineamientos automáticos."
+   ],
+   "contras": [
+    "Es una propuesta de método más que de contenido.",
+    "El Mercosur arrastra problemas que limitan acuerdos con terceros.",
+    "No se diferencia demasiado de otras fuerzas moderadas."
+   ],
+   "preguntas": [
+    "¿Qué cambiaría en la relación con Estados Unidos y China?",
+    "¿Cómo se flexibiliza el Mercosur?"
+   ],
+   "via": {
+    "instrumento": "Ejecutivo y tratados",
+    "mayoria": "Los tratados se aprueban por mayoría simple.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Bajo.",
+   "ganan": "Exportadores y la previsibilidad de largo plazo.",
+   "pagan": "Nadie en particular.",
+   "medir": "Exportaciones al Mercosur y a la UE y cantidad de acuerdos comerciales vigentes.",
+   "antecedentes": [
+    {
+     "a": "1991",
+     "t": "Tratado de Asunción, creación del Mercosur."
+    },
+    {
+     "a": "2026",
+     "t": "Ley 27.800 aprueba el acuerdo interino Mercosur-UE."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Argentina ratifica el Acuerdo Mercosur-Unión Europea (Ley 27.800)",
+     "u": "https://abogados.com.ar/argentina-ratifica-el-acuerdo-mercosur-union-europea/38624",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "ucr-10",
@@ -942,7 +2748,49 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "ucr-la-republica-de-la-educacion-publica"
+   "slug": "ucr-la-republica-de-la-educacion-publica",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "Instituciones republicanas, educación pública y federalismo como tres pilares inseparables de la identidad radical.",
+   "como": [
+    "División de poderes y Congreso activo.",
+    "Escuela y universidad pública como ascensor social.",
+    "Provincias con recursos propios."
+   ],
+   "pros": [
+    "Es una tradición política de más de un siglo.",
+    "Gobierna provincias con resultados reconocidos, como Mendoza, Santa Fe o Corrientes.",
+    "La defensa de la universidad pública tiene amplio respaldo."
+   ],
+   "contras": [
+    "El partido está dividido entre aliados y opositores al Gobierno.",
+    "No tiene un candidato presidencial competitivo propio desde hace años.",
+    "Sus bloques legislativos votaron de forma dispersa."
+   ],
+   "preguntas": [
+    "¿Qué une hoy a los radicales con y sin Milei?",
+    "¿Puede volver a liderar una coalición nacional?"
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.206 de Educación Nacional (2006)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-123542/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "ucr-11",
@@ -966,7 +2814,49 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "ucr-un-pais-que-se-gobierna-desde-las-provincias"
+   "slug": "ucr-un-pais-que-se-gobierna-desde-las-provincias",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Un país gobernado desde las provincias, con un Congreso que recupera centralidad frente al Ejecutivo.",
+   "como": [
+    "Nueva ley de coparticipación.",
+    "Menos decretos de necesidad y urgencia.",
+    "Estado profesional y concursado."
+   ],
+   "pros": [
+    "Ataca el desequilibrio entre una Nación que recauda y provincias que gastan.",
+    "Reduce la dependencia de decisiones del Ejecutivo.",
+    "Propone reformas graduales y consensuadas."
+   ],
+   "contras": [
+    "La ley de coparticipación está pendiente desde 1996.",
+    "Las provincias no se ponen de acuerdo entre sí.",
+    "Es un horizonte sin plazos ni pasos concretos."
+   ],
+   "preguntas": [
+    "¿Qué reparto de coparticipación propone?",
+    "¿Cómo se limita el uso de DNU?"
+   ],
+   "refs": [
+    {
+     "t": "Programa electoral UCR 2025",
+     "u": "https://www.politicaelectoral.com/es/argentina/legislativas-2025/nacional/ucr",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-01",
@@ -991,7 +2881,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "fp-pymes-y-compre-local"
+   "slug": "fp-pymes-y-compre-local",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La Ley 27.437 de Compre Argentino existe desde 2018."
+   },
+   "problema": "Pymes industriales y economías regionales con caída de ventas, alta tasa de interés y competencia de importaciones.",
+   "como": [
+    "Declarar la emergencia de pymes, cooperativas y economías regionales.",
+    "Ley de compre local con preferencia efectiva para producción nacional y provincial.",
+    "Crédito accesible en pesos para capital de trabajo."
+   ],
+   "pros": [
+    "El Estado es un comprador enorme que puede sostener demanda local.",
+    "La mayoría del empleo privado está en pymes.",
+    "Ya existe un marco legal que se puede reforzar."
+   ],
+   "contras": [
+    "Pagar más caro con dinero público tiene un costo para todos los contribuyentes.",
+    "Puede proteger empresas ineficientes y favorecer la corrupción en compras.",
+    "Choca con las reglas de los acuerdos comerciales recién ratificados."
+   ],
+   "preguntas": [
+    "¿Qué margen de sobreprecio se aceptaría?",
+    "¿Cómo se compatibiliza con el acuerdo Mercosur-UE?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple en ambas cámaras.",
+    "plazo": "Inmediato tras la sanción"
+   },
+   "costo_txt": "Medio: el compre local encarece compras estatales y la emergencia implica alivios fiscales.",
+   "ganan": "Pymes, cooperativas y trabajadores industriales.",
+   "pagan": "El Estado, que compra más caro, y los importadores.",
+   "medir": "Porcentaje de compras públicas a proveedores nacionales y empleo pyme registrado.",
+   "antecedentes": [
+    {
+     "a": "2018",
+     "t": "Ley 27.437 de Compre Argentino y Desarrollo de Proveedores, con margen de preferencia para bienes nacionales."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.437 de Compre Argentino (2018)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-310020/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-02",
@@ -1016,7 +2958,72 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fp-reforma-fiscal-progresiva"
+   "slug": "fp-reforma-fiscal-progresiva",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. Hay un antecedente: el Aporte Solidario de 2020, por única vez."
+   },
+   "problema": "Un sistema tributario regresivo, apoyado en IVA e impuestos al consumo, con bajo peso de los impuestos a la riqueza.",
+   "como": [
+    "Bajar la carga sobre el trabajo y la producción.",
+    "Gravar más las grandes rentas y patrimonios.",
+    "Impuesto a la renta financiera."
+   ],
+   "pros": [
+    "Los impuestos al consumo pesan proporcionalmente más en los hogares pobres.",
+    "El Aporte Solidario mostró que un impuesto a grandes fortunas puede recaudar.",
+    "Alinea la carga con la capacidad contributiva."
+   ],
+   "contras": [
+    "Gravar patrimonio puede impulsar la salida de capitales y el cambio de residencia.",
+    "El Aporte Solidario fue por única vez y generó litigios.",
+    "Sin cambio en Ingresos Brutos, la producción sigue cargada."
+   ],
+   "preguntas": [
+    "¿Desde qué patrimonio pagarían?",
+    "¿Cómo se evita la salida de contribuyentes?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple. Hoy no tiene los votos.",
+    "plazo": "Requiere cambiar la composición del Congreso"
+   },
+   "costo_txt": "Recauda: la idea es que lo que se cobra arriba compense lo que se baja abajo.",
+   "ganan": "Asalariados y consumidores de bajos ingresos.",
+   "pagan": "Grandes patrimonios y rentas financieras.",
+   "medir": "Peso de los impuestos a la renta y al patrimonio en la recaudación total.",
+   "antecedentes": [
+    {
+     "a": "2017",
+     "t": "Se crea el impuesto a la renta financiera para personas (Ley 27.430)."
+    },
+    {
+     "a": "2019",
+     "t": "Se elimina para personas con la Ley 27.541."
+    },
+    {
+     "a": "2020",
+     "t": "Ley 27.605, Aporte Solidario: lo pagaron unos 10 mil contribuyentes."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.605, Aporte Solidario y Extraordinario (2020)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-345364/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Observatorio de Tributación y Género: quiénes pagaron el Aporte Solidario",
+     "u": "https://www.argentina.gob.ar/economia/politicatributaria/observatorio-de-tributacion-y-genero/masculinizacion-de-la-riqueza-el",
+     "tipo": "oficial"
+    }
+   ]
   },
   {
    "id": "fp-03",
@@ -1041,7 +3048,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fp-tarifas-segmentadas"
+   "slug": "fp-tarifas-segmentadas",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La segmentación por niveles (N1, N2 y N3) fue reemplazada por el régimen de Subsidios Energéticos Focalizados (Decreto 943/2025)."
+   },
+   "problema": "Tarifas de luz y gas que aumentaron fuerte desde 2024 y pesan cada vez más en el presupuesto de hogares y pymes.",
+   "como": [
+    "Ley de segmentación tarifaria social que fije criterios permanentes.",
+    "Protección a hogares y pequeños productores.",
+    "Mayor control sobre las empresas prestadoras."
+   ],
+   "pros": [
+    "Fijar criterios por ley evita cambios de reglas cada año.",
+    "Protege a hogares vulnerables frente a aumentos fuertes.",
+    "Ya hay un registro de usuarios con datos de ingresos."
+   ],
+   "contras": [
+    "Los subsidios generalizados de 2010 a 2015 generaron déficit y falta de inversión.",
+    "Tarifas bajas reducen el incentivo a ahorrar energía.",
+    "El esquema actual ya focaliza: no queda claro qué agrega."
+   ],
+   "preguntas": [
+    "¿Quién queda dentro del subsidio y quién no?",
+    "¿Cuánto cuesta y cómo se financia?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple. Hay un proyecto para derogar el Decreto 943/2025.",
+    "plazo": "Inmediato tras la sanción"
+   },
+   "costo_txt": "Alto: los subsidios energéticos fueron uno de los gastos más grandes del Estado.",
+   "ganan": "Hogares de ingresos bajos y medios y pymes.",
+   "pagan": "El Tesoro, o los usuarios de mayores ingresos que pagan tarifa plena.",
+   "medir": "Peso de la factura de luz y gas en el ingreso de los hogares y monto de subsidios energéticos.",
+   "antecedentes": [
+    {
+     "a": "2022",
+     "t": "Decreto 332/2022: segmentación en tres niveles."
+    },
+    {
+     "a": "2025",
+     "t": "Decreto 943/2025: Subsidios Energéticos Focalizados con criterio binario."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Presidencia: nuevo régimen de Subsidios Energéticos Focalizados",
+     "u": "https://www.argentina.gob.ar/node/488858",
+     "tipo": "oficial"
+    },
+    {
+     "t": "Cronista: tarifas 2026, así será el nuevo régimen de subsidios",
+     "u": "https://www.cronista.com/economia-politica/tarifas-2026-asi-sera-el-nuevo-regimen-de-subsidios-para-luz-y-gas-y-como-impactara-en-lo-que-pagan-los-hogares",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "fp-04",
@@ -1066,7 +3134,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fp-financiamiento-educativo-del-8-del-pbi"
+   "slug": "fp-financiamiento-educativo-del-8-del-pbi",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La ley vigente fija un piso de 6% del PBI que en los últimos años no se cumplió."
+   },
+   "problema": "El gasto educativo cayó en términos reales y la meta legal del 6% del PBI quedó lejos.",
+   "como": [
+    "Nueva ley de financiamiento con aumento progresivo hasta el 8% del PBI.",
+    "Universalizar el nivel inicial desde los 3 años.",
+    "Fortalecer la educación técnica y las universidades públicas."
+   ],
+   "pros": [
+    "La ley de 2005 logró subir el gasto educativo cuando hubo voluntad política.",
+    "El nivel inicial es la inversión educativa con mayor retorno.",
+    "Fijar el número en la ley protege el presupuesto de los recortes."
+   ],
+   "contras": [
+    "Dos puntos del PBI es un esfuerzo fiscal enorme sin fuente de financiamiento clara.",
+    "Aumentar el gasto no garantiza mejores aprendizajes.",
+    "La meta del 6% ya se incumplió: una meta mayor puede ser simbólica."
+   ],
+   "preguntas": [
+    "¿Con qué impuestos se financian los dos puntos del PBI?",
+    "¿Qué metas de aprendizaje acompañan el aumento?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple. El esfuerzo se reparte entre Nación y provincias.",
+    "plazo": "Progresivo, varios años"
+   },
+   "costo_txt": "Muy alto: pasar del 6% al 8% del PBI son dos puntos del producto por año.",
+   "ganan": "Estudiantes, docentes e investigadores.",
+   "pagan": "Presupuestos nacional y provinciales.",
+   "medir": "Gasto educativo consolidado como % del PBI y cobertura de sala de 3.",
+   "antecedentes": [
+    {
+     "a": "2005",
+     "t": "Ley 26.075 de Financiamiento Educativo: meta del 6% del PBI para 2010."
+    },
+    {
+     "a": "2006",
+     "t": "Ley 26.206 de Educación Nacional: el 6% como piso permanente."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.075 de Financiamiento Educativo (2005)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-112976/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 26.206 de Educación Nacional (2006)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-123542/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-05",
@@ -1091,7 +3220,67 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fp-de-los-planes-al-empleo-registrado"
+   "slug": "fp-de-los-planes-al-empleo-registrado",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La Ley 27.345 creó en 2016 el Salario Social Complementario para la economía popular."
+   },
+   "problema": "Millones de trabajadores de la economía popular sin derechos laborales y planes que no se convierten en empleo.",
+   "como": [
+    "Sustituir planes por empleo de calidad con derechos.",
+    "Programa de economía popular con seguridad social.",
+    "Acceso a tierra y hábitat para pequeños productores."
+   ],
+   "pros": [
+    "Reconoce que la economía popular existe y necesita reglas.",
+    "Apunta a empleo con derechos y no a asistencia permanente.",
+    "Ya hay registros como el RENATEP para identificar a los trabajadores."
+   ],
+   "contras": [
+    "Durante el Potenciar Trabajo hubo denuncias de intermediación y uso político.",
+    "No explica de dónde sale el empleo de calidad.",
+    "La seguridad social sin aportes agrava el desequilibrio previsional."
+   ],
+   "preguntas": [
+    "¿Qué rol tendrían las organizaciones sociales?",
+    "¿Cómo se financia la seguridad social sin aportes?"
+   ],
+   "via": {
+    "instrumento": "Ley y Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Progresivo"
+   },
+   "costo_txt": "Alto: seguridad social para trabajadores sin aportes suficientes.",
+   "ganan": "Trabajadores de la economía popular.",
+   "pagan": "El presupuesto nacional.",
+   "medir": "Trabajadores de la economía popular con aportes y beneficiarios que pasan a empleo registrado.",
+   "antecedentes": [
+    {
+     "a": "2016",
+     "t": "Ley 27.345 de Emergencia Social y Salario Social Complementario."
+    },
+    {
+     "a": "2020",
+     "t": "Creación del Potenciar Trabajo."
+    },
+    {
+     "a": "2024",
+     "t": "Fin del Potenciar Trabajo."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.345 de Emergencia Social y Salario Social Complementario",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-269491/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-06",
@@ -1115,7 +3304,64 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fp-narcotrafico-con-inteligencia-y-prevencion"
+   "slug": "fp-narcotrafico-con-inteligencia-y-prevencion",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa de campaña."
+   },
+   "problema": "Crimen organizado que avanza en barrios populares, con una respuesta que el frente considera puramente represiva.",
+   "como": [
+    "Inteligencia criminal y cooperación judicial.",
+    "Prevención comunitaria en barrios vulnerables.",
+    "Control civil sobre las fuerzas de seguridad."
+   ],
+   "pros": [
+    "Combinar persecución con prevención ataca causas y efectos.",
+    "El control civil evita abusos de las fuerzas.",
+    "La cooperación judicial es clave para el lavado de dinero."
+   ],
+   "contras": [
+    "La provincia de Buenos Aires, gobernada por este espacio, sigue con altos niveles de delito.",
+    "La prevención comunitaria tarda años en mostrar resultados.",
+    "Es una propuesta genérica sin metas."
+   ],
+   "preguntas": [
+    "¿Qué resultados muestra hoy la provincia de Buenos Aires?",
+    "¿Cómo se coordina con fuerzas federales?"
+   ],
+   "via": {
+    "instrumento": "Ley y gestión",
+    "mayoria": "Mayoría simple para reformas legales.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Barrios afectados por el narcotráfico.",
+   "pagan": "Organizaciones criminales.",
+   "medir": "Tasa de homicidios y causas por narcotráfico con condena.",
+   "antecedentes": [
+    {
+     "a": "2005",
+     "t": "Ley 26.052: la provincia de Buenos Aires asume el narcomenudeo."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.052 de desfederalización del narcomenudeo",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-109264",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 24.059 de Seguridad Interior (1992)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-458/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-07",
@@ -1139,7 +3385,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "fp-salud-mental-y-adicciones"
+   "slug": "fp-salud-mental-y-adicciones",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La Ley de Salud Mental rige desde 2010."
+   },
+   "problema": "Aumento del consumo problemático y de la demanda en salud mental, con dispositivos comunitarios insuficientes.",
+   "como": [
+    "Dispositivos territoriales de salud mental.",
+    "Prevención de adicciones.",
+    "Financiamiento de políticas de género."
+   ],
+   "pros": [
+    "Trata el consumo como problema de salud, como indica la Ley 26.657.",
+    "Los dispositivos comunitarios evitan internaciones prolongadas.",
+    "Llega a barrios donde no hay servicios."
+   ],
+   "contras": [
+    "La ley tiene críticas por la dificultad de internar a personas en crisis.",
+    "No fija presupuesto ni metas.",
+    "Mezcla temas distintos en una sola propuesta."
+   ],
+   "preguntas": [
+    "¿Cómo se resuelven las internaciones involuntarias en crisis?",
+    "¿Cuánto presupuesto propone?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto",
+    "mayoria": "No requiere ley nueva.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Personas con consumo problemático y sus familias.",
+   "pagan": "El presupuesto de salud.",
+   "medir": "Dispositivos comunitarios activos y consultas por consumo problemático atendidas.",
+   "antecedentes": [
+    {
+     "a": "2010",
+     "t": "Ley 26.657 de Salud Mental."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.657 de Salud Mental (2010)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-175977/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-08",
@@ -1165,7 +3463,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fp-coparticipacion-equitativa"
+   "slug": "fp-coparticipacion-equitativa",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La ley de coparticipación vigente es de 1988 y la Constitución ordenó reemplazarla antes de 1996."
+   },
+   "problema": "Las provincias dependen de transferencias que la Nación reparte con criterios discrecionales, como los Aportes del Tesoro Nacional.",
+   "como": [
+    "Nueva ley de coparticipación con criterios objetivos.",
+    "Descentralización de recursos.",
+    "Planificación conjunta con municipios."
+   ],
+   "pros": [
+    "Terminaría con la negociación permanente de fondos.",
+    "Es un mandato constitucional incumplido desde hace 30 años.",
+    "Reduce el uso político de las transferencias."
+   ],
+   "contras": [
+    "Requiere el acuerdo unánime de 24 jurisdicciones con intereses opuestos.",
+    "Ningún gobierno lo logró desde 1994.",
+    "No dice qué criterios de reparto propone."
+   ],
+   "preguntas": [
+    "¿Qué criterio de reparto propone?",
+    "¿Cómo se logra la unanimidad provincial?"
+   ],
+   "via": {
+    "instrumento": "Ley-convenio",
+    "mayoria": "La aprueba el Congreso empezando por el Senado y después cada legislatura provincial.",
+    "plazo": "Indefinido: nunca se logró"
+   },
+   "costo_txt": "Redistributivo: lo que gana una provincia lo pierde otra o la Nación.",
+   "ganan": "Provincias que hoy reciben menos que su aporte relativo.",
+   "pagan": "La Nación o las provincias que hoy reciben más.",
+   "medir": "Proporción de transferencias automáticas sobre el total de transferencias a provincias.",
+   "antecedentes": [
+    {
+     "a": "1988",
+     "t": "Ley 23.548 de Coparticipación Federal, transitoria."
+    },
+    {
+     "a": "1994",
+     "t": "La reforma constitucional fija 1996 como plazo para una nueva ley."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-09",
@@ -1190,7 +3549,64 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "fp-estado-presente"
+   "slug": "fp-estado-presente",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Para el frente, el ajuste y las privatizaciones desmantelan capacidades estatales que garantizan derechos.",
+   "como": [
+    "Defensa del Estado como garante de derechos.",
+    "Ley de endeudamiento provincial.",
+    "Rechazo a las privatizaciones."
+   ],
+   "pros": [
+    "Un Estado con capacidades es necesario para cualquier política.",
+    "Regular el endeudamiento provincial evita crisis como las de los noventa.",
+    "Expresa a una parte grande del electorado."
+   ],
+   "contras": [
+    "No dice cómo financiar el Estado sin déficit ni inflación.",
+    "Es una consigna defensiva más que una propuesta.",
+    "Ya existe un régimen de responsabilidad fiscal que regula la deuda provincial."
+   ],
+   "preguntas": [
+    "¿Cómo se financia sin déficit?",
+    "¿Qué empresas privatizadas recuperaría?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Requiere cambiar la composición del Congreso"
+   },
+   "costo_txt": "Alto: sostener estructuras estatales sin ajuste.",
+   "ganan": "Empleados públicos y usuarios de servicios estatales.",
+   "pagan": "El resultado fiscal.",
+   "medir": "Empleo público, gasto en servicios estatales y deuda provincial.",
+   "antecedentes": [
+    {
+     "a": "2004",
+     "t": "Ley 25.917 de Responsabilidad Fiscal, que limita el endeudamiento provincial."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 25.917 de Responsabilidad Fiscal",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-25917-97698",
+     "tipo": "norma"
+    },
+    {
+     "t": "Infobae: la lista completa de privatizaciones en 2026",
+     "u": "https://www.infobae.com/economia/2026/06/21/la-lista-completa-de-privatizaciones-que-empresas-siguen-en-la-mira-oficial-y-cuanto-espera-recaudar-el-gobierno-antes-de-fin-de-ano/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "fp-10",
@@ -1215,7 +3631,68 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "fp-trabajo-registrado-y-salario"
+   "slug": "fp-trabajo-registrado-y-salario",
+   "estado": {
+    "cod": "rechazada",
+    "txt": "El frente votó en contra de la Ley 27.802 de Modernización Laboral, que se aprobó en febrero de 2026."
+   },
+   "problema": "Salarios reales por debajo de los niveles de 2017 y trabajadores de plataformas sin derechos laborales.",
+   "como": [
+    "Derogar o revisar la reforma laboral de 2026.",
+    "Recuperar el salario real con paritarias.",
+    "Regular el trabajo en plataformas de reparto y transporte."
+   ],
+   "pros": [
+    "Defiende derechos laborales conquistados.",
+    "Las plataformas ocupan a cientos de miles de personas sin cobertura.",
+    "España reguló el trabajo de repartidores con una ley específica."
+   ],
+   "contras": [
+    "No ofrece una alternativa para el empleo informal, que es casi la mitad.",
+    "Revertir la reforma genera inseguridad jurídica.",
+    "La propia Ley 27.802 incluyó un capítulo sobre plataformas."
+   ],
+   "preguntas": [
+    "¿Qué artículos de la reforma revertiría?",
+    "¿Qué propone para los trabajadores informales?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple en ambas cámaras.",
+    "plazo": "Requiere cambiar la composición del Congreso"
+   },
+   "costo_txt": "Bajo en lo fiscal.",
+   "ganan": "Trabajadores registrados y de plataformas.",
+   "pagan": "Empleadores.",
+   "medir": "Salario real registrado (índice de salarios INDEC) y trabajadores de plataformas con cobertura.",
+   "antecedentes": [
+    {
+     "a": "2021",
+     "t": "España aprueba la llamada Ley Rider para repartidores de plataformas."
+    },
+    {
+     "a": "2026",
+     "t": "Ley 27.802 de Modernización Laboral."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.802 de Modernización Laboral (2026)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-423680/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "El Economista: la reforma laboral ya es ley, todos los cambios",
+     "u": "https://eleconomista.com.ar/politica/reforma-laboral-ya-ley-todos-cambios-indemnizaciones-despidos-sindicatos-vacaciones-horas-extras-n93150",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "fp-11",
@@ -1239,7 +3716,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "fp-soberania-politica-independencia-economica-y-justicia-social"
+   "slug": "fp-soberania-politica-independencia-economica-y-justicia-social",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "Soberanía política, independencia económica y justicia social, con un Estado que regula la economía y protege derechos.",
+   "como": [
+    "Estado que regula y protege.",
+    "Industria y trabajo nacional.",
+    "Justicia social como resultado del desarrollo."
+   ],
+   "pros": [
+    "Es la identidad política con más adhesión histórica en la Argentina.",
+    "Pone el trabajo y la producción en el centro.",
+    "Se apoya en una red territorial amplia."
+   ],
+   "contras": [
+    "Sus últimos gobiernos terminaron con alta inflación y pobreza.",
+    "La conducción del espacio está en disputa.",
+    "Las banderas son amplias y admiten políticas opuestas."
+   ],
+   "preguntas": [
+    "¿Qué haría distinto respecto de 2019-2023?",
+    "¿Quién conduce el espacio?"
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fp-12",
@@ -1264,7 +3778,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "fp-un-pais-que-produce-lo-que-consume"
+   "slug": "fp-un-pais-que-produce-lo-que-consume",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Una economía que produce lo que consume: industria, campo y energía integrados y exportaciones con valor agregado.",
+   "como": [
+    "Reindustrialización con valor agregado.",
+    "Exportaciones industriales, no sólo primarias.",
+    "Financiamiento productivo."
+   ],
+   "pros": [
+    "La diversificación productiva reduce la vulnerabilidad a los precios internacionales.",
+    "Vaca Muerta y la minería pueden financiar el desarrollo industrial.",
+    "Genera empleo de calidad."
+   ],
+   "contras": [
+    "La sustitución de importaciones tuvo límites en el pasado: faltaron dólares.",
+    "No explica cómo competir en un mundo más abierto.",
+    "Requiere un Estado planificador con capacidades que hoy no tiene."
+   ],
+   "preguntas": [
+    "¿Qué sectores priorizaría?",
+    "¿Cómo se evita la restricción de divisas?"
+   ],
+   "refs": [
+    {
+     "t": "Plataforma y acuerdo programático Fuerza Patria 2025",
+     "u": "https://www.electoral.gov.ar/nuevo/paginas/pdf/plataformas/2025/GENERALES/13%20501%20-%20Plataforma.pdf",
+     "tipo": "plataforma",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.437 de Compre Argentino (2018)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-310020/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-01",
@@ -1288,7 +3839,59 @@
    ],
    "costo": "alto",
    "alcance": "Provincial",
-   "slug": "hacemos-plan-de-reduccion-de-impuestos-2026"
+   "slug": "hacemos-plan-de-reduccion-de-impuestos-2026",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Ingresos Brutos es el impuesto más distorsivo del país y la principal fuente de recaudación propia de las provincias.",
+   "como": [
+    "Bajar Ingresos Brutos del 3,5% al 2,5% para pequeños comercios.",
+    "Alícuota cero para quien reinvierta al menos 1,2% de sus ingresos.",
+    "Sin aumentos reales del inmobiliario urbano."
+   ],
+   "pros": [
+    "Ataca el impuesto que más reclaman comercios y pymes.",
+    "Condiciona el beneficio a la inversión, no lo regala.",
+    "Lo hace una provincia sin esperar a la Nación."
+   ],
+   "contras": [
+    "Baja la recaudación en un contexto de menos transferencias nacionales.",
+    "Beneficia más a quien ya tiene capacidad de invertir.",
+    "Es una política provincial: no se traslada al resto del país."
+   ],
+   "preguntas": [
+    "¿Qué gasto se ajusta para compensar?",
+    "¿Cuánto aumentó la inversión de quienes recibieron el beneficio?"
+   ],
+   "via": {
+    "instrumento": "Ley impositiva provincial",
+    "mayoria": "Mayoría simple en la Legislatura de Córdoba.",
+    "plazo": "Ejercicio 2026"
+   },
+   "costo_txt": "Alto para la provincia: unos 900.000 millones de pesos, alrededor de 600 millones de dólares, según el gobierno provincial.",
+   "ganan": "Comercios pequeños e industrias que reinvierten.",
+   "pagan": "La recaudación provincial, que debe compensarse con menos gasto o más actividad.",
+   "medir": "Recaudación de Ingresos Brutos de Córdoba y cantidad de empresas que acceden a la alícuota cero.",
+   "antecedentes": [
+    {
+     "a": "2026",
+     "t": "Anuncio del plan de reducción de impuestos del gobierno de Córdoba."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "hacemos-02",
@@ -1312,7 +3915,59 @@
    ],
    "costo": "medio",
    "alcance": "Provincial",
-   "slug": "hacemos-promocion-industrial-con-alicuota-cero"
+   "slug": "hacemos-promocion-industrial-con-alicuota-cero",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Atraer inversión industrial a una provincia que compite con otras por radicar empresas.",
+   "como": [
+    "Ingresos Brutos cero para industrias que facturen menos de 3.200 millones y reinviertan.",
+    "Beneficios para economía del conocimiento.",
+    "Fondo emprendedor y alícuota cero en créditos hipotecarios."
+   ],
+   "pros": [
+    "Usa la política tributaria como herramienta de desarrollo.",
+    "Define un tope de facturación que apunta a pymes.",
+    "Exige reinversión como contrapartida."
+   ],
+   "contras": [
+    "La competencia entre provincias por exenciones puede ser un juego de suma cero.",
+    "Requiere controles para verificar la reinversión.",
+    "No resuelve costos nacionales como el crédito o la logística."
+   ],
+   "preguntas": [
+    "¿Cómo se controla la reinversión?",
+    "¿Qué pasa si otras provincias igualan el beneficio?"
+   ],
+   "via": {
+    "instrumento": "Ley provincial de Promoción Industrial",
+    "mayoria": "Mayoría simple en la Legislatura.",
+    "plazo": "Vigente con cada ley impositiva anual"
+   },
+   "costo_txt": "Medio: recaudación resignada a cambio de inversión.",
+   "ganan": "Industrias pymes de Córdoba.",
+   "pagan": "El fisco provincial.",
+   "medir": "Empresas industriales radicadas y empleo industrial registrado en Córdoba.",
+   "antecedentes": [
+    {
+     "a": "2019",
+     "t": "Ley nacional 27.506 de Economía del Conocimiento, complementaria a los beneficios provinciales."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.506 de Economía del Conocimiento",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-324101/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-03",
@@ -1336,7 +3991,59 @@
    ],
    "costo": "medio",
    "alcance": "Provincial",
-   "slug": "hacemos-ley-de-igualdad-territorial"
+   "slug": "hacemos-ley-de-igualdad-territorial",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "El noroeste y el sur de Córdoba tienen menos empleo y más emigración que el resto de la provincia.",
+   "como": [
+    "Destinar hasta el 5% de la recaudación de Ingresos Brutos a exenciones territoriales.",
+    "Exenciones de hasta 100% para quienes inviertan en esas zonas.",
+    "Hasta 154.000 millones de pesos asignados."
+   ],
+   "pros": [
+    "Discrimina positivamente a las zonas postergadas.",
+    "Fija un tope claro del costo fiscal.",
+    "Apunta al arraigo y al empleo local."
+   ],
+   "contras": [
+    "Las exenciones no alcanzan sin infraestructura ni conectividad.",
+    "Puede atraer empresas de forma nominal sin empleo real.",
+    "El efecto se mide en años, no en un ejercicio."
+   ],
+   "preguntas": [
+    "¿Qué departamentos incluye?",
+    "¿Cómo se evita la radicación sólo formal?"
+   ],
+   "via": {
+    "instrumento": "Ley provincial de Igualdad Territorial",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Medio: hasta 154.000 millones de pesos.",
+   "ganan": "Habitantes y empresas del noroeste y sur provincial.",
+   "pagan": "La recaudación provincial.",
+   "medir": "Inversión radicada y empleo registrado en los departamentos alcanzados.",
+   "antecedentes": [
+    {
+     "a": "2026",
+     "t": "Inclusión en el plan impositivo provincial 2026."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "hacemos-04",
@@ -1360,7 +4067,59 @@
    ],
    "costo": "alto",
    "alcance": "Provincial",
-   "slug": "hacemos-obra-publica-con-equilibrio-fiscal"
+   "slug": "hacemos-obra-publica-con-equilibrio-fiscal",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Sostener obra pública con menos fondos nacionales y sin caer en déficit.",
+   "como": [
+    "Equilibrio fiscal como regla.",
+    "Rutas, acueductos y obras productivas con fondos propios.",
+    "Prioridad en el interior provincial."
+   ],
+   "pros": [
+    "Muestra que obra y equilibrio no son incompatibles.",
+    "Las rutas y acueductos son condición para producir.",
+    "Córdoba tiene historial de cuentas ordenadas."
+   ],
+   "contras": [
+    "La provincia tiene deuda en dólares que limita el margen.",
+    "Sin fondos nacionales, el ritmo de obra es menor.",
+    "Depende de que la economía provincial siga creciendo."
+   ],
+   "preguntas": [
+    "¿Cuánto representa la deuda en dólares?",
+    "¿Qué obras se priorizan?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto provincial",
+    "mayoria": "Doble lectura en la Legislatura.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Alto, financiado con recursos propios.",
+   "ganan": "Productores y habitantes del interior.",
+   "pagan": "Otros rubros del gasto provincial.",
+   "medir": "Inversión en obra pública provincial como % del gasto y resultado fiscal provincial.",
+   "antecedentes": [
+    {
+     "a": "2025",
+     "t": "Freno de la obra pública nacional en provincias."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 25.917 de Responsabilidad Fiscal",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-25917-97698",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-05",
@@ -1384,7 +4143,59 @@
    ],
    "costo": "medio",
    "alcance": "Provincial",
-   "slug": "hacemos-economia-del-conocimiento-con-alicuota-cero"
+   "slug": "hacemos-economia-del-conocimiento-con-alicuota-cero",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Retener talento formado en las universidades de Córdoba y atraer empresas de software y servicios.",
+   "como": [
+    "Alícuota cero para economía del conocimiento.",
+    "Beneficios para instituciones educativas.",
+    "Vinculación con universidades."
+   ],
+   "pros": [
+    "Córdoba ya es un polo de software con universidades fuertes.",
+    "Complementa el régimen nacional de la Ley 27.506.",
+    "Es un sector exportador de servicios."
+   ],
+   "contras": [
+    "Beneficia a un sector que ya crece por sí mismo.",
+    "Compite con regímenes de otras provincias y de la Ciudad.",
+    "El talento también emigra al exterior por el tipo de cambio."
+   ],
+   "preguntas": [
+    "¿Cuántas empresas usan el beneficio?",
+    "¿Cómo se vincula con las universidades?"
+   ],
+   "via": {
+    "instrumento": "Ley impositiva provincial",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Empresas tecnológicas y profesionales.",
+   "pagan": "La recaudación provincial.",
+   "medir": "Empleo en servicios basados en conocimiento en Córdoba.",
+   "antecedentes": [
+    {
+     "a": "2019",
+     "t": "Ley nacional 27.506 de Economía del Conocimiento."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.506 de Economía del Conocimiento",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-324101/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-06",
@@ -1408,7 +4219,59 @@
    ],
    "costo": "medio",
    "alcance": "Provincial",
-   "slug": "hacemos-alicuota-cero-para-el-sistema-de-salud"
+   "slug": "hacemos-alicuota-cero-para-el-sistema-de-salud",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Clínicas y sanatorios con altos costos que frenan la inversión en infraestructura sanitaria.",
+   "como": [
+    "Alícuota cero de Ingresos Brutos para inversión en salud.",
+    "Alivio de costos para clínicas y sanatorios.",
+    "Complementar la red pública provincial."
+   ],
+   "pros": [
+    "Estimula inversión en camas y equipamiento.",
+    "Alivia a un sector golpeado por la inflación de costos.",
+    "Puede descomprimir el sistema público."
+   ],
+   "contras": [
+    "Beneficia al sector privado y no al hospital público.",
+    "No garantiza que el ahorro se traslade a pacientes.",
+    "Requiere controles sobre la inversión real."
+   ],
+   "preguntas": [
+    "¿Qué contraprestación se exige?",
+    "¿Cómo se mide la inversión?"
+   ],
+   "via": {
+    "instrumento": "Ley impositiva provincial",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Prestadores privados de salud y sus pacientes.",
+   "pagan": "La recaudación provincial.",
+   "medir": "Inversión privada en salud y camas disponibles en Córdoba.",
+   "antecedentes": [
+    {
+     "a": "2026",
+     "t": "Inclusión en el plan impositivo provincial."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "hacemos-07",
@@ -1432,7 +4295,59 @@
    ],
    "costo": "medio",
    "alcance": "Provincial",
-   "slug": "hacemos-empleo-industrial-y-arraigo"
+   "slug": "hacemos-empleo-industrial-y-arraigo",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Jóvenes del interior que emigran a las grandes ciudades por falta de empleo.",
+   "como": [
+    "Radicación de empresas en el interior con incentivos.",
+    "Empleo registrado como métrica de éxito.",
+    "Formación técnica vinculada a la producción."
+   ],
+   "pros": [
+    "Mide el éxito por empleo y no por gasto.",
+    "Vincula formación técnica con demanda real.",
+    "Apunta al arraigo."
+   ],
+   "contras": [
+    "El empleo depende del ciclo económico nacional.",
+    "Las exenciones tienen efectos limitados sin infraestructura.",
+    "No incluye metas cuantificadas."
+   ],
+   "preguntas": [
+    "¿Qué meta de empleo se fija?",
+    "¿Qué escuelas técnicas se involucran?"
+   ],
+   "via": {
+    "instrumento": "Leyes provinciales",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Jóvenes del interior.",
+   "pagan": "La recaudación provincial.",
+   "medir": "Empleo registrado en departamentos del interior y saldo migratorio.",
+   "antecedentes": [
+    {
+     "a": "2026",
+     "t": "Plan impositivo y Ley de Igualdad Territorial."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.506 de Economía del Conocimiento",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-324101/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-08",
@@ -1456,7 +4371,59 @@
    ],
    "costo": "bajo",
    "alcance": "Provincial",
-   "slug": "hacemos-presupuesto-con-doble-lectura"
+   "slug": "hacemos-presupuesto-con-doble-lectura",
+   "estado": {
+    "cod": "provincial",
+    "txt": "Política del gobierno de Córdoba, anunciada para 2026 y enviada a la Legislatura provincial."
+   },
+   "problema": "Beneficios impositivos que se otorgan sin que se sepa cuánto cuestan.",
+   "como": [
+    "Presupuesto con doble lectura legislativa.",
+    "Cálculo público del costo fiscal de cada beneficio.",
+    "Equilibrio como regla."
+   ],
+   "pros": [
+    "Publicar el costo de cada beneficio permite evaluarlo.",
+    "La doble lectura obliga a debatir el presupuesto con más tiempo.",
+    "Es replicable en otras provincias."
+   ],
+   "contras": [
+    "Publicar el costo no garantiza evaluar el resultado.",
+    "La mayoría oficialista controla la Legislatura.",
+    "Es una buena práctica de gestión, no una propuesta de cambio."
+   ],
+   "preguntas": [
+    "¿Se evalúa el resultado de cada beneficio?",
+    "¿Quién audita los cálculos?"
+   ],
+   "via": {
+    "instrumento": "Ley provincial",
+    "mayoria": "Doble lectura legislativa.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Ninguno.",
+   "ganan": "La transparencia fiscal.",
+   "pagan": "Nadie.",
+   "medir": "Publicación anual del gasto tributario provincial.",
+   "antecedentes": [
+    {
+     "a": "2004",
+     "t": "Ley nacional 25.917 de Responsabilidad Fiscal."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 25.917 de Responsabilidad Fiscal",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-25917-97698",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-09",
@@ -1480,7 +4447,44 @@
    ],
    "costo": "",
    "alcance": "Provincial",
-   "slug": "hacemos-cordoba-como-modelo-de-gestion"
+   "slug": "hacemos-cordoba-como-modelo-de-gestion",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "Córdoba como prueba de que se puede tener equilibrio fiscal, baja de impuestos y obra pública al mismo tiempo.",
+   "como": [
+    "Equilibrio fiscal como cultura.",
+    "Impuestos bajos y obra pública.",
+    "Gestión profesional por sobre la ideología."
+   ],
+   "pros": [
+    "Tiene un caso de gestión para mostrar.",
+    "No depende de la grieta nacional.",
+    "Combina orden fiscal con Estado presente."
+   ],
+   "contras": [
+    "El mismo espacio gobierna Córdoba desde 1999.",
+    "La provincia tiene deuda en dólares.",
+    "El modelo no se probó a escala nacional."
+   ],
+   "preguntas": [
+    "¿Es replicable en provincias más pobres?",
+    "¿Qué candidato nacional lo encarna?"
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 25.917 de Responsabilidad Fiscal",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-25917-97698",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "hacemos-10",
@@ -1504,7 +4508,44 @@
    ],
    "costo": "",
    "alcance": "Provincial",
-   "slug": "hacemos-la-provincia-que-produce-y-exporta"
+   "slug": "hacemos-la-provincia-que-produce-y-exporta",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Una Córdoba que exporta agroindustria, metalmecánica, software y energía por Chile y el Mercosur.",
+   "como": [
+    "Agroindustria y metalmecánica.",
+    "Software y servicios globales.",
+    "Logística y conexión con los puertos."
+   ],
+   "pros": [
+    "Se apoya en sectores que ya existen.",
+    "La salida al Pacífico abre mercados asiáticos.",
+    "Diversifica la economía provincial."
+   ],
+   "contras": [
+    "Depende de infraestructura nacional que no controla.",
+    "La logística a los puertos sigue siendo cara.",
+    "Sin plazos ni metas."
+   ],
+   "preguntas": [
+    "¿Qué obras de logística necesita?",
+    "¿Cómo se financian?"
+   ],
+   "refs": [
+    {
+     "t": "Plan de Reducción de Impuestos 2026, Gobierno de Córdoba",
+     "u": "https://archivoprensa.cba.gov.ar/gobernador/llaryora-anuncio-un-plan-historico-de-reduccion-de-impuestos-para-el-ano-2026/",
+     "tipo": "oficial",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.506 de Economía del Conocimiento",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-324101/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-01",
@@ -1530,7 +4571,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "pu-fin-del-recorte-a-las-provincias"
+   "slug": "pu-fin-del-recorte-a-las-provincias",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. Las transferencias discrecionales a provincias cayeron fuerte desde 2024."
+   },
+   "problema": "La Nación redujo transferencias no automáticas, frenó la obra pública y dejó de financiar cajas previsionales provinciales no transferidas.",
+   "como": [
+    "Restituir fondos recortados a las provincias.",
+    "Rediscutir la coparticipación.",
+    "Financiar los déficits de las cajas previsionales provinciales."
+   ],
+   "pros": [
+    "Las provincias prestan salud, educación y seguridad con menos fondos.",
+    "Las cajas no transferidas tienen derecho a compensación por ley.",
+    "Une a gobernadores de distinto signo."
+   ],
+   "contras": [
+    "Puede leerse como reclamo de fondos sin reformas propias.",
+    "Compite con el objetivo de superávit nacional.",
+    "La coparticipación nunca se pudo rediscutir."
+   ],
+   "preguntas": [
+    "¿Qué propone a cambio de los fondos?",
+    "¿Qué criterio de coparticipación defiende?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto y ley de coparticipación",
+    "mayoria": "Mayoría simple para el Presupuesto; ley-convenio para la coparticipación.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Alto para la Nación.",
+   "ganan": "Gobiernos provinciales.",
+   "pagan": "El Tesoro nacional.",
+   "medir": "Transferencias automáticas y no automáticas a provincias en términos reales.",
+   "antecedentes": [
+    {
+     "a": "1988",
+     "t": "Ley 23.548, régimen transitorio de coparticipación."
+    },
+    {
+     "a": "2025",
+     "t": "Formación de Provincias Unidas a partir del conflicto por fondos."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-02",
@@ -1555,7 +4657,59 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "pu-reactivar-la-obra-publica"
+   "slug": "pu-reactivar-la-obra-publica",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La obra pública nacional está prácticamente frenada desde 2024."
+   },
+   "problema": "Rutas nacionales deterioradas y obras paralizadas que encarecen la logística del interior.",
+   "como": [
+    "Reactivar obras nacionales en provincias.",
+    "Priorizar rutas y energía.",
+    "Cofinanciamiento entre Nación y provincias."
+   ],
+   "pros": [
+    "Sin infraestructura no hay competitividad.",
+    "Las rutas en mal estado cuestan vidas.",
+    "El cofinanciamiento reparte el esfuerzo."
+   ],
+   "contras": [
+    "Choca con la meta de superávit.",
+    "La obra pública tiene historial de sobreprecios.",
+    "No prioriza qué obras."
+   ],
+   "preguntas": [
+    "¿Qué obras prioriza?",
+    "¿Cómo se financia sin déficit?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Alto.",
+   "ganan": "Productores del interior y empresas constructoras.",
+   "pagan": "El resultado fiscal nacional.",
+   "medir": "Inversión en obra pública nacional como % del PBI y estado de la red vial.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "Paralización de la obra pública nacional."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.328 de Participación Público-Privada (2016)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-27328-268322/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-03",
@@ -1580,7 +4734,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pu-campo-industria-mineria-y-energia"
+   "slug": "pu-campo-industria-mineria-y-energia",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Un país con vocaciones productivas distintas y una política nacional única.",
+   "como": [
+    "Estrategia productiva por región.",
+    "Apoyo a minería y energía.",
+    "Campo e industria sin confrontación."
+   ],
+   "pros": [
+    "Reconoce la diversidad productiva del país.",
+    "Los gobernadores conocen sus economías.",
+    "Evita la grieta campo-industria."
+   ],
+   "contras": [
+    "Es una declaración de intención más que un programa.",
+    "No precisa herramientas ni financiamiento.",
+    "Las provincias compiten entre sí por inversiones."
+   ],
+   "preguntas": [
+    "¿Qué herramientas concretas propone?",
+    "¿Cómo se coordina entre provincias?"
+   ],
+   "via": {
+    "instrumento": "Acuerdos federales",
+    "mayoria": "No requiere ley específica.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Bajo.",
+   "ganan": "Economías regionales.",
+   "pagan": "Nadie en particular.",
+   "medir": "Exportaciones por provincia y empleo regional.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "El RIGI de la Ley Bases como herramienta nacional de inversión."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.742 de Bases (2024)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-401266/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-04",
@@ -1605,7 +4811,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pu-equilibrio-fiscal-con-produccion"
+   "slug": "pu-equilibrio-fiscal-con-produccion",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Un ajuste que, según los gobernadores, se apoya en recortar transferencias a provincias en lugar de crecer.",
+   "como": [
+    "Equilibrio fiscal.",
+    "La producción como motor del crecimiento.",
+    "Rechazo al populismo y al ajuste extremo."
+   ],
+   "pros": [
+    "Combina responsabilidad fiscal con crecimiento.",
+    "Se apoya en gestiones provinciales con superávit.",
+    "Busca un lugar entre los extremos."
+   ],
+   "contras": [
+    "No precisa medidas concretas.",
+    "Difícil de diferenciar de otras propuestas de centro.",
+    "Depende de gobernadores con agendas propias."
+   ],
+   "preguntas": [
+    "¿Qué medidas concretas propone?",
+    "¿En qué se distingue del Gobierno?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Sectores productivos.",
+   "pagan": "Indefinido.",
+   "medir": "Resultado fiscal y crecimiento del PBI.",
+   "antecedentes": [
+    {
+     "a": "2025",
+     "t": "Elecciones legislativas: Provincias Unidas compite como tercera fuerza."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 25.917 de Responsabilidad Fiscal",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-25917-97698",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-05",
@@ -1630,7 +4888,59 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "pu-bloque-federal-en-el-congreso"
+   "slug": "pu-bloque-federal-en-el-congreso",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "En práctica: el bloque votó el Presupuesto 2026 y se dividió en la reforma laboral."
+   },
+   "problema": "Un Congreso polarizado donde los bloques votan en bloque y las provincias negocian por separado.",
+   "como": [
+    "Bloque propio en Diputados.",
+    "Voto por proyecto, no por disciplina partidaria.",
+    "Negociación permanente con el Ejecutivo."
+   ],
+   "pros": [
+    "Permite acuerdos caso por caso.",
+    "Da peso a las provincias en el Congreso.",
+    "Evita la lógica de todo o nada."
+   ],
+   "contras": [
+    "Puede leerse como intercambio de votos por fondos.",
+    "Un bloque sin disciplina es impredecible.",
+    "No ofrece un programa propio."
+   ],
+   "preguntas": [
+    "¿Qué obtiene a cambio de cada voto?",
+    "¿Qué línea roja no negociaría?"
+   ],
+   "via": {
+    "instrumento": "Práctica legislativa",
+    "mayoria": "No requiere ley.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Ninguno.",
+   "ganan": "Las provincias que representa.",
+   "pagan": "Nadie.",
+   "medir": "Proyectos aprobados con votos del bloque y fondos obtenidos para provincias.",
+   "antecedentes": [
+    {
+     "a": "2026",
+     "t": "Votación del Presupuesto 2026 y de la reforma laboral."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.802 de Modernización Laboral (2026)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-423680/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-06",
@@ -1655,7 +4965,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "pu-empleo-privado-en-el-interior"
+   "slug": "pu-empleo-privado-en-el-interior",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Empleo concentrado en grandes aglomerados y provincias que pierden población joven.",
+   "como": [
+    "Incentivos para radicar empresas en el interior.",
+    "Formación técnica regional.",
+    "Crédito a pymes provinciales."
+   ],
+   "pros": [
+    "Ataca la concentración del empleo.",
+    "Usa bancos provinciales para el crédito.",
+    "Vincula formación con producción."
+   ],
+   "contras": [
+    "Los regímenes de promoción regional tuvieron resultados mixtos.",
+    "No fija metas.",
+    "Depende del crecimiento nacional."
+   ],
+   "preguntas": [
+    "¿Qué incentivos concretos?",
+    "¿Quién los financia?"
+   ],
+   "via": {
+    "instrumento": "Leyes nacionales y provinciales",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Trabajadores del interior.",
+   "pagan": "Presupuestos públicos.",
+   "medir": "Empleo registrado por provincia.",
+   "antecedentes": [
+    {
+     "a": "1979",
+     "t": "Regímenes de promoción industrial regional, con resultados dispares."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.506 de Economía del Conocimiento",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-324101/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-07",
@@ -1679,7 +5041,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "pu-la-tercera-via-federal"
+   "slug": "pu-la-tercera-via-federal",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "La tercera vía federal: ni Milei ni el kirchnerismo, con las provincias como centro.",
+   "como": [
+    "Federalismo como identidad.",
+    "Producción como política.",
+    "Acuerdos antes que confrontación."
+   ],
+   "pros": [
+    "Representa a votantes cansados de la polarización.",
+    "Tiene gestiones provinciales para mostrar.",
+    "Reúne a gobernadores de distinto origen."
+   ],
+   "contras": [
+    "Las terceras vías tuvieron poco éxito electoral nacional.",
+    "Sin un liderazgo claro.",
+    "Sus integrantes vienen de partidos distintos."
+   ],
+   "preguntas": [
+    "¿Quién sería su candidato presidencial?",
+    "¿Qué los une más allá de los fondos?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "pu-08",
@@ -1704,7 +5103,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "pu-un-pais-de-provincias-que-producen"
+   "slug": "pu-un-pais-de-provincias-que-producen",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Un país con varias locomotoras productivas donde las provincias exportan y deciden.",
+   "como": [
+    "Varias regiones productivas fuertes.",
+    "Provincias exportadoras.",
+    "Una Nación que coordina en lugar de concentrar."
+   ],
+   "pros": [
+    "Reduce la dependencia de un solo polo.",
+    "Aprovecha recursos distribuidos en el territorio.",
+    "Es coherente con el federalismo constitucional."
+   ],
+   "contras": [
+    "Requiere infraestructura que hoy no existe.",
+    "Las provincias más pobres quedan rezagadas.",
+    "Sin plan ni plazos."
+   ],
+   "preguntas": [
+    "¿Qué pasa con las provincias sin recursos?",
+    "¿Qué obras lo hacen posible?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil de Provincias Unidas",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/provincias-unidas",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-01",
@@ -1729,7 +5165,59 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fit-salario-minimo-y-paritarias-libres"
+   "slug": "fit-salario-minimo-y-paritarias-libres",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa histórica. El FIT votó en contra de la reforma laboral de 2026."
+   },
+   "problema": "Salarios reales en caída y jornadas largas, con un salario mínimo por debajo de la canasta básica.",
+   "como": [
+    "Aumento del salario mínimo al valor de la canasta familiar.",
+    "Paritarias libres sin techo.",
+    "Reducción de la jornada laboral sin baja salarial."
+   ],
+   "pros": [
+    "El salario mínimo actual no cubre una canasta básica.",
+    "Chile aprobó en 2023 bajar la jornada a 40 horas de forma gradual.",
+    "Más tiempo libre mejora la salud y la productividad."
+   ],
+   "contras": [
+    "Un salario mínimo muy alto puede aumentar la informalidad.",
+    "Las pymes no pueden absorber aumentos fuertes sin crecer.",
+    "Reducir la jornada sin productividad sube costos."
+   ],
+   "preguntas": [
+    "¿Qué pasa con las pymes que no pueden pagar?",
+    "¿Cómo sería la transición de jornada?"
+   ],
+   "via": {
+    "instrumento": "Ley y Consejo del Salario",
+    "mayoria": "El salario mínimo lo fija el Consejo del Salario; la jornada requiere ley.",
+    "plazo": "Requiere cambiar la composición del Congreso"
+   },
+   "costo_txt": "Bajo en lo fiscal; alto para empleadores.",
+   "ganan": "Asalariados.",
+   "pagan": "Empleadores, en especial pymes.",
+   "medir": "Salario mínimo real y su relación con la canasta básica total.",
+   "antecedentes": [
+    {
+     "a": "2023",
+     "t": "Chile aprueba la reducción gradual de la jornada a 40 horas."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 20.744 de Contrato de Trabajo (texto actualizado)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-25552/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-02",
@@ -1754,7 +5242,72 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fit-no-pagar-la-deuda-y-gravar-las-grandes-fortunas"
+   "slug": "fit-no-pagar-la-deuda-y-gravar-las-grandes-fortunas",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. En 2025 la Argentina firmó un nuevo acuerdo con el FMI."
+   },
+   "problema": "Una deuda externa que condiciona la política económica y un FMI que fija metas de ajuste.",
+   "como": [
+    "Desconocer el pago de la deuda en los términos actuales.",
+    "Impuesto permanente a las grandes fortunas.",
+    "Nacionalizar la banca y el comercio exterior."
+   ],
+   "pros": [
+    "Parte de la deuda se tomó para financiar fuga de capitales, según auditorías del BCRA.",
+    "Un impuesto a las fortunas recaudó en 2020.",
+    "Pone en discusión quién paga la crisis."
+   ],
+   "contras": [
+    "El default de 2001 dejó al país una década fuera de los mercados.",
+    "Los juicios de acreedores en Nueva York condicionan durante años.",
+    "La nacionalización de la banca no tiene antecedentes exitosos recientes."
+   ],
+   "preguntas": [
+    "¿Cómo se financia el país sin acceso al crédito?",
+    "¿Qué pasa con los juicios de acreedores?"
+   ],
+   "via": {
+    "instrumento": "Ley y decisión del Ejecutivo",
+    "mayoria": "Mayoría simple; el no pago es decisión del Ejecutivo.",
+    "plazo": "Inmediato"
+   },
+   "costo_txt": "Libera recursos de deuda; el costo es el aislamiento financiero.",
+   "ganan": "El presupuesto social, si se redirigen los pagos.",
+   "pagan": "Acreedores y grandes patrimonios; el país, si queda aislado.",
+   "medir": "Servicios de deuda como % del presupuesto y recaudación de impuestos patrimoniales.",
+   "antecedentes": [
+    {
+     "a": "2001",
+     "t": "Default declarado ante la Asamblea Legislativa."
+    },
+    {
+     "a": "2020",
+     "t": "Ley 27.605, Aporte Solidario por única vez."
+    },
+    {
+     "a": "2025",
+     "t": "Nuevo programa con el FMI."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.605, Aporte Solidario y Extraordinario (2020)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-345364/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Observatorio de Tributación y Género: quiénes pagaron el Aporte Solidario",
+     "u": "https://www.argentina.gob.ar/economia/politicatributaria/observatorio-de-tributacion-y-genero/masculinizacion-de-la-riqueza-el",
+     "tipo": "oficial"
+    }
+   ]
   },
   {
    "id": "fit-03",
@@ -1778,7 +5331,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fit-nacionalizar-litio-petroleo-y-gas"
+   "slug": "fit-nacionalizar-litio-petroleo-y-gas",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Recursos estratégicos como el litio y Vaca Muerta explotados por empresas privadas con poco valor agregado local.",
+   "como": [
+    "Nacionalizar litio, petróleo y gas.",
+    "Control de los trabajadores sobre las empresas.",
+    "Evaluación ambiental obligatoria."
+   ],
+   "pros": [
+    "Captura renta de recursos no renovables.",
+    "Permite planificar el desarrollo energético.",
+    "Incluye control ambiental."
+   ],
+   "contras": [
+    "Los recursos naturales son de las provincias (art. 124 de la Constitución), no de la Nación.",
+    "La expropiación de YPF terminó en un fallo en Nueva York por más de US$ 16.000 millones.",
+    "Ahuyentaría la inversión que hoy explica el crecimiento energético."
+   ],
+   "preguntas": [
+    "¿Cómo se resuelve que los recursos son provinciales?",
+    "¿Con qué fondos se pagan las expropiaciones?"
+   ],
+   "via": {
+    "instrumento": "Ley de expropiación",
+    "mayoria": "Mayoría simple, con indemnización previa (art. 17 de la Constitución).",
+    "plazo": "Años, con litigios"
+   },
+   "costo_txt": "Muy alto: las expropiaciones se pagan, y los juicios pueden costar más.",
+   "ganan": "El Estado, si la renta queda en el país.",
+   "pagan": "Inversores y, potencialmente, el Tesoro por juicios.",
+   "medir": "Producción de hidrocarburos y litio y participación estatal en la renta.",
+   "antecedentes": [
+    {
+     "a": "2012",
+     "t": "Ley 26.741 de expropiación del 51% de YPF."
+    },
+    {
+     "a": "2023",
+     "t": "Fallo de un tribunal de Nueva York contra la Argentina por la forma de la expropiación."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.741 de expropiación de YPF (2012)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-196894/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-04",
@@ -1803,7 +5417,68 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fit-universidad-publica-y-presupuesto"
+   "slug": "fit-universidad-publica-y-presupuesto",
+   "estado": {
+    "cod": "parcial",
+    "txt": "Parcial. El Congreso insistió con la Ley de Financiamiento Universitario en 2025."
+   },
+   "problema": "Recortes en universidades, ciencia y escuelas públicas.",
+   "como": [
+    "Aumento del presupuesto educativo.",
+    "Defensa de la universidad pública y gratuita.",
+    "Financiamiento del CONICET y del sistema científico."
+   ],
+   "pros": [
+    "La universidad pública tiene amplio respaldo social.",
+    "La ciencia argentina tiene reconocimiento internacional.",
+    "La ley de 2025 muestra que hay mayorías posibles."
+   ],
+   "contras": [
+    "No dice cómo se financia.",
+    "Más presupuesto sin reformas de gestión.",
+    "El FIT tiene poco peso legislativo propio."
+   ],
+   "preguntas": [
+    "¿Con qué impuesto se financia?",
+    "¿Qué metas de graduación propone?"
+   ],
+   "via": {
+    "instrumento": "Ley y Presupuesto",
+    "mayoria": "Mayoría simple; dos tercios ante un veto.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Alto.",
+   "ganan": "Estudiantes, docentes e investigadores.",
+   "pagan": "El resultado fiscal.",
+   "medir": "Presupuesto universitario y de ciencia en términos reales.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "Marchas federales universitarias y veto presidencial."
+    },
+    {
+     "a": "2025",
+     "t": "Insistencia del Congreso con la ley universitaria."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: el Gobierno promulgó las leyes de emergencia pediátrica y financiamiento universitario",
+     "u": "https://www.cronista.com/economia-politica/el-gobierno-promulgo-las-leyes-de-emergencia-pediatrica-y-financiamiento-universitario-pero-con-trabas",
+     "tipo": "prensa"
+    },
+    {
+     "t": "Ley 26.206 de Educación Nacional (2006)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-123542/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-05",
@@ -1827,7 +5502,72 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "fit-vivienda-y-alquileres"
+   "slug": "fit-vivienda-y-alquileres",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. La ley de alquileres de 2020 fue derogada por el DNU 70/2023."
+   },
+   "problema": "Alquileres que se llevan una parte creciente del salario y un déficit habitacional de millones de viviendas.",
+   "como": [
+    "Regulación de alquileres.",
+    "Plan de vivienda pública.",
+    "Crédito accesible."
+   ],
+   "pros": [
+    "La vivienda es uno de los gastos más pesados para los hogares.",
+    "La construcción pública genera empleo.",
+    "Hay déficit habitacional sin respuesta del mercado."
+   ],
+   "contras": [
+    "Tras la derogación de la ley de 2020, la oferta de alquileres creció, según el Gobierno.",
+    "Una nueva regulación puede volver a reducir la oferta.",
+    "La vivienda pública tuvo problemas de calidad y asignación."
+   ],
+   "preguntas": [
+    "¿Qué regulación concreta propone?",
+    "¿Cómo se evita que caiga la oferta?"
+   ],
+   "via": {
+    "instrumento": "Ley del Congreso",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Alto por la vivienda pública.",
+   "ganan": "Inquilinos y familias sin vivienda.",
+   "pagan": "Propietarios y el presupuesto.",
+   "medir": "Precio real de alquileres y déficit habitacional.",
+   "antecedentes": [
+    {
+     "a": "2020",
+     "t": "Ley 27.551 de alquileres."
+    },
+    {
+     "a": "2023",
+     "t": "Derogación por el DNU 70/2023."
+    },
+    {
+     "a": "2024",
+     "t": "Informe oficial: más oferta y precios en baja tras la derogación."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.551 de Alquileres (derogada por el DNU 70/2023)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-339378/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ministerio de Desregulación: informe sobre alquileres tras la derogación",
+     "u": "https://www.argentina.gob.ar/sites/default/files/ley_alquileres_informe_1410.pdf",
+     "tipo": "oficial"
+    }
+   ]
   },
   {
    "id": "fit-06",
@@ -1851,7 +5591,68 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "fit-democratizar-la-justicia"
+   "slug": "fit-democratizar-la-justicia",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Un Poder Judicial percibido como corporativo y sin control ciudadano.",
+   "como": [
+    "Elección popular de jueces.",
+    "Participación ciudadana en el control judicial.",
+    "Fin de privilegios como la exención de Ganancias para jueces antiguos."
+   ],
+   "pros": [
+    "Pone en discusión la legitimidad democrática de la justicia.",
+    "Apunta a privilegios concretos.",
+    "Busca controles externos al Poder Judicial."
+   ],
+   "contras": [
+    "En 2013 la Corte declaró inconstitucional elegir por voto a los consejeros de la Magistratura.",
+    "La elección de jueces en México en 2025 tuvo baja participación y críticas por politización.",
+    "Jueces en campaña dependen de partidos y financiamiento."
+   ],
+   "preguntas": [
+    "¿Cómo se evita que los jueces dependan de partidos?",
+    "¿Quién financia sus campañas?"
+   ],
+   "via": {
+    "instrumento": "Reforma constitucional",
+    "mayoria": "La elección de jueces requiere reformar la Constitución: dos tercios del Congreso para declarar la necesidad y una convención constituyente.",
+    "plazo": "Años"
+   },
+   "costo_txt": "Bajo.",
+   "ganan": "Según el FIT, la ciudadanía.",
+   "pagan": "La corporación judicial.",
+   "medir": "Reforma constitucional aprobada.",
+   "antecedentes": [
+    {
+     "a": "2013",
+     "t": "Ley de democratización de la justicia, anulada parcialmente por la Corte."
+    },
+    {
+     "a": "2025",
+     "t": "Primera elección judicial en México."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 24.937 del Consejo de la Magistratura",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-48231/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-07",
@@ -1875,7 +5676,73 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "fit-derechos-de-las-mujeres-y-disidencias"
+   "slug": "fit-derechos-de-las-mujeres-y-disidencias",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "Ambas leyes están vigentes: IVE (Ley 27.610) y cupo laboral travesti-trans (Ley 27.636). El reclamo es sostenerlas y financiarlas."
+   },
+   "problema": "Derechos aprobados que pierden presupuesto o enfrentan intentos de derogación.",
+   "como": [
+    "Defensa de la Ley de IVE.",
+    "Cumplimiento del cupo laboral travesti-trans en el Estado.",
+    "Presupuesto real para políticas de género."
+   ],
+   "pros": [
+    "Las leyes ya fueron aprobadas por el Congreso.",
+    "El cupo trans incorporó casi mil personas a la administración pública hasta 2023.",
+    "Defiende derechos frente a recortes."
+   ],
+   "contras": [
+    "Para parte del electorado, la IVE sigue siendo un tema de conciencia.",
+    "El cupo depende de que el Estado contrate.",
+    "Es defensa de lo existente más que propuesta nueva."
+   ],
+   "preguntas": [
+    "¿Cuánto presupuesto propone?",
+    "¿Qué pasa con el cupo si se reduce el empleo público?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto",
+    "mayoria": "Las leyes ya existen; derogarlas requeriría mayoría.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Bajo a medio.",
+   "ganan": "Mujeres y personas travestis y trans.",
+   "pagan": "El presupuesto.",
+   "medir": "Cumplimiento del cupo del 1% y acceso efectivo a la IVE en hospitales públicos.",
+   "antecedentes": [
+    {
+     "a": "2020",
+     "t": "Ley 27.610 de IVE."
+    },
+    {
+     "a": "2021",
+     "t": "Ley 27.636 de cupo laboral travesti-trans."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.610 de Interrupción Voluntaria del Embarazo",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-346231/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 27.636 de cupo laboral travesti-trans",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-351815/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ministerio de las Mujeres: 955 personas trans en la APN (2023)",
+     "u": "https://www.argentina.gob.ar/noticias/ley-27636-ya-son-955-las-personas-travestis-transexuales-yo-transgenero-que-trabajan-en-la",
+     "tipo": "oficial"
+    }
+   ]
   },
   {
    "id": "fit-08",
@@ -1900,7 +5767,59 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "fit-antiimperialismo-y-malvinas"
+   "slug": "fit-antiimperialismo-y-malvinas",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Acuerdos internacionales que, según el FIT, entregan soberanía económica y política.",
+   "como": [
+    "Reclamo permanente por Malvinas.",
+    "Integración latinoamericana.",
+    "Rechazo a los acuerdos con el FMI."
+   ],
+   "pros": [
+    "El reclamo por Malvinas es mandato constitucional.",
+    "La integración regional tiene amplio consenso.",
+    "Cuestiona condicionamientos externos."
+   ],
+   "contras": [
+    "Romper con el FMI tiene costos financieros inmediatos.",
+    "Sin aliados internacionales, el reclamo por Malvinas pierde fuerza.",
+    "La integración latinoamericana depende de gobiernos vecinos."
+   ],
+   "preguntas": [
+    "¿Cómo se reemplaza el financiamiento del FMI?",
+    "¿Con qué aliados?"
+   ],
+   "via": {
+    "instrumento": "Ejecutivo",
+    "mayoria": "No requiere ley.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Bajo.",
+   "ganan": "Según el FIT, la soberanía nacional.",
+   "pagan": "Relaciones con Estados Unidos y Europa.",
+   "medir": "Iniciativas diplomáticas sobre Malvinas y comercio con América Latina.",
+   "antecedentes": [
+    {
+     "a": "1994",
+     "t": "La Constitución incorpora el reclamo por Malvinas como objetivo permanente."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-09",
@@ -1924,7 +5843,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "fit-anticapitalismo"
+   "slug": "fit-anticapitalismo",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "Anticapitalismo: los problemas argentinos no se resuelven gestionando mejor el sistema sino cambiándolo.",
+   "como": [
+    "Control obrero de la producción.",
+    "Planificación económica.",
+    "Internacionalismo."
+   ],
+   "pros": [
+    "Es coherente y sostenida en el tiempo.",
+    "Visibiliza a trabajadores que otros espacios no representan.",
+    "No integra alianzas por conveniencia."
+   ],
+   "contras": [
+    "No hay experiencias de socialismo de este tipo que hayan mejorado el nivel de vida a largo plazo.",
+    "Tiene techo electoral bajo.",
+    "No ofrece un plan de transición concreto."
+   ],
+   "preguntas": [
+    "¿Cómo sería la transición?",
+    "¿Qué experiencia internacional toma como modelo?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "fit-10",
@@ -1948,7 +5904,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "fit-otro-pais-es-posible"
+   "slug": "fit-otro-pais-es-posible",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Una sociedad sin explotación, con trabajo registrado, salarios dignos y servicios públicos universales.",
+   "como": [
+    "Trabajo registrado para todos.",
+    "Servicios públicos universales.",
+    "Poder popular."
+   ],
+   "pros": [
+    "Plantea metas que comparten muchos votantes.",
+    "Pone la desigualdad en el centro.",
+    "Es un horizonte claro."
+   ],
+   "contras": [
+    "No explica cómo se financia.",
+    "Depende de un cambio de sistema sin plazo.",
+    "Poco aplicable desde la oposición legislativa."
+   ],
+   "preguntas": [
+    "¿Cuál es el primer paso concreto?",
+    "¿Cómo se financian los servicios universales?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil del FIT-Unidad",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/fit-unidad",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 20.744 de Contrato de Trabajo (texto actualizado)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-25552/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "cc-01",
@@ -1970,7 +5963,64 @@
    "candidatos": [],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "cc-limites-republicanos"
+   "slug": "cc-limites-republicanos",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "En práctica desde la oposición: control del Ejecutivo y denuncias judiciales."
+   },
+   "problema": "Un Ejecutivo que gobierna con DNU, vetos y facultades delegadas, con poco control del Congreso.",
+   "como": [
+    "Control institucional del Ejecutivo.",
+    "Defensa de la división de poderes.",
+    "Alertas tempranas sobre abuso de poder."
+   ],
+   "pros": [
+    "El control del poder es una función central del Congreso.",
+    "La Coalición Cívica tiene historia de denuncias que avanzaron.",
+    "Aplica el mismo criterio a todos los gobiernos."
+   ],
+   "contras": [
+    "Tiene poco peso legislativo propio.",
+    "El control sin propuesta deja vacío el programa.",
+    "Su principal referente tiene un rol más reducido."
+   ],
+   "preguntas": [
+    "¿Qué límites concretos propone a los DNU?",
+    "¿Con qué aliados?"
+   ],
+   "via": {
+    "instrumento": "Práctica legislativa y judicial",
+    "mayoria": "No requiere ley.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Ninguno.",
+   "ganan": "La calidad institucional.",
+   "pagan": "El gobierno de turno.",
+   "medir": "Pedidos de informes, interpelaciones y DNU rechazados.",
+   "antecedentes": [
+    {
+     "a": "2001",
+     "t": "Elisa Carrió preside la comisión investigadora sobre lavado de dinero de Diputados."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "DNU 70/2023, Bases para la Reconstrucción de la Economía",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-395521/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "cc-02",
@@ -1992,7 +6042,63 @@
    "candidatos": [],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "cc-transparencia-y-anti-corrupcion"
+   "slug": "cc-transparencia-y-anti-corrupcion",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. Ya existen leyes de ética pública y de acceso a la información."
+   },
+   "problema": "Corrupción en la obra pública y los contratos del Estado, con causas que tardan décadas.",
+   "como": [
+    "Declaraciones juradas públicas y verificables.",
+    "Contratos y obra pública en datos abiertos.",
+    "Denuncia y seguimiento judicial de casos."
+   ],
+   "pros": [
+    "Los datos abiertos permiten control ciudadano.",
+    "Existe marco legal que se puede reforzar.",
+    "Tiene consenso amplio."
+   ],
+   "contras": [
+    "Las leyes de ética pública existen y se cumplen mal.",
+    "Sin justicia rápida, la transparencia no alcanza.",
+    "Es una propuesta de método."
+   ],
+   "preguntas": [
+    "¿Qué organismo controla?",
+    "¿Cómo se acelera la justicia?"
+   ],
+   "via": {
+    "instrumento": "Ley y gestión",
+    "mayoria": "Mayoría simple para reformas.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Bajo.",
+   "ganan": "Contribuyentes.",
+   "pagan": "Funcionarios y empresas corruptas.",
+   "medir": "Contratos públicos publicados en datos abiertos y causas por corrupción con sentencia.",
+   "antecedentes": [
+    {
+     "a": "1999",
+     "t": "Ley 25.188 de Ética en el Ejercicio de la Función Pública."
+    },
+    {
+     "a": "2016",
+     "t": "Ley 27.275 de Acceso a la Información Pública."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.328 de Participación Público-Privada (2016)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-27328-268322/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "cc-03",
@@ -2014,7 +6120,59 @@
    "candidatos": [],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "cc-defensa-de-la-educacion-publica"
+   "slug": "cc-defensa-de-la-educacion-publica",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa de campaña."
+   },
+   "problema": "La escuela pública pierde matrícula y recursos, y la clase media se va a la privada.",
+   "como": [
+    "Financiamiento educativo.",
+    "Defensa de la escuela pública.",
+    "Apoyo a la clase media."
+   ],
+   "pros": [
+    "La escuela pública es un igualador social.",
+    "Tiene amplio respaldo.",
+    "Une educación y clase media."
+   ],
+   "contras": [
+    "Muy general y sin metas.",
+    "No dice cuánto presupuesto.",
+    "Similar a propuestas de otros espacios."
+   ],
+   "preguntas": [
+    "¿Cuánto presupuesto propone?",
+    "¿Qué reformas de calidad?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Estudiantes de escuelas públicas.",
+   "pagan": "El presupuesto.",
+   "medir": "Matrícula en escuela pública y gasto educativo.",
+   "antecedentes": [
+    {
+     "a": "2006",
+     "t": "Ley 26.206 de Educación Nacional."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 26.206 de Educación Nacional (2006)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-123542/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "cc-04",
@@ -2036,7 +6194,59 @@
    "candidatos": [],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "cc-clase-media-y-movilidad-social"
+   "slug": "cc-clase-media-y-movilidad-social",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Una clase media que paga impuestos y servicios privados y siente que no recibe nada a cambio.",
+   "como": [
+    "Alivio fiscal a la clase media.",
+    "Acceso a vivienda y salud.",
+    "Movilidad social."
+   ],
+   "pros": [
+    "Habla a un sector que se siente olvidado.",
+    "Pone la movilidad social en el centro.",
+    "Combina alivio fiscal con servicios."
+   ],
+   "contras": [
+    "No precisa medidas.",
+    "Aliviar impuestos y ampliar servicios a la vez es contradictorio sin financiamiento.",
+    "Compite con otros espacios por el mismo votante."
+   ],
+   "preguntas": [
+    "¿Qué impuesto baja?",
+    "¿Cómo se financia?"
+   ],
+   "via": {
+    "instrumento": "Ley y Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Clase media.",
+   "pagan": "Indefinido.",
+   "medir": "Proporción de hogares de clase media y acceso a vivienda propia.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "Cambios en Ganancias y Bienes Personales."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "cc-05",
@@ -2058,7 +6268,59 @@
    "candidatos": [],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "cc-seguridad-con-garantias"
+   "slug": "cc-seguridad-con-garantias",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Una política de seguridad que, según la Coalición, avanza sobre garantías sin atacar al crimen organizado.",
+   "como": [
+    "Persecución del crimen organizado.",
+    "Respeto a las garantías constitucionales.",
+    "Control de las fuerzas."
+   ],
+   "pros": [
+    "Combina eficacia con Estado de derecho.",
+    "Pone el foco en el crimen organizado y su vínculo con la corrupción.",
+    "Busca controlar a las fuerzas."
+   ],
+   "contras": [
+    "Genérica.",
+    "Sin metas ni presupuesto.",
+    "Difícil de distinguir de otras propuestas moderadas."
+   ],
+   "preguntas": [
+    "¿Qué herramientas concretas?",
+    "¿Quién controla a las fuerzas?"
+   ],
+   "via": {
+    "instrumento": "Ley y gestión",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Víctimas del crimen organizado.",
+   "pagan": "Organizaciones criminales.",
+   "medir": "Causas por crimen organizado con condena.",
+   "antecedentes": [
+    {
+     "a": "1992",
+     "t": "Ley 24.059 de Seguridad Interior."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 24.059 de Seguridad Interior (1992)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-458/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "cc-06",
@@ -2080,7 +6342,44 @@
    "candidatos": [],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "cc-republica-o-nada"
+   "slug": "cc-republica-o-nada",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "República o nada: instituciones por encima de los liderazgos personales.",
+   "como": [
+    "Instituciones por sobre las personas.",
+    "Corrupción castigada.",
+    "Democracia vigilante."
+   ],
+   "pros": [
+    "Coherencia en la defensa institucional.",
+    "Aplica el mismo criterio a todos.",
+    "Historia de denuncias relevantes."
+   ],
+   "contras": [
+    "Es más una fuerza de control que de gobierno.",
+    "Peso electoral menor.",
+    "Depende de una figura fundadora."
+   ],
+   "preguntas": [
+    "¿Qué gobernaría si ganara?",
+    "¿Quién sucede a Carrió?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "cc-07",
@@ -2102,7 +6401,44 @@
    "candidatos": [],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "cc-un-pais-con-instituciones"
+   "slug": "cc-un-pais-con-instituciones",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Un país aburrido y previsible, donde los conflictos se resuelven en tribunales y la corrupción tiene costo.",
+   "como": [
+    "Conflictos en instituciones.",
+    "Funcionarios que rinden cuentas.",
+    "Impunidad cero."
+   ],
+   "pros": [
+    "La previsibilidad atrae inversión.",
+    "Un país sin impunidad mejora la confianza.",
+    "Es compartible por distintos espacios."
+   ],
+   "contras": [
+    "Sin plan concreto.",
+    "Depende de una justicia que hoy es lenta.",
+    "No incluye propuesta económica."
+   ],
+   "preguntas": [
+    "¿Cuál es el primer cambio?",
+    "¿Cómo se acelera la justicia?"
+   ],
+   "refs": [
+    {
+     "t": "Perfil de la Coalición Cívica ARI",
+     "u": "https://www.politicaelectoral.com/es/argentina/partido/coalicion-civica-ari",
+     "tipo": "perfil",
+     "primaria": true
+    },
+    {
+     "t": "Ley 24.937 del Consejo de la Magistratura",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-48231/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-01",
@@ -2126,7 +6462,59 @@
    ],
    "costo": "bajo",
    "alcance": "Nacional",
-   "slug": "erf-dialogo-y-consenso"
+   "slug": "erf-dialogo-y-consenso",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Propuesta de método."
+   },
+   "problema": "Una grieta que impide acuerdos duraderos y hace que cada gobierno deshaga lo del anterior.",
+   "como": [
+    "Acuerdos parlamentarios entre fuerzas.",
+    "Fin de la persecución política.",
+    "Una agenda de cien propuestas."
+   ],
+   "pros": [
+    "Las políticas de Estado necesitan consensos.",
+    "Pichetto tiene experiencia de negociación en el Senado.",
+    "Reduce la volatilidad de las reglas."
+   ],
+   "contras": [
+    "El diálogo sin contenido no define políticas.",
+    "Espacio con poco peso electoral.",
+    "Los acuerdos pueden ser acuerdos de cúpulas."
+   ],
+   "preguntas": [
+    "¿Sobre qué temas busca consenso primero?",
+    "¿Con quién no acordaría?"
+   ],
+   "via": {
+    "instrumento": "Práctica política",
+    "mayoria": "No requiere ley.",
+    "plazo": "Continuo"
+   },
+   "costo_txt": "Ninguno.",
+   "ganan": "La estabilidad de las políticas públicas.",
+   "pagan": "Nadie.",
+   "medir": "Leyes aprobadas con apoyo de oficialismo y oposición.",
+   "antecedentes": [
+    {
+     "a": "2002",
+     "t": "Mesa del Diálogo Argentino tras la crisis de 2001."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-02",
@@ -2150,7 +6538,64 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "erf-desarrollo-energetico"
+   "slug": "erf-desarrollo-energetico",
+   "estado": {
+    "cod": "en-curso",
+    "txt": "Coincide con el RIGI de la Ley Bases y el crecimiento de Vaca Muerta."
+   },
+   "problema": "Recursos energéticos y mineros con potencial exportador frenado por falta de reglas e infraestructura.",
+   "como": [
+    "Inversión en Vaca Muerta.",
+    "Minería con reglas estables.",
+    "Infraestructura energética con rol del Estado."
+   ],
+   "pros": [
+    "La energía ya genera superávit comercial.",
+    "Reglas estables atraen inversión de largo plazo.",
+    "Combina inversión privada con infraestructura pública."
+   ],
+   "contras": [
+    "Dependencia de precios internacionales.",
+    "Impactos ambientales y en el agua en zonas mineras.",
+    "Similar a lo que ya hace el Gobierno."
+   ],
+   "preguntas": [
+    "¿Qué infraestructura prioriza?",
+    "¿Qué controles ambientales?"
+   ],
+   "via": {
+    "instrumento": "Leyes vigentes y obras",
+    "mayoria": "El RIGI ya existe; las obras requieren presupuesto o PPP.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio: infraestructura de transporte de energía.",
+   "ganan": "Provincias productoras y exportadores.",
+   "pagan": "Nadie en lo fiscal si se usan PPP; riesgos ambientales.",
+   "medir": "Producción de petróleo y gas, exportaciones energéticas y mineras.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "RIGI en la Ley 27.742 de Bases."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Ley 27.742 de Bases (2024)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-401266/texto",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 27.328 de Participación Público-Privada (2016)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-27328-268322/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-03",
@@ -2174,7 +6619,77 @@
    ],
    "costo": "alto",
    "alcance": "Nacional",
-   "slug": "erf-fuerzas-armadas-contra-el-narcotrafico"
+   "slug": "erf-fuerzas-armadas-contra-el-narcotrafico",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa. Las leyes de Defensa y de Seguridad Interior separan a las Fuerzas Armadas de la seguridad interior."
+   },
+   "problema": "Narcotráfico en fronteras y espacio aéreo con controles insuficientes.",
+   "como": [
+    "Intervención de las Fuerzas Armadas contra el narcotráfico.",
+    "Control del espacio aéreo y fronteras.",
+    "Inteligencia criminal."
+   ],
+   "pros": [
+    "Las Fuerzas Armadas tienen radares y medios aéreos que las fuerzas de seguridad no.",
+    "El control de fronteras es una debilidad conocida.",
+    "Otros países de la región las usan."
+   ],
+   "contras": [
+    "La Ley 23.554 separa defensa de seguridad interior por la experiencia de la dictadura.",
+    "México militarizó la lucha antinarco desde 2006 y la violencia aumentó en los años siguientes.",
+    "Las Fuerzas Armadas no están formadas para tareas policiales."
+   ],
+   "preguntas": [
+    "¿Con qué límites legales actuarían?",
+    "¿Quién controla las operaciones?"
+   ],
+   "via": {
+    "instrumento": "Reforma de leyes de Defensa y Seguridad Interior",
+    "mayoria": "Mayoría simple, con fuerte debate constitucional.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Alto: equipamiento y despliegue.",
+   "ganan": "Zonas de frontera.",
+   "pagan": "El presupuesto de Defensa y, según críticos, las garantías civiles.",
+   "medir": "Incautaciones en frontera y vuelos irregulares detectados.",
+   "antecedentes": [
+    {
+     "a": "1988",
+     "t": "Ley 23.554 de Defensa Nacional."
+    },
+    {
+     "a": "1992",
+     "t": "Ley 24.059 de Seguridad Interior: uso excepcional de las FF.AA."
+    },
+    {
+     "a": "2026",
+     "t": "DNU 314/2026: plan de reequipamiento militar."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Ley 23.554 de Defensa Nacional (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-20988/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "Ley 24.059 de Seguridad Interior (1992)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-458/actualizacion",
+     "tipo": "norma"
+    },
+    {
+     "t": "DNU 314/2026, Plan de Reequipamiento Militar (ARMA)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/decreto-314-2026-425373/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-04",
@@ -2198,7 +6713,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "erf-plan-productivo-federal"
+   "slug": "erf-plan-productivo-federal",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Economías regionales sin crédito ni previsibilidad.",
+   "como": [
+    "Reglas claras para invertir.",
+    "Crédito a economías regionales.",
+    "Menos presión tributaria."
+   ],
+   "pros": [
+    "Las economías regionales generan empleo en el interior.",
+    "La previsibilidad es una demanda transversal.",
+    "Combina crédito con baja de impuestos."
+   ],
+   "contras": [
+    "Genérica.",
+    "No dice cómo se financia.",
+    "Poco peso legislativo para impulsarla."
+   ],
+   "preguntas": [
+    "¿Qué instrumento de crédito?",
+    "¿Qué impuesto baja?"
+   ],
+   "via": {
+    "instrumento": "Ley y Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Varios años"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Productores regionales.",
+   "pagan": "Indefinido.",
+   "medir": "Exportaciones de economías regionales y crédito productivo.",
+   "antecedentes": [
+    {
+     "a": "2024",
+     "t": "Eliminación de retenciones para productos de economías regionales."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Cronista: por qué se complica bajar impuestos",
+     "u": "https://www.cronista.com/economia-politica/por-que-se-complica-bajar-impuestos-y-cuales-son-las-medidas-que-oxigenarian-el-sistema/",
+     "tipo": "prensa"
+    }
+   ]
   },
   {
    "id": "erf-05",
@@ -2222,7 +6789,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "erf-provincias-con-voz-y-recursos"
+   "slug": "erf-provincias-con-voz-y-recursos",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Provincias sin voz en decisiones nacionales que las afectan.",
+   "como": [
+    "Participación provincial en decisiones nacionales.",
+    "Recursos coparticipables.",
+    "Acuerdos interjurisdiccionales."
+   ],
+   "pros": [
+    "Federalismo constitucional.",
+    "Pichetto conoce el Senado, la cámara de las provincias.",
+    "Acuerdos interjurisdiccionales pueden resolver problemas concretos."
+   ],
+   "contras": [
+    "Sin precisiones.",
+    "La coparticipación nunca se pudo rediscutir.",
+    "Similar a otras propuestas federales."
+   ],
+   "preguntas": [
+    "¿Qué criterio de reparto?",
+    "¿Qué decisiones compartiría?"
+   ],
+   "via": {
+    "instrumento": "Ley-convenio y acuerdos",
+    "mayoria": "Ley-convenio para coparticipación.",
+    "plazo": "Indefinido"
+   },
+   "costo_txt": "Redistributivo.",
+   "ganan": "Provincias.",
+   "pagan": "La Nación.",
+   "medir": "Transferencias automáticas sobre el total.",
+   "antecedentes": [
+    {
+     "a": "1988",
+     "t": "Ley 23.548 de Coparticipación."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Ley 23.548 de Coparticipación Federal (1988)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-21108/actualizacion",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-06",
@@ -2246,7 +6865,59 @@
    ],
    "costo": "medio",
    "alcance": "Nacional",
-   "slug": "erf-orden-y-produccion"
+   "slug": "erf-orden-y-produccion",
+   "estado": {
+    "cod": "promesa",
+    "txt": "Promesa."
+   },
+   "problema": "Una economía que pasa del ajuste a la emisión sin estabilizar.",
+   "como": [
+    "Equilibrio fiscal.",
+    "Reglas claras para invertir.",
+    "Crecimiento con producción."
+   ],
+   "pros": [
+    "Busca el centro entre ajuste y emisión.",
+    "Prioriza reglas estables.",
+    "Experiencia legislativa de su referente."
+   ],
+   "contras": [
+    "Genérica.",
+    "No se diferencia de otras propuestas de centro.",
+    "Sin medidas concretas."
+   ],
+   "preguntas": [
+    "¿Qué medidas concretas?",
+    "¿Qué haría distinto al Gobierno?"
+   ],
+   "via": {
+    "instrumento": "Presupuesto",
+    "mayoria": "Mayoría simple.",
+    "plazo": "Anual"
+   },
+   "costo_txt": "Medio.",
+   "ganan": "Sectores productivos.",
+   "pagan": "Indefinido.",
+   "medir": "Inflación, resultado fiscal y crecimiento.",
+   "antecedentes": [
+    {
+     "a": "2004",
+     "t": "Ley 25.917 de Responsabilidad Fiscal."
+    }
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Ley 25.917 de Responsabilidad Fiscal",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/ley-25917-97698",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-07",
@@ -2270,7 +6941,44 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "erf-peronismo-republicano"
+   "slug": "erf-peronismo-republicano",
+   "estado": {
+    "cod": "vision",
+    "txt": "Visión de país"
+   },
+   "problema": "Peronismo republicano: justicia social con instituciones, alternancia y diálogo.",
+   "como": [
+    "Justicia social con instituciones.",
+    "Alternancia y diálogo.",
+    "Política social sin clientelismo."
+   ],
+   "pros": [
+    "Busca reconciliar peronismo y república.",
+    "Experiencia legislativa larga.",
+    "Rechaza la grieta."
+   ],
+   "contras": [
+    "Espacio chico.",
+    "Pichetto fue candidato a vice de Macri, lo que lo aleja del peronismo.",
+    "Sin estructura territorial."
+   ],
+   "preguntas": [
+    "¿Qué peronismo representa?",
+    "¿Con quién se aliaría?"
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   },
   {
    "id": "erf-08",
@@ -2294,7 +7002,45 @@
    ],
    "costo": "",
    "alcance": "Nacional",
-   "slug": "erf-un-pais-que-negocia"
+   "slug": "erf-un-pais-que-negocia",
+   "estado": {
+    "cod": "vision",
+    "txt": "Futuro posible"
+   },
+   "problema": "Un país que negocia: reformas acordadas entre gobierno y oposición y mayorías estables.",
+   "como": [
+    "Reformas acordadas.",
+    "Mayorías estables.",
+    "Política de gestión."
+   ],
+   "pros": [
+    "Las reformas acordadas duran más.",
+    "Reduce la volatilidad.",
+    "Es un método aplicable a cualquier gobierno."
+   ],
+   "contras": [
+    "Depende de la voluntad de otros.",
+    "Sin contenido propio.",
+    "Difícil en un sistema polarizado."
+   ],
+   "preguntas": [
+    "¿Qué reforma acordaría primero?",
+    "¿Cómo se construye una mayoría estable?"
+   ],
+   "refs": [
+    {
+     "t": "Pichetto presentó cien ideas y propuestas",
+     "u": "https://www.lanacion.com.ar/politica/sin-grietas-ni-persecuciones-miguel-angel-pichetto-presenta-cien-ideas-y-propuestas-de-su-plan-de-nid10112022/",
+     "tipo": "prensa",
+     "primaria": true
+    },
+    {
+     "t": "Constitución Nacional (Ley 24.430)",
+     "u": "https://www.argentina.gob.ar/normativa/nacional/norma-804/texto",
+     "tipo": "norma"
+    }
+   ]
   }
- ]
+ ],
+ "verificado": "2026-11-05"
 }

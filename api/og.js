@@ -5,6 +5,7 @@
 import { ImageResponse } from '@vercel/og';
 import { readFileSync } from 'node:fs';
 import MV from './_data.js';
+import PR from './_prop.js';
 
 const FONTS = [400, 500, 600, 700, 800, 900].map(weight => ({
   name: 'Inter', weight, style: 'normal',
@@ -126,11 +127,27 @@ function portada() {
       h('div', { marginLeft: 26, background: OSCURO, color: '#fff', fontSize: 28, fontWeight: 700, padding: '16px 28px', borderRadius: 40 }, '1 voto c/u · envío gratis')));
 }
 
+function propuesta(p) {
+  return h('div', { width: '100%', height: '100%', fontFamily: 'Inter', background: '#fff' },
+    h('div', { width: 420, height: 630, background: p.col, flexDirection: 'column', justifyContent: 'space-between', padding: 36 },
+      h('div', { background: 'rgba(255,255,255,.92)', color: '#222', fontSize: 18, fontWeight: 800, padding: '6px 12px', borderRadius: 6, alignSelf: 'flex-start' }, p.eje.toUpperCase()),
+      h('div', { color: '#fff', fontSize: 40, fontWeight: 800, lineHeight: 1.1 }, p.esp)),
+    h('div', { flex: 1, flexDirection: 'column', padding: '44px 48px', justifyContent: 'space-between', borderTop: `14px solid ${AMARILLO}` },
+      h('div', { flexDirection: 'column' },
+        h('div', { fontSize: 20, color: AZUL, fontWeight: 800, letterSpacing: 1 }, p.tipo.toUpperCase() + (p.est ? ' · ' + p.est.toUpperCase() : '')),
+        h('div', { fontSize: p.t.length > 40 ? 46 : 56, fontWeight: 800, color: '#222', lineHeight: 1.08, marginTop: 12, letterSpacing: -1.5 }, p.t),
+        h('div', { fontSize: 25, color: '#666', marginTop: 16, lineHeight: 1.35 }, p.b)),
+      h('div', { justifyContent: 'space-between', alignItems: 'center' },
+        marca(30),
+        h('div', { fontSize: 20, color: '#00804a', fontWeight: 700, background: '#e3f7ec', padding: '6px 14px', borderRadius: 20 }, `${p.refs} fuentes citadas`))));
+}
+
 export async function GET(request) {
   const url = new URL(request.url);
   const q = url.searchParams;
   let el;
-  if (q.get('c') && MV.c[q.get('c')]) el = candidato(MV.c[q.get('c')]);
+  if (q.get('pr') && PR[q.get('pr')]) el = propuesta(PR[q.get('pr')]);
+  else if (q.get('c') && MV.c[q.get('c')]) el = candidato(MV.c[q.get('c')]);
   else if (['p', 'g', 'i', 'l'].some(k => q.get(k))) el = boleta(q);
   else el = portada();
   return new ImageResponse(el, {
