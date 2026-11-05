@@ -28,7 +28,7 @@
     if (!top.length && !tend.length) return;
 
     if (top.length) {
-      $('sem-sub').textContent = 'Del ' + fecha(d.desde) + ' al ' + fecha(d.hasta) + ' · ' + fmt(d.semTotal) + ' boletas armadas';
+      $('sem-sub').textContent = 'Del ' + fecha(d.desde) + ' al ' + fecha(d.hasta) + ' · ' + (d.semTotal === 1 ? '1 boleta armada' : fmt(d.semTotal) + ' boletas armadas');
       $('sem-lista').innerHTML = top.map((x, k) => {
         const c = MV.c[x.id];
         return '<li><a class="sem-item" href="/c/' + c.s + '">' +
