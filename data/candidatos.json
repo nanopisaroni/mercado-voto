@@ -6010,46 +6010,54 @@
    "id": "delasota",
    "nombre": "Natalia de la Sota",
    "slug": "natalia-de-la-sota",
-   "rol": "Diputada nacional por Córdoba",
+   "rol": "Diputada nacional por Córdoba (2025-2029) · Defendamos Córdoba",
    "tag": "Heredera del cordobesismo, hoy por fuera",
    "color": "#c8102e",
-   "bio": "Docente y política del Partido Justicialista. Es hija de José Manuel de la Sota y nieta de Arturo Zanichelli, los dos gobernadores de Córdoba. Entró a la función pública en 2011, fue concejala de la ciudad y legisladora provincial antes de llegar a la Cámara de Diputados en 2021. Renovó su banca en 2025 al frente de Defendamos Córdoba, con 170.837 votos, y desde ahí construyó un espacio propio, enfrentado al gobernador Llaryora y alineado con el kirchnerismo.",
+   "bio": "Nació en Córdoba en 1975, es docente de música y estudió en la Universidad Provincial de Córdoba. Es hija de José Manuel de la Sota y nieta de Arturo Zanichelli, los dos gobernadores que tuvo la provincia. Entró a la función pública en 2011 como directora de Gestiones Institucionales en la gobernación de su padre, fue concejala entre 2015 y 2019 y legisladora provincial entre 2019 y 2021. Llegó a la Cámara de Diputados en 2021 encabezando la lista de Hacemos por Córdoba, con 491.969 votos. En 2025 renovó la banca con su propio sello, Defendamos Córdoba, sacó 170.837 votos y en octubre armó un bloque de una sola persona. Hoy se planta frente a Martín Llaryora y no descarta competir por la gobernación en 2027.",
    "foto": "assets/fotos/delasota.jpg",
    "categorias": [],
    "provincia": "Córdoba",
-   "partido": "Defendamos Córdoba",
+   "partido": "Defendamos Córdoba (PJ)",
    "ejes": [
-    45,
-    55,
     40,
-    70,
     55,
-    50
+    45,
+    70,
+    50,
+    40
    ],
    "trayectoria": [
     {
+     "fecha": "1975-09-14",
+     "evento": "Nace en Córdoba."
+    },
+    {
      "fecha": "2011-2015",
-     "evento": "Directora de Gestiones Institucionales en la gobernación de su padre, José Manuel de la Sota."
+     "evento": "Directora de la Oficina de Gestiones Institucionales en la gobernación de José Manuel de la Sota."
     },
     {
      "fecha": "2015-2019",
-     "evento": "Concejala de la ciudad de Córdoba."
+     "evento": "Concejala de la ciudad de Córdoba. Asume con 125.648 votos."
     },
     {
-     "fecha": "2019-2021",
-     "evento": "Legisladora provincial por distrito único."
+     "fecha": "2019-12-10",
+     "evento": "Asume como legisladora provincial por distrito único, electa con el 52,68%."
     },
     {
-     "fecha": "2021",
-     "evento": "Electa diputada nacional por Córdoba, primera en la lista de Hacemos por Córdoba, con 491.969 votos."
+     "fecha": "2021-12-10",
+     "evento": "Asume como diputada nacional por Córdoba, primera en la lista de Hacemos por Córdoba con 491.969 votos (24,99%)."
     },
     {
-     "fecha": "2025",
-     "evento": "Renueva la banca con Defendamos Córdoba: 170.837 votos, 8,75%."
+     "fecha": "2025-10-26",
+     "evento": "Renueva su banca con Defendamos Córdoba: 170.837 votos, 8,75%."
     },
     {
-     "fecha": "2026",
-     "evento": "Dice que no descarta ser candidata a gobernadora y que ve imposible un acuerdo con Llaryora."
+     "fecha": "2025-10-28",
+     "evento": "Forma su propio bloque en Diputados, también llamado Defendamos Córdoba, integrado solo por ella."
+    },
+    {
+     "fecha": "2026-10",
+     "evento": "Avisa que no integrará una fórmula con Llaryora y deja abierta una candidatura a gobernadora para 2027."
     }
    ],
    "promesas_cumplidas": [],
@@ -6058,48 +6066,55 @@
    "incumplidas": 0,
    "criticas": [
     {
-     "area": "Origen de la carrera",
-     "tesis": "Llegó a la política con el apellido y el cargo llegó antes que la elección.",
-     "cuerpo": "Natalia de la Sota no se hizo en la militancia ni en la gestión: se hizo en el despacho de su padre. Su primer cargo público fue Directora de Gestiones Institucionales en la gobernación de José Manuel de la Sota, entre 2011 y 2015. Recién después vino la elección, con el apellido ya instalado en toda la provincia. La pregunta no es si tiene capacidad, es si hubiera llegado al mismo lugar sin el apellido. Su hermana Candelaria también suena para cargos, lo que refuerza la lectura dinástica.",
-     "evidencia": "Wikipedia: Directora de Gestiones Institucionales 2011-2015 en la gobernación de su padre. Declaraciones de 2026 sobre la eventual candidatura de su hermana Candelaria, que ella misma respaldó.",
+     "area": "Representación",
+     "tesis": "Armó un bloque de una sola banca y con eso perdió peso en el Congreso.",
+     "cuerpo": "El 28 de octubre de 2025 notificó a Martín Menem que dejaba el bloque del cordobesismo y formaba Defendamos Córdoba, integrado por ella sola. Lo presentó como coherencia con la campaña. En la práctica quedó sin lugar en las comisiones que se reparten por bloque y sin socios para firmar dictámenes. Desde entonces presentó 36 proyectos, cinco llegaron a dictamen y ninguno se aprobó.",
+     "evidencia": "Notificación a la presidencia de la Cámara del 28/10/2025 y registro de DipuData: 36 proyectos como autora, 5 con dictamen, 0 aprobados.",
+     "fuente_url": "https://www.lavoz.com.ar/politica/natalia-de-la-sota-formo-su-propio-bloque-en-diputados/",
      "fuerza": "fuerte",
-     "tipo": "Trayectoria",
-     "respuesta_esperada": "Que el apellido abre puertas y que eso no descalifica a nadie.",
-     "refutacion": "El apellido abre la puerta, no gana la elección. En 2025 sacó 8,75% sin el aparato provincial, y eso no lo consigue un apellido solo."
+     "tipo": "representación"
     },
     {
-     "area": "Coherencia de pertenencia",
-     "tesis": "Cambió tres veces de sello en cuatro años y ahora se reclama heredera del cordobesismo.",
-     "cuerpo": "En 2023 estaba en Hacemos por Córdoba y en Hacemos Coalición Federal. En 2025 armó Defendamos Córdoba y se alineó con el kirchnerismo, despegándose de Llaryora. Las tres cosas pueden ser legítimas, pero juntas cuentan una historia: la pertenencia se ajusta según la elección. Quien se define por oposición a un gobernador de su propio partido tiene que explicar qué queda del proyecto original cuando el proyecto original era ese gobernador.",
-     "evidencia": "Afilaciones declaradas: Hacemos por Córdoba (2023), Hacemos Coalición Federal (2023-2024), Defendamos Córdoba (2025). Cobertura periodística de su ruptura con Llaryora.",
+     "area": "Origen de la carrera",
+     "tesis": "Su primer cargo público fue en el gobierno de su padre.",
+     "cuerpo": "Antes de ganar cualquier elección, en 2011 fue designada directora de la Oficina de Gestiones Institucionales de la gobernación de José Manuel de la Sota, cargo que ocupó hasta 2015. Recién después vino el Concejo Deliberante. El apellido no es una sospecha, es el punto de partida documentado de su carrera pública, en una provincia donde su abuelo Arturo Zanichelli también fue gobernador.",
+     "evidencia": "Ficha biográfica y trayectoria oficial: directora de Gestiones Institucionales 2011-2015 bajo el gobierno de su padre.",
+     "fuente_url": "https://es.wikipedia.org/wiki/Natalia_de_la_Sota",
+     "fuerza": "fuerte",
+     "tipo": "trayectoria"
+    },
+    {
+     "area": "Caudal electoral",
+     "tesis": "Perdió dos tercios de sus votos en cuatro años y aun así se planta para gobernar la provincia.",
+     "cuerpo": "En 2021 encabezó la lista de Hacemos por Córdoba y sacó 491.969 votos, el 24,99% del distrito. En 2025, ya con sello propio, juntó 170.837, el 8,75%. La caída tiene explicación, porque competir sin el aparato provincial y sin Schiaretti en la boleta cuesta. El punto es que sobre ese caudal anuncia una candidatura a gobernadora y negocia posiciones con el llaryorismo.",
+     "evidencia": "Resultados oficiales: 491.969 votos (24,99%) en 2021 y 170.837 (8,75%) en 2025.",
+     "fuente_url": "https://www.lavoz.com.ar/politica/defendamos-cordoba-obtuvo-el-876/",
      "fuerza": "media-fuerte",
-     "tipo": "Pertenencia",
-     "respuesta_esperada": "Que el cordobesismo se terminó con su padre y que ella representa otra cosa.",
-     "refutacion": "Puede ser cierto. Pero si el cordobesismo se terminó, no se puede reclamar su herencia en la misma campaña."
+     "tipo": "resultados"
     },
     {
-     "area": "Gestión",
-     "tesis": "Pide gobernar una provincia que nunca administró.",
-     "cuerpo": "Su recorrido es legislativo y de oficina: concejala, legisladora, diputada. Nunca tuvo a cargo un municipio, un ministerio ni un presupuesto de ejecución. Gobernar Córdoba son 5 millones de personas, 26 departamentos, una caja provincial y una policía. El currículum no dice que no pueda, dice que no lo hizo.",
-     "evidencia": "Trayectoria pública completa: gestión institucional, Concejo Deliberante, Legislatura, Cámara de Diputados.",
+     "area": "Asistencia",
+     "tesis": "Faltó a una de cada cinco votaciones de su cámara.",
+     "cuerpo": "Desde el 10 de diciembre de 2025 hubo 141 votaciones nominales en Diputados y votó en 112, el 79%. La ausencia no es un detalle para una dirigente que construye su perfil en la oposición al gobierno nacional y que pide ser la alternativa provincial.",
+     "evidencia": "DipuData: 112 votaciones sobre 141 desde el 10/12/2025 (79%).",
+     "fuente_url": "https://www.dipudata.com/diputado/natalia-de-la-sota",
      "fuerza": "media",
-     "tipo": "Experiencia",
-     "respuesta_esperada": "Que la Legislatura también es gestión y que gobernadores sin municipio hubo muchos.",
-     "refutacion": "Cierto, pero todos llegaron con un equipo de gestión probado. Ella todavía no lo mostró."
+     "tipo": "asistencia"
     }
    ],
    "vulnerabilidades": [
     "Toda su carrera pública empezó en el gobierno de su padre.",
-    "Nunca gestionó un municipio ni una cartera con presupuesto propio.",
-    "Su espacio tiene un solo distrito y un solo apellido."
+    "Nunca administró un municipio, un ministerio ni un presupuesto de ejecución.",
+    "Su caudal electoral se redujo a un tercio y su bloque es de una sola banca."
    ],
-   "gancho": "Apellido de gobernador, banca propia y una candidatura que no pide permiso.",
+   "gancho": "El apellido que gobernó Córdoba dos veces, hoy con un bloque de una sola banca.",
    "a_favor": [
-    "Tiene banca propia y la renovó sin el aparato provincial.",
-    "Es la única dirigente cordobesa que se plantó frente a Llaryora desde adentro del peronismo.",
-    "Viene de una familia que gobernó Córdoba durante ocho años y conoce la provincia por dentro."
+    "Renovó su banca sin el aparato del cordobesismo y con un sello propio.",
+    "Es la dirigente peronista cordobesa que se plantó públicamente frente a Llaryora.",
+    "Viene de una familia que gobernó Córdoba y conoce el mapa provincial y sus municipios."
    ],
-   "badge": ""
+   "badge": "",
+   "x": "NataliaDLSok"
   },
   {
    "id": "siciliano",
